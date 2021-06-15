@@ -99,15 +99,15 @@ periodic_usage_stats_last_sent=0
 periodic_usage_stats_uuid_prefix=
 
 [remmina_news]
-periodic_rmnews_last_get=1620253581
-periodic_rmnews_get_count=16
+periodic_rmnews_last_get=1623277616
+periodic_rmnews_get_count=21
 periodic_rmnews_uuid_prefix=659AL9JN9H0EJ9
 
 [remmina]
 name=
 ignore-tls-errors=1
 gateway_username=
-window_height=480
+window_height=1109
 ssh_tunnel_loopback=0
 serialname=
 printer_overrides=
@@ -148,7 +148,7 @@ shareparallel=0
 quality=0
 disablepasswordstoring=0
 parallelname=
-viewmode=1
+viewmode=4
 execpath=
 shareserial=0
 sharefolder=
@@ -164,5 +164,5 @@ ssh_tunnel_server=
 ssh_tunnel_privatekey=
 gateway_usage=0
 ssh_tunnel_auth=2
-window_width=640
+window_width=1958
 sound=off
