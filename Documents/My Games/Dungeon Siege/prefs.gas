@@ -1,0 +1,30 @@
+[prefs]
+{
+	azimuth_degrees_per_second = 0.698132;
+	blood = red;
+	camera_inverse_x = false;
+	camera_inverse_y = false;
+	dismemberment = true;
+	eax_enabled = false;
+	lock_camera_x_axis = false;
+	lock_camera_y_axis = false;
+	max_text = 6;
+	mouse_sensitivity = 1.000000;
+	object_detail_level = 1.000000;
+	orbit_degrees_per_second = 1.570796;
+	priority_boost = false;
+	screen_edge_tracking = true;
+	show_framerate = false;
+	show_tooltips = true;
+	sound_ambient_volume = 90;
+	sound_enabled = true;
+	sound_master_volume = 108;
+	sound_music_volume = 108;
+	sound_sfx_volume = 74;
+	sound_voice_volume = 85;
+	text_scroll = 5.000000;
+	texture_filtering = trilinear;
+	video_gamma = 1.000000;
+	video_shadows = complex_party;
+	zoom_meters_per_second = 12.000000;
+}

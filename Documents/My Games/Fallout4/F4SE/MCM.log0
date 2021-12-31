@@ -1,0 +1,221 @@
+MCM v1.38
+MCM query
+MCM load
+---
+sig: 40 53 55 56 57 41 54 48 81 EC ? ? ? ? 8B 15 ? ? ? ?
+effective address: 00007FF7D4A7B4A0
+RVA: 0x0125B4A0
+---
+---
+sig: 40 55 56 41 57 48 8D 6C 24 ?
+effective address: 00007FF7D592F7BC
+RVA: 0x0210F7BC
+---
+---
+sig: 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F9 48 8B CA 41 0F B6 F1
+effective address: 00007FF7D5F13970
+RVA: 0x026F3970
+---
+Sigscan elapsed: 263 ms.
+ModSettingStore initializing.
+WARNING: ModSetting ยป4: from mod CraftingHighlightFix has an unknown type and cannot be registered.
+WARNING: ModSetting  ฦป4: from mod ExtraItemInfo has an unknown type and cannot be registered.
+WARNING: ModSetting howAPCost:Main from mod FallUI has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4: from mod FallUI has an unknown type and cannot be registered.
+WARNING: ModSetting C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Process Lasso\;D:\Program Files\TortoiseGit\bin;C:\Users\dator\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\FreeArc\bin:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_ARCHITECTURE:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_IDENTIFIER:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting KeyEEnabled:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Process Lasso\;D:\Program Files\TortoiseGit\bin;C:\Users\dator\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\FreeArc\bin:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_ARCHITECTURE:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_IDENTIFIER:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:Main from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting P๏
+ป4: from mod FallUIMap has an unknown type and cannot be registered.
+WARNING: ModSetting  Model 42 Stepping 7, GenuineIntel:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:0 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:KeyEEnabled=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:bStyleBiggerButtons=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:bStyleAddBrackets=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:bStyleAddKeyHint=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:bAllowBigLists=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:iDialogScale=100 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:iDialogPadding=30 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:iDialogShiftUp=100 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:sScreenAspectRatio=16:9 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Process Lasso\;D:\Program Files\TortoiseGit\bin;C:\Users\dator\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\FreeArc\bin from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PROCESSOR_ARCHITECTURE=AMD64 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PROCESSOR_LEVEL=6 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PROCESSOR_REVISION=2a07 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:ProgramData=C:\ProgramData from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:ProgramFiles=C:\Program Files from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:ProgramFiles(x86)=C:\Program Files (x86) from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:ProgramW6432=C:\Program Files from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:PUBLIC=C:\Users\Public from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SDL_JOYSTICK_HIDAPI_STEAMXBOX=0 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SESSIONNAME=Console from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamAppID=377160 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamAppUser=per_automatik from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamEnv=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamGameId=377160 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamNoOverlayUI=1 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting ยป4:SteamOverlayGameId=37716๐(^;_๐ฬป4 from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting 6:9:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting  Model 42 Stepping 7, GenuineIntel:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:Main from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting ๑ป4: from mod MCM has an unknown type and cannot be registered.
+WARNING: ModSetting tAddModDescAsSubtitle:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting  Model 42 Stepping 7, GenuineIntel:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:r= from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:6:9 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bListShowColumns=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bListSearchEnabled=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:sListSearchKey=F from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bListShowSlotNameList=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bListAddModDescAsSubtitle=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bTagSelectionEnabled=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iMorePerkReqPanels=4 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bAutoCraftZeroCostRecipes=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bMultiCraftEnabled=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iMultiCraftItemsAtOnce=10 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:sMultiCraftKey=M from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bFilterCraftableEnabled=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bFilterCraftableDefault=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:sFilterCraftableKey=Q from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iWorkbenchColorize=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:bDualColoring=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iCustomColorR=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iCustomColorG=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iCustomColorB=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iBrightnessCraftable=75 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:iBrightnessUnavailable=50 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4: Model 42 Stepping 7, GenuineIntel from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:PROCESSOR_LEVEL=6 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:PROCESSOR_REVISION=2a07 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:ProgramData=C:\ProgramData from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:ProgramFiles=C:\Program Files from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:ProgramFiles(x86)=C:\Program Files (x86) from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:ProgramW6432=C:\Program Files from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:PUBLIC=C:\Users\Public from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SDL_JOYSTICK_HIDAPI_STEAMXBOX=0 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SESSIONNAME=Console from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamAppID=377160 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamAppUser=per_automatik from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamEnv=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamGameId=377160 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamNoOverlayUI=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting Üป4:SteamOverlayGameId=37716๐(^;_๐ฬป4 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting AutoCraftZeroCostRecipes:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting  Model 42 Stepping 7, GenuineIntel:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_LEVEL:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting PROCESSOR_REVISION:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramData:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramFiles(x86):DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting ProgramW6432:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting PSModulePath:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting PUBLIC:DialogueMenu from mod XDI has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4: from mod XDI has an unknown type and cannot be registered.
+Number of mod setting files: 5
+WARNING: ModSetting เล
+ป4: from mod ExtraItemInfo has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:Main from mod FallUI has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4: from mod FallUI has an unknown type and cannot be registered.
+WARNING: ModSetting 4:FallUIConfirmBoxes from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:ArmoVW=0 from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bShowAmmoVW=0 from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bShowAPCost=0 from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bShowAlchVW=0 from mod FallUIConfirmBoxes has an unknown type and cannot be registered.
+WARNING: ModSetting led:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting 4:FallUIWorkbench from mod FallUIWorkbench has an unknown type and cannot be registered.
+WARNING: ModSetting MCM_DeathclawPanic:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting MCM_ShowPlayMessages:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting MCM_EnableVicious:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting MCM_EnableSilent:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting MCM_EnableChildren:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting AddKeyHint:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting 4:General Settings from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:efault=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:led=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:sScreenAspectRatio=16:9 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bStyleBiggerButtons=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bStyleAddBrackets=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bStyleAddKeyHint=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:iDialogScale=100 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:iDialogPadding=30 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:iDialogShiftUp=100 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:bAllowBigLists=1 from mod Pack Attack NPC has an unknown type and cannot be registered.
+WARNING: ModSetting เล
+ป4:4 from mod Pack Attack NPC has an unknown type and cannot be registered.
+Registered 192 mod settings in 7 ms.
+Registered Papyrus native functions.
+Registered for input events.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Loading keybind definitions for Loot Detector
+Elapsed: 17 ms.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Elapsed: 0 ms.
+Clearing MCM co-save internal state.

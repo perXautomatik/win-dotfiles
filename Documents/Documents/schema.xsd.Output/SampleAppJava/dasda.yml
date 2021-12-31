@@ -1,0 +1,111 @@
+var x 
+x= e.substract(1,6)
+//[01:04] [PWOPWPAKWCR.esp];
+x= e.substract(8,12)
+//[01:04] [Better Manufacturing , Manufacturing Extended Expanded Patch WO.esp];
+x= e.substract(11,12)
+//[01:04] [WeaponDisarm.esp];
+x= e.substract(18,22)
+//[01:04] [Live Dismemberment , POSTAL.esp];
+x= e.substract(19,21)
+//[01:04] [Better Locational Damage , Robot Edition.esp];
+x= e.substract(22,234)
+//[01:04] [CB,BetterItemSortingApparel.esp];
+x= e.substract(42,45)
+//[01:04] [PWOFarHarbor.esp];
+x= e.substract(47,51)
+//[01:04] [No VATS Overhaul.esp];
+x= e.substract(48,49)
+//[01:04] [Fire Behavior Crippling v1 DLC.esp];
+x= e.substract(50,54)
+//[01:04] [Better Manufacturing , Manufacturing Extended Additions.esp];
+x= e.substract(54,66)
+//[01:04] [ATreeGrowsInBoston.esp];
+x= e.substract(55,228)
+//[01:04] [BetterItemSorting,AID.esp];
+x= e.substract(57,335)
+//[01:04] [BetterItemSorting,APPAREL.esp];
+x= e.substract(63,67)
+//[01:04] [PipeWeaponsPaint.esp];
+x= e.substract(85,88)
+//[01:04] [ExplosionKnockdown.esp];
+x= e.substract(103,219)
+//[01:04] [BetterModDescriptionsPWO.esp];
+x= e.substract(118,119)
+//[01:04] [DLC items to manufacturing.esp];
+x= e.substract(127,130)
+//[01:04] [ManufacturingExtended.esp];
+x= e.substract(136,168)
+//[01:04] [Raider Overhaul , AE Patch,Restored Content,VIS.esp];
+x= e.substract(155,315)
+//[01:04] [spacefiddle_Scarcity_Full.esp];
+x= e.substract(161,164)
+//[01:04] [CB,M8rItemTagsVanillaEn.esp];
+x= e.substract(175,184)
+//[01:04] [Better Explosives Redux.esp];
+x= e.substract(200,214)
+//[01:04] [strongerRobotsSynthsTurrets.esp];
+x= e.substract(204,218)
+//[01:04] [VAFS Redux.esp];
+x= e.substract(340,357)
+//[01:04] [Lucky's Intresting Tips 1.4.esp];
+x= e.substract(344,375)
+//[01:04] [Gunsmith Extended.esp];
+x= e.substract(427,430)
+//[01:04] [CB,ArmorAddon.esp];
+x= e.substract(516,561)
+//[01:04] [More Armor Slots , All Dlc.esp];
+x= e.substract(638,647)
+//[01:04] [Cb,Armoursz.esp];
+x= e.substract(639,692)
+//[01:04] [BetterItemSorting,MISC.esp];
+x= e.substract(714,926)
+//[01:04] [CB,BetterItemSorting.esp];
+x= e.substract(835,1339)
+//[01:04] [BetterItemSorting.esp];
+x= e.substract(1233,1312)
+//[01:04] [RaiderOverhaul.esp];
+x= e.substract(1264,1274)
+//[01:04] [NIS , Hunted.esp];
+x= e.substract(1462,1463)
+//[01:04] [DLCworkshop01.esm];
+x= e.substract(1529,1550)
+//[01:04] [RaidersReloaded.esp];
+x= e.substract(1808,2184)
+//[01:04] [BetterModDescriptions.esp];
+x= e.substract(1816,1819)
+//[01:04] [Raider Children.esp];
+x= e.substract(1876,1881)
+//[01:04] [Better Manufacturing.esp];
+x= e.substract(2095,5187)
+//[01:04] [M8r_Item_Tags_Vanilla_EN.esp];
+x= e.substract(2338,2439)
+//[01:04] [PipeGunRedux.esp];
+x= e.substract(2966,2982)
+//[01:04] [CraftingFramework.esp];
+x= e.substract(4257,4524)
+//[01:04] [PiperCaitCurieDialogueOverhaul.esp];
+x= e.substract(4513,4557)
+//[01:04] [Armorsmith Extended.esp];
+x= e.substract(4683,4819)
+//[01:04] [Fo4FI_FPS_fix.esp];
+x= e.substract(8874,8883)
+//[01:04] [Scrap Everything , Ultimate Edition.esp];
+x= e.substract(11969,12040)
+//[01:04] [CB2,Unoficial fallout 4 patch.esp];
+x= e.substract(12022,12074)
+//[01:04] [DLCworkshop03.esm];
+x= e.substract(25930,26086)
+//[01:04] [ArmorKeywords.esm];
+x= e.substract(26807,29992)
+//[01:04] [Unofficial Fallout 4 Patch.esp];
+x= e.substract(49030,49111)
+//[01:04] [DLCRobot.esm];
+x= e.substract(84695,84830)
+//[01:04] [3DNPC_FO4.esp];
+x= e.substract(107880,108127)
+//[01:04] [WOTC.esp];
+x= e.substract(269258,269369)
+//[01:04] [DLCNukaWorld.esm];
+x= e.substract(308988,309239)
+//[01:04] [DLCCoast.esm];
