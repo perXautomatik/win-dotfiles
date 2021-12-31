@@ -1,0 +1,117 @@
+Log: Log file open, 07/16/21 20:23:02
+Log: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log: Version: 8639
+Log: Compiled (32-bit): May 28 2020 15:43:02
+Log: Changelist: 2209847
+Log: Command line: 
+Log: Base directory: E:\SteamLibrary\steamapps\common\Borderlands 2\Binaries\Win32\
+[0000.57] Log: BUILD NUMBER: 145
+[0000.57] Log: BUILD CHANGELIST: 2209847
+[0000.57] Log: BUILD TAG: MAN-TSFB0-145
+[0000.57] Log: CPU Page size=4096, Processors=8
+[0000.57] Log: High frequency timer resolution =10.000000 MHz
+[0000.57] Log: Memory total: Physical=15.9GB Pagefile=33.6GB Virtual=4.0GB
+[0000.75] Log: STEAMWORKS initialized 1
+[0000.76] Log: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.76] Log: Presizing GObjAvailable to 262144 slots (~1048576 bytes)
+[0000.76] Log: Object subsystem initialized
+[0000.76] Log:   Steamworks-provided language string: english
+[0001.16] Log: OS stats:
+[0001.16] Log: 	Windows 7 
+[0001.16] Log: 	RemoteDesktop=0
+[0001.16] Log: Memory stats:
+[0001.16] Log: 	Physical: 16278MB
+[0001.16] Log: 	Virtual: 4095MB
+[0001.16] Log: 	PageFile: 34393MB
+[0001.16] Log: CPU stats:
+[0001.16] Log: 	MeasuredPerformanceTime: 95.558 (stored result)
+[0001.16] Log: 	Hyperthreaded: 1
+[0001.16] Log: 	NumProcessorsPerCPU: 1
+[0001.16] Log: 	NumLogicalProcessors: 8
+[0001.16] Log: 	NumPhysicalProcessors: 8
+[0001.16] Log: 	MaxSpeed: 3401
+[0001.16] Log: 	CurrentSpeed: 3401
+[0001.16] Log: 	CoresPerProcessor: 8
+[0001.16] Log: 	IsOnBattery: 0
+[0001.16] Log: 	BatteryLevel: -1
+[0001.16] Log: 	Manufacturer: Intel
+[0001.16] Log: 	CPUName: INTEL Pentium-III
+[0001.16] Log: 	L1CacheSize: -1
+[0001.16] Log: 	L2CacheSize: -1
+[0001.16] Log: 	Architecture: x86
+[0001.16] Log: GPU stats:
+[0001.16] Log: 	VendorID: 000010DE
+[0001.16] Log: 	DeviceID: 00001C02
+[0001.16] Log: 	DriverVersion: 27.21.14.5671
+[0001.16] Log: 	DeviceName: NVIDIA GeForce GTX 1060 3GB
+[0001.16] Log: 	DriverName: nvldumd.dll
+[0001.16] Log: 	PixelShaderVersion: 3
+[0001.16] Log: 	VertexShaderVersion: 3
+[0001.16] Log: 	VRAMQuantity: 3008
+[0001.16] Log: 	DedicatedVRAM: 2988
+[0001.16] Log: 	AdapterCount: 2
+[0001.16] Log: 	SupportsHardwareTnL: 1
+[0001.16] Log: 	IsLowMemoryXPMachine: 0
+[0001.17] Log: Machine  detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0001.17] Log: Previous detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0001.25] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.36] Log: PhysX GPU Support: DISABLED
+[0001.37] Log: Initializing FaceFX...
+[0001.37] Log: FaceFX 1.7.4 initialized.
+[0009.49] Log: Finished loading startup packages in 7.94 seconds
+[0009.50] Log: 155986 objects as part of root set at end of initial load.
+[0009.50] Log: Initializing Engine...
+[0009.70] Log: UEngine initialized
+[0009.87] Log: AK Audio Device initialized.
+[0010.47] Log: Client initialized
+[0016.78] Log: Initializing Steamworks
+[0017.86] Log: Primary PhysX scene will be in software.
+[0017.86] Log: Creating Primary PhysX Scene.
+[0017.91] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.16-20.23.20
+[0017.93] Log: Bringing up level for play took: 0.279839
+[0017.94] Log: Game engine initialized
+[0017.97] Log: Initializing Engine Completed
+[0019.30] Log: >>>>>>>>>>>>>> Initial startup: 19.30s <<<<<<<<<<<<<<<
+[0030.20] Log: Validating Bundle: Allium
+[0030.20] Log: Validating Bundle: Allium
+[0030.21] Log: Validating Bundle: Anecana
+[0030.44] Log: Validating Bundle: Anemone
+[0030.74] Log: Validating Bundle: Aster
+[0030.76] Log: Validating Bundle: Aster
+[0030.78] Log: Validating Bundle: CommDay2013
+[0030.79] Log: Validating Bundle: Flax
+[0030.79] Log: Validating Bundle: Flax
+[0030.81] Log: Validating Bundle: Gardenia01
+[0030.81] Log: Validating Bundle: Gardenia01
+[0030.81] Log: Validating Bundle: Gardenia04
+[0030.83] Log: Validating Bundle: Gardenia04
+[0030.83] Log: Validating Bundle: Gardenia05
+[0030.83] Log: Validating Bundle: Gardenia05
+[0030.84] Log: Validating Bundle: Gladiolus
+[0030.84] Log: Validating Bundle: Gladiolus
+[0030.95] Log: Validating Bundle: Iris
+[0030.97] Log: Validating Bundle: Iris
+[0030.99] Log: Validating Bundle: Lilac
+[0031.00] Log: Validating Bundle: Lilac
+[0031.04] Log: Validating Bundle: Lobelia
+[0031.04] Log: Validating Bundle: Lobelia
+[0031.05] Log: Validating Bundle: LootChest2
+[0031.05] Log: Validating Bundle: Mancana
+[0031.10] Log: Validating Bundle: Nasturtium
+[0031.12] Log: Validating Bundle: Nasturtium
+[0031.24] Log: Validating Bundle: Orchid
+[0031.26] Log: Validating Bundle: Orchid
+[0031.28] Log: Validating Bundle: Peony
+[0031.29] Log: Validating Bundle: PN2
+[0031.29] Log: Validating Bundle: POCollectors
+[0031.29] Log: Validating Bundle: POGamestop
+[0031.29] Log: Validating Bundle: POPremierClub
+[0031.45] Log: Validating Bundle: Sage
+[0031.47] Log: Validating Bundle: Sage
+[0031.50] Log: Validating Bundle: Tulip
+[0070.66] Log: Primary PhysX scene will be in software.
+[0070.66] Log: Creating Primary PhysX Scene.
+[0070.70] Log: Bringing World Loader.TheWorld up for play (90) at 2021.07.16-20.24.13
+[0070.71] Log: Bringing up level for play took: 0.055454
+[0070.73] Log: Using cached profile data instead of reading
+[0070.73] Log: Using cached profile data instead of reading

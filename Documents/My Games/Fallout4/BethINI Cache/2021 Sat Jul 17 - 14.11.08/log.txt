@@ -1,0 +1,64 @@
+14:11:08.199: nxm links point to "C:\Program Files\Black Tree Gaming Ltd\Vortex\Vortex.exe" -d "%1"
+14:11:08.205: No nxmhandlers.ini at the location found.
+14:11:08.248: No nxmhandler.ini at the AppData location found.
+14:11:08.253: MO Path: NOT FOUND
+14:11:08.259: Mod Organizer is not portable. Try Mod Organizer 2 AppData location.
+14:11:08.265: Mod Organizer Instances in AppData:
+14:11:08.270: The following Mod Organizer instances could be used for this game: 
+14:11:08.276: Mod Organizer profiles for Fallout 4 are located at 
+14:11:08.281: MO Profiles folder: 
+14:11:08.305: User closed Mod Organizer before continuing. Draugr Apocalypse averted.
+14:11:08.311: Backing up INIs...
+14:11:08.317: Creating First Time Backup...
+14:11:08.323: C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4.ini does not exist, so it will not be backed up.
+14:11:08.328: C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4Custom.ini does not exist, so it will not be backed up.
+14:11:08.334: C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4Prefs.ini does not exist, so it will not be backed up.
+14:11:08.341: Finished backing up any INI files.
+14:11:08.347: Applying mod-suggested INI tweaks.
+14:11:08.353: Finished applying mod-suggested INI tweaks.
+14:11:08.448: INI files shall not be set to read-only.
+14:11:08.708: Framerate is set to 60.
+14:11:08.741: Screenshots will be saved in the "E:\SteamLibrary\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+14:11:08.754: The screenshot index number has been set to 0.
+14:11:08.762: The maximum number of autosaves has been set to 3
+14:11:08.850: Lock sensitivity has been set to 0.0300.
+14:11:08.858: Mouse X scale set to 0.0210.
+14:11:08.865: Mouse Y scale set to 0.0210.
+14:11:08.880: Mouse Wheel Zoom Speed has been set to 3.00.
+14:11:08.888: The percentage of the screen that the console can fill has been set to 40%.
+14:11:08.897: The console text size has been set to 20.
+14:11:09.040: Sun-Shadow Update Time set to 1
+14:11:09.048: Sun-Shadow Update Threshold set to 0.5
+14:11:09.103: All fade distance settings will be multiplied by 1.00 in-game.
+14:11:09.110: The distance that objects can be seen has been set to 4.5.
+14:11:09.158: The distance that actors can be seen has been set to 6.0.
+14:11:09.164: The distance that items can be seen has been set to 2.5.
+14:11:09.188: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+14:11:09.195: The distance that grass can be seen has been set to 3500.
+14:11:09.660: Landscape LOD multiplier has been set to 0.750.
+14:11:09.677: Distant Object Detail Level 32 has been set to 100000.
+14:11:09.694: Distant Object Detail Level 16 has been set to 83232.
+14:11:09.712: Distant Object Detail Level 8 has been set to 27876.
+14:11:09.730: Distant Object Detail Level 4 has been set to 14336.
+14:11:09.777: Grass density has been set to 20 (higher values produce less grass).
+14:11:09.784: Grass diversity has been set to 2.
+14:11:10.226: Contents of BethINI.ini:
+[General]
+sGameName=Fallout 4
+sRestartedFromSetupTab=0
+bCreationKit=0
+bModifyCustomINIs=1
+[Directories]
+sGamePath=E:\SteamLibrary\steamapps\common\Fallout 4\
+sFallout 4GameSettingsPath=C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\
+
+14:11:10.268: BethINI startup completed.
+14:11:10.965: No Error.
+14:11:10.968: This version is up to date!
+14:11:17.372: Reverting your INI files...
+14:11:17.375: Fallout4.ini.BethINIbackup does not exist, so it will not be restored.
+14:11:17.385: Fallout4Custom.ini.BethINIbackup does not exist, so it will not be restored.
+14:11:17.453: Custom.ini.BethINIbackup does not exist, so it will not be restored.
+14:11:17.457: Fallout4Prefs.ini.BethINIbackup does not exist, so it will not be restored.
+14:11:17.464: Your INI files were successfully reverted.
+14:11:20.332: Game changed. Application will restart.

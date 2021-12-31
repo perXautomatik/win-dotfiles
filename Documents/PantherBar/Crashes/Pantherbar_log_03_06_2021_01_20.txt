@@ -1,0 +1,29 @@
+03-06-2021
+Windows Version: Microsoft Windows NT 10.0.19042.0
+App Version: 2.0.23.0
+
+[01:20:24:830] Message
+[01:20:24:830] {Desktop composition is disabled} The operation could not be completed because desktop composition is disabled. (Exception from HRESULT: 0x80263001)
+[01:20:25:981] StackTrace
+[01:20:25:981]    at Standard.NativeMethods.DwmExtendFrameIntoClientArea(IntPtr hwnd, MARGINS& pMarInset)
+   at System.Windows.Shell.WindowChromeWorker._ExtendGlassFrame()
+   at System.Windows.Shell.WindowChromeWorker._UpdateFrameState(Boolean force)
+   at System.Windows.Shell.WindowChromeWorker._HandleDwmCompositionChanged(WM uMsg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Shell.WindowChromeWorker._WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.PublicHooksFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run(Window window)
+   at PantherBar.AppWrapper.OnStartup(StartupEventArgs e)
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(String[] commandLine)
+   at PantherBar.EntryPoint.Main(String[] args)

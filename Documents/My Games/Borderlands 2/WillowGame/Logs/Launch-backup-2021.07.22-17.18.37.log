@@ -1,0 +1,375 @@
+Log: Log file open, 07/22/21 08:09:07
+Log: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log: Version: 8639
+Log: Compiled (32-bit): May 28 2020 15:43:02
+Log: Changelist: 2209847
+Log: Command line: 
+Log: Base directory: E:\SteamLibrary\steamapps\common\Borderlands 2\Binaries\Win32\
+[0000.56] Log: BUILD NUMBER: 145
+[0000.56] Log: BUILD CHANGELIST: 2209847
+[0000.56] Log: BUILD TAG: MAN-TSFB0-145
+[0000.56] Log: CPU Page size=4096, Processors=8
+[0000.56] Log: High frequency timer resolution =10.000000 MHz
+[0000.56] Log: Memory total: Physical=15.9GB Pagefile=33.7GB Virtual=4.0GB
+[0000.69] Log: STEAMWORKS initialized 1
+[0000.70] Log: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.70] Log: Presizing GObjAvailable to 262144 slots (~1048576 bytes)
+[0000.70] Log: Object subsystem initialized
+[0000.70] Log:   Steamworks-provided language string: english
+[0001.06] Log: OS stats:
+[0001.06] Log: 	Windows 7 
+[0001.06] Log: 	RemoteDesktop=0
+[0001.06] Log: Memory stats:
+[0001.06] Log: 	Physical: 16278MB
+[0001.06] Log: 	Virtual: 4095MB
+[0001.06] Log: 	PageFile: 34517MB
+[0001.06] Log: CPU stats:
+[0001.06] Log: 	MeasuredPerformanceTime: 95.558 (stored result)
+[0001.06] Log: 	Hyperthreaded: 1
+[0001.06] Log: 	NumProcessorsPerCPU: 1
+[0001.06] Log: 	NumLogicalProcessors: 8
+[0001.06] Log: 	NumPhysicalProcessors: 8
+[0001.06] Log: 	MaxSpeed: 3401
+[0001.06] Log: 	CurrentSpeed: 3401
+[0001.06] Log: 	CoresPerProcessor: 8
+[0001.06] Log: 	IsOnBattery: 0
+[0001.06] Log: 	BatteryLevel: -1
+[0001.06] Log: 	Manufacturer: Intel
+[0001.06] Log: 	CPUName: INTEL Pentium-III
+[0001.06] Log: 	L1CacheSize: -1
+[0001.06] Log: 	L2CacheSize: -1
+[0001.06] Log: 	Architecture: x86
+[0001.06] Log: GPU stats:
+[0001.06] Log: 	VendorID: 000010DE
+[0001.06] Log: 	DeviceID: 00001C02
+[0001.06] Log: 	DriverVersion: 27.21.14.5671
+[0001.06] Log: 	DeviceName: NVIDIA GeForce GTX 1060 3GB
+[0001.06] Log: 	DriverName: nvldumd.dll
+[0001.06] Log: 	PixelShaderVersion: 3
+[0001.06] Log: 	VertexShaderVersion: 3
+[0001.06] Log: 	VRAMQuantity: 3008
+[0001.06] Log: 	DedicatedVRAM: 2988
+[0001.06] Log: 	AdapterCount: 2
+[0001.06] Log: 	SupportsHardwareTnL: 1
+[0001.06] Log: 	IsLowMemoryXPMachine: 0
+[0001.06] Log: Machine  detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0001.06] Log: Previous detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0001.13] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.23] Log: PhysX GPU Support: DISABLED
+[0001.24] Log: Initializing FaceFX...
+[0001.24] Log: FaceFX 1.7.4 initialized.
+[0008.92] Log: Finished loading startup packages in 7.55 seconds
+[0008.93] Log: 155986 objects as part of root set at end of initial load.
+[0008.93] Log: Initializing Engine...
+[0009.13] Log: UEngine initialized
+[0009.38] Log: AK Audio Device initialized.
+[0010.23] Log: Client initialized
+[0016.00] Log: Initializing Steamworks
+[0018.31] Log: Primary PhysX scene will be in software.
+[0018.31] Log: Creating Primary PhysX Scene.
+[0018.34] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-08.09.25
+[0018.35] Log: Bringing up level for play took: 0.226252
+[0018.47] Log: Game engine initialized
+[0018.49] Log: Initializing Engine Completed
+[0028.89] Log: >>>>>>>>>>>>>> Initial startup: 28.89s <<<<<<<<<<<<<<<
+[0504.45] Log: Validating Bundle: Allium
+[0504.46] Log: Validating Bundle: Allium
+[0504.46] Log: Validating Bundle: Anecana
+[0504.63] Log: Validating Bundle: Anemone
+[0504.84] Log: Validating Bundle: Aster
+[0504.85] Log: Validating Bundle: Aster
+[0504.85] Log: Validating Bundle: CommDay2013
+[0504.88] Log: Validating Bundle: Flax
+[0504.88] Log: Validating Bundle: Flax
+[0504.90] Log: Validating Bundle: Gardenia01
+[0504.90] Log: Validating Bundle: Gardenia01
+[0504.92] Log: Validating Bundle: Gardenia04
+[0504.92] Log: Validating Bundle: Gardenia04
+[0504.93] Log: Validating Bundle: Gardenia05
+[0504.93] Log: Validating Bundle: Gardenia05
+[0504.95] Log: Validating Bundle: Gladiolus
+[0504.95] Log: Validating Bundle: Gladiolus
+[0505.03] Log: Validating Bundle: Iris
+[0505.04] Log: Validating Bundle: Iris
+[0505.08] Log: Validating Bundle: Lilac
+[0505.08] Log: Validating Bundle: Lilac
+[0505.12] Log: Validating Bundle: Lobelia
+[0505.12] Log: Validating Bundle: Lobelia
+[0505.15] Log: Validating Bundle: LootChest2
+[0505.15] Log: Validating Bundle: Mancana
+[0505.21] Log: Validating Bundle: Nasturtium
+[0505.22] Log: Validating Bundle: Nasturtium
+[0505.35] Log: Validating Bundle: Orchid
+[0505.37] Log: Validating Bundle: Orchid
+[0505.38] Log: Validating Bundle: Peony
+[0505.40] Log: Validating Bundle: PN2
+[0505.40] Log: Validating Bundle: POCollectors
+[0505.40] Log: Validating Bundle: POGamestop
+[0505.40] Log: Validating Bundle: POPremierClub
+[0505.54] Log: Validating Bundle: Sage
+[0505.56] Log: Validating Bundle: Sage
+[0505.58] Log: Validating Bundle: Tulip
+[0534.28] Log: Primary PhysX scene will be in software.
+[0534.28] Log: Creating Primary PhysX Scene.
+[0534.30] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-08.18.01
+[0534.30] Log: Bringing up level for play took: 0.028855
+[0534.43] Log: Primary PhysX scene will be in software.
+[0534.43] Log: Creating Primary PhysX Scene.
+[0534.45] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-08.18.01
+[0534.46] Log: Bringing up level for play took: 0.034531
+[0534.47] Log: Using cached profile data instead of reading
+[0534.47] Log: Using cached profile data instead of reading
+[0540.25] Log: Wrote profile (891 bytes) to disk.
+[1048.84] Log: Primary PhysX scene will be in software.
+[1048.84] Log: Creating Primary PhysX Scene.
+[1054.91] Log: Wrote profile (890 bytes) to disk.
+[1449.62] Log: Wrote profile (889 bytes) to disk.
+[1749.53] Log: Wrote profile (889 bytes) to disk.
+[2064.67] Log: Primary PhysX scene will be in software.
+[2064.67] Log: Creating Primary PhysX Scene.
+[2064.70] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-08.43.31
+[2064.71] Log: Bringing up level for play took: 0.801010
+[2064.72] Log: Using cached profile data instead of reading
+[2064.79] Log: Using cached profile data instead of reading
+[2068.62] Log: Primary PhysX scene will be in software.
+[2068.62] Log: Creating Primary PhysX Scene.
+[2068.64] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-08.43.35
+[2068.64] Log: Bringing up level for play took: 0.022974
+[2068.77] Log: Primary PhysX scene will be in software.
+[2068.77] Log: Creating Primary PhysX Scene.
+[2068.79] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-08.43.35
+[2068.79] Log: Bringing up level for play took: 0.033479
+[2068.80] Log: Using cached profile data instead of reading
+[2068.80] Log: Using cached profile data instead of reading
+[2178.16] Log: Primary PhysX scene will be in software.
+[2178.16] Log: Creating Primary PhysX Scene.
+[2341.04] Log: Primary PhysX scene will be in software.
+[2341.04] Log: Creating Primary PhysX Scene.
+[3023.08] Log: Wrote profile (889 bytes) to disk.
+[3154.98] Log: Wrote profile (889 bytes) to disk.
+[3329.89] Log: Wrote profile (889 bytes) to disk.
+[4042.84] Log: Wrote profile (889 bytes) to disk.
+[4933.57] Log: Command not recognized: StopFireTurret
+[5929.51] Log: Wrote profile (889 bytes) to disk.
+[6788.93] Log: Wrote profile (889 bytes) to disk.
+[7014.66] Log: Wrote profile (889 bytes) to disk.
+[7361.13] Log: Wrote profile (889 bytes) to disk.
+[7585.48] Log: Primary PhysX scene will be in software.
+[7585.48] Log: Creating Primary PhysX Scene.
+[8175.16] Log: Wrote profile (889 bytes) to disk.
+[8216.98] Log: Primary PhysX scene will be in software.
+[8216.98] Log: Creating Primary PhysX Scene.
+[8320.24] Log: Wrote profile (889 bytes) to disk.
+[8321.34] Log: Primary PhysX scene will be in software.
+[8321.34] Log: Creating Primary PhysX Scene.
+[8321.37] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.27.48
+[8321.39] Log: Bringing up level for play took: 0.516932
+[8321.40] Log: Using cached profile data instead of reading
+[8321.41] Log: Using cached profile data instead of reading
+[8328.64] Log: Primary PhysX scene will be in software.
+[8328.64] Log: Creating Primary PhysX Scene.
+[8328.66] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.27.55
+[8328.66] Log: Bringing up level for play took: 0.024914
+[8328.79] Log: Primary PhysX scene will be in software.
+[8328.79] Log: Creating Primary PhysX Scene.
+[8328.81] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.27.55
+[8328.81] Log: Bringing up level for play took: 0.032086
+[8328.82] Log: Using cached profile data instead of reading
+[8328.82] Log: Using cached profile data instead of reading
+[8334.57] Log: Wrote profile (890 bytes) to disk.
+[8431.87] Log: Wrote profile (890 bytes) to disk.
+[8432.77] Log: Primary PhysX scene will be in software.
+[8432.77] Log: Creating Primary PhysX Scene.
+[8432.80] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.29.39
+[8432.82] Log: Bringing up level for play took: 0.415261
+[8432.82] Log: Using cached profile data instead of reading
+[8432.83] Log: Using cached profile data instead of reading
+[8453.46] Log: Primary PhysX scene will be in software.
+[8453.46] Log: Creating Primary PhysX Scene.
+[8453.48] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.30.00
+[8453.48] Log: Bringing up level for play took: 0.024712
+[8453.61] Log: Primary PhysX scene will be in software.
+[8453.61] Log: Creating Primary PhysX Scene.
+[8453.63] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.30.00
+[8453.64] Log: Bringing up level for play took: 0.030607
+[8453.64] Log: Using cached profile data instead of reading
+[8453.64] Log: Using cached profile data instead of reading
+[8458.49] Log: Wrote profile (889 bytes) to disk.
+[8606.86] Log: Wrote profile (892 bytes) to disk.
+[8607.81] Log: Primary PhysX scene will be in software.
+[8607.81] Log: Creating Primary PhysX Scene.
+[8607.84] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.32.34
+[8607.85] Log: Bringing up level for play took: 0.437161
+[8607.86] Log: Using cached profile data instead of reading
+[8607.87] Log: Using cached profile data instead of reading
+[8635.89] Log: Primary PhysX scene will be in software.
+[8635.89] Log: Creating Primary PhysX Scene.
+[8635.90] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.33.02
+[8635.90] Log: Bringing up level for play took: 0.025593
+[8636.03] Log: Primary PhysX scene will be in software.
+[8636.03] Log: Creating Primary PhysX Scene.
+[8636.05] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.33.02
+[8636.06] Log: Bringing up level for play took: 0.030359
+[8636.06] Log: Using cached profile data instead of reading
+[8636.06] Log: Using cached profile data instead of reading
+[8640.98] Log: Wrote profile (892 bytes) to disk.
+[8771.50] Log: Wrote profile (889 bytes) to disk.
+[8772.43] Log: Primary PhysX scene will be in software.
+[8772.43] Log: Creating Primary PhysX Scene.
+[8772.46] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.35.19
+[8772.48] Log: Bringing up level for play took: 0.435853
+[8772.49] Log: Using cached profile data instead of reading
+[8772.50] Log: Using cached profile data instead of reading
+[8781.34] Log: Primary PhysX scene will be in software.
+[8781.34] Log: Creating Primary PhysX Scene.
+[8781.36] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.35.28
+[8781.36] Log: Bringing up level for play took: 0.023010
+[8781.49] Log: Primary PhysX scene will be in software.
+[8781.49] Log: Creating Primary PhysX Scene.
+[8781.51] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.35.28
+[8781.52] Log: Bringing up level for play took: 0.030806
+[8781.52] Log: Using cached profile data instead of reading
+[8781.52] Log: Using cached profile data instead of reading
+[8786.35] Log: Wrote profile (889 bytes) to disk.
+[8884.06] Log: Wrote profile (886 bytes) to disk.
+[8884.95] Log: Primary PhysX scene will be in software.
+[8884.95] Log: Creating Primary PhysX Scene.
+[8884.98] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.37.11
+[8884.99] Log: Bringing up level for play took: 0.372031
+[8884.99] Log: Using cached profile data instead of reading
+[8885.00] Log: Using cached profile data instead of reading
+[8894.94] Log: Primary PhysX scene will be in software.
+[8894.94] Log: Creating Primary PhysX Scene.
+[8894.95] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.37.21
+[8894.95] Log: Bringing up level for play took: 0.023422
+[8895.09] Log: Primary PhysX scene will be in software.
+[8895.09] Log: Creating Primary PhysX Scene.
+[8895.11] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.37.22
+[8895.11] Log: Bringing up level for play took: 0.033037
+[8895.12] Log: Using cached profile data instead of reading
+[8895.12] Log: Using cached profile data instead of reading
+[8899.87] Log: Wrote profile (886 bytes) to disk.
+[9048.92] Log: Wrote profile (865 bytes) to disk.
+[9049.82] Log: Primary PhysX scene will be in software.
+[9049.82] Log: Creating Primary PhysX Scene.
+[9049.85] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.39.56
+[9049.86] Log: Bringing up level for play took: 0.434329
+[9049.87] Log: Using cached profile data instead of reading
+[9049.88] Log: Using cached profile data instead of reading
+[9061.18] Log: Primary PhysX scene will be in software.
+[9061.18] Log: Creating Primary PhysX Scene.
+[9061.20] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.40.08
+[9061.20] Log: Bringing up level for play took: 0.023268
+[9061.32] Log: Primary PhysX scene will be in software.
+[9061.32] Log: Creating Primary PhysX Scene.
+[9061.34] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.40.08
+[9061.34] Log: Bringing up level for play took: 0.030076
+[9061.35] Log: Using cached profile data instead of reading
+[9061.35] Log: Using cached profile data instead of reading
+[9066.22] Log: Wrote profile (866 bytes) to disk.
+[9131.08] Log: Wrote profile (882 bytes) to disk.
+[9131.87] Log: Primary PhysX scene will be in software.
+[9131.87] Log: Creating Primary PhysX Scene.
+[9131.90] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.41.18
+[9131.92] Log: Bringing up level for play took: 0.344245
+[9131.92] Log: Using cached profile data instead of reading
+[9131.96] Log: Using cached profile data instead of reading
+[9139.99] Log: Primary PhysX scene will be in software.
+[9139.99] Log: Creating Primary PhysX Scene.
+[9140.01] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.41.26
+[9140.01] Log: Bringing up level for play took: 0.027753
+[9140.17] Log: Primary PhysX scene will be in software.
+[9140.17] Log: Creating Primary PhysX Scene.
+[9140.19] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.41.27
+[9140.20] Log: Bringing up level for play took: 0.032874
+[9140.20] Log: Using cached profile data instead of reading
+[9140.20] Log: Using cached profile data instead of reading
+[9145.40] Log: Wrote profile (881 bytes) to disk.
+[9214.46] Log: Wrote profile (889 bytes) to disk.
+[9215.33] Log: Primary PhysX scene will be in software.
+[9215.33] Log: Creating Primary PhysX Scene.
+[9215.36] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.42.42
+[9215.37] Log: Bringing up level for play took: 0.415996
+[9215.38] Log: Using cached profile data instead of reading
+[9215.39] Log: Using cached profile data instead of reading
+[9229.03] Log: Primary PhysX scene will be in software.
+[9229.03] Log: Creating Primary PhysX Scene.
+[9229.05] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.42.55
+[9229.05] Log: Bringing up level for play took: 0.023737
+[9229.20] Log: Primary PhysX scene will be in software.
+[9229.20] Log: Creating Primary PhysX Scene.
+[9229.22] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.42.56
+[9229.22] Log: Bringing up level for play took: 0.034845
+[9229.23] Log: Using cached profile data instead of reading
+[9229.23] Log: Using cached profile data instead of reading
+[9234.21] Log: Wrote profile (889 bytes) to disk.
+[9298.69] Log: Wrote profile (886 bytes) to disk.
+[9299.56] Log: Primary PhysX scene will be in software.
+[9299.56] Log: Creating Primary PhysX Scene.
+[9299.59] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.44.06
+[9299.60] Log: Bringing up level for play took: 0.419203
+[9299.61] Log: Using cached profile data instead of reading
+[9299.62] Log: Using cached profile data instead of reading
+[9310.69] Log: Primary PhysX scene will be in software.
+[9310.69] Log: Creating Primary PhysX Scene.
+[9310.71] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.44.17
+[9310.71] Log: Bringing up level for play took: 0.023495
+[9310.83] Log: Primary PhysX scene will be in software.
+[9310.83] Log: Creating Primary PhysX Scene.
+[9310.85] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.44.17
+[9310.86] Log: Bringing up level for play took: 0.029497
+[9310.86] Log: Using cached profile data instead of reading
+[9310.87] Log: Using cached profile data instead of reading
+[9315.64] Log: Wrote profile (887 bytes) to disk.
+[9420.98] Log: Wrote profile (881 bytes) to disk.
+[9421.87] Log: Primary PhysX scene will be in software.
+[9421.87] Log: Creating Primary PhysX Scene.
+[9421.90] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-10.46.08
+[9421.92] Log: Bringing up level for play took: 0.366513
+[9421.92] Log: Using cached profile data instead of reading
+[9421.93] Log: Using cached profile data instead of reading
+[9432.53] Log: Primary PhysX scene will be in software.
+[9432.53] Log: Creating Primary PhysX Scene.
+[9432.55] Log: Bringing World ExampleEntry.TheWorld up for play (0) at 2021.07.22-10.46.19
+[9432.55] Log: Bringing up level for play took: 0.022308
+[9432.67] Log: Primary PhysX scene will be in software.
+[9432.67] Log: Creating Primary PhysX Scene.
+[9432.69] Log: Bringing World Loader.TheWorld up for play (0) at 2021.07.22-10.46.19
+[9432.70] Log: Bringing up level for play took: 0.030457
+[9432.70] Log: Using cached profile data instead of reading
+[9432.70] Log: Using cached profile data instead of reading
+[9437.49] Log: Wrote profile (881 bytes) to disk.
+[9525.37] Log: Primary PhysX scene will be in software.
+[9525.37] Log: Creating Primary PhysX Scene.
+[9531.01] Log: Wrote profile (881 bytes) to disk.
+[9754.72] Log: Wrote profile (882 bytes) to disk.
+[10332.29] Log: Wrote profile (882 bytes) to disk.
+[10361.97] Log: Primary PhysX scene will be in software.
+[10361.97] Log: Creating Primary PhysX Scene.
+[10429.49] Log: Wrote profile (882 bytes) to disk.
+[10492.41] Log: Primary PhysX scene will be in software.
+[10492.41] Log: Creating Primary PhysX Scene.
+[10576.41] Log: Wrote profile (881 bytes) to disk.
+[11435.58] Log: Primary PhysX scene will be in software.
+[11435.58] Log: Creating Primary PhysX Scene.
+[11941.34] Log: Wrote profile (881 bytes) to disk.
+[12240.66] Log: Wrote profile (882 bytes) to disk.
+[13080.63] Log: Wrote profile (882 bytes) to disk.
+[13210.07] Log: Wrote profile (882 bytes) to disk.
+[13256.52] Log: Wrote profile (882 bytes) to disk.
+[13258.09] Log: Primary PhysX scene will be in software.
+[13258.09] Log: Creating Primary PhysX Scene.
+[13258.12] Log: Bringing World menumap.TheWorld up for play (0) at 2021.07.22-11.50.05
+[13258.13] Log: Bringing up level for play took: 0.613986
+[13258.14] Log: Using cached profile data instead of reading
+[13258.19] Log: Using cached profile data instead of reading
+[13262.78] Log: Closing by request
+[13262.89] Log: Preparing to exit.
+[13264.10] Log: Game engine shut down
+[13264.95] Log: Windows client shut down
+[13265.04] Log: AK Audio shut down.
+[13266.23] Log: Object subsystem successfully closed.
+[13266.26] Log: Shutting down FaceFX...
+[13266.26] Log: FaceFX shutdown.
+[13269.26] Log: Exiting.
+[13269.43] Log: Log file closed, 07/22/21 11:50:16

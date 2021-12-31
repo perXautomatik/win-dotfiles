@@ -1,0 +1,57 @@
+18:30:59.272: nxm links point to "D:\Program Files\Black Tree Gaming Ltd\Vortex\Vortex.exe" -d "%1"
+18:30:59.279: No nxmhandlers.ini at the location found.
+18:30:59.286: No nxmhandler.ini at the AppData location found.
+18:30:59.293: MO Path: NOT FOUND
+18:30:59.298: Mod Organizer is not portable. Try Mod Organizer 2 AppData location.
+18:30:59.302: The following Mod Organizer instances could be used for this game: 
+18:30:59.306: Mod Organizer profiles for Fallout 4 are located at 
+18:30:59.311: MO Profiles folder: 
+18:30:59.324: User closed Mod Organizer before continuing. Draugr Apocalypse averted.
+18:30:59.329: Backing up INIs...
+18:30:59.333: Creating First Time Backup...
+18:30:59.350: Finished backing up any INI files.
+18:31:00.994: BethINI will modify any Custom INI files.
+18:31:01.147: Applying mod-suggested INI tweaks.
+18:31:01.153: Finished applying mod-suggested INI tweaks.
+18:31:01.225: INI files shall not be set to read-only.
+18:31:01.280: Framerate is set to 60.
+18:31:01.312: Screenshots will be saved in the "D:\Steam\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+18:31:01.318: The screenshot index number has been set to 0.
+18:31:01.322: The maximum number of autosaves has been set to 3
+18:31:01.391: Lock sensitivity has been set to 0.0300.
+18:31:01.397: Mouse X scale set to 0.0210.
+18:31:01.402: Mouse Y scale set to 0.0210.
+18:31:01.408: Mouse Wheel Zoom Speed has been set to 3.00.
+18:31:01.420: The percentage of the screen that the console can fill has been set to 40%.
+18:31:01.427: The console text size has been set to 20.
+18:31:01.529: Sun-Shadow Update Time set to 1.0
+18:31:01.534: Sun-Shadow Update Threshold set to 0.5
+18:31:01.577: All fade distance settings will be multiplied by 1.00 in-game.
+18:31:01.582: The distance that objects can be seen has been set to 30.0.
+18:31:01.587: The distance that actors can be seen has been set to 15.0.
+18:31:01.592: The distance that items can be seen has been set to 10.0.
+18:31:01.618: The distance that grass can be seen has been set to 7600.
+18:31:01.624: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+18:31:01.686: Distant Object Detail Level 4 has been set to 60000.
+18:31:01.711: Distant Object Detail Level 8 has been set to 90000.
+18:31:01.727: Distant Object Detail Level 32 has been set to 250000.
+18:31:01.740: Landscape LOD multiplier has been set to 1.500.
+18:31:01.752: Distant Object Detail Level 16 has been set to 110000.
+18:31:01.781: Grass density has been set to 20 (higher values produce less grass).
+18:31:01.786: Grass diversity has been set to 2.
+18:31:02.071: Contents of BethINI.ini:
+[General]
+sGameName=Fallout 4
+sRestartedFromSetupTab=0
+bCreationKit=0
+bModifyCustomINIs=1
+[Directories]
+sGamePath=D:\Steam\steamapps\common\Fallout 4\
+sFallout 4GameSettingsPath=C:\Users\dator\Documents\My Games\Fallout4\
+
+18:31:02.082: BethINI startup completed.
+18:31:02.457: No Error.
+18:31:02.464: This version is up to date!
+18:31:27.989: Reverting your INI files...
+18:31:27.995: Custom.ini.BethINIbackup does not exist, so it will not be restored.
+18:31:28.008: Your INI files were successfully reverted.
