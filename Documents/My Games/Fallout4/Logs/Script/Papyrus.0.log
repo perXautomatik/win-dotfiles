@@ -1,65 +1,223 @@
-[01/07/2022 - 09:09:59PM] Papyrus log opened (PC-64)
-[01/07/2022 - 09:09:59PM] Update budget: 1.200000ms (Extra tasklet budget: 1.200000ms, Load screen budget: 500.000000ms)
-[01/07/2022 - 09:09:59PM] Memory page: 128 (min) 512 (max) 153600 (max total)
-[01/07/2022 - 09:09:59PM] Maximum stack depth: 100
-[01/07/2022 - 09:09:59PM] This is a script log only and does not contain information on any other part of the game, including crashes.
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_SetStageOnTriggerEnter", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:UnlockPostersScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasRedemptionMachine", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:ccSWKFO4001_CaptainCosmosQuestScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasOnContainerChange", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasPowerArmorEnter", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasExitDoor", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasEntryDoor", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:ZSEFO4001:RefAliasDoor", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4001:NeoSkyLightSwitchScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4001:HolotapeAliasCheckScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4001:SynthDeathAliasCheckScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:AdjustMaxHealth", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:DisableBleedoutRecovery", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:ViewRaidRecords", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:endlessraidmanagerscript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:alterturrets", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:datastructs", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:raidtype", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:CameraScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:cameramonitorscript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:RaidTrigger", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:CameraTriggerBox", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:CameraMonitorBank", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:ShootingRangeStation", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:shootingrange", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:RemoveFromAliasOnDeath", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:AlterSettlers", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:REScriptExtension", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:InducedRaidScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:AlterAttackers", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:kgjfo4001:namepoolscript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:StartVertibird", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:KGJFO4001:LinkedNamePoolScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccFRSFO4003:TerminalScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccFRSFO4003:cc_ObjectivesObtainedCheckScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccSBJFO4002:RadstagActivateScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccSBJFO4002:RadstageActivateScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccSBJFO4002:RadstagTeleportBackup", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:LightEnableDisableScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalSetStageScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalHackScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "creationclub:tosfo4002:counterscript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:SynthUnconsciousScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:SignalStrengthScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4117:WaveEnableFunctionScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4046_:PickupCloakEffectScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4046_:GunnerTerminalScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4046_:GunnerSignalStrengthScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4046_:GunnerPipboyPerkScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4117:RadioOffonActivateScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4117:BlockActivation", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:SynthEncounterDisableScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "DLC04:DLC04OperatorsRifleAnimationScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneToggleScript", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:ChainedDoorLoad", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:SWKFO4001:ChainLoadDoor", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "CreationClub:TOSFO4002:ccTOSFO4002_LightSwitch", missing file?
-[01/07/2022 - 09:10:00PM] Cannot open store for class "ccBGSFO4117:OnActivateTeleportScript", missing file?
+[07/05/2021 - 06:24:45PM] Papyrus log opened (PC-64)
+[07/05/2021 - 06:24:45PM] Update budget: 1.200000ms (Extra tasklet budget: 1.200000ms, Load screen budget: 500.000000ms)
+[07/05/2021 - 06:24:45PM] Memory page: 128 (min) 512 (max) 153600 (max total)
+[07/05/2021 - 06:24:45PM] Maximum stack depth: 100
+[07/05/2021 - 06:24:45PM] This is a script log only and does not contain information on any other part of the game, including crashes.
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_SetStageOnTriggerEnter", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:UnlockPostersScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasRedemptionMachine", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:ccSWKFO4001_CaptainCosmosQuestScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasOnContainerChange", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasPowerArmorEnter", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasExitDoor", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasEntryDoor", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:ZSEFO4001:RefAliasDoor", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4001:NeoSkyLightSwitchScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4001:HolotapeAliasCheckScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4001:SynthDeathAliasCheckScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:AdjustMaxHealth", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:DisableBleedoutRecovery", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:ViewRaidRecords", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:endlessraidmanagerscript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:alterturrets", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:datastructs", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:raidtype", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:CameraScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:cameramonitorscript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:RaidTrigger", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:CameraTriggerBox", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:CameraMonitorBank", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:ShootingRangeStation", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:shootingrange", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:RemoveFromAliasOnDeath", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:AlterSettlers", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:REScriptExtension", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:InducedRaidScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:AlterAttackers", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:kgjfo4001:namepoolscript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:StartVertibird", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:KGJFO4001:LinkedNamePoolScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccFRSFO4003:TerminalScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccFRSFO4003:cc_ObjectivesObtainedCheckScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccSBJFO4002:RadstagActivateScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccSBJFO4002:RadstageActivateScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccSBJFO4002:RadstagTeleportBackup", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:LightEnableDisableScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalSetStageScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalHackScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "creationclub:tosfo4002:counterscript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:SynthUnconsciousScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:SignalStrengthScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4117:WaveEnableFunctionScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4046_:PickupCloakEffectScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4046_:GunnerTerminalScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4046_:GunnerSignalStrengthScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4046_:GunnerPipboyPerkScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4117:RadioOffonActivateScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4117:BlockActivation", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:SynthEncounterDisableScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "DLC04:DLC04OperatorsRifleAnimationScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneToggleScript", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:ChainedDoorLoad", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:SWKFO4001:ChainLoadDoor", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "CreationClub:TOSFO4002:ccTOSFO4002_LightSwitch", missing file?
+[07/05/2021 - 06:24:46PM] Cannot open store for class "ccBGSFO4117:OnActivateTeleportScript", missing file?
+[07/05/2021 - 06:24:51PM] Cannot open store for class "OMODToggleAME", missing file?
+[07/05/2021 - 06:24:51PM] Cannot open store for class "MilMinResetTrunk", missing file?
+[07/05/2021 - 06:24:52PM] Cannot open store for class "EK_Marker", missing file?
+[07/05/2021 - 06:24:52PM] Cannot open store for class "DiceRollBurnSCRIPT", missing file?
+[07/05/2021 - 06:24:52PM] Cannot open store for class "SettlementMenuManager:MenuInstaller", missing file?
+[07/05/2021 - 06:24:52PM] error: Unable to bind script SettlementMenuManager:MenuInstaller to betterManufacturing_SMM_MenuInstaller (FE015F99) because their base types do not match
+[07/05/2021 - 06:24:59PM] error: Unable to bind script DLC04:DLC04OperatorsRifleAnimationScript to  (06051235) because their base types do not match
+[07/05/2021 - 06:24:59PM] error: Unable to bind script MilMinResetTrunk to  (170200EA) because their base types do not match
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032694) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032694) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032697) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032697) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390BB) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390BB) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032693) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032693) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:21PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029419) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029419) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032678) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032678) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkCustom01 on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkCustom02 on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property StartOn on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] error: Property WorkshopRatingValues on script DLC06:DLC06OverseerHandlerScript attached to DLC06OverseerHandler (05003CF3) cannot be initialized because the value is the incorrect type
+[07/05/2021 - 06:25:22PM] error: Property DLC04GZHostileRobotsFaction on script DLC04:DLC04GZBattlezoneQuestScript attached to DLC04GZBattlezone (060295C8) cannot be bound because <nullptr form> (060213F4) is not the right type
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326B1) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326B1) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ForcedEMSState on script DLC04:DLC04GZEMSystemTurfScript attached to  (06039196) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] error: Property FollowerMoveToDepart on script dlc03:dlc03boatanimscript attached to  (030247B7) cannot be bound because <nullptr form> (031259E2) is not the right type
+[07/05/2021 - 06:25:22PM] warning: Property BrotherhoodOfSteelFaction on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property MinutemenCentralQuest on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property BoSPrydwenArrived on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property MinutemenFaction on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] error: Property Valuables03 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (28) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 06:25:22PM] error: Property Valuables01 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (25) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 06:25:22PM] error: Property Valuables02 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (27) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C4) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C4) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603298F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603298F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032719) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032719) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326F9) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326F9) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] error: Property DLC04_WW02 on script DLC04:WW_StartCritterHunt attached to  (06040B26) cannot be bound because <nullptr form> (06038358) is not the right type
+[07/05/2021 - 06:25:22PM] warning: Property isMainframePanel on script dlc04:dlc04_gzstarcorepanelscript attached to  (06031A13) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZ_StarCoresTotal on script dlc04:dlc04_gzstarcontrolterminalscript attached to  (0601E359) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZ_StarCoresClearTotal on script dlc04:dlc04_gzstarcontrolterminalscript attached to  (0601E359) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ForcedEMSState on script DLC04:DLC04GZEMSystemTurfScript attached to  (06039105) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C3) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C3) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C2) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C2) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property HouseKey on script MS13Script attached to MS13 (00022A04) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:25:22PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 06:26:11PM] VM is freezing...
+[07/05/2021 - 06:26:11PM] VM is frozen
+[07/05/2021 - 06:26:13PM] Log closed

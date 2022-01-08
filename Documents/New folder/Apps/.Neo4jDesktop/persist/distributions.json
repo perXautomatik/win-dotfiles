@@ -1,0 +1,41 @@
+{
+  "distribution-enterprise-3": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "edition": "enterprise",
+        "version": "3.5.14"
+      }
+    ]
+  ],
+  "distribution-enterprise-4": [
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "edition": "enterprise",
+        "version": "4.0.4"
+      }
+    ]
+  ]
+}

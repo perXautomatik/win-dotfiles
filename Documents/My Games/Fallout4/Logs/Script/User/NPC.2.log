@@ -1,0 +1,33 @@
+[06/10/2020 - 03:56:53PM] NPC log opened (PC-64)
+[06/10/2020 - 03:56:53PM] [Metro:NPC:CloakApply <Active effect 1 on  (480164FF)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (480164FF)>]'.
+[06/10/2020 - 03:56:53PM] [Metro:NPC:CloakApply <Active effect 1 on  (48016652)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016652)>]'.
+[06/10/2020 - 03:56:55PM] [Metro:NPC:CloakEquip <Active effect 3 on  (480165EA)>] OnDying(akKiller=[Actor < (00000014)>])
+[06/10/2020 - 03:56:55PM] [Metro:NPC:CloakEquip <Active effect 3 on  (480165EA)>] Ending the AliveState, new state 
+[06/10/2020 - 03:57:00PM] [Metro:NPC:CloakApply <Active effect 2 on  (48013519)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48013519)>]'.
+[06/10/2020 - 03:57:00PM] [Metro:NPC:CloakApply <Active effect 3 on  (48016B38)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016B38)>]'.
+[06/10/2020 - 03:57:00PM] [Metro:NPC:CloakEquip <Active effect 4 on  (48016B38)>] OnEffectStart(akTarget=[Actor < (48016B38)>], akCaster=[Actor < (48016B38)>])
+[06/10/2020 - 03:57:00PM] [Metro:NPC:CloakEquip <Active effect 4 on  (48016B38)>] Entering the AliveState state from 
+[06/10/2020 - 03:57:01PM] [Metro:NPC:CloakEquip <Active effect 4 on  (48016B38)>] OnTimer(aiTimerID=0)
+[06/10/2020 - 03:57:03PM] [Metro:NPC:CloakApply <Active effect 2 on  (48016B34)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016B34)>]'.
+[06/10/2020 - 03:57:03PM] [Metro:NPC:CloakApply <Active effect 2 on  (48016B37)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016B37)>]'.
+[06/10/2020 - 03:57:03PM] [Metro:NPC:CloakApply <Active effect 3 on  (FF034CB1)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (FF034CB1)>]'.
+[06/10/2020 - 03:57:13PM] [Metro:NPC:CloakApply <Active effect 2 on  (FF00BA5A)>] Added the spell '[SPELL < (1B006389)>]' to '[workshopnpcscript < (FF00BA5A)>]'.
+[06/10/2020 - 03:57:16PM] [Metro:NPC:CloakApply <Active effect 3 on  (FF034CB1)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (FF034CB1)>]'.
+[06/10/2020 - 03:57:24PM] [Metro:NPC:CloakApply <Active effect 2 on  (4800A8FC)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (4800A8FC)>]'.
+[06/10/2020 - 03:57:35PM] [Metro:NPC:CloakEquip <Active effect 3 on  (000BD599)>] OnDying(akKiller=[Actor < (00000014)>])
+[06/10/2020 - 03:57:35PM] [Metro:NPC:CloakEquip <Active effect 3 on  (000BD599)>] Ending the AliveState, new state 
+[06/10/2020 - 03:57:44PM] [Metro:NPC:CloakApply <Active effect 2 on  (FF00BA5A)>] Added the spell '[SPELL < (1B006389)>]' to '[workshopnpcscript < (FF00BA5A)>]'.
+[06/10/2020 - 03:58:04PM] [Metro:NPC:CloakEquip <Active effect 3 on  (48016651)>] OnDying(akKiller=[Actor < (00000014)>])
+[06/10/2020 - 03:58:04PM] [Metro:NPC:CloakEquip <Active effect 3 on  (48016651)>] Ending the AliveState, new state 
+[06/10/2020 - 03:58:07PM] [Metro:NPC:CloakApply <Active effect 2 on  (4800A8FC)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (4800A8FC)>]'.
+[06/10/2020 - 03:58:09PM] [Metro:NPC:CloakApply <Active effect 2 on  (48016B36)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016B36)>]'.
+[06/10/2020 - 03:58:18PM] [Metro:NPC:CloakApply <Active effect 2 on  (48013519)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48013519)>]'.
+[06/10/2020 - 03:58:38PM] [Metro:NPC:CloakEquip <Active effect 4 on  (48016B38)>] OnDying(akKiller=[Actor < (00000014)>])
+[06/10/2020 - 03:58:38PM] [Metro:NPC:CloakEquip <Active effect 4 on  (48016B38)>] Ending the AliveState, new state 
+[06/10/2020 - 03:58:50PM] [Metro:NPC:CloakApply <Active effect 2 on  (4800A8FC)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (4800A8FC)>]'.
+[06/10/2020 - 03:59:38PM] [Metro:NPC:CloakApply <Active effect 2 on  (FF00BA5A)>] Added the spell '[SPELL < (1B006389)>]' to '[workshopnpcscript < (FF00BA5A)>]'.
+[06/10/2020 - 03:59:38PM] [Metro:NPC:CloakApply <Active effect 2 on  (48016B36)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (48016B36)>]'.
+[06/10/2020 - 03:59:52PM] [Metro:NPC:CloakEquip <Active effect 4 on  (FF034CB1)>] OnDying(akKiller=[Actor < (00000014)>])
+[06/10/2020 - 03:59:52PM] [Metro:NPC:CloakEquip <Active effect 4 on  (FF034CB1)>] Ending the AliveState, new state 
+[06/10/2020 - 04:00:54PM] [Metro:NPC:CloakApply <Active effect 2 on  (FF00BA5A)>] Added the spell '[SPELL < (1B006389)>]' to '[workshopnpcscript < (FF00BA5A)>]'.
+[06/10/2020 - 04:01:55PM] [Metro:NPC:CloakApply <Active effect 3 on  (4800A8FF)>] Added the spell '[SPELL < (1B006389)>]' to '[Actor < (4800A8FF)>]'.

@@ -1,34 +1,371 @@
-[01/06/2022 - 06:35:35PM] WorkshopFrameworkLog log opened (PC-64)
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> GameLoaded called on MasterQuest [workshopplus:mainquest <WSPlus_MainQuest (1C001ED5)>]
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> Attempting to run StartQuests
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>>>> Quest startup already complete.
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> HandleGameLoaded called on WSFW MainQuest
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> WSFW MainQuest.StartQuests called.
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>>>> Quest startup already complete.
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> GameLoaded called on MasterQuest [workshopframework:mainquest <WSFW_Main (0A000F99)>]
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> Attempting to run StartQuests
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>> WSFW MainQuest.StartQuests called.
-[01/06/2022 - 06:35:35PM]  [WSFW] >>>>>>>>>>>>>>>>>>> Quest startup already complete.
-[01/06/2022 - 06:35:35PM]  [[workshopplus:mainquest <WSPlus_MainQuest (1C001ED5)>]] TriggerGameLoaded called on [workshopplus:actionmanager <WSPlus_ActionManager (1C000F99)>]
-[01/06/2022 - 06:35:35PM]  [[workshopplus:mainquest <WSPlus_MainQuest (1C001ED5)>]] TriggerGameLoaded called on [workshopplus:layermanager <WSPlus_LayerManager (1C001ED7)>]
-[01/06/2022 - 06:35:35PM]  [[workshopplus:mainquest <WSPlus_MainQuest (1C001ED5)>]] TriggerGameLoaded called on [workshopplus:blueprintmanager <WSPlus_BlueprintManager (1C00FBCD)>]
-[01/06/2022 - 06:35:35PM]  WSPlus_Layers.swf already in RegisteredWidgets array.
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:hudframeworkmanager <WSFW_HUDFrameworkManager (0A00269E)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:f4semanager <WSFW_F4SE (0A00269C)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:mainthreadmanager <WSFW_ThreadManager (0A001736)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [WorkshopFramework:Quests:TaskManager <WSFW_TaskManager (0A026BBF)>]
-[01/06/2022 - 06:35:36PM]  WorkshopFramework_HUDFramework.swf already in RegisteredWidgets array.
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:quests:storyeventmanager <WSFW_StoryEventManager (0A026BC1)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:messagemanager <WSFW_MessageManager (0A0092C5)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [WorkshopFramework:UIManager <WSFW_UIManager (0A01CAE3)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:placeobjectmanager <WSFW_PlacementManager (0A004CA4)>]
-[01/06/2022 - 06:35:36PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:workshopresourcemanager <WSFW_ResourceManager (0A005C1F)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:injectionmanager <WSFW_InjectionManager (0A0091E3)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:npcmanager <WSFW_NPCManager (0A0091E2)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:workshopproductionmanager <WSFW_ProductionManager (0A007AFB)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:workshopobjectmanager <WSFW_WorkshopObjectManager (0A006B5C)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:workshopcontrolmanager <WSFW_ControlManager (0A00B137)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [WorkshopFramework:AssaultManager <WSFW_AssaultManager (0A001F03)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [WorkshopFramework:WorkshopMenuManager <WSFW_WorkshopMenuManager (0A01143E)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [workshopframework:settlementlayoutmanager <WSFW_SettlementLayoutManager (0A012B0D)>]
-[01/06/2022 - 06:35:37PM]  [[workshopframework:mainquest <WSFW_Main (0A000F99)>]] TriggerGameLoaded called on [WorkshopFramework:WSFW_APIQuest <WSFW_API (0A004CA3)>]
+[04/24/2020 - 07:57:40PM] WorkshopFrameworkLog log opened (PC-64)
+[04/24/2020 - 07:57:40PM]  [WSFW] >>>>>>>>>>>>>>>>> HandleGameLoaded called on WSFW MainQuest
+[04/24/2020 - 07:57:41PM]  [WSFW] >>>>>>>>>>>>>>>>> Calling HandleGameLoaded on Parent of WSFW MainQuest
+[04/24/2020 - 07:57:41PM]  [WSFW] >>>>>>>>>>>>>>>>> GameLoaded called on MasterQuest
+[04/24/2020 - 07:57:41PM]  [WSFW] >>>>>>>>>>>>>>>>> Attempting to run StartQuests
+[04/24/2020 - 07:57:41PM]  [WSFW] >>>>>>>>>>>>>>>>> WSFW MainQuest.StartQuests called.
+[04/24/2020 - 07:57:41PM]  [WSFW] >>>>>>>>>>>>>>>>>>> Quest startup already complete.
+[04/24/2020 - 07:57:45PM]  WorkshopFramework_HUDFramework.swf already in RegisteredWidgets array.
+[04/24/2020 - 08:18:59PM]  ==============================================
+[04/24/2020 - 08:18:59PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00161F4B)>]
+[04/24/2020 - 08:18:59PM]  ==============================================
+[04/24/2020 - 08:18:59PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:00PM]  ==============================================
+[04/24/2020 - 08:19:00PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1A5)>]
+[04/24/2020 - 08:19:00PM]  ==============================================
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Available Beds: 5
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Sheltered Beds: 5
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 5
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:00PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:00PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1A5)>]
+[04/24/2020 - 08:19:01PM]  ==============================================
+[04/24/2020 - 08:19:01PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0001D0E2)>]
+[04/24/2020 - 08:19:01PM]  ==============================================
+[04/24/2020 - 08:19:01PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:02PM]  ==============================================
+[04/24/2020 - 08:19:02PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001654B8)>]
+[04/24/2020 - 08:19:02PM]  ==============================================
+[04/24/2020 - 08:19:02PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:03PM]  ==============================================
+[04/24/2020 - 08:19:03PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (06047DFB)>]
+[04/24/2020 - 08:19:03PM]  ==============================================
+[04/24/2020 - 08:19:03PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:04PM]  ==============================================
+[04/24/2020 - 08:19:04PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00054BAE)>]
+[04/24/2020 - 08:19:04PM]  ==============================================
+[04/24/2020 - 08:19:04PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:05PM]  ==============================================
+[04/24/2020 - 08:19:05PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00019956)>]
+[04/24/2020 - 08:19:05PM]  ==============================================
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Available Beds: 5
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Sheltered Beds: 5
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 5
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:05PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:05PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00019956)>]
+[04/24/2020 - 08:19:06PM]  ==============================================
+[04/24/2020 - 08:19:06PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00024A26)>]
+[04/24/2020 - 08:19:06PM]  ==============================================
+[04/24/2020 - 08:19:06PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:07PM]  ==============================================
+[04/24/2020 - 08:19:07PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (000B3506)>]
+[04/24/2020 - 08:19:07PM]  ==============================================
+[04/24/2020 - 08:19:07PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:08PM]  ==============================================
+[04/24/2020 - 08:19:08PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (000E0505)>]
+[04/24/2020 - 08:19:08PM]  ==============================================
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Available Beds: 8
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Sheltered Beds: 8
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 8
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:08PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:08PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (000E0505)>]
+[04/24/2020 - 08:19:09PM]  ==============================================
+[04/24/2020 - 08:19:09PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [DLC06:VaultWorkshopScript < (05000FEF)>]
+[04/24/2020 - 08:19:09PM]  ==============================================
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Available Beds: 1
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Sheltered Beds: 1
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 1
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:09PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:09PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [DLC06:VaultWorkshopScript < (05000FEF)>]
+[04/24/2020 - 08:19:10PM]  ==============================================
+[04/24/2020 - 08:19:10PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1AC)>]
+[04/24/2020 - 08:19:10PM]  ==============================================
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Available Beds: 3
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Sheltered Beds: 0
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 0
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Settlers with Partial Happiness of 50.000000: 2
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Current Happiness: 50.000000
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Target Happiness Long Term: 50.000000
+[04/24/2020 - 08:19:10PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:10PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1AC)>]
+[04/24/2020 - 08:19:11PM]  ==============================================
+[04/24/2020 - 08:19:11PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (01000E4C)>]
+[04/24/2020 - 08:19:11PM]  ==============================================
+[04/24/2020 - 08:19:11PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:12PM]  ==============================================
+[04/24/2020 - 08:19:12PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B197)>]
+[04/24/2020 - 08:19:12PM]  ==============================================
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Available Beds: 4
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Sheltered Beds: 4
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 4
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:12PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:12PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B197)>]
+[04/24/2020 - 08:19:13PM]  ==============================================
+[04/24/2020 - 08:19:13PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0006F5C5)>]
+[04/24/2020 - 08:19:13PM]  ==============================================
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Available Beds: 4
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Sheltered Beds: 0
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 0
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Settlers with Partial Happiness of 50.000000: 2
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Current Happiness: 50.000000
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Target Happiness Long Term: 50.000000
+[04/24/2020 - 08:19:13PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:13PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0006F5C5)>]
+[04/24/2020 - 08:19:14PM]  ==============================================
+[04/24/2020 - 08:19:14PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001E81EA)>]
+[04/24/2020 - 08:19:14PM]  ==============================================
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Available Beds: 3
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Sheltered Beds: 3
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 3
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:14PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:14PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001E81EA)>]
+[04/24/2020 - 08:19:15PM]  ==============================================
+[04/24/2020 - 08:19:15PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001F0711)>]
+[04/24/2020 - 08:19:15PM]  ==============================================
+[04/24/2020 - 08:19:15PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:16PM]  ==============================================
+[04/24/2020 - 08:19:16PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001654D5)>]
+[04/24/2020 - 08:19:16PM]  ==============================================
+[04/24/2020 - 08:19:16PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:17PM]  ==============================================
+[04/24/2020 - 08:19:17PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1F1)>]
+[04/24/2020 - 08:19:17PM]  ==============================================
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Available Beds: 2
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Sheltered Beds: 2
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 2
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:17PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:17PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1F1)>]
+[04/24/2020 - 08:19:18PM]  ==============================================
+[04/24/2020 - 08:19:18PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00164321)>]
+[04/24/2020 - 08:19:18PM]  ==============================================
+[04/24/2020 - 08:19:18PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:19PM]  ==============================================
+[04/24/2020 - 08:19:19PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (000250FE)>]
+[04/24/2020 - 08:19:19PM]  ==============================================
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Available Beds: 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Sheltered Beds: 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Hungry Settlers: 7
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Thirsty Settlers: 7
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Settlers with Partial Happiness of 50.000000: 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Settlers with Partial Happiness of 40.000000: 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Settlers with Partial Happiness of 20.000000: 0
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Settlers with Partial Happiness of 0.000000: 7
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Current Happiness: 49.000000
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Target Happiness Long Term: 0.000000
+[04/24/2020 - 08:19:19PM]  [WSFW] 				Predicted Happiness Change Tomorrow: -13
+[04/24/2020 - 08:19:19PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (000250FE)>]
+[04/24/2020 - 08:19:20PM]  ==============================================
+[04/24/2020 - 08:19:20PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0302064C)>]
+[04/24/2020 - 08:19:20PM]  ==============================================
+[04/24/2020 - 08:19:20PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:21PM]  ==============================================
+[04/24/2020 - 08:19:21PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B18F)>]
+[04/24/2020 - 08:19:21PM]  ==============================================
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Available Beds: 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Sheltered Beds: 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Robot Happiness: 6 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Current Happiness: 50.000000
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Target Happiness Long Term: 50.000000
+[04/24/2020 - 08:19:21PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:21PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B18F)>]
+[04/24/2020 - 08:19:22PM]  ==============================================
+[04/24/2020 - 08:19:22PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [DLC04:DLC04RedRocketWorkshopScript < (0600BCE7)>]
+[04/24/2020 - 08:19:22PM]  ==============================================
+[04/24/2020 - 08:19:22PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:23PM]  ==============================================
+[04/24/2020 - 08:19:23PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00135A90)>]
+[04/24/2020 - 08:19:23PM]  ==============================================
+[04/24/2020 - 08:19:23PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:24PM]  ==============================================
+[04/24/2020 - 08:19:24PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1DB)>]
+[04/24/2020 - 08:19:24PM]  ==============================================
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Available Beds: 2
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Sheltered Beds: 2
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 2
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:24PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:24PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1DB)>]
+[04/24/2020 - 08:19:25PM]  ==============================================
+[04/24/2020 - 08:19:25PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001654BD)>]
+[04/24/2020 - 08:19:25PM]  ==============================================
+[04/24/2020 - 08:19:25PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:26PM]  ==============================================
+[04/24/2020 - 08:19:26PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (001654CF)>]
+[04/24/2020 - 08:19:26PM]  ==============================================
+[04/24/2020 - 08:19:26PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:27PM]  ==============================================
+[04/24/2020 - 08:19:27PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00066EB6)>]
+[04/24/2020 - 08:19:27PM]  ==============================================
+[04/24/2020 - 08:19:27PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:28PM]  ==============================================
+[04/24/2020 - 08:19:28PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0016D28E)>]
+[04/24/2020 - 08:19:28PM]  ==============================================
+[04/24/2020 - 08:19:28PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:29PM]  ==============================================
+[04/24/2020 - 08:19:29PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0301C6AA)>]
+[04/24/2020 - 08:19:29PM]  ==============================================
+[04/24/2020 - 08:19:29PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:30PM]  ==============================================
+[04/24/2020 - 08:19:30PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (00168945)>]
+[04/24/2020 - 08:19:30PM]  ==============================================
+[04/24/2020 - 08:19:30PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:31PM]  ==============================================
+[04/24/2020 - 08:19:31PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (03038EA8)>]
+[04/24/2020 - 08:19:31PM]  ==============================================
+[04/24/2020 - 08:19:31PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:32PM]  ==============================================
+[04/24/2020 - 08:19:32PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B19D)>]
+[04/24/2020 - 08:19:32PM]  ==============================================
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Available Beds: 3
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Sheltered Beds: 3
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 3
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:32PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:32PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B19D)>]
+[04/24/2020 - 08:19:33PM]  ==============================================
+[04/24/2020 - 08:19:33PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1D1)>]
+[04/24/2020 - 08:19:33PM]  ==============================================
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Available Beds: 2
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Sheltered Beds: 2
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 2
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:33PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:33PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1D1)>]
+[04/24/2020 - 08:19:34PM]  ==============================================
+[04/24/2020 - 08:19:34PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1BE)>]
+[04/24/2020 - 08:19:34PM]  ==============================================
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Available Beds: 3
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Sheltered Beds: 3
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Hungry Settlers: 0
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Thirsty Settlers: 0
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Happiness Penalty for Poor Defenses: -20.000000
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Settlers with All Needs Mets (60.000000 happiness): 3
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Robot Happiness: 0 Robots, With Base Happiness of: 50
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Total Bonus Happiness: 0.000000
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Current Happiness: 60.000000
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Target Happiness Long Term: 60.000000
+[04/24/2020 - 08:19:34PM]  [WSFW] 				Predicted Happiness Change Tomorrow: 0
+[04/24/2020 - 08:19:34PM]  [WSFW] 			Completed WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0009B1BE)>]
+[04/24/2020 - 08:19:35PM]  ==============================================
+[04/24/2020 - 08:19:35PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (0300AB20)>]
+[04/24/2020 - 08:19:35PM]  ==============================================
+[04/24/2020 - 08:19:35PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:37PM]  ==============================================
+[04/24/2020 - 08:19:37PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [workshopscript < (44034123)>]
+[04/24/2020 - 08:19:37PM]  ==============================================
+[04/24/2020 - 08:19:37PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:38PM]  ==============================================
+[04/24/2020 - 08:19:38PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00D802)>]
+[04/24/2020 - 08:19:38PM]  ==============================================
+[04/24/2020 - 08:19:38PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:39PM]  ==============================================
+[04/24/2020 - 08:19:39PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E04C)>]
+[04/24/2020 - 08:19:39PM]  ==============================================
+[04/24/2020 - 08:19:39PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:41PM]  ==============================================
+[04/24/2020 - 08:19:41PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E056)>]
+[04/24/2020 - 08:19:41PM]  ==============================================
+[04/24/2020 - 08:19:42PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:42PM]  ==============================================
+[04/24/2020 - 08:19:42PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E060)>]
+[04/24/2020 - 08:19:42PM]  ==============================================
+[04/24/2020 - 08:19:42PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:43PM]  ==============================================
+[04/24/2020 - 08:19:43PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E06A)>]
+[04/24/2020 - 08:19:43PM]  ==============================================
+[04/24/2020 - 08:19:43PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:44PM]  ==============================================
+[04/24/2020 - 08:19:44PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E074)>]
+[04/24/2020 - 08:19:44PM]  ==============================================
+[04/24/2020 - 08:19:44PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:45PM]  ==============================================
+[04/24/2020 - 08:19:45PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E07E)>]
+[04/24/2020 - 08:19:45PM]  ==============================================
+[04/24/2020 - 08:19:45PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:46PM]  ==============================================
+[04/24/2020 - 08:19:46PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E088)>]
+[04/24/2020 - 08:19:46PM]  ==============================================
+[04/24/2020 - 08:19:46PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:47PM]  ==============================================
+[04/24/2020 - 08:19:47PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E092)>]
+[04/24/2020 - 08:19:47PM]  ==============================================
+[04/24/2020 - 08:19:47PM]  [WSFW] 			Settlement has no population, skipping happiness checks.
+[04/24/2020 - 08:19:48PM]  ==============================================
+[04/24/2020 - 08:19:48PM]  [WSFW] 			Starting WSFW_DailyUpdate_AdjustResourceValues  [_camp_workshopscriptex < (2B00E09C)>]
+[04/24/2020 - 08:19:48PM]  ==============================================
+[04/24/2020 - 08:19:48PM]  [WSFW] 			Settlement has no population, skipping happiness checks.

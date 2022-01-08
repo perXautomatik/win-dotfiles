@@ -1,0 +1,4 @@
+[06/09/2020 - 11:43:57PM] PlayerDamage log opened (PC-64)
+[06/09/2020 - 11:43:57PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Mask.OnChanged
+[06/09/2020 - 11:43:57PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Removed mask, unregistering hit events
+[06/09/2020 - 11:44:37PM] Log closed

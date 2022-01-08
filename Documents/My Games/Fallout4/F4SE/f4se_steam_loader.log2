@@ -1,0 +1,25 @@
+f4se loader 00060150 (steam) 01D767ED85E0331F 6.2 (9200)
+loader base addr = 00007FF8FB980000
+exe base addr = 00007FF7A8A00000
+found iat at 00007FF7AB617F08
+original thunk 00007FF8FAA0DB48
+patched iat
+HookMain: thread = 15164 retaddr = 00007FF7AB33702D
+runtimePath = E:\SteamLibrary\steamapps\common\Fallout 4\Fallout4.exe
+dwSignature = FEEF04BD
+dwStrucVersion = 00010000
+dwFileVersionMS = 0001000A
+dwFileVersionLS = 00A30000
+dwProductVersionMS = 0001000A
+dwProductVersionLS = 00A30000
+dwFileFlagsMask = 00000017
+dwFileFlags = 00000000
+dwFileOS = 00000004
+dwFileType = 00000001
+dwFileSubtype = 00000000
+dwFileDateMS = 00000000
+dwFileDateLS = 00000000
+version = 0001000A00A30000
+product name = Fallout 4
+steam exe
+dll = E:\SteamLibrary\steamapps\common\Fallout 4\\f4se_1_10_163.dll

@@ -1,0 +1,45 @@
+[06/10/2020 - 03:50:59PM] Workshop log opened (PC-64)
+[06/10/2020 - 03:50:59PM]  [workshopnpcscript < (0001CA7D)>] OnEnterBleedout: IsWounded = true
+[06/10/2020 - 03:50:59PM]  [workshopnpcscript < (0001CA7D)>] OnCombatStateChanged: IsWounded = false
+[06/10/2020 - 03:51:00PM]  [workshopnpcscript < (0001CA7D)>] OnEnterBleedout: IsWounded = false. Skipping WoundActor.
+[06/10/2020 - 03:51:01PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:07PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:07PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:09PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:09PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:09PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:51:58PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:54:09PM]  [workshopnpcscript < (0001CA7D)>] OnEnterBleedout: IsWounded = true
+[06/10/2020 - 03:54:09PM]  [workshopnpcscript < (0001CA7D)>] OnCombatStateChanged: IsWounded = false
+[06/10/2020 - 03:54:10PM]  [workshopnpcscript < (0001CA7D)>] OnEnterBleedout: IsWounded = false. Skipping WoundActor.
+[06/10/2020 - 03:54:19PM]   ERROR - workshop [workshopscript < (5C00E0B1)>] not found in workshop array
+[06/10/2020 - 03:54:19PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:19PM]  	SetCurrentWorkshop: new value = -1
+[06/10/2020 - 03:54:19PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:20PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:54:23PM]   ERROR - workshop [workshopscript < (5C00E0B1)>] not found in workshop array
+[06/10/2020 - 03:54:23PM]   ERROR - workshop [workshopscript < (5C00E0B1)>] not found in workshop array
+[06/10/2020 - 03:54:26PM]  ------------------------------------------------------------------------------ 
+[06/10/2020 - 03:54:26PM]   BuildObject: 8237 [_Camp_WorkshopProxy < (FF045491)>] from [workshopscript < (5C00E0B1)>]
+[06/10/2020 - 03:54:26PM]   BuildObject DONE: 8237 (editLockCount=1) [_Camp_WorkshopProxy < (FF045491)>]
+[06/10/2020 - 03:54:26PM]  ------------------------------------------------------------------------------ 
+[06/10/2020 - 03:54:26PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:54:27PM]   ERROR - workshop [workshopscript < (5C00E0B1)>] not found in workshop array
+[06/10/2020 - 03:54:27PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:27PM]  	UFO4P_ResetCurrentWorkshop: previous currentWorkshopID = -1; new value = -1
+[06/10/2020 - 03:54:27PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:34PM]   SendPlayerOwnershipChangedEvent [_camp_workshopscriptex < (5C00E06A)>]
+[06/10/2020 - 03:54:34PM]  	UpdateWorkshopRatingsForObject [workshopobjectscript < (FF03EB67)>]: DONE
+[06/10/2020 - 03:54:34PM]  ------------------------------------------------------------------------------ 
+[06/10/2020 - 03:54:34PM]   RESET WORKSHOP
+[06/10/2020 - 03:54:34PM]      Begin reset for [_camp_workshopscriptex < (5C00E06A)>]
+[06/10/2020 - 03:54:34PM]  ------------------------------------------------------------------------------ 
+[06/10/2020 - 03:54:34PM]  	ResetWorkshop: workshop [_camp_workshopscriptex < (5C00E06A)>] is not the current workshop. Returning ... 
+[06/10/2020 - 03:54:42PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:42PM]  	SetCurrentWorkshop: new value = 43
+[06/10/2020 - 03:54:42PM]  ---------------------------------------------------------------------------------
+[06/10/2020 - 03:54:48PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:54:53PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:54:54PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:55:03PM]   ERROR - GetWorkshopFromLocation: workshop location [Location < (00002CF0)>] not found in WorkshopLocations array
+[06/10/2020 - 03:55:17PM] Log closed

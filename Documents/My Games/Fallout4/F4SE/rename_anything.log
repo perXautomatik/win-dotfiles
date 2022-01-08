@@ -3,30 +3,30 @@ rename_anything query
 rename_anything load
 ---
 sig: 0F 85 ? ? ? ? 41 80 BE ? ? ? ? ? 0F 85 ? ? ? ? 41 80 BE ? ? ? ? ?
-effective address: 00007FF6C9F589E1
+effective address: 00007FF78A5A89E1
 RVA: 0x00B189E1
 ---
 ---
 sig: 75 04 B1 01 EB 08
-effective address: 00007FF6C9F58B37
+effective address: 00007FF78A5A8B37
 RVA: 0x00B18B37
 ---
 ---
 sig: 4C 89 4C 24 ? 48 89 4C 24 ? 55 41 56
-effective address: 00007FF6C99237D0
+effective address: 00007FF789F737D0
 RVA: 0x004E37D0
 ---
 ---
 sig: 48 89 5C 24 ? 57 48 83 EC 20 48 83 79 ? ? 48 8B FA 48 8B D9 75 2D
-effective address: 00007FF6C9500B30
+effective address: 00007FF789B50B30
 RVA: 0x000C0B30
 ---
 ---
 sig: 48 89 5C 24 ? 57 48 83 EC 20 33 FF 48 8D 05 ? ? ? ? 48 8B D9 C6 41 12 99
-effective address: 00007FF6C94EA210
+effective address: 00007FF789B3A210
 RVA: 0x000AA210
 ---
-Sigscan elapsed: 56 ms.
+Sigscan elapsed: 135 ms.
 bAllowHTML: 1
 patch complete
 Registered Papyrus native functions.

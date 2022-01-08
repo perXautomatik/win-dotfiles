@@ -1,0 +1,276 @@
+[04/24/2020 - 07:57:41PM] Shared log opened (PC-64)
+[04/24/2020 - 07:57:41PM]  Added the entry 'Gas Masks of the Wasteland.esp:[Weather < (2800638A)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Gas Masks of the Wasteland.esp:[Weather < (2800638C)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Fallout4.esm:[Weather < (001F61A1)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:2095' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:2095' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:556934' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:556935' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:2250' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:347101' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:319832' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:352940' is not installed.
+[04/24/2020 - 07:57:41PM]  The plugin for entry 'NAC.esm:347102' is not installed.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301C15E)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301C160)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301C15F)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (43028702)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (43028705)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (43028708)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4302B4B3)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301B9BC)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301C157)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4301C15A)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Added the entry 'Vivid Weathers - FO4.esp:[Weather < (4302870A)>]' to Collection.
+[04/24/2020 - 07:57:41PM]  Sending the OnRefreshed event for collection..
+[04/24/2020 - 07:57:45PM]  Dust Mask Wipe...
+[04/24/2020 - 07:57:45PM]  Mud Mask Wipe...
+[04/24/2020 - 07:57:45PM]  Blood Mask Wipe...
+[04/24/2020 - 07:57:45PM]  Removing Snow VFX
+[04/24/2020 - 07:57:45PM]  Refunding the mask wipe item.
+[04/24/2020 - 07:57:45PM]  Adding Snow VFX | SnowStage: 1
+[04/24/2020 - 07:57:45PM]  Played the '[Idle <GasMaskwithGoggles_1stPUseMaskWipeOnSelf (2800549C)>]' idle animation on the '[Actor < (00000014)>]' actor.
+[04/24/2020 - 07:57:53PM]  Breathing Started...
+[04/24/2020 - 07:57:53PM]  Breathing Volume: 0.200000
+[04/24/2020 - 07:58:02PM]  Breathing Volume: 0.400000
+[04/24/2020 - 07:58:02PM]  Breathing Volume: 0.600000
+[04/24/2020 - 07:58:03PM]  Breathing Volume: 0.800000
+[04/24/2020 - 07:58:04PM]  Breathing Volume: 1.000000
+[04/24/2020 - 07:58:04PM]  Breathing Volume: 1.000000
+[04/24/2020 - 07:58:07PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 07:58:07PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 07:58:52PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 07:58:52PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 07:59:37PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 07:59:37PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:00:07PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:00:07PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:00:37PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:00:37PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:01:09PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:01:09PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:01:39PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:01:40PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:02:10PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:02:10PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:02:36PM]  Evaluated a location change.
+[04/24/2020 - 08:02:36PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:02:36PM]  Setting weather to dusty heavy.
+[04/24/2020 - 08:02:36PM]  CheckRadiation()
+[04/24/2020 - 08:02:36PM]  New weather is DustStorm.
+[04/24/2020 - 08:02:36PM]  Evaluated a weather change.
+[04/24/2020 - 08:02:36PM]  Radiation: OnWeatherChanged
+[04/24/2020 - 08:02:36PM]  Stopped Snowing, melting VFX
+[04/24/2020 - 08:02:36PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:02:36PM]  The current weather is bad.
+[04/24/2020 - 08:02:36PM]  CanStartDust: true
+[04/24/2020 - 08:02:36PM]  CheckRadiation()
+[04/24/2020 - 08:02:36PM]  Started Dust Storm, start VFX
+[04/24/2020 - 08:02:36PM]  Filter: OnWeatherChanged
+[04/24/2020 - 08:02:36PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:02:37PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:02:37PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:02:46PM]  Snow Melting: Current Stage = 0
+[04/24/2020 - 08:02:50PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:02:50PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:02:57PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:02:58PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:00PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:01PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:01PM]  Breathing Started...
+[04/24/2020 - 08:03:01PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:03:02PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:03:02PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:03:02PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:03PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:03:03PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:03PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:04PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:05PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:05PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:06PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:06PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:08PM]  Breathing Started...
+[04/24/2020 - 08:03:08PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:03:09PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:03:09PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:03:10PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:03:10PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:11PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:11PM]  The '[MagicEffect < (000856FE)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:03:15PM]  Breathing Started...
+[04/24/2020 - 08:03:15PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:03:16PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:03:16PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:03:17PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:03:17PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:18PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:21PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:03:21PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:03:21PM]  Breathing Started...
+[04/24/2020 - 08:03:21PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:03:22PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:03:22PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:03:23PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:03:23PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:03:24PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:06:43PM]  Breathing Started...
+[04/24/2020 - 08:06:43PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:06:46PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:06:47PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:06:47PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:06:48PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:06:48PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:06:55PM]  Breathing Started...
+[04/24/2020 - 08:06:55PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:06:55PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:06:56PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:06:56PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:06:57PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:06:57PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:07:01PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:07:01PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:07:31PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:07:31PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:09:58PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:09:58PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:10:35PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:10:35PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:11:02PM]  Evaluated a location change.
+[04/24/2020 - 08:11:02PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:11:02PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:11:02PM]  CheckRadiation()
+[04/24/2020 - 08:11:03PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:11:03PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:11:03PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:11:05PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:11:05PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:11:24PM]  Evaluated a location change.
+[04/24/2020 - 08:11:24PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:11:24PM]  CheckRadiation()
+[04/24/2020 - 08:11:24PM]  Setting weather to dusty heavy.
+[04/24/2020 - 08:11:24PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:11:24PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:11:25PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:11:25PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:11:35PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:11:35PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:12:06PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:12:06PM]  Evaluated a weather change.
+[04/24/2020 - 08:12:06PM]  Radiation: OnWeatherChanged
+[04/24/2020 - 08:12:06PM]  CanStartDust: false
+[04/24/2020 - 08:12:07PM]  The current weather is not bad.
+[04/24/2020 - 08:12:07PM]  Dispel_Rad()
+[04/24/2020 - 08:12:07PM]  Radiation: OnChanged | Dispel_Rad | Threshold = False
+[04/24/2020 - 08:12:07PM]  Beginning the ActiveState from the 'activestate'.
+[04/24/2020 - 08:12:37PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:12:37PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:12:41PM]  Evaluated a location change.
+[04/24/2020 - 08:12:41PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:12:41PM]  CheckRadiation()
+[04/24/2020 - 08:12:41PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:12:41PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:12:42PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:12:42PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:12:54PM]  Adding Dust VFX | DustStage: 0
+[04/24/2020 - 08:12:56PM]  Mud Mask Wipe...
+[04/24/2020 - 08:12:56PM]  Blood Mask Wipe...
+[04/24/2020 - 08:12:56PM]  Dust Mask Wipe...
+[04/24/2020 - 08:12:56PM]  Removing Dust VFX
+[04/24/2020 - 08:12:56PM]  Refunding the mask wipe item.
+[04/24/2020 - 08:12:56PM]  Played the '[Idle <GasMaskwithGoggles_1stPUseMaskWipeOnSelf (2800549C)>]' idle animation on the '[Actor < (00000014)>]' actor.
+[04/24/2020 - 08:12:56PM]  CanStartDust: false
+[04/24/2020 - 08:12:56PM]  Removing Dust VFX | Stage: 0
+[04/24/2020 - 08:12:57PM]  Mud Mask Wipe...
+[04/24/2020 - 08:12:57PM]  Blood Mask Wipe...
+[04/24/2020 - 08:12:57PM]  Dust Mask Wipe...
+[04/24/2020 - 08:12:57PM]  Refunding the mask wipe item.
+[04/24/2020 - 08:12:57PM]  Played the '[Idle <GasMaskwithGoggles_1stPUseMaskWipeOnSelf (2800549C)>]' idle animation on the '[Actor < (00000014)>]' actor.
+[04/24/2020 - 08:13:04PM]  Evaluated a location change.
+[04/24/2020 - 08:13:04PM]  Setting weather to dusty heavy.
+[04/24/2020 - 08:13:04PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:13:04PM]  CheckRadiation()
+[04/24/2020 - 08:13:05PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:13:05PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:13:05PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:13:05PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:13:09PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:13:09PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:16:53PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:16:53PM]  New weather is DustStorm.
+[04/24/2020 - 08:16:53PM]  Evaluated a weather change.
+[04/24/2020 - 08:16:53PM]  Radiation: OnWeatherChanged
+[04/24/2020 - 08:16:53PM]  The current weather is bad.
+[04/24/2020 - 08:16:53PM]  CheckRadiation()
+[04/24/2020 - 08:16:53PM]  Filter: OnWeatherChanged
+[04/24/2020 - 08:16:53PM]  CanStartDust: true
+[04/24/2020 - 08:16:53PM]  Started Dust Storm, start VFX
+[04/24/2020 - 08:16:53PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:16:54PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:16:54PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:17:52PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:17:52PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:17:53PM]  Breathing Started...
+[04/24/2020 - 08:17:53PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:17:53PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:17:54PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:17:55PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:17:55PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:17:56PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:17:56PM]  Mud Mask Wipe...
+[04/24/2020 - 08:17:56PM]  Blood Mask Wipe...
+[04/24/2020 - 08:17:56PM]  Dust Mask Wipe...
+[04/24/2020 - 08:17:56PM]  Refunding the mask wipe item.
+[04/24/2020 - 08:17:56PM]  Played the '[Idle <GasMaskwithGoggles_1stPUseMaskWipeOnSelf (2800549C)>]' idle animation on the '[Actor < (00000014)>]' actor.
+[04/24/2020 - 08:18:22PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:18:22PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:18:58PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:18:58PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:19:04PM]  Breathing Started...
+[04/24/2020 - 08:19:04PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:19:05PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:19:05PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:19:06PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:19:06PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:19:07PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:19:21PM]  Evaluated a location change.
+[04/24/2020 - 08:19:21PM]  Radiation: OnLocationChanged
+[04/24/2020 - 08:19:21PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:19:21PM]  CheckRadiation()
+[04/24/2020 - 08:19:21PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:19:22PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:19:22PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:19:28PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:19:28PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:19:34PM]  The '[MagicEffect < (001C5E7A)>]' magic effect has been applied to the '[Actor < (00000014)>]' reference.
+[04/24/2020 - 08:19:37PM]  Breathing Started...
+[04/24/2020 - 08:19:37PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:19:37PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:19:38PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:19:38PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:19:39PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:19:40PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:20:00PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:20:00PM]  New weather is Snow.
+[04/24/2020 - 08:20:00PM]  Evaluated a weather change.
+[04/24/2020 - 08:20:00PM]  Radiation: OnWeatherChanged
+[04/24/2020 - 08:20:00PM]  CanStartDust: false
+[04/24/2020 - 08:20:00PM]  Filter: OnWeatherChanged
+[04/24/2020 - 08:20:00PM]  Started Snowing, start VFX
+[04/24/2020 - 08:20:00PM]  The current weather is bad.
+[04/24/2020 - 08:20:00PM]  CheckRadiation()
+[04/24/2020 - 08:20:00PM]  Adding Snow VFX | SnowStage: 1
+[04/24/2020 - 08:20:00PM]  CheckRadiation() failed the conditions for radiation
+[04/24/2020 - 08:20:01PM]  CanUse: Is not a gas mask.
+[04/24/2020 - 08:20:01PM]  UpdateTimer: Cannot use filters at this time.
+[04/24/2020 - 08:20:29PM]  Breathing Started...
+[04/24/2020 - 08:20:29PM]  Breathing Volume: 0.200000
+[04/24/2020 - 08:20:30PM]  Breathing Volume: 0.400000
+[04/24/2020 - 08:20:30PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:20:30PM]  Ignoring, no changes to the current weather.
+[04/24/2020 - 08:20:30PM]  Breathing Volume: 0.600000
+[04/24/2020 - 08:20:31PM]  Breathing Volume: 0.800000
+[04/24/2020 - 08:20:31PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:20:32PM]  Breathing Volume: 1.000000
+[04/24/2020 - 08:21:13PM]  Ignoring, no changes to the current location.
+[04/24/2020 - 08:21:13PM]  Ignoring, no changes to the current weather.

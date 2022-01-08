@@ -1,0 +1,1500 @@
+F4SEPlugin_Query: F4SE version = 0.6.21.0 runtime version = 1.10.163.0
+F4SEPlugin_Load
+F4SE module handle: 00007FFC6EEA0000
+GamePtr::InitAll - base_addr = 0x00007FF789A90000 code_start_addr = 0x00007FF789A91000 code_length = 46225408
+GamePtr::InitAll - f4se_base_addr = 0x00007FFC6EEA0000 f4se_code_length = 897024
+GamePtr::InitAll - 2 GamePtr instance(s) to initialize
+GamePtrCodeSegRelWithOffset: name = SlowTimeFactor address_offset = 0x4C5F443 m_address = 0x00007FF78F372A30 IDA_address=0x458E2A30 m_offset = 132 (0x84)
+GamePtrCodeSegRel: name = ParseTranslation address_offset = 0xFFFFF889 m_address = 0x00007FFC6EF038F0
+GamePtr::InitAll - 127 ms
+190 registered settings:
+setting[00]: name = iTicksPerSecond value = 10
+setting[01]: name = iLoggingLevel value = 0
+setting[02]: name = iVisibilityDefault value = 1
+setting[03]: name = iVisibilityInCombat1 value = 3
+setting[04]: name = iVisibilityWeaponDrawn value = 3
+setting[05]: name = iVisibilityInCombat2 value = 3
+setting[06]: name = iVisibilityWorkshop value = 0
+setting[07]: name = iWidgetsContainerAnchor value = 0
+setting[08]: name = fWidgetsContainerMarginX value = 64.0
+setting[09]: name = fWidgetsContainerMarginY value = 215.0
+setting[10]: name = fWidgetsContainerSpacing value = 5.0
+setting[11]: name = bWidgetsContainerUseShadedBackground value = 1
+setting[12]: name = fWidgetsContainerTopPadding value = 3.0
+setting[13]: name = fWidgetsContainerBottomPadding value = 3.0
+setting[14]: name = fWidgetsContainerLeftPadding value = 5.0
+setting[15]: name = fWidgetsContainerRightPadding value = 6.5
+setting[16]: name = iMaxVisibleWidgets value = 4
+setting[17]: name = bShowNumberOfHiddenWidgets value = 1
+setting[18]: name = iHiddenWidgetsCountFontSize value = 12
+setting[19]: name = bWidgetsContainerAlwaysVisible value = 0
+setting[20]: name = sWidgetsContainerNoEffectsText value = 
+setting[21]: name = iMinimizedContainerAnchor value = 0
+setting[22]: name = fMinimizedContainerMarginX value = 61.0
+setting[23]: name = fMinimizedContainerMarginY value = 215.0
+setting[24]: name = bMinimizedContainerUseShadedBackground value = 0
+setting[25]: name = fMinimizedContainerTopPadding value = 0.0
+setting[26]: name = fMinimizedContainerBottomPadding value = 0.0
+setting[27]: name = fMinimizedContainerLeftPadding value = 0.0
+setting[28]: name = fMinimizedContainerRightPadding value = 0.0
+setting[29]: name = iMinimizedContainerFontSize value = 32
+setting[30]: name = bMinimizedContainerBoldFont value = 1
+setting[31]: name = iMinimizedContainerMinDigits value = 3
+setting[32]: name = bMinimizedContainerAlwaysVisible value = 0
+setting[33]: name = iMinEffectDuration value = 0
+setting[34]: name = iMaxEffectDuration value = 10800
+setting[35]: name = bShowWidgetsOnlyForVanillaItems value = 0
+setting[36]: name = iMaxEffectRemainingDuration value = 0
+setting[37]: name = iMinEffectVisibleTime value = 10
+setting[38]: name = iMaxFoodEffectRemainingDuration value = 0
+setting[39]: name = iMinFoodEffectVisibleTime value = 10
+setting[40]: name = iMaxChemEffectRemainingDuration value = 0
+setting[41]: name = iMinChemEffectVisibleTime value = 10
+setting[42]: name = fWidgetWidth value = 80.0
+setting[43]: name = iWidgetMaxNameLen value = 20
+setting[44]: name = iWidgetNameFontSize value = 12
+setting[45]: name = iShowRemainingTime value = 2
+setting[46]: name = iWidgetTimeFontSize value = 8
+setting[47]: name = fWidgetBarHeight value = 6.0
+setting[48]: name = bPipBoyEnableEffectsTab value = 1
+setting[49]: name = bPipBoyShowEnchantmentEffects value = 1
+setting[50]: name = bPipBoyShowSpellEffects value = 0
+setting[51]: name = bPipBoyShowRemainingTime value = 1
+setting[52]: name = bPipBoyEnableActorValuesTab value = 1
+setting[53]: name = iPipBoyActorValuesFilter value = 
+setting[54]: name = iPipBoyActorValuesSortMethod value = 
+setting[55]: name = sSelectedActorValues value = 
+setting[56]: name = bEnableCrosshairChanges value = 0
+setting[57]: name = bShowCrosshairDefault value = 1
+setting[58]: name = bShowCrosshairWeaponDrawn value = 1
+setting[59]: name = bShowCrosshairAiming1stPerson value = 1
+setting[60]: name = bShowCrosshairAiming3rdPerson value = 1
+setting[61]: name = bShowCrosshairWorkshop value = 1
+setting[62]: name = bAlwaysShowCommandCrosshair value = 0
+setting[63]: name = bAlwaysShowActivateCrosshair value = 0
+setting[64]: name = bCrosshairReplaceStandardWithDot value = 0
+setting[65]: name = bCrosshairReplaceCommandWithDot value = 0
+setting[66]: name = bCrosshairReplaceActivateWithDot value = 0
+setting[67]: name = fCrosshairScale value = 1.0
+setting[68]: name = fConditionBoyOffsetX value = 0.0
+setting[69]: name = fConditionBoyOffsetY value = 0.0
+setting[70]: name = fConditionBoyScale value = 1.0
+setting[71]: name = fFlashlightOffsetX value = 0.0
+setting[72]: name = fFlashlightOffsetY value = 0.0
+setting[73]: name = fFlashlightScale value = 1.0
+setting[74]: name = fExplosiveAmmoCountOffsetX value = 0.0
+setting[75]: name = fExplosiveAmmoCountOffsetY value = 0.0
+setting[76]: name = fExplosiveAmmoCountScale value = 1.0
+setting[77]: name = fAmmoCountOffsetX value = 0.0
+setting[78]: name = fAmmoCountOffsetY value = 0.0
+setting[79]: name = fAmmoCountScale value = 1.0
+setting[80]: name = fCompassOffsetX value = 0.0
+setting[81]: name = fCompassOffsetY value = 0.0
+setting[82]: name = fCompassScale value = 1.0
+setting[83]: name = bCompatibilityHUDPlusPlus value = 0
+setting[84]: name = bImmersiveHUDSupportToggleHotkey value = 0
+setting[85]: name = bRemoveSortingTags value = 1
+setting[86]: name = sHiddenEffects value = 
+setting[87]: name = iClockWidgetDisplayIndex value = 0
+setting[88]: name = iCountersWidgetDisplayIndex value = 0
+setting[89]: name = iInventoryWeightWidgetDisplayIndex value = 0
+setting[90]: name = iExplosivesWidgetDisplayIndex value = 0
+setting[91]: name = iAdditionalWidgetsContainerAnchor value = 4
+setting[92]: name = fAdditionalWidgetsContainerMarginX value = 0.0
+setting[93]: name = fAdditionalWidgetsContainerMarginY value = 0.0
+setting[94]: name = bAdditionalWidgetsSameVisibilityAsMainWidgets value = 0
+setting[95]: name = fAdditionalWidgetsSpacing value = 3.0
+setting[96]: name = iClockWidgetUpdateInterval value = 1500
+setting[97]: name = bClockWidgetCustomPosition value = 0
+setting[98]: name = fClockWidgetPosX value = 0.0
+setting[99]: name = fClockWidgetPosY value = 0.0
+setting[100]: name = fClockWidgetWidth value = 0.0
+setting[101]: name = fClockWidgetHeight value = 0.0
+setting[102]: name = iClockWidgetFontSize value = 16
+setting[103]: name = iClockWidgetTextAlign value = 1
+setting[104]: name = bClockWidgetUseShadedBackground value = 1
+setting[105]: name = bClockWidgetDrawArt value = 0
+setting[106]: name = bClockWidgetBorder value = 0
+setting[107]: name = iClockWidgetIconIndex value = 1
+setting[108]: name = iClockWidgetSaveGameRemainderSeconds value = 0
+setting[109]: name = bClockWidget24hFormat value = 1
+setting[110]: name = bClockWidget2DigitsForHour value = 1
+setting[111]: name = iCountersWidgetFontSize value = 16
+setting[112]: name = bCountersWidgetCustomPosition value = 0
+setting[113]: name = fCountersWidgetPosX value = 0.0
+setting[114]: name = fCountersWidgetPosY value = 0.0
+setting[115]: name = bCountersWidgetUseShadedBackground value = 1
+setting[116]: name = bCountersWidgetDrawArt value = 0
+setting[117]: name = iCountersWidgetStimpakIndex value = 1
+setting[118]: name = iCountersWidgetRadAwayIndex value = 0
+setting[119]: name = iCountersWidgetRadXIndex value = 0
+setting[120]: name = iCountersWidgetPurifiedWaterIndex value = 2
+setting[121]: name = iCountersWidgetRefreshingBeverageIndex value = 0
+setting[122]: name = iCountersWidgetJetIndex value = 0
+setting[123]: name = iCountersWidgetUltraJetIndex value = 0
+setting[124]: name = iCountersWidgetPsychoJetIndex value = 0
+setting[125]: name = iCountersWidgetBuffjetIndex value = 0
+setting[126]: name = iCountersWidgetCapsIndex value = 3
+setting[127]: name = iCountersWidgetCustom1Index value = 0
+setting[128]: name = iCountersWidgetCustom2Index value = 0
+setting[129]: name = iCountersWidgetCustom3Index value = 0
+setting[130]: name = iCountersWidgetCustom4Index value = 0
+setting[131]: name = iCountersWidgetCustom5Index value = 0
+setting[132]: name = iCountersWidgetStimpakIconIndex value = 1
+setting[133]: name = iCountersWidgetRadAwayIconIndex value = 4
+setting[134]: name = iCountersWidgetRadXIconIndex value = 4
+setting[135]: name = iCountersWidgetPurifiedWaterIconIndex value = 2
+setting[136]: name = iCountersWidgetRefreshingBeverageIconIndex value = 41
+setting[137]: name = iCountersWidgetJetIconIndex value = 4
+setting[138]: name = iCountersWidgetUltraJetIconIndex value = 4
+setting[139]: name = iCountersWidgetPsychoJetIconIndex value = 4
+setting[140]: name = iCountersWidgetBuffjetIconIndex value = 4
+setting[141]: name = iCountersWidgetCapsIconIndex value = 13
+setting[142]: name = iCountersWidgetCustom1IconIndex value = 4
+setting[143]: name = iCountersWidgetCustom2IconIndex value = 4
+setting[144]: name = iCountersWidgetCustom3IconIndex value = 4
+setting[145]: name = iCountersWidgetCustom4IconIndex value = 4
+setting[146]: name = iCountersWidgetCustom5IconIndex value = 4
+setting[147]: name = iCountersWidgetStimpakDigits value = 1
+setting[148]: name = iCountersWidgetRadAwayDigits value = 1
+setting[149]: name = iCountersWidgetRadXDigits value = 1
+setting[150]: name = iCountersWidgetPurifiedWaterDigits value = 1
+setting[151]: name = iCountersWidgetRefreshingBeverageDigits value = 1
+setting[152]: name = iCountersWidgetJetDigits value = 1
+setting[153]: name = iCountersWidgetUltraJetDigits value = 1
+setting[154]: name = iCountersWidgetPsychoJetDigits value = 1
+setting[155]: name = iCountersWidgetBuffjetDigits value = 1
+setting[156]: name = iCountersWidgetCapsDigits value = 3
+setting[157]: name = iCountersWidgetCustom1Digits value = 1
+setting[158]: name = iCountersWidgetCustom2Digits value = 1
+setting[159]: name = iCountersWidgetCustom3Digits value = 1
+setting[160]: name = iCountersWidgetCustom4Digits value = 1
+setting[161]: name = iCountersWidgetCustom5Digits value = 1
+setting[162]: name = sCountersWidgetCustom1FormID value = 
+setting[163]: name = sCountersWidgetCustom2FormID value = 
+setting[164]: name = sCountersWidgetCustom3FormID value = 
+setting[165]: name = sCountersWidgetCustom4FormID value = 
+setting[166]: name = sCountersWidgetCustom5FormID value = 
+setting[167]: name = iInventoryWeightWidgetUpdateInterval value = 1000
+setting[168]: name = bInventoryWeightWidgetCustomPosition value = 0
+setting[169]: name = fInventoryWeightWidgetPosX value = 0
+setting[170]: name = fInventoryWeightWidgetPosY value = 0
+setting[171]: name = iInventoryWeightWidgetFontSize value = 16
+setting[172]: name = bInventoryWeightWidgetUseShadedBackground value = 1
+setting[173]: name = bInventoryWeightWidgetDrawArt value = 1
+setting[174]: name = iInventoryWeightWidgetIconIndex value = 1
+setting[175]: name = iInventoryWeightWidgetIntegerDigits value = 2
+setting[176]: name = iInventoryWeightWidgetFractionDigits value = 0
+setting[177]: name = bInventoryWeightWidgetShowAvailableSpace value = 1
+setting[178]: name = bInventoryWeightWidgetShowCarryWeight value = 1
+setting[179]: name = bExplosivesWidgetCustomPosition value = 0
+setting[180]: name = fExplosivesWidgetPosX value = 0.0
+setting[181]: name = fExplosivesWidgetPosY value = 0.0
+setting[182]: name = iExplosivesWidgetFontSize value = 16
+setting[183]: name = bExplosivesWidgetUseShadedBackground value = 1
+setting[184]: name = bExplosivesWidgetDrawArt value = 0
+setting[185]: name = bExplosivesWidgetShowTypeAbbr value = 0
+setting[186]: name = iExplosivesWidgetTypeAbbrFontSize value = 12
+setting[187]: name = bExplosivesWidgetGrenadesColor value = 0
+setting[188]: name = bExplosivesWidgetMinesColor value = 0
+setting[189]: name = bExplosivesWidgetTrapsColor value = 0
+ParseTranslation: name = Horrorghouls2.1
+ParseTranslation: name = HUDFramework
+ParseTranslation: name = DEF_WIDGETS_CORE
+ParseTranslation: name = ArmorKeywords
+ParseTranslation: name = WorkshopFramework
+ParseTranslation: name = SimSettlements
+ParseTranslation: name = SettlementKeywords
+ParseTranslation: name = Immersive_Molotovs_FlamerESL
+ParseTranslation: name = Dogs can grab player
+ParseTranslation: name = Gunners Overhaul 1.1
+ParseTranslation: name = AutomatronDisassembler
+ParseTranslation: name = DDLL
+ParseTranslation: name = PANPC
+ParseTranslation: name = TabsMissingFix
+ParseTranslation: name = Arbitration - Speed Uninstaller (Remove This and Save)
+ParseTranslation: name = PlayerComments
+ParseTranslation: name = Arbitration - Survival Damage by Player 2.5x
+ParseTranslation: name = UncappedSettlementSurplus
+ParseTranslation: name = ImmersiveGameplay
+ParseTranslation: name = ReducedExplosiveLimbsBase10
+ParseTranslation: name = Reverb and Ambiance Overhaul
+ParseTranslation: name = Pilgrim
+ParseTranslation: name = Vivid Weathers - FO4
+ParseTranslation: name = Ambient Wasteland
+ParseTranslation: name = IndustrialCity_Sim_Settlements_Addon
+ParseTranslation: name = UltraExteriorLighting
+ParseTranslation: name = WOTC
+ParseTranslation: name = PiperCaitCurieDialogueOverhaul
+ParseTranslation: name = Phase4DLC
+ParseTranslation: name = BTInteriors_Project
+ParseTranslation: name = BetterModDescriptions
+ParseTranslation: name = More Armor Slots - All Dlc
+ParseTranslation: name = DV-No Levelled Vertibirds
+ParseTranslation: name = subwayrunnnernodynamic
+ParseTranslation: name = BTInt_Optimization
+ParseTranslation: name = MoreSpawns_Medium
+ParseTranslation: name = MODaquatic
+ParseTranslation: name = Stm_DiamondCityExpansion
+ParseTranslation: name = Immersive Corpses
+ParseTranslation: name = Radrose Usability Enhancements
+ParseTranslation: name = Immersive Pickup Sounds F04
+ParseTranslation: name = SettlementContainers_NoRespawn
+ParseTranslation: name = MojaveImports
+ParseTranslation: name = CrimeTown
+ParseTranslation: name = CommonwealthChooksAndBunnies
+ParseTranslation: name = Raider Children
+ParseTranslation: name = Radrose Usability - Workbench Perk Requirements
+ParseTranslation: name = Radrose - Valdacil Patch - MojaveImports
+ParseTranslation: name = Give Me That Bottle
+ParseTranslation: name = WBO
+ParseTranslation: name = Henrys All Animals BeFriend
+ParseTranslation: name = Immersive Fallout (DLC)
+ParseTranslation: name = CutWeaponModsRestored-GOTY
+ParseTranslation: name = The Deadly Commonwealth Expansion
+ParseTranslation: name = Supermutants Shall Inherit the Earth
+ParseTranslation: name = NIS - Hunted
+ParseTranslation: name = Some Assembly Required
+ParseTranslation: name = FQ_NoMoreLODFlicker
+ParseTranslation: name = RecruitableSettlers
+ParseTranslation: name = Vivid Weathers - FO4 - Quest
+ParseTranslation: name = Minutemenoverhaul
+ParseTranslation: name = Better Explosives
+ParseTranslation: name = Radrose - Valdacil Patch - CutWeaponModsRestored-GOTY
+ParseTranslation: name = Gunsmith Extended
+ParseTranslation: name = Gas Masks of the Wasteland
+ParseTranslation: name = Vivid Waters
+ParseTranslation: name = waterLODfix
+ParseTranslation: name = UniqueUniques
+ParseTranslation: name = Floaters
+ParseTranslation: name = PortableBunker
+ParseTranslation: name = SettlementAttacksBeyond
+ParseTranslation: name = Conquest
+ParseTranslation: name = CartographersMapMarkers Commonwealth
+ParseTranslation: name = CommonwealthCritters - Both DLC
+ParseTranslation: name = FO4 NPCs Travel
+ParseTranslation: name = WVSimSAddon
+ParseTranslation: name = Altairp's Animal Farm
+ParseTranslation: name = AnimChemRedux
+ParseTranslation: name = Vivid Weathers - FO4 - Winter
+ParseTranslation: name = BE_Enhanced Grenades
+ParseTranslation: name = Better Explosives - Perks redone
+ParseTranslation: name = Better Explosives - Grenade Frequency 30
+ParseTranslation: name = DYNAVISION
+ParseTranslation: name = CROSS_GoreCrits
+ParseTranslation: name = CROSS_GoreCrits_FarHarborPatch
+ParseTranslation: name = SkjAlert_All_DLC
+ParseTranslation: name = mso_sms
+ParseTranslation: name = ManufacturingExtended
+ParseTranslation: name = Northland Diggers New
+ParseTranslation: name = TakeCover
+ParseTranslation: name = CompanionStatus
+ParseTranslation: name = BetterSettlersNoLollygagging
+ParseTranslation: name = SettlementMenuManager
+ParseTranslation: name = Loot Detector
+ParseTranslation: name = QuickTrade
+ParseTranslation: name = Marmo1233 - Immersive Settlers
+ParseTranslation: name = AutomatronCountyCrossingFix
+ParseTranslation: name = DD_All_the_COncrete
+ParseTranslation: name = Workshop_Planters
+ParseTranslation: name = Live Dismemberment - POSTAL
+ParseTranslation: name = CraftingFramework
+ParseTranslation: name = FemaleSynths - Core
+ParseTranslation: name = Gas Mask NPC
+ParseTranslation: name = Radrose - Valdacil Patch - Minutemenoverhaul
+ParseTranslation: name = RaiderOverhaul
+ParseTranslation: name = Killable Children
+ParseTranslation: name = IFC Complete
+ParseTranslation: name = MoreVariedBodyShapesAndSkins
+ParseTranslation: name = DiverseChildren
+ParseTranslation: name = Radrose - Valdacil Patch - Give Me That Bottle
+ParseTranslation: name = BetterBooze
+ParseTranslation: name = SKKDynamicTimescale
+ParseTranslation: name = 3dscopes-replacer
+ParseTranslation: name = 3dscopes-replacer-takecoverpatch
+ParseTranslation: name = Radrose - Valdacil Patch - Gunsmith Extended
+ParseTranslation: name = Better Armour & Weapon Naming - All DLC
+ParseTranslation: name = Better Armour & Weapon Naming
+ParseTranslation: name = CartographersMapMarkers FarHarbor
+ParseTranslation: name = CartographersMapMarkers NukaWorld
+ParseTranslation: name = Nodas_EquipmentRecycler
+ParseTranslation: name = Vivid Weathers - FO4 - Far Harbor
+ParseTranslation: name = Vivid Weathers - Natural Bright
+ParseTranslation: name = Vivid Weathers - Nuka World
+ParseTranslation: name = AnatomicallyCorrectFerals
+ParseTranslation: name = AnatomicallyCorrectFerals_FH
+ParseTranslation: name = AnatomicallyCorrectFerals_GorecritsPatch
+ParseTranslation: name = AnatomicallyCorrectFerals_NW
+ParseTranslation: name = Arbitration - Reload and Walk Speed
+ParseTranslation: name = Remove Weapon Mods
+ParseTranslation: name = ConceptCentaur
+ParseTranslation: name = FemaleSynths - NPCs
+ParseTranslation: name = Tougher Legendary Enemies - Increased Health
+ParseTranslation: name = Glowing Animals Emit Light
+ParseTranslation: name = DeathclawVariety
+ParseTranslation: name = StrongerSentryBot
+ParseTranslation: name = WmkActiveEffects
+ParseTranslation: name = BetterCompanions
+ParseTranslation: name = Move (Get Out the Way)
+ParseTranslation: name = DynamicInteriorFogRemoval
+ParseTranslation: name = Extended weapon mods
+ParseTranslation: name = AutomaticSave
+ParseTranslation: name = Consistent Power Armor Overhaul
+ParseTranslation: name = No More Fake Puddles - Nuka World 1-0
+ParseTranslation: name = PowerLinePhysics
+ParseTranslation: name = VerticalConduits
+ParseTranslation: name = Arbitration - Better Combat AI
+ParseTranslation: name = Arbitration - Compass Radar Reduction
+ParseTranslation: name = Arbitration - Fall Damage Overhaul
+ParseTranslation: name = Arbitration - Farther Grenade Detection
+ParseTranslation: name = Arbitration - No Condition Regeneration
+ParseTranslation: name = Arbitration - Sneak Detection Distance Increase
+ParseTranslation: name = Arbitration - Stealth Overhaul
+ParseTranslation: name = Better Vendor Stalls
+ParseTranslation: name = BetterModDescriptionsROWIP
+ParseTranslation: name = BetterModDescriptionsSTCSReplacer
+ParseTranslation: name = DV-Very Durable Vertibirds
+ParseTranslation: name = DV-Armored Pilots
+ParseTranslation: name = Northland Diggers
+ParseTranslation: name = PortalGun
+ParseTranslation: name = ATreeGrowsInBoston
+ParseTranslation: name = CAMP
+ParseTranslation: name = Nuclear Winter
+ParseTranslation: name = Campsite - Nuclear Winter
+ParseTranslation: name = cartman1975_soylent
+ParseTranslation: name = CBBE
+ParseTranslation: name = CommonwealthConifersREDUX
+ParseTranslation: name = CraftingFrameworkAWKCR2
+ParseTranslation: name = WBO-Automatron
+ParseTranslation: name = EFF
+ParseTranslation: name = ExplosiveSyringe2
+ParseTranslation: name = FAR
+ParseTranslation: name = Fixed Alpha Map
+ParseTranslation: name = FlirtyCommonwealth
+ParseTranslation: name = Gas Mask ArmorKeywords
+ParseTranslation: name = Gasmask Fix
+ParseTranslation: name = Gas Mask Climate
+ParseTranslation: name = WorkshopPlus
+ParseTranslation: name = GetDirty
+ParseTranslation: name = GR001-AutomatronRebooted
+ParseTranslation: name = Passthrough
+ParseTranslation: name = StandaloneCustomizableFEnemyBodiesStandard
+ParseTranslation: name = Leveled Raiders
+ParseTranslation: name = MEAddonComboButcher
+ParseTranslation: name = mr Loot Logic and Reduction
+ParseTranslation: name = No Combat Boundaries
+ParseTranslation: name = NW_AllDLC
+ParseTranslation: name = NW_Clothing
+ParseTranslation: name = NW_FrozenOnes
+ParseTranslation: name = NW_VividWeathers
+ParseTranslation: name = PD_LowerWeapon
+ParseTranslation: name = Project Reality Footsteps FO4
+ParseTranslation: name = Radrose - Valdacil Patch - Altairp's Animal Farm
+ParseTranslation: name = Radrose - Valdacil Patch - BetterCompanions
+ParseTranslation: name = Radrose - Valdacil Patch - BTInteriors_Project
+ParseTranslation: name = Radrose - Valdacil Patch - CartographersMapMarkers Merged
+ParseTranslation: name = Radrose - Valdacil Patch - DynamicInteriorFogRemoval
+ParseTranslation: name = Radrose - Valdacil Patch - Extended weapon mods
+ParseTranslation: name = Radrose - Valdacil Patch - FO4 NPCs Travel
+ParseTranslation: name = Radrose - Valdacil Patch - IndustrialCity_Sim_Settlements_Addon
+ParseTranslation: name = Radrose - Valdacil Patch - Loot Detector
+ParseTranslation: name = Radrose - Valdacil Patch - Marmo1233 - Immersive Settlers
+ParseTranslation: name = Radrose - Valdacil Patch - mso_sms
+ParseTranslation: name = Radrose - Valdacil Patch - RecruitableSettlers
+ParseTranslation: name = Radrose - Valdacil Patch - SettlementKeywords
+ParseTranslation: name = Radrose - Valdacil Patch - SimSettlements
+ParseTranslation: name = Radrose - Valdacil Patch - UniqueUniques
+ParseTranslation: name = Radrose - Valdacil Patch - WVSimSAddon
+ParseTranslation: name = Rdr-Harvesting
+ParseTranslation: name = Rdr-Harvesting-DLCCoast
+ParseTranslation: name = Rdr-Harvesting-DLCNukaWorld
+ParseTranslation: name = Rdr-Harvesting-DLCworkshop01
+ParseTranslation: name = Rdr-Harvesting-DLCworkshop02
+ParseTranslation: name = Recycle
+ParseTranslation: name = RemoteSabSyringe
+ParseTranslation: name = RidingGiddyupButtercup
+ParseTranslation: name = Running with Corpses
+ParseTranslation: name = SatelliteWorldMap
+ParseTranslation: name = Simple Salvageable Power Armor Frames
+ParseTranslation: name = SKKGlobalStashScrapping
+ParseTranslation: name = SKKGlobalStashScrapping - Inc Menu - VanPatch
+ParseTranslation: name = SKKMoveWorkshopMarkers
+ParseTranslation: name = SKKMoveWorkshopMarkers - VanPatch
+ParseTranslation: name = SlowTime
+ParseTranslation: name = Splinterz
+ParseTranslation: name = SummonCompanions
+ParseTranslation: name = TPSyringe
+ParseTranslation: name = TrueGrass
+ParseTranslation: name = Wet Effects
+ParseTranslation: name = Armorsmith Extended
+ParseTranslation: name = Radrose - Valdacil Patch - Armorsmith Extended
+ParseTranslation: name = Unique NPCs
+ParseTranslation: name = BetterSettlers
+ParseTranslation: name = Unique NPCs FarHarbor
+ParseTranslation: name = BetterSettlersMostlyFemale
+ParseTranslation: name = GunnerOverhaul_UniqueNPCs
+ParseTranslation: name = W.A.T.Minutemen
+ParseTranslation: name = MilitarizedMinutemen
+ParseTranslation: name = Unique NPCs Essential Pack
+ParseTranslation: name = Unique NPCs_SpecialSettlers_All
+ParseTranslation: name = Bashed Patch, 0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FaderMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ButtonBarMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000328] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000328] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000328] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000328] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000328] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000328] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000328] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000328] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000328] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000328] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000328] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000328] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PowerArmorHUDMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+[SCALEFORM] [00005297] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00005297] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00005297] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00005297] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00005297] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00005297] [HUDMenu] - Updated container: null
+[SCALEFORM] [00005297] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00005297] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00005297] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7B689CC0
+Created BSGFxShaderFXTarget = 0000022B48D17290 for display object = 0000022C7B689CC0
+[SCALEFORM] [00005297] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00005297] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00005297] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00005297] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00005297] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00005297] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00005297] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00005297] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00005297] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00005297] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00005297] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00005297] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00005297] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00005297] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00005297] [HUDMenu] - Visibility: false
+[SCALEFORM] [00005297] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000093] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B48D17290 for display object = 0000022C7B689CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000234] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000234] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000234] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000234] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000234] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000234] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000234] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000234] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000234] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000234] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000234] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000234] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000234] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000234] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000234] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000234] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000234] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000234] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+[SCALEFORM] [00011531] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00011531] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00011531] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00011531] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00011531] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00011531] [HUDMenu] - Updated container: null
+[SCALEFORM] [00011531] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00011531] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00011531] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7C0E1CC0
+Created BSGFxShaderFXTarget = 0000022B5932E370 for display object = 0000022C7C0E1CC0
+[SCALEFORM] [00011531] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00011531] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00011531] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00011531] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00011531] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00011531] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00011531] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00011531] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00011531] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00011531] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00011531] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00011531] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00011547] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00011547] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00011547] [HUDMenu] - Visibility: false
+[SCALEFORM] [00011547] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000094] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B5932E370 for display object = 0000022C7C0E1CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000328] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000328] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000328] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000328] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000328] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000328] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000328] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000328] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000328] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000328] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000328] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000328] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000328] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000328] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+[SCALEFORM] [00011031] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00011031] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00011031] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00011031] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00011031] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00011031] [HUDMenu] - Updated container: null
+[SCALEFORM] [00011031] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00011031] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00011031] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7BA92CC0
+Created BSGFxShaderFXTarget = 0000022B58E858C0 for display object = 0000022C7BA92CC0
+[SCALEFORM] [00011047] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00011047] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00011047] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00011047] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00011047] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00011047] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00011047] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00011047] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00011047] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00011047] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00011047] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00011047] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00011047] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00011047] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00011047] [HUDMenu] - Visibility: false
+[SCALEFORM] [00011047] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B58E858C0 for display object = 0000022C7BA92CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000125] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000125] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000125] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000125] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000125] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000141] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000141] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000141] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000141] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000141] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000141] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000141] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000141] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+[SCALEFORM] [00002203] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00002203] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00002203] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00002203] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00002203] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00002203] [HUDMenu] - Updated container: null
+[SCALEFORM] [00002203] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00002203] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00002203] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7BAA3CC0
+Created BSGFxShaderFXTarget = 0000022B58FEE160 for display object = 0000022C7BAA3CC0
+[SCALEFORM] [00002203] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00002203] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00002203] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00002203] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00002203] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00002203] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00002203] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00002203] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00002203] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00002203] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00002203] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00002203] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00002203] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00002203] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00002203] [HUDMenu] - Visibility: false
+[SCALEFORM] [00002203] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B58FEE160 for display object = 0000022C7BAA3CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000203] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000203] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000203] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000203] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000203] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000203] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000203] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000203] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000203] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000203] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000203] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000203] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+[SCALEFORM] [00004062] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00004062] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00004062] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00004062] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00004062] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00004062] [HUDMenu] - Updated container: null
+[SCALEFORM] [00004062] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00004062] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00004062] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7BA79CC0
+Created BSGFxShaderFXTarget = 0000022B505F8F20 for display object = 0000022C7BA79CC0
+[SCALEFORM] [00004062] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00004062] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00004062] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00004062] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00004062] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00004062] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00004062] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00004062] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00004062] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00004062] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00004062] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00004062] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00004062] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00004062] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00004062] [HUDMenu] - Visibility: false
+[SCALEFORM] [00004062] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000078] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VATSMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000093] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B505F8F20 for display object = 0000022C7BA79CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000141] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000141] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000141] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000141] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000141] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000141] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000141] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000141] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000141] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000141] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000141] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000141] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000141] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000141] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+[SCALEFORM] [00006829] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00006829] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00006829] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00006829] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00006829] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00006829] [HUDMenu] - Updated container: null
+[SCALEFORM] [00006829] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00006829] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00006829] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7C7E9CC0
+Created BSGFxShaderFXTarget = 0000022B4C3AA4D0 for display object = 0000022C7C7E9CC0
+[SCALEFORM] [00006829] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00006829] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00006829] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00006829] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00006829] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00006829] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00006829] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00006829] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00006829] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00006829] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00006829] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00006829] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00006829] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00006829] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00006829] [HUDMenu] - Visibility: false
+[SCALEFORM] [00006829] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B4C3AA4D0 for display object = 0000022C7C7E9CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000203] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000203] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000203] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000203] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000203] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000203] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000203] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000203] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000203] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000203] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000203] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000203] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000203] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000203] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+[SCALEFORM] [00003109] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00003109] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00003109] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00003109] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00003109] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00003109] [HUDMenu] - Updated container: null
+[SCALEFORM] [00003109] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00003109] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00003109] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7C3C1CC0
+Created BSGFxShaderFXTarget = 0000022B414A6160 for display object = 0000022C7C3C1CC0
+[SCALEFORM] [00003109] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00003109] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00003109] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00003109] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00003109] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00003109] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00003109] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00003109] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00003109] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00003109] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00003109] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00003109] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00003109] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00003109] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00003109] [HUDMenu] - Visibility: false
+[SCALEFORM] [00003109] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000094] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B414A6160 for display object = 0000022C7C3C1CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000125] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000125] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000125] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000125] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000125] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000125] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000125] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000125] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000125] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000125] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000125] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000125] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000125] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000125] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+[SCALEFORM] [00001750] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00001750] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00001750] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00001750] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00001750] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00001750] [HUDMenu] - Updated container: null
+[SCALEFORM] [00001750] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00001750] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00001750] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7B219CC0
+Created BSGFxShaderFXTarget = 0000022B575036B0 for display object = 0000022C7B219CC0
+[SCALEFORM] [00001750] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00001750] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00001750] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00001750] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00001750] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00001750] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00001750] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00001750] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00001750] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00001750] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00001750] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00001750] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00001750] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00001750] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00001750] [HUDMenu] - Visibility: false
+[SCALEFORM] [00001750] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000079] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000079] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PipboyMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsPBM.swf menu.
+[SCALEFORM] [00000094] [PipboyMenu] - Hello World!
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 0
+Deleting BSGFxShaderFXTarget = 0000022B575036B0 for display object = 0000022C7B219CC0
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/LoadingMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDMenu.swf
+Successfully created the loader for WmkActiveEffectsHLP.swf menu.
+Successfully created the loader for WmkActiveEffectsHUD.swf menu.
+[SCALEFORM] [00000235] [HUDMenu] - HUDMain::HUDMain start
+[SCALEFORM] [00000235] [HUDMenu] - Build date: 25-Nov-18
+[SCALEFORM] [00000235] [HUDMenu] - helperLoader = [object Loader]
+[SCALEFORM] [00000235] [HUDMenu] - Helper instance is already loaded: [object ActiveEffectsHelper]
+[SCALEFORM] [00000235] [HUDMenu] - Creating the VanillaWidget instances...
+[SCALEFORM] [00000235] [HUDMenu] - Creating VanillaWidget instance: id = conditionBoy widget = [object HUDConditionBoyWidget]
+[SCALEFORM] [00000235] [HUDMenu] - Creating VanillaWidget instance: id = flashlight widget = [object FlashLightWidget]
+[SCALEFORM] [00000235] [HUDMenu] - Creating VanillaWidget instance: id = explosiveAmmoCount widget = [object ExplosiveAmmoCount]
+[SCALEFORM] [00000235] [HUDMenu] - Creating VanillaWidget instance: id = ammoCount widget = [object MovieClip]
+[SCALEFORM] [00000235] [HUDMenu] - Creating VanillaWidget instance: id = compass widget = [object HUDCompassWidget]
+[SCALEFORM] [00000235] [HUDMenu] - Successfully created and updated all VanillaWidget instances
+[SCALEFORM] [00000235] [HUDMenu] - crosshairWidget = [object HUDCrosshair]
+[SCALEFORM] [00000235] [HUDMenu] - Creating the widget containers...
+[SCALEFORM] [00000235] [HUDMenu] - Adding the widget containers to vanilla crosshair widget...
+[SCALEFORM] [00000235] [HUDMenu] - Updating the transformation matrix for the widget containers...
+[SCALEFORM] [00000235] [HUDMenu] - Adding wmk_HPP_ItemCard_onDataChange function...
+[SCALEFORM] [00000235] [HUDMenu] - HUDMain::HUDMain end
+[SCALEFORM] [00000235] [HUDMenu] - Added to stage...
+ShaderTargetManager::ReceiveEvent: menuName = HUDMenu isOpen = 1
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/HUDExtension.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/FloatingDamageMenu.swf
+[SCALEFORM] [00003688] [HUDMenu] - HUDMain::Setup start: forced = true
+[SCALEFORM] [00003688] [HUDMenu] - ImmersiveHUD start: null
+[SCALEFORM] [00003688] [HUDMenu] - ImmersiveHUD end: null
+[SCALEFORM] [00003688] [HUDMenu] - visiblity = 1 savedContainer = null savedTimer = null
+[SCALEFORM] [00003688] [HUDMenu] - Initial active effects container: null
+[SCALEFORM] [00003688] [HUDMenu] - Updated container: null
+[SCALEFORM] [00003688] [HUDMenu] - Creating the container for active effects...
+[SCALEFORM] [00003688] [HUDMenu] - Updating the parent container...
+[SCALEFORM] [00003688] [HUDMenu] - Creating shader target for [object ShaderTargetComponent]...
+Creating BSGFxShaderFXTarget for display object = 0000022C7C381CC0
+Created BSGFxShaderFXTarget = 0000022B5B466160 for display object = 0000022C7C381CC0
+[SCALEFORM] [00003688] [HUDMenu] - Final active effects container: [object ActiveEffectsNormalContainer]
+[SCALEFORM] [00003688] [HUDMenu] - Updating the timer for active effects, timerDelay = 100
+[SCALEFORM] [00003688] [HUDMenu] - Timer updated, running = true
+[SCALEFORM] [00003688] [HUDMenu] - Forcing a timer tick...
+[SCALEFORM] [00003688] [HUDMenu] - Updating the vanilla widgets...
+[SCALEFORM] [00003688] [HUDMenu] - Setup HUDPlusPlus...
+[SCALEFORM] [00003688] [HUDMenu] - Setup the crosshair...
+[SCALEFORM] [00003688] [HUDMenu] - Updating the visibility anchors...
+[SCALEFORM] [00003688] [HUDMenu] - Updating the crosshair...
+[SCALEFORM] [00003688] [HUDMenu] - Updating the container for additional widgets: show = true
+[SCALEFORM] [00003688] [HUDMenu] - Setup Clock widget...
+[SCALEFORM] [00003688] [HUDMenu] - Setup Counters widget...
+[SCALEFORM] [00003688] [HUDMenu] - Setup Inventory Weight widget...
+[SCALEFORM] [00003688] [HUDMenu] - Setup Explosives widget...
+[SCALEFORM] [00003688] [HUDMenu] - Visibility: false
+[SCALEFORM] [00003688] [HUDMenu] - HUDMain::Setup end
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MainMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/ContainerMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/VignetteMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/PromptMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/Workshop.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/MessageBoxMenu.swf
+RegisterScaleformCallback
+root.loaderInfo.url: Interface/CursorMenu.swf

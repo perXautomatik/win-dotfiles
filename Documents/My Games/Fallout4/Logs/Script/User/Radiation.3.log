@@ -1,0 +1,5 @@
+[06/09/2020 - 06:41:46PM] Radiation log opened (PC-64)
+[06/09/2020 - 06:41:46PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnLocationChanged
+[06/09/2020 - 06:41:46PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation()
+[06/09/2020 - 06:41:46PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation() failed the conditions for radiation
+[06/09/2020 - 06:54:24PM] Log closed

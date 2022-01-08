@@ -1,714 +1,223 @@
-[01/04/2022 - 07:56:32AM] Papyrus log opened (PC-64)
-[01/04/2022 - 07:56:32AM] Update budget: 1.200000ms (Extra tasklet budget: 1.200000ms, Load screen budget: 500.000000ms)
-[01/04/2022 - 07:56:32AM] Memory page: 128 (min) 512 (max) 153600 (max total)
-[01/04/2022 - 07:56:32AM] Maximum stack depth: 100
-[01/04/2022 - 07:56:32AM] This is a script log only and does not contain information on any other part of the game, including crashes.
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_SetStageOnTriggerEnter", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:UnlockPostersScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasRedemptionMachine", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:ccSWKFO4001_CaptainCosmosQuestScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasOnContainerChange", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasPowerArmorEnter", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasExitDoor", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasEntryDoor", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:ZSEFO4001:RefAliasDoor", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4001:NeoSkyLightSwitchScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4001:HolotapeAliasCheckScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4001:SynthDeathAliasCheckScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:AdjustMaxHealth", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:DisableBleedoutRecovery", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:ViewRaidRecords", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:endlessraidmanagerscript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:alterturrets", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:datastructs", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:raidtype", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:CameraScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:cameramonitorscript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:RaidTrigger", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:CameraTriggerBox", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:CameraMonitorBank", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:ShootingRangeStation", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:shootingrange", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:RemoveFromAliasOnDeath", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:AlterSettlers", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:REScriptExtension", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:InducedRaidScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:AlterAttackers", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:kgjfo4001:namepoolscript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:StartVertibird", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:KGJFO4001:LinkedNamePoolScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccFRSFO4003:TerminalScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccFRSFO4003:cc_ObjectivesObtainedCheckScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccSBJFO4002:RadstagActivateScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccSBJFO4002:RadstageActivateScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccSBJFO4002:RadstagTeleportBackup", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:LightEnableDisableScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:TerminalSetStageScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:TerminalHackScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "creationclub:tosfo4002:counterscript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:SynthUnconsciousScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:SignalStrengthScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4117:WaveEnableFunctionScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4046_:PickupCloakEffectScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4046_:GunnerTerminalScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4046_:GunnerSignalStrengthScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4046_:GunnerPipboyPerkScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4117:RadioOffonActivateScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4117:BlockActivation", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:SynthEncounterDisableScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "DLC04:DLC04OperatorsRifleAnimationScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneToggleScript", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:ChainedDoorLoad", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:SWKFO4001:ChainLoadDoor", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "CreationClub:TOSFO4002:ccTOSFO4002_LightSwitch", missing file?
-[01/04/2022 - 07:56:33AM] Cannot open store for class "ccBGSFO4117:OnActivateTeleportScript", missing file?
-[01/04/2022 - 07:57:01AM] error: Element of array in property BoSTriggers on script ufo4p:ufo4pretroactive213script attached to UFO4PRetroactive213 (072B1553) cannot be bound because <nullptr form> (000FB230) is not the right type
-[01/04/2022 - 07:57:01AM] VM is freezing...
-[01/04/2022 - 07:57:01AM] VM is frozen
-[01/04/2022 - 07:57:01AM] Reverting game...
-[01/04/2022 - 07:57:26AM] Loading game...
-[01/04/2022 - 07:57:26AM] error: Element of array in property BoSTriggers on script ufo4p:ufo4pretroactive213script attached to UFO4PRetroactive213 (072B1553) cannot be bound because <nullptr form> (000FB230) is not the right type
-[01/04/2022 - 07:57:30AM] VM is thawing...
-[01/04/2022 - 07:57:30AM] [PAttP:ConfigurationManager <PATTP_ConfigurationManager (FE01D8AA)>] registering for MCM events
-[01/04/2022 - 07:57:30AM] [pattp:upgrademanager <PATTP_UpgradeManager (FE01D90F)>] is checking if a version change occurred (last version = 1, current version = 1)
-[01/04/2022 - 07:57:30AM] [PAttP:ConfigurationManager <PATTP_ConfigurationManager (FE01D8AA)>] auto-detecting settings
-[01/04/2022 - 07:57:30AM] [PAttP:ConfigurationManager <PATTP_ConfigurationManager (FE01D8AA)>] updating MCM properties
-[01/04/2022 - 07:58:09AM] warning:  (0001A4DA): Ref is in an unloaded cell, so it cannot cast spells..
-stack:
-	[ (FE031800)].SPELL.Cast() - "<native>" Line ?
-	[alias Actors on quest xatmosScrapperQuestScanActors (FE031850)].xatmos:xatmosScrapperActors.OnAliasInit() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActors.psc" Line 11
-[01/04/2022 - 07:58:10AM] error:  (1100858E): No Navmesh found, object not moved.
-stack:
-	[ (1100858E)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1100858F)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:11AM] error:  (11007C7B): No Navmesh found, object not moved.
-stack:
-	[ (11007C7B)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11007C7D)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:13AM] error:  (110088AE): No Navmesh found, object not moved.
-stack:
-	[ (110088AE)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (110088AD)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:13AM] error:  (110088AC): No Navmesh found, object not moved.
-stack:
-	[ (110088AC)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (110088AD)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:13AM] error:  (11008593): No Navmesh found, object not moved.
-stack:
-	[ (11008593)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008594)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:13AM] error:  (11008592): No Navmesh found, object not moved.
-stack:
-	[ (11008592)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008594)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:14AM] error:  (11007C79): No Navmesh found, object not moved.
-stack:
-	[ (11007C79)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11007C78)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:14AM] error:  (11006F48): No Navmesh found, object not moved.
-stack:
-	[ (11006F48)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11006F47)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:14AM] error:  (11007C75): No Navmesh found, object not moved.
-stack:
-	[ (11007C75)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11007C78)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:14AM] error:  (11006F46): No Navmesh found, object not moved.
-stack:
-	[ (11006F46)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11006F47)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 07:58:16AM] error: Item 1 in container  (110127AE): does not have 3d and cannot have an effect shader played on it.
-stack:
-	[ (FE031FA3)].EffectShader.play() - "<native>" Line ?
-	[alias WEAPONS on quest xatmosScrapperQuestHighlights (FE031830)].xatmos:xatmosScrapperCollectionLootable.Refresh() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperCollectionEffect.psc" Line 149
-	[alias WEAPONS on quest xatmosScrapperQuestHighlights (FE031830)].xatmos:xatmosScrapperCollectionLootable.AddTo() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperCollectionEffect.psc" Line 91
-	[alias WEAPONS on quest xatmosScrapperQuestHighlights (FE031830)].xatmos:xatmosScrapperCollectionLootable.Refill() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperCollectionEffect.psc" Line 99
-	
-	<truncated stack>
-[01/04/2022 - 07:58:16AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 07:58:17AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 07:58:21AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:21AM] warning: Assigning None to a non-object variable named "::temp85"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:21AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:21AM] warning: Assigning None to a non-object variable named "::temp86"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:21AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:21AM] warning: Assigning None to a non-object variable named "::temp88"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 07:58:28AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 07:58:30AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 07:58:33AM] error: Cannot access an element of a None array
-stack:
-	[Active effect 1 on  (1100F5B7)].cryoFreezeSCRIPT.OnDying() - "g:\_F4\Art\Raw\Scripts\cryoFreezeSCRIPT.psc" Line 109
-[01/04/2022 - 07:58:33AM] error:  (1100F5B7): Cannot find limb '' to be dismembered..
-stack:
-	[ (1100F5B7)].Actor.Dismember() - "<native>" Line ?
-	[Active effect 1 on  (1100F5B7)].cryoFreezeSCRIPT.OnDying() - "g:\_F4\Art\Raw\Scripts\cryoFreezeSCRIPT.psc" Line 109
-[01/04/2022 - 07:58:33AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 07:58:40AM] [min01script <Min01 (0005DEE4)>] WorkshopActorUnassigned received
-[01/04/2022 - 07:58:45AM] VM is freezing...
-[01/04/2022 - 07:58:45AM] VM is frozen
-[01/04/2022 - 07:58:46AM] Saving game...
-[01/04/2022 - 07:58:46AM] VM is thawing...
-[01/04/2022 - 07:59:06AM] error: Unbound scripts cannot start timers
-stack:
-	[None].PANPC_AI_Feral_Ghoul.StartTimer() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 2046
-[01/04/2022 - 07:59:07AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 07:59:07AM] error: Cannot check the buildable area of a None Workshop ref.
-stack:
-	[ (00000014)].Actor.IsWithinBuildableArea() - "<native>" Line ?
-	[WSFW_Main (0A000F99)].workshopframework:mainquest.OnMenuOpenCloseEvent() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\WorkshopFramework\MainQuest.psc" Line 218
-[01/04/2022 - 07:59:10AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 07:59:12AM] warning:  (1101399E): Ref is in an unloaded cell, so it cannot cast spells..
-stack:
-	[ (FE031800)].SPELL.Cast() - "<native>" Line ?
-	[alias Actors on quest xatmosScrapperQuestScanActors (FE031850)].xatmos:xatmosScrapperActors.OnAliasInit() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActors.psc" Line 11
-[01/04/2022 - 08:00:27AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:00:29AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 08:00:34AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:00:34AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:00:36AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Synth.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Synth.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Synth.psc" Line 757
-	[None].PANPC_AI_Synth.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Synth.psc" Line 619
-[01/04/2022 - 08:00:38AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:00:38AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:00:39AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:00:40AM] error: Cannot access a variable of a None struct
-stack:
-	[WSPlus_ActionManager (1C000F99)].workshopplus:actionmanager.CreateHistory() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\WorkshopPlus\ActionManager.psc" Line 462
-	[WSPlus_ActionManager (1C000F99)].workshopplus:actionmanager.::remote_ObjectReference_OnWorkshopObjectPlaced() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\WorkshopPlus\ActionManager.psc" Line 186
-[01/04/2022 - 08:00:40AM] [min01script <Min01 (0005DEE4)>] WorkshopObjectBuilt received
-[01/04/2022 - 08:00:49AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:00:49AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:00:50AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:00:53AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:00:53AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:00:56AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:04AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:01:05AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] warning: Assigning None to a non-object variable named "::temp85"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] warning: Assigning None to a non-object variable named "::temp86"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] warning: Assigning None to a non-object variable named "::temp88"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:05AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:01:07AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:08AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 528
-[01/04/2022 - 08:01:12AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:01:12AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:12AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:01:12AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:14AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:16AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 558
-[01/04/2022 - 08:01:16AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:01:16AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:17AM] error: Cannot register unbound script to receive hit events
-stack:
-	[None].PANPC_AI_Feral_Ghoul.RegisterForHitEvent() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.SCAN_Pack_Assessment() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 3720
-	[None].PANPC_AI_Feral_Ghoul.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 2051
-[01/04/2022 - 08:01:17AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 558
-[01/04/2022 - 08:01:19AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:21AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:01:21AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 558
-[01/04/2022 - 08:01:22AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:23AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:23AM] Crippled: [ActorValue <EnduranceCondition (0000036D)>]
-[01/04/2022 - 08:01:23AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:24AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:24AM] error: Unable to call Dispel - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].PANPC_AI_Feral_Ghoul.Dispel() - "<native>" Line ?
-	[None].PANPC_AI_Feral_Ghoul.Shutdown() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 623
-	[None].PANPC_AI_Feral_Ghoul.OnDying() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Feral_Ghoul.psc" Line 558
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <EnduranceCondition (0000036D)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:25AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:26AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:01:30AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:34AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:01:34AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:34AM] error: Cannot drop a None item
-stack:
-	[ (0006D3A3)].workshopnpcscript.DropObject() - "<native>" Line ?
-	[Active effect 2 on  (0006D3A3)].DropWeapon.OnCripple() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\DropWeapon.psc" Line 11
-[01/04/2022 - 08:01:34AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:36AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition1 (00000373)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition1 (00000373)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition2 (00000374)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition2 (00000374)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition3 (00000375)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AvailableCondition3 (00000375)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:37AM] error: Cannot drop a None item
-stack:
-	[ (1100A25B)].Actor.DropObject() - "<native>" Line ?
-	[Active effect 4 on  (1100A25B)].DropWeapon.OnCripple() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\DropWeapon.psc" Line 11
-[01/04/2022 - 08:01:37AM] error: Cannot drop a None item
-stack:
-	[ (1100A25A)].Actor.DropObject() - "<native>" Line ?
-	[Active effect 4 on  (1100A25A)].DropWeapon.OnCripple() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\DropWeapon.psc" Line 11
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt2 (000002CB)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt2 (000002CB)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:01:37AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:01:38AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:42AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:43AM] VM is freezing...
-[01/04/2022 - 08:01:43AM] VM is frozen
-[01/04/2022 - 08:01:44AM] Saving game...
-[01/04/2022 - 08:01:45AM] VM is thawing...
-[01/04/2022 - 08:01:46AM] Crippled: [ActorValue <LeftAttackCondition (0000036E)>]
-[01/04/2022 - 08:01:50AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:50AM] error: Cannot drop a None item
-stack:
-	[ (0006D3A3)].workshopnpcscript.DropObject() - "<native>" Line ?
-	[Active effect 2 on  (0006D3A3)].DropWeapon.OnCripple() - "C:\Program Files (x86)\Steam\steamapps\common\Fallout 4\Data\Scripts\Source\User\DropWeapon.psc" Line 11
-[01/04/2022 - 08:01:50AM] Crippled: [ActorValue <AttackConditionAlt1 (000002CA)>]
-[01/04/2022 - 08:01:50AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:01:53AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:53AM] warning: Assigning None to a non-object variable named "::temp85"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:53AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:53AM] warning: Assigning None to a non-object variable named "::temp86"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1187
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:53AM] error: Cannot call HasKeyword() on a None object, aborting function call
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:01:53AM] warning: Assigning None to a non-object variable named "::temp88"
-stack:
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.Startup() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 1188
-	[Active effect 1 on  (0006D3A3)].PANPC_AI_Guard.OnTimer() - "C:\Games\Steam\steamapps\common\Fallout 4\data\Scripts\Source\User\PANPC_AI_Guard.psc" Line 2202
-[01/04/2022 - 08:02:04AM] Crippled: [ActorValue <EnduranceCondition (0000036D)>]
-[01/04/2022 - 08:02:06AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:02:06AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:02:06AM] Crippled: [ActorValue <EnduranceCondition (0000036D)>]
-[01/04/2022 - 08:02:06AM] Crippled: [ActorValue <RightMobilityCondition (00000371)>]
-[01/04/2022 - 08:02:15AM] Crippled: [ActorValue <RightAttackCondition (0000036F)>]
-[01/04/2022 - 08:02:47AM] VM is freezing...
-[01/04/2022 - 08:02:47AM] VM is frozen
-[01/04/2022 - 08:02:48AM] Saving game...
-[01/04/2022 - 08:02:48AM] VM is thawing...
-[01/04/2022 - 08:05:27AM] VM is freezing...
-[01/04/2022 - 08:05:27AM] VM is frozen
-[01/04/2022 - 08:05:27AM] Saving game...
-[01/04/2022 - 08:05:28AM] VM is thawing...
-[01/04/2022 - 08:06:44AM] VM is freezing...
-[01/04/2022 - 08:06:44AM] VM is frozen
-[01/04/2022 - 08:06:45AM] Saving game...
-[01/04/2022 - 08:06:46AM] VM is thawing...
-[01/04/2022 - 08:07:03AM] VM is freezing...
-[01/04/2022 - 08:07:03AM] VM is frozen
-[01/04/2022 - 08:07:03AM] Saving game...
-[01/04/2022 - 08:07:04AM] VM is thawing...
-[01/04/2022 - 08:07:17AM] [min01script <Min01 (0005DEE4)>] WorkshopActorAssignedToWork received
-[01/04/2022 - 08:07:17AM] [min01script <Min01 (0005DEE4)>] WorkshopActorAssignedToWork received
-[01/04/2022 - 08:08:30AM] VM is freezing...
-[01/04/2022 - 08:08:30AM] VM is frozen
-[01/04/2022 - 08:08:30AM] Saving game...
-[01/04/2022 - 08:08:31AM] VM is thawing...
-[01/04/2022 - 08:08:39AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:08:50AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:08:52AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:08:58AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:08:58AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:08:58AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:07AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:11AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:11AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:20AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:22AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:33AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:33AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:33AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:33AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:33AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:34AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:34AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:36AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:39AM] info: *Achievement 55 awarded - a winnar is you!*
-[01/04/2022 - 08:09:46AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:56AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:57AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:09:58AM] error: Unable to call GetBaseObject - no native object bound to the script object, or object is of incorrect type
-stack:
-	[None].MrHandyFXScript.GetBaseObject() - "<native>" Line ?
-	[None].MrHandyFXScript.OnEffectStart() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\MrHandyFXScript.psc" Line 22
-[01/04/2022 - 08:10:36AM] VM is freezing...
-[01/04/2022 - 08:10:36AM] VM is frozen
-[01/04/2022 - 08:10:36AM] Saving game...
-[01/04/2022 - 08:10:37AM] VM is thawing...
-[01/04/2022 - 08:11:06AM] info: *Achievement 46 awarded - a winnar is you!*
-[01/04/2022 - 08:11:06AM] info: *Achievement 47 awarded - a winnar is you!*
-[01/04/2022 - 08:14:42AM] VM is freezing...
-[01/04/2022 - 08:14:42AM] VM is frozen
-[01/04/2022 - 08:14:43AM] Saving game...
-[01/04/2022 - 08:14:44AM] VM is thawing...
-[01/04/2022 - 08:15:43AM] VM is freezing...
-[01/04/2022 - 08:15:43AM] VM is frozen
-[01/04/2022 - 08:15:44AM] Saving game...
-[01/04/2022 - 08:15:45AM] VM is thawing...
-[01/04/2022 - 08:15:51AM] error:  (11008687): No Navmesh found, object not moved.
-stack:
-	[ (11008687)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008686)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (1100877A): No Navmesh found, object not moved.
-stack:
-	[ (1100877A)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008779)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (11007C90): No Navmesh found, object not moved.
-stack:
-	[ (11007C90)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11007C91)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (11008683): No Navmesh found, object not moved.
-stack:
-	[ (11008683)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008686)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (11007C8F): No Navmesh found, object not moved.
-stack:
-	[ (11007C8F)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11007C91)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (11008778): No Navmesh found, object not moved.
-stack:
-	[ (11008778)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008779)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:15:51AM] error:  (11008777): No Navmesh found, object not moved.
-stack:
-	[ (11008777)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008779)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:29AM] error: Cannot stop an effect shader on a None object
-stack:
-	[ (FE031806)].EffectShader.Stop() - "<native>" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.EndPlaying() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line 1294
-	[None].xatmos:xatmosScrapperActorEffect.PlayingDead.OnEndState() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.GotoState() - "E:\root_obse\f4se\scripts\build_src\ScriptObject.psc" Line 40
-	[None].xatmos:xatmosScrapperActorEffect.OnCellDetach() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-[01/04/2022 - 08:16:29AM] error: Cannot stop an effect shader on a None object
-stack:
-	[ (FE031806)].EffectShader.Stop() - "<native>" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.EndPlaying() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line 1294
-	[None].xatmos:xatmosScrapperActorEffect.PlayingDead.OnEndState() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.GotoState() - "E:\root_obse\f4se\scripts\build_src\ScriptObject.psc" Line 40
-	[None].xatmos:xatmosScrapperActorEffect.OnCellDetach() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-[01/04/2022 - 08:16:29AM] error: Cannot unregister for distance events for a None target
-stack:
-	[None].xatmos:xatmosScrapperActorEffect.UnregisterForDistanceEvents() - "<native>" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.EndPlaying() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line 1297
-	[None].xatmos:xatmosScrapperActorEffect.PlayingDead.OnEndState() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.GotoState() - "E:\root_obse\f4se\scripts\build_src\ScriptObject.psc" Line 40
-	[None].xatmos:xatmosScrapperActorEffect.OnCellDetach() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-[01/04/2022 - 08:16:29AM] error: Cannot unregister for distance events for a None target
-stack:
-	[None].xatmos:xatmosScrapperActorEffect.UnregisterForDistanceEvents() - "<native>" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.EndPlaying() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line 1297
-	[None].xatmos:xatmosScrapperActorEffect.PlayingDead.OnEndState() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-	[None].xatmos:xatmosScrapperActorEffect.GotoState() - "E:\root_obse\f4se\scripts\build_src\ScriptObject.psc" Line 40
-	[None].xatmos:xatmosScrapperActorEffect.OnCellDetach() - "F:\STEAM\steamapps\common\Fallout 4\Data\Scripts\Source\User\xatmos\xatmosScrapperActorEffect.psc" Line ?
-[01/04/2022 - 08:16:30AM] error:  (001D7938): the animation graph (SpotLightDetect01) cannot currently process event "Direct01".
-stack:
-	[ (001D7938)].SpotlightScript.PlayAnimation() - "<native>" Line ?
-	[ (001D7938)].SpotlightScript.active.StartPan() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\SpotlightScript.psc" Line ?
-	[ (001D7938)].SpotlightScript.active.SetupDefault() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\SpotlightScript.psc" Line ?
-	[ (001D7938)].SpotlightScript.active.OnCellLoad() - "C:\Users\Dr. Peter Haas\AppData\Local\Temp\PapyrusTemp\SpotlightScript.psc" Line ?
-[01/04/2022 - 08:16:30AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B18F)>]
-[01/04/2022 - 08:16:31AM] error:  (1100724F): No Navmesh found, object not moved.
-stack:
-	[ (1100724F)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1100724E)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] error:  (11008552): No Navmesh found, object not moved.
-stack:
-	[ (11008552)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] error:  (11008550): No Navmesh found, object not moved.
-stack:
-	[ (11008550)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] error:  (1100724B): No Navmesh found, object not moved.
-stack:
-	[ (1100724B)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1100724E)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] error:  (1100854E): No Navmesh found, object not moved.
-stack:
-	[ (1100854E)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] WSFW: NPC recruitment for 37 workshops took 6.120972 seconds.
-[01/04/2022 - 08:16:31AM] error:  (11008528): No Navmesh found, object not moved.
-stack:
-	[ (11008528)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008529)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] error:  (11008527): No Navmesh found, object not moved.
-stack:
-	[ (11008527)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11008529)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:31AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001654CF)>]
-[01/04/2022 - 08:16:31AM] error:  (1101266C): No Navmesh found, object not moved.
-stack:
-	[ (1101266C)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1101266A)].CSE_Group_Control.ResetGroup() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Group_Control.psc" Line 40
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 116
-[01/04/2022 - 08:16:31AM] error:  (1101266D): No Navmesh found, object not moved.
-stack:
-	[ (1101266D)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1101266A)].CSE_Group_Control.ResetGroup() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Group_Control.psc" Line 40
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 116
-[01/04/2022 - 08:16:31AM] error:  (1101266E): No Navmesh found, object not moved.
-stack:
-	[ (1101266E)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1101266A)].CSE_Group_Control.ResetGroup() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Group_Control.psc" Line 40
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 116
-[01/04/2022 - 08:16:31AM] error:  (1101266F): No Navmesh found, object not moved.
-stack:
-	[ (1101266F)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (1101266A)].CSE_Group_Control.ResetGroup() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Group_Control.psc" Line 40
-	[ (11008551)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 116
-[01/04/2022 - 08:16:33AM] [workshopscript < (0009B1AC)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:16:33AM] error:  (110087C5): No Navmesh found, object not moved.
-stack:
-	[ (110087C5)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (110087C4)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:33AM] error:  (110087C3): No Navmesh found, object not moved.
-stack:
-	[ (110087C3)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (110087C4)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:33AM] error:  (110087C1): No Navmesh found, object not moved.
-stack:
-	[ (110087C1)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (110087C4)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:34AM] [min01script <Min01 (0005DEE4)>] WorkshopObjectPowerStageChanged received
-[01/04/2022 - 08:16:34AM] error:  (11006EF0): No Navmesh found, object not moved.
-stack:
-	[ (11006EF0)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11006EEF)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:34AM] error:  (11006EEE): No Navmesh found, object not moved.
-stack:
-	[ (11006EEE)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11006EEF)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:34AM] error:  (11006EED): No Navmesh found, object not moved.
-stack:
-	[ (11006EED)].ObjectReference.MoveToNearestNavmeshLocation() - "<native>" Line ?
-	[ (11006EEF)].CSE_Spawnpoint_Control.OnCellAttach() - "C:\Users\Engager\AppData\Local\Temp\PapyrusTemp\CSE_Spawnpoint_Control.psc" Line 51
-[01/04/2022 - 08:16:34AM] [workshopscript < (0009B1DB)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:16:35AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00024A26)>]
-[01/04/2022 - 08:16:35AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00168945)>]
-[01/04/2022 - 08:16:36AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0300AB20)>]
-[01/04/2022 - 08:16:37AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B197)>]
-[01/04/2022 - 08:16:38AM] [workshopscript < (0009B1AC)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:16:38AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001654B8)>]
-[01/04/2022 - 08:16:39AM] [workshopscript < (0009B1DB)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:16:39AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001F0711)>]
-[01/04/2022 - 08:16:40AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B19D)>]
-[01/04/2022 - 08:16:41AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (000E0505)>]
-[01/04/2022 - 08:16:42AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (01000E4C)>]
-[01/04/2022 - 08:16:43AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1F1)>]
-[01/04/2022 - 08:17:09AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001654BD)>]
-[01/04/2022 - 08:17:10AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1D1)>]
-[01/04/2022 - 08:17:11AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (000250FE)>]
-[01/04/2022 - 08:17:12AM] [workshopscript < (0009B1DB)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:17:12AM] [workshopscript < (0009B1AC)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:17:12AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1BE)>]
-[01/04/2022 - 08:17:13AM] <<<<<<<<< DailyUpdate Finished for [DLC04:DLC04RedRocketWorkshopScript < (0600BCE7)>]
-[01/04/2022 - 08:17:14AM] VM is freezing...
-[01/04/2022 - 08:17:14AM] VM is frozen
-[01/04/2022 - 08:17:14AM] Saving game...
-[01/04/2022 - 08:17:15AM] VM is thawing...
-[01/04/2022 - 08:17:16AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00161F4B)>]
-[01/04/2022 - 08:17:17AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00164321)>]
-[01/04/2022 - 08:17:19AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1A5)>]
-[01/04/2022 - 08:17:20AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00054BAE)>]
-[01/04/2022 - 08:17:21AM] [workshopscript < (0009B1AC)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:17:21AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00019956)>]
-[01/04/2022 - 08:17:23AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0006F5C5)>]
-[01/04/2022 - 08:17:23AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (03038EA8)>]
-[01/04/2022 - 08:17:24AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0016D28E)>]
-[01/04/2022 - 08:17:25AM] [workshopscript < (0009B1DB)>]Starting timer to retry daily update. WorkshopParent.DailyUpdateInProgress = True
-[01/04/2022 - 08:17:25AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (06047DFB)>]
-[01/04/2022 - 08:17:26AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0001D0E2)>]
-[01/04/2022 - 08:17:27AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001E81EA)>]
-[01/04/2022 - 08:17:30AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0301C6AA)>]
-[01/04/2022 - 08:17:31AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:31AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:31AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00135A90)>]
-[01/04/2022 - 08:17:32AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (000B3506)>]
-[01/04/2022 - 08:17:33AM] Crippled: [ActorValue <EnduranceCondition (0000036D)>]
-[01/04/2022 - 08:17:33AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0302064C)>]
-[01/04/2022 - 08:17:34AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1AC)>]
-[01/04/2022 - 08:17:34AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (001654D5)>]
-[01/04/2022 - 08:17:35AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:35AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (00066EB6)>]
-[01/04/2022 - 08:17:36AM] <<<<<<<<< DailyUpdate Finished for [workshopscript < (0009B1DB)>]
-[01/04/2022 - 08:17:36AM] <<<<<<<<< DailyUpdate Finished for [DLC06:VaultWorkshopScript < (05000FEF)>]
-[01/04/2022 - 08:17:47AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:51AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:51AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:17:52AM] Crippled: [ActorValue <PerceptionCondition (0000036C)>]
-[01/04/2022 - 08:17:59AM] Crippled: [ActorValue <LeftMobilityCondition (00000370)>]
-[01/04/2022 - 08:18:04AM] VM is freezing...
-[01/04/2022 - 08:18:04AM] VM is frozen
-[01/04/2022 - 08:18:05AM] Saving game...
-[01/04/2022 - 08:18:06AM] VM is thawing...
+[07/05/2021 - 05:53:51PM] Papyrus log opened (PC-64)
+[07/05/2021 - 05:53:51PM] Update budget: 1.200000ms (Extra tasklet budget: 1.200000ms, Load screen budget: 500.000000ms)
+[07/05/2021 - 05:53:51PM] Memory page: 128 (min) 512 (max) 153600 (max total)
+[07/05/2021 - 05:53:51PM] Maximum stack depth: 100
+[07/05/2021 - 05:53:51PM] This is a script log only and does not contain information on any other part of the game, including crashes.
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_SetStageOnTriggerEnter", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:UnlockPostersScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasRedemptionMachine", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:ccSWKFO4001_CaptainCosmosQuestScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasOnContainerChange", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasPowerArmorEnter", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasExitDoor", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:RefAliasEntryDoor", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:ZSEFO4001:RefAliasDoor", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4001:NeoSkyLightSwitchScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4001:HolotapeAliasCheckScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4001:SynthDeathAliasCheckScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:AdjustMaxHealth", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:DisableBleedoutRecovery", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:ViewRaidRecords", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:endlessraidmanagerscript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:alterturrets", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:datastructs", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:raidtype", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:CameraScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:cameramonitorscript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:RaidTrigger", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:CameraTriggerBox", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:CameraMonitorBank", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:ShootingRangeStation", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:shootingrange", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:RemoveFromAliasOnDeath", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:AlterSettlers", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:REScriptExtension", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:InducedRaidScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:AlterAttackers", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:kgjfo4001:namepoolscript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:StartVertibird", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:KGJFO4001:LinkedNamePoolScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccFRSFO4003:TerminalScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccFRSFO4003:cc_ObjectivesObtainedCheckScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccSBJFO4002:RadstagActivateScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccSBJFO4002:RadstageActivateScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccSBJFO4002:RadstagTeleportBackup", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:LightEnableDisableScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalSetStageScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:TerminalHackScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "creationclub:tosfo4002:counterscript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:SynthUnconsciousScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:SignalStrengthScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4117:WaveEnableFunctionScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4046_:PickupCloakEffectScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4046_:GunnerTerminalScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4046_:GunnerSignalStrengthScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4046_:GunnerPipboyPerkScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4117:RadioOffonActivateScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4117:BlockActivation", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:SynthEncounterDisableScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "DLC04:DLC04OperatorsRifleAnimationScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccRZRFO4001:ccRZRFO4001_RadioSceneToggleScript", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:ChainedDoorLoad", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:SWKFO4001:ChainLoadDoor", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "CreationClub:TOSFO4002:ccTOSFO4002_LightSwitch", missing file?
+[07/05/2021 - 05:53:52PM] Cannot open store for class "ccBGSFO4117:OnActivateTeleportScript", missing file?
+[07/05/2021 - 05:53:57PM] Cannot open store for class "OMODToggleAME", missing file?
+[07/05/2021 - 05:53:57PM] Cannot open store for class "MilMinResetTrunk", missing file?
+[07/05/2021 - 05:53:57PM] Cannot open store for class "EK_Marker", missing file?
+[07/05/2021 - 05:53:57PM] Cannot open store for class "DiceRollBurnSCRIPT", missing file?
+[07/05/2021 - 05:53:57PM] Cannot open store for class "SettlementMenuManager:MenuInstaller", missing file?
+[07/05/2021 - 05:53:57PM] error: Unable to bind script SettlementMenuManager:MenuInstaller to betterManufacturing_SMM_MenuInstaller (FE015F99) because their base types do not match
+[07/05/2021 - 05:54:04PM] error: Unable to bind script DLC04:DLC04OperatorsRifleAnimationScript to  (06051235) because their base types do not match
+[07/05/2021 - 05:54:04PM] error: Unable to bind script MilMinResetTrunk to  (170200EA) because their base types do not match
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032694) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032694) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032697) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032697) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A390) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A391) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390BB) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390BB) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032693) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032693) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029414) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029415) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029416) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602941A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029419) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029419) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A38F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032678) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032678) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkCustom01 on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property StartOn on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkCustom02 on script DLC03:ADV002_ProjectorScript attached to  (030049ED) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029625) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029626) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029627) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06026FFC) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029628) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] error: Property WorkshopRatingValues on script DLC06:DLC06OverseerHandlerScript attached to DLC06OverseerHandler (05003CF3) cannot be initialized because the value is the incorrect type
+[07/05/2021 - 05:54:25PM] error: Property DLC04GZHostileRobotsFaction on script DLC04:DLC04GZBattlezoneQuestScript attached to DLC04GZBattlezone (060295C8) cannot be bound because <nullptr form> (060213F4) is not the right type
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326B1) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326B1) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ForcedEMSState on script DLC04:DLC04GZEMSystemTurfScript attached to  (06039196) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] error: Property FollowerMoveToDepart on script dlc03:dlc03boatanimscript attached to  (030247B7) cannot be bound because <nullptr form> (031259E2) is not the right type
+[07/05/2021 - 05:54:25PM] warning: Property BoSPrydwenArrived on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property BrotherhoodOfSteelFaction on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property MinutemenFaction on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property MinutemenCentralQuest on script dlc04:dlc04_rq_managerscript attached to DLC04_RQ_Manager (06017F47) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] error: Property Valuables01 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (25) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 05:54:25PM] error: Property Valuables02 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (27) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 05:54:25PM] error: Property Valuables03 on script dlc03:dlc03dialoguev118script attached to DLC03DialogueV118 (030316F2) cannot be bound because <nullptr alias> (28) on quest DLC03DialogueV118 (030316F2) is not the right type
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C5) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C4) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060390C4) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029498) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029476) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602947E) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029487) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603298F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603298F) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032719) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06032719) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326F9) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326F9) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0603269B) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] error: Property DLC04_WW02 on script DLC04:WW_StartCritterHunt attached to  (06040B26) cannot be bound because <nullptr form> (06038358) is not the right type
+[07/05/2021 - 05:54:25PM] warning: Property isMainframePanel on script dlc04:dlc04_gzstarcorepanelscript attached to  (06031A13) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZ_StarCoresTotal on script dlc04:dlc04_gzstarcontrolterminalscript attached to  (0601E359) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DLC04GZ_StarCoresClearTotal on script dlc04:dlc04_gzstarcontrolterminalscript attached to  (0601E359) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshopShared_TutorialShown_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property DestinationLoungerRef on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRPodInSettlement on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop01_Menu_ExitVR_MessageBox on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property VRWorkshop_TutorialMessage_VRWorkshop on script CreationClub:VRWorkshops:VRWorkshopLoungerTravelScript attached to  (0024A392) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:25PM] warning: Property ForcedEMSState on script DLC04:DLC04GZEMSystemTurfScript attached to  (06039105) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029418) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602949C) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602946A) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (0602948D) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property LinkKeyword on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (06029477) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C3) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C3) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property ProtectronPodStatus on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C2) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property DLC04GZMainQuest on script DLC04:DLC04_GZSetConsciousOnHit attached to  (060326C2) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:26PM] warning: Property HouseKey on script MS13Script attached to MS13 (00022A04) cannot be initialized because the script no longer contains that property
+[07/05/2021 - 05:54:49PM] VM is freezing...
+[07/05/2021 - 05:54:49PM] VM is frozen
+[07/05/2021 - 05:54:51PM] Log closed

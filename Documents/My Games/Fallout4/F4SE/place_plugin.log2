@@ -1,0 +1,15 @@
+place_everywhere_plugin
+Compiled for f4se 0.6.20
+Config path: E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\place.ini
+Could not read/parse config file E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\place.ini
+Setting place enable hook, memory remain 2048
+Buffer allocated at 00007FF7A8970000
+Setting keyboard input hook, memory remain 2036
+Buffer allocated at 00007FF7A897000C
+Setting mouse input hook, memory remain 1993
+Buffer allocated at 00007FF7A8970037
+Setting scale hook, memory remain 1950
+Buffer allocated at 00007FF7A8970062
+Setting outline hook, memory remain 1914
+Buffer allocated at 00007FF7A8970086
+Hooks set up, memory remain 1885

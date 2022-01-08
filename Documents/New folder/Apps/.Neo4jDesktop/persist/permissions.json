@@ -1,0 +1,17 @@
+{
+  "04970637-0b02-4d81-a106-5b7dc6570b81": {
+    "graphAccess": "ACTIVE",
+    "allowExecuteNode": true,
+    "allowExecuteJava": true
+  },
+  "b1d163e8-d877-4d8e-bbca-b400ef60830a": {
+    "graphAccess": "ACTIVE",
+    "allowExecuteNode": true,
+    "allowExecuteJava": true
+  },
+  "cb427d37-58c2-4f18-bc8f-8adbbce93283": {
+    "graphAccess": "ACTIVE",
+    "allowExecuteNode": true,
+    "allowExecuteJava": true
+  }
+}

@@ -1,0 +1,748 @@
+16:01:37.067: nxm links point to "C:\Program Files\Black Tree Gaming Ltd\Vortex\Vortex.exe" -d "%1"
+16:01:37.074: No nxmhandlers.ini at the location found.
+16:01:37.081: No nxmhandler.ini at the AppData location found.
+16:01:37.086: MO Path: NOT FOUND
+16:01:37.094: Mod Organizer is not portable. Try Mod Organizer 2 AppData location.
+16:01:37.100: Mod Organizer Instances in AppData:
+16:01:37.106: The following Mod Organizer instances could be used for this game: 
+16:01:37.113: Mod Organizer profiles for Fallout 4 are located at 
+16:01:37.117: MO Profiles folder: 
+16:01:37.137: User closed Mod Organizer before continuing. Draugr Apocalypse averted.
+16:01:37.143: Backing up INIs...
+16:01:37.147: Creating First Time Backup...
+16:01:37.166: Finished backing up any INI files.
+16:01:46.079: BethINI will modify any Custom INI files.
+16:01:46.221: Applying mod-suggested INI tweaks.
+16:01:46.234: Finished applying mod-suggested INI tweaks.
+16:01:46.515: INI files shall not be set to read-only.
+16:01:46.744: Framerate is set to 60.
+16:01:46.805: Screenshots will be saved in the "E:\SteamLibrary\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+16:01:46.823: The screenshot index number has been set to 0.
+16:01:46.837: The maximum number of autosaves has been set to 20
+16:01:47.104: Lock sensitivity has been set to 0.0300.
+16:01:47.135: Mouse X scale set to 0.0210.
+16:01:47.162: Mouse Wheel Zoom Speed has been set to 3.00.
+16:01:47.175: Mouse Y scale set to 0.0210.
+16:01:47.196: The percentage of the screen that the console can fill has been set to 40%.
+16:01:47.227: The console text size has been set to 20.
+16:01:47.617: Sun-Shadow Update Time set to 1.0
+16:01:47.625: Sun-Shadow Update Threshold set to 0.5000
+16:01:47.791: All fade distance settings will be multiplied by 1.00 in-game.
+16:01:47.803: The distance that objects can be seen has been set to 30.0.
+16:01:47.836: The distance that items can be seen has been set to 10.0.
+16:01:47.847: The distance that actors can be seen has been set to 15.0.
+16:01:47.888: The distance that grass can be seen has been set to 7600.
+16:01:47.950: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+16:01:48.044: Distant Object Detail Level 4 has been set to 60000.
+16:01:48.141: Landscape LOD multiplier has been set to 1.500.
+16:01:48.166: Distant Object Detail Level 32 has been set to 250000.
+16:01:48.197: Distant Object Detail Level 16 has been set to 110000.
+16:01:48.205: Distant Object Detail Level 8 has been set to 90000.
+16:01:48.290: Grass density has been set to 20 (higher values produce less grass).
+16:01:48.301: Grass diversity has been set to 2.
+16:01:48.936: Contents of BethINI.ini:
+[General]
+sGameName=Fallout 4
+sRestartedFromSetupTab=0
+bCreationKit=0
+bModifyCustomINIs=1
+[Directories]
+sGamePath=E:\SteamLibrary\steamapps\common\Fallout 4\
+sFallout 4GameSettingsPath=C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\
+
+16:01:48.958: BethINI startup completed.
+16:01:50.832: No Error.
+16:01:50.835: This version is up to date!
+16:01:53.274: The game window will always be active, even when out of focus.
+16:01:53.997: The game window shall always be on top.
+16:02:08.872: Framerate is set to 3.
+16:02:09.902: Framerate is set to 30.
+16:02:09.940: Framerate is set to 300.
+16:02:19.510: Refreshing GUI...
+16:02:19.591: The distance that objects can be seen has been set to 30.0.
+16:02:19.598: The distance that actors can be seen has been set to 15.0.
+16:02:19.604: The distance that items can be seen has been set to 10.0.
+16:02:19.612: The distance that grass can be seen has been set to 7600.
+16:02:19.618: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+16:02:19.623: Grass density has been set to 20 (higher values produce less grass).
+16:02:19.629: Grass diversity has been set to 2.
+16:02:19.633: Lock sensitivity has been set to 0.0300.
+16:02:19.648: Screenshots will be saved in the "E:\SteamLibrary\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+16:02:19.652: The screenshot index number has been set to 0.
+16:02:19.657: Framerate is set to 300.
+16:02:19.716: Sun-Shadow Update Time set to 1.0
+16:02:19.722: Sun-Shadow Update Threshold set to 0.5000
+16:02:19.781: The maximum number of autosaves has been set to 20
+16:02:19.824: Mouse X scale set to 0.0210.
+16:02:19.829: Mouse Y scale set to 0.0420.
+16:02:19.837: Mouse Wheel Zoom Speed has been set to 3.00.
+16:02:19.842: The console text size has been set to 20.
+16:02:19.849: The percentage of the screen that the console can fill has been set to 40%.
+16:02:19.867: All fade distance settings will be multiplied by 1.00 in-game.
+16:02:19.961: Landscape LOD multiplier has been set to 1.500.
+16:02:19.965: Distant Object Detail Level 32 has been set to 250000.
+16:02:19.970: Distant Object Detail Level 16 has been set to 110000.
+16:02:19.976: Distant Object Detail Level 8 has been set to 90000.
+16:02:19.982: Distant Object Detail Level 4 has been set to 60000.
+16:02:20.976: GUI was refreshed.
+16:02:21.976: Recommended tweaks have been automatically applied.
+16:02:40.715: INI files shall be set to read-only.
+16:03:04.816: The game will no longer create screenshots when the Printscreen key is pressed.
+16:03:08.098: The game will no longer display tutorial pop-ups.
+16:03:25.932: Papyrus logging is enabled.
+16:03:26.680: Script debug information is enabled.
+16:03:28.602: Script tracing is enabled.
+16:03:30.371: Script profiling is enabled.
+16:03:42.904: The PC will now always walk by default.
+16:03:47.186: Sprinting is always allowed.
+16:03:49.528: NPCs no longer have unlimited ammo.
+16:03:59.263: Dialogue subtitles are now enabled.
+16:04:00.094: General subtitles are now enabled.
+16:04:11.292: Bethesda Mod Platform is now disabled.
+16:05:26.209: Papyrus was the section chosen.
+16:05:26.267: sTraceStatusOfQuest was the setting chosen.
+16:05:52.931: Menu was the section chosen.
+16:05:52.981: uUISaveBatchLoadInterval was the setting chosen.
+16:06:09.264: sConsoleINI was the setting chosen.
+16:06:13.552: bUseConsoleHotkeys was the setting chosen.
+16:06:27.158: MAIN was the section chosen.
+16:06:27.303: uPAEmergencyLIghtBlinkTimer was the setting chosen.
+16:06:54.859: LightingShader was the section chosen.
+16:06:54.913: fSpecularLODFadeStart was the setting chosen.
+16:07:00.862: Launcher was the section chosen.
+16:07:00.870: bEnableFileSelection was the setting chosen.
+16:07:07.641: Interface was the section chosen.
+16:07:08.015: uXPNormalDelay was the setting chosen.
+16:07:21.122: Menu was the section chosen.
+16:07:21.170: uUISaveBatchLoadInterval was the setting chosen.
+16:07:34.454: HAVOK was the section chosen.
+16:07:34.572: iNumThreads was the setting chosen.
+16:08:15.176: Archive was the section chosen.
+16:08:15.261: sResourceStartUpArchiveList was the setting chosen.
+16:08:21.079: bCheckRuntimeCollisions was the setting chosen.
+16:08:25.364: bTrackFileLoading was the setting chosen.
+16:08:36.512: sArchiveList was the setting chosen.
+16:08:44.223: sResourceArchive2List was the setting chosen.
+16:08:49.362: sResourceStartUpArchiveList was the setting chosen.
+16:08:53.838: AudioMenu was the section chosen.
+16:08:53.901: uID6 was the setting chosen.
+16:08:55.845: fAudioMasterVolume was the setting chosen.
+16:08:58.817: Cloth was the section chosen.
+16:08:58.893: uNumSimSettleSteps was the setting chosen.
+16:09:04.349: bLoadLocalSetupData was the setting chosen.
+16:09:15.663: Dismemberment was the section chosen.
+16:09:15.675: iNumSteps was the setting chosen.
+16:09:32.456: StreamInstall was the section chosen.
+16:09:32.467: bSkipStreamInstall was the setting chosen.
+16:09:38.726: SpeedTree was the section chosen.
+16:09:38.738: fLODTreeMipMapLODBias was the setting chosen.
+16:09:51.256: MESSAGES was the section chosen.
+16:09:51.291: iFileLogging was the setting chosen.
+16:09:55.157: bAllowYesToAll was the setting chosen.
+16:09:57.119: bBlockMessageBoxes was the setting chosen.
+16:09:59.360: bFaceGenWarnings was the setting chosen.
+16:10:01.105: bShowMissingAudioWarnings was the setting chosen.
+16:10:05.369: bShowMissingAudioWarnings:MESSAGES found in base INI file.
+16:10:05.378: Refreshing GUI...
+16:10:05.462: The distance that objects can be seen has been set to 30.0.
+16:10:05.472: The distance that actors can be seen has been set to 15.0.
+16:10:05.481: The distance that items can be seen has been set to 10.0.
+16:10:05.494: The grid that will be actively rendered and processed around the PC has been set to 5 by 5.
+16:10:05.501: Grass density has been set to 20 (higher values produce less grass).
+16:10:05.510: The distance that grass can be seen has been set to 7600.
+16:10:05.526: Grass diversity has been set to 2.
+16:10:05.533: Lock sensitivity has been set to 0.0300.
+16:10:05.558: Screenshots will be saved in the "E:\SteamLibrary\steamapps\common\Fallout 4\" directory with a base filename of "ScreenShot"
+16:10:05.573: The screenshot index number has been set to 0.
+16:10:05.580: Framerate is set to 300.
+16:10:05.634: Sun-Shadow Update Threshold set to 0.5000
+16:10:05.643: Sun-Shadow Update Time set to 1.0
+16:10:05.709: The maximum number of autosaves has been set to 20
+16:10:05.791: Mouse X scale set to 0.0210.
+16:10:05.809: Mouse Y scale set to 0.0420.
+16:10:05.824: Mouse Wheel Zoom Speed has been set to 3.00.
+16:10:05.832: The console text size has been set to 20.
+16:10:05.840: The percentage of the screen that the console can fill has been set to 40%.
+16:10:05.869: All fade distance settings will be multiplied by 1.00 in-game.
+16:10:05.896: Distant Object Detail Level 4 has been set to 60000.
+16:10:05.965: Landscape LOD multiplier has been set to 1.500.
+16:10:05.971: Distant Object Detail Level 32 has been set to 250000.
+16:10:05.980: Distant Object Detail Level 16 has been set to 110000.
+16:10:05.989: Distant Object Detail Level 8 has been set to 90000.
+16:10:07.008: GUI was refreshed.
+16:10:07.016: bShowMissingAudioWarnings:MESSAGES set to 1 in the Fallout4.ini file.
+16:10:30.979: Deleting invalid settings...
+16:10:31.109: Invalid settings deleted.
+16:10:31.116: Controversial settings shall be sought out and questioned if found.
+16:10:40.537: Finished handling controversial settings.
+16:10:40.551: Correcting known harmful settings...
+16:10:40.566: Known harmful settings corrected.
+16:10:40.588: Running the Summary() function, which helps remove nonsense from the INI files.
+16:10:40.609: Summary Input INI:
+[Archive]
+sResourceDataDirsFinal=
+sResourceIndexFileList=Fallout4 - Textures1.ba2, Fallout4 - Textures2.ba2, Fallout4 - Textures3.ba2, Fallout4 - Textures4.ba2, Fallout4 - Textures5.ba2, Fallout4 - Textures6.ba2, Fallout4 - Textures7.ba2, Fallout4 - Textures8.ba2, Fallout4 - Textures9.ba2
+sResourceStartUpArchiveList=Fallout4 - Startup.ba2, Fallout4 - Shaders.ba2, Fallout4 - Interface.ba2
+SResourceArchiveList=Fallout4 - Voices.ba2, Fallout4 - Meshes.ba2, Fallout4 - MeshesExtra.ba2, Fallout4 - Misc.ba2, Fallout4 - Sounds.ba2, Fallout4 - Materials.ba2
+SResourceArchiveList2=Fallout4 - Animations.ba2
+SGeometryPackageList=Fallout4 - Geometry.csg
+SCellResourceIndexFileList=Fallout4.cdx
+SResourceArchiveMemoryCacheList=Fallout4 - Misc.ba2, Fallout4 - Shaders.ba2, Fallout4 - Interface.ba2, Fallout4 - Materials.ba2
+bTrackFileLoading=1
+bInvalidateOlderFiles=1
+
+[Audio]
+bEnableAudio=1
+
+[BackgroundLoad]
+
+[Bethesda.net]
+bEnablePlatform=0
+
+[bLightAttenuation]
+
+[Camera]
+f3rdPersonAimFOV=70
+fMouseWheelZoomSpeed=3.00
+
+[Combat]
+bForceNPCsUseAmmo=1
+
+[Companion]
+
+[Controls]
+fMouseHeadingXScale=0.0210
+fMouseHeadingYScale=0.0420
+bInvertYValues=0
+fEnterWorkshopDelay=1.5000
+fPipboyLightDelay=0.3000
+fZKeyDelay=0.2000
+fThrowDelay=0.3000
+fPowerArmorExitDelay=0.4000
+fMouseHeadingSensitivityMax=0.0800
+
+[CopyProtectionStrings]
+
+[Debug]
+
+[Decals]
+uMaxSkinDecals=100
+uMaxSkinDecalPerActor=25
+bDecals=1
+bSkinnedDecals=1
+
+[DeferredDeleter]
+
+[Dialogue]
+
+[Dismemberment]
+
+[Display]
+bDynamicObjectQueryManager=1
+bMultiThreadedAccumulation=1
+bMultiThreadedRenderingUNP=1
+iPresentInterval=1
+fMeshLODLevel1FadeDist=3500.0000
+fMeshLODLevel2FadeDist=2000.0000
+fMeshLODFadePercentDefault=1.2000
+fSAORadius=108.2
+fSAOBias=0.6
+fSAOIntensity=7.1
+fSunShadowUpdateTime=1.0
+fSunUpdateThreshold=0.5000
+fDefaultWorldFOV=70
+fDefault1stPersonFOV=80
+fDecalLifetime=30.0000
+fDecalLOD0=800.0000
+fPipboyScreenEmitIntensity=1.2500
+fPipboyScreenDiffuseIntensity=0.150
+fPipboyScreenEmitIntensityPA=3.000
+fPipboyScreenDiffuseIntensityPA=1.0000
+iLocation X=0
+iLocation Y=0
+sScreenShotBaseName=E:\SteamLibrary\steamapps\common\Fallout 4\ScreenShot
+bScreenshotToFile=0
+
+[Explosion]
+
+[FaceGen]
+
+[Fonts]
+
+[GamepadLight]
+
+[Gameplay]
+bHealthBarShowing=0
+iTerminalLockoutTime=1
+fPlayerHealthSaveOnPauseLimit=0.8
+fPlayerDisableSprintingLoadingCellDistance=0
+
+[General]
+bDisableAllGore=0
+uExterior Cell Buffer=36
+sLanguage=en
+uGridsToLoad=5
+bPlayMainmenuMusic=0
+bForceUpdateDiffuseOnly=0
+iTextureDegradeDistance0=300
+iTextureDegradeDistance1=800
+iTextureUpgradeDistance0=600
+iTextureUpgradeDistance1=800
+sIntroMovie=
+fChancesToPlayAlternateIntro=0
+uMainMenuDelayBeforeAllowSkip=0
+SIntroSequence=
+bEnableMainMenuBink=0
+iNumHWThreads=4
+sStartingConsoleCommand=bat AutoExec
+bPauseOnAltTab=0
+bBorderRegionsEnabled=0
+bEnableLogging=1
+bEnableTrace=1
+bLoadDebugInformation=1
+bEnableProfiling=1
+sDefaultLogOverlay=Papyrus
+SLocalSavePath=Saves\
+bAlwaysActive=1
+fEncumberedReminderTimer=3600
+
+[GeneralWarnings]
+
+[Graphics]
+
+[Grass]
+bAllowCreateGrass=1
+iMinGrassSize=20
+fGrassFadeRange=5700
+iMaxGrassTypesPerTexure=2
+bAllowLoadGrass=0
+
+[HairLighting]
+fHairPrimSpecPow=125.0
+fHairPrimSpecScale=0.02
+fHairPrimSpecShift=0.36
+fHairSecSpecPow=160.0
+fHairSecSpecScale=1.2
+fHairSecSpecShift=-0.40
+
+[HAVOK]
+iNumThreads=7
+fMaxTime=0.00333333
+
+[HeadTracking]
+
+[Imagespace]
+bDoRadialBlur=1
+
+[Interface]
+fSafeZoneX=64.0
+fSafeZoneY=36
+fSafeZoneXWide=64.0
+fSafeZoneXWide16x10=64.0
+fSafeZoneYWide16x10=36
+fSafeZoneYWide=36
+fCrosshairAlphaPercent=100
+iDefaultWaitHours=8
+uConfirmContainerTakeAllMinimumItems=3
+bShowTutorials=0
+
+[Landscape]
+
+[LANGUAGE]
+
+[LightingShader]
+
+[LOD]
+fLODFadeOutMultObjects=4.5000
+fLODFadeOutMultItems=2.5000
+fDistanceMultiplier=1.00
+
+[MAIN]
+
+[MapMenu]
+uLockedObjectMapLOD=16
+uLockedTerrainLOD=32
+
+[Menu]
+iConsoleSizeScreenPercent=40
+iConsoleTextSize=20
+
+[MESSAGES]
+bShowMissingAudioWarnings=1
+
+[NavMeshGeneration]
+
+[Papyrus]
+bEnableLogging=1
+bEnableTrace=1
+bLoadDebugInformation=1
+fPostLoadUpdateTimeMS=500.0
+bAssertOnOverflow=1
+bEnableProfiling=1
+
+[Pathfinding]
+fWarpMaxTime=4
+iWarpMaxPathFailureCount=3
+bUseCompanionWarping=0
+
+[Pathing]
+
+[Pipboy]
+
+[RagdollAnim]
+
+[SaveGame]
+iAutoSaveCount=20
+
+[ScreenSplatter]
+bBloodSplatterEnabled=1
+
+[SpeedTree]
+
+[Sslr]
+
+[SSSSS]
+fSSSSSPower=4.0
+
+[StreamInstall]
+
+[TerrainManager]
+
+[TestAllCells]
+
+[Trees]
+
+[VATS]
+fVATSRangedLongDistance=2500
+
+[Voice]
+
+[Water]
+bReflectLODLand=0
+bReflectLODObjects=0
+bReflectLODTrees=0
+bReflectSky=0
+
+[Weather]
+bPrecipitation=1
+fSunBaseSize=225.0000
+
+[Workshop]
+bWorkshopEnableGridBasedSnapping=0
+bWorkshopAutoSaveOnExit=1
+fItemHoldDistantSpeed=40.0000
+
+16:10:40.640: Default Preset Location for Invalid Settings Auto-detection: E:\Vortex Mods\fallout4\BethINI Standalone Version-67-3-5-1593829216\BethINI Standalone\Presets\Fallout 4\
+16:10:40.682: bAllowScreenshot (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.698: bDeferredCommands (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.728: bNvGodraysEnable (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.763: fLightLODMaxStartFade (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.805: fShadowLODMaxStartFade (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.894: fSpecularLODMaxStartFade (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:40.008: fSunUpdateThreshold:Display (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.099: iShadowMapResolutionPrimary (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.189: bAllowConsole (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.283: bEnableLogging (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.375: bEnableProfiling (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.481: bEnableTrace (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.593: bLoadDebugInformation (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.693: sDefaultLogOverlay (General) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.794: fMaxTime (HAVOK) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.860: fDefault1stPersonFOV (Interface) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.911: fDefaultWorldFOV (Interface) was removed due to it being an invalid setting (not recognized by the game).
+16:10:41.003: Summary of Changes was refreshed for Fallout4.
+16:10:42.027: Summary Input INI:
+[Display]
+flocalShadowMapHalveEveryXUnit=750.0000
+focusShadowMapDoubleEveryXUnit=450.0000
+fShadowBiasScale=1.0000
+fDirShadowDistance=200.0000
+fShadowDistance=200.0000
+uiOrthoShadowFilter=1
+uiShadowFilter=1
+iShadowMapResolution=-1
+uPipboyTargetHeight=700
+uPipboyTargetWidth=876
+iVolumetricLightingQuality=2
+bVolumetricLightingEnable=1
+bSAOEnable=1
+iDirShadowSplits=3
+bVolumetricLightingForceCasters=0
+iTiledLightingMinLights=40
+bComputeShaderDeferredTiledLighting=1
+iMaxFocusShadowsDialogue=4
+iMaxFocusShadows=1
+bForceIgnoreSmoothness=0
+fBlendSplitDirShadow=0.0000
+bSinglePassDirShadow=1
+bEnableWetnessMaterials=1
+fTessFactorMaxDistanceScale=100.0000
+sAntiAliasing=TAA
+fLeafAnimDampenDistEnd=4600.0000
+fLeafAnimDampenDistStart=3600.0000
+fMeshLODFadePercentDefault=1.2000
+fMeshLODFadeBoundDefault=256.0000
+fMeshLODFadeScalar=1.0000
+fMeshLODLevel2FadeTreeDistance=2048.0000
+fMeshLODLevel1FadeTreeDistance=2844.0000
+fInteriorMeshLODLevel2FadeDist=1950.0000
+fInteriorMeshLODLevel1FadeDist=2600.0000
+fMeshLODLevel2FadeDist=1600.0000
+fMeshLODLevel1FadeDist=4000.0000
+iMaxAnisotropy=16
+iPresentInterval=0
+bTopMostWindow=1
+bMaximizeWindow=1
+bBorderless=1
+bFull Screen=0
+iSize H=1080
+iSize W=1920
+bAllowShadowcasterNPCLights=0
+iScreenShotIndex=0
+fMaxFocusShadowMapDistance=450.0000
+bPrecipitationOcclusion=1
+iMaxSkinDecalsPerFrame=0
+iMaxDecalsPerFrame=0
+sD3DDevice="NVIDIA GeForce GTX 1060 3GB"
+[Imagespace]
+bDoDepthOfField=1
+bScreenSpaceBokeh=1
+bMBEnable=1
+bLensFlare=1
+[Pipboy]
+fPipboyEffectColorB=0.0900
+fPipboyEffectColorG=1.0000
+fPipboyEffectColorR=0.0800
+[VATS]
+fModMenuEffectHighlightPAColorB=0.4100
+fModMenuEffectHighlightPAColorG=0.8200
+fModMenuEffectHighlightPAColorR=1.0000
+fModMenuEffectPAColorB=0.4100
+fModMenuEffectPAColorG=0.8200
+fModMenuEffectPAColorR=1.0000
+fModMenuEffectHighlightColorB=0.0824
+fModMenuEffectHighlightColorG=1.0000
+fModMenuEffectHighlightColorR=0.0706
+fModMenuEffectColorB=0.4200
+fModMenuEffectColorG=0.9900
+fModMenuEffectColorR=0.4900
+[MAIN]
+fSkyCellRefFadeDistance=150000.0000
+bCrosshairEnabled=1
+fHUDOpacity=1.000
+bSaveOnPause=1
+bSaveOnTravel=1
+bSaveOnWait=1
+bSaveOnRest=1
+[LightingShader]
+bScreenSpaceSubsurfaceScattering=1
+bScreenSpaceReflections=1
+[Bethesda.net]
+uPersistentUuidData3=3686065543
+uPersistentUuidData2=2928663058
+uPersistentUuidData1=2222475595
+uPersistentUuidData0=3843102689
+[NVHBAO]
+fBackgroundAOViewDepth=750.0000
+bBackgroundAOEnable=1
+fDepthThresholdSharpness=100.0000
+fDepthThresholdMaxViewDepth=500.0000
+bDepthThresholdEnable=0
+iDepthClampModeEnum=0
+fCoarseAO=1.0000
+fDetailAO=0.6500
+fBlurSharpnessProfileBackgroundViewDepth=1.0000
+fBlurSharpnessProfileForegroundViewDepth=0.0000
+fBlurSharpnessProfileForegroundSharpnessScale=4.0000
+bBlurSharpnessProfileEnable=0
+fBlurSharpness=16.0000
+iBlurRadiusEnum=1
+bBlurEnable=1
+fPowerExponent=2.5000
+fBias=0.1000
+fRadius=0.6500
+bEnable=0
+[General]
+bGamepadEnable=0
+bPipboyCompanionEnabled=1
+iStoryManagerLoggingEvent=-1
+bEnableStoryManagerLogging=0
+uGridsToLoad=5
+bPlayMainmenuMusic=0
+uExterior Cell Buffer=64
+SIntroSequence=0
+iNumHWThreads=4
+[Interface]
+bDialogueSubtitles=1
+bGeneralSubtitles=1
+iHUDColorB=21
+iHUDColorG=255
+iHUDColorR=18
+bDialogueCameraEnable=1
+bShowCompass=1
+uHUDActiveEffectWidget=2
+[Controls]
+fMouseHeadingSensitivity=0.0300
+fGamepadHeadingSensitivity=0.6667
+bAlwaysRunByDefault=0
+bInvertYValues=0
+bGamePadRumble=1
+[GamePlay]
+iDifficulty=2
+bShowFloatingQuestMarkers=1
+bShowQuestMarkers=1
+[Particles]
+iMaxDesired=750
+[SaveGame]
+fAutosaveEveryXMins=5.0000
+[AudioMenu]
+fAudioMasterVolume=1
+fVal7=1.0000
+uID7=0
+fVal6=1.0000
+uID6=0
+fVal5=1.0000
+uID5=0
+fVal4=0.65
+uID4=138006
+fVal3=0.65
+uID3=1007612
+fVal2=0.125
+uID2=94881
+fVal1=0.65
+uID1=466532
+fVal0=0.65
+uID0=554685
+[Water]
+bUseWaterDisplacements=1
+bUseWaterRefractions=1
+bUseWaterReflections=0
+bUseWaterDepth=1
+[TerrainManager]
+fTreeLoadDistance=75000.0000
+fBlockMaximumDistance=250000
+fBlockLevel2Distance=110000
+fBlockLevel1Distance=90000
+fBlockLevel0Distance=60000
+fSplitDistanceMult=1.500
+bShowLODInEditor=0
+[NVFlex]
+iMaxNeighbors2=64
+iMaxNeighbors1=48
+iMaxNeighbors0=32
+iMaxParticles2=32768
+iMaxParticles1=16000
+iMaxParticles0=6000
+fKillRadius2=4000.0000
+fKillRadius1=3000.0000
+fKillRadius0=2000.0000
+iQuality=0
+bNVFlexEnable=0
+bNVFlexInstanceDebris=1
+bNVFlexDrawDebris=1
+[Grass]
+fGrassStartFadeDistance=1900
+fGrassMaxStartFadeDistance=5900
+fGrassMinStartFadeDistance=0
+[Decals]
+uMaxDecals=0
+[LOD]
+fLODFadeOutMultSkyCell=1.0000
+fLODFadeOutMultObjects=30.0
+fLODFadeOutMultItems=10.0
+fLODFadeOutMultActors=15.0
+[Launcher]
+uLastAspectRatio=1
+bEnableFileSelection=1
+
+16:10:42.091: Default Preset Location for Invalid Settings Auto-detection: E:\Vortex Mods\fallout4\BethINI Standalone Version-67-3-5-1593829216\BethINI Standalone\Presets\Fallout 4\
+16:10:42.172: bUseBlurShader (BlurShader) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.192: bDoHighDynamicRange (BlurShaderHDR) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.267: uMaxSkinDecalsPerActor (Decals) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.304: bEnableRainOcclusion (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.449: iAdapter (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.524: iTexMipMapSkip (Display) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.641: uLastAspectRatio (Launcher) was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.746: Summary of Changes was refreshed for Fallout4Prefs.
+16:10:42.796: Summary of Changes for Base INI is:[Bethesda.net]
+bEnablePlatform was changed from 1 to 0
+
+[Combat]
+bForceNPCsUseAmmo was changed from 0 to 1
+
+[Controls]
+fMouseHeadingSensitivityMax was changed from 0.0600 to 0.0800
+fMouseHeadingYScale was changed from .021 to 0.0420
+
+[Display]
+bAllowScreenshot was removed due to it being an invalid setting (not recognized by the game).
+bDeferredCommands was removed due to it being an invalid setting (not recognized by the game).
+bNvGodraysEnable was removed due to it being an invalid setting (not recognized by the game).
+bScreenshotToFile was changed from 1 to 0
+fLightLODMaxStartFade was removed due to it being an invalid setting (not recognized by the game).
+fShadowLODMaxStartFade was removed due to it being an invalid setting (not recognized by the game).
+fSpecularLODMaxStartFade was removed due to it being an invalid setting (not recognized by the game).
+fSunUpdateThreshold:Display was removed due to it being an invalid setting (not recognized by the game).
+iPresentInterval was changed from 0 to 1
+iShadowMapResolutionPrimary was removed due to it being an invalid setting (not recognized by the game).
+sScreenShotBaseName was changed from ScreenShot to E:\SteamLibrary\steamapps\common\Fallout 4\ScreenShot
+
+[Gameplay]
+fPlayerDisableSprintingLoadingCellDistance was changed from 4096.0000 to 0
+
+[General]
+bAllowConsole was removed due to it being an invalid setting (not recognized by the game).
+bAlwaysActive was changed from 0 to 1
+fEncumberedReminderTimer was changed from 30.0000 to 3600
+SIntroSequence was changed from 0 to
+uExterior Cell Buffer was changed from 64 to 36
+uMainMenuDelayBeforeAllowSkip was changed from 1 to 0
+
+[Grass]
+fGrassFadeRange was changed from 1000.0000 to 5700
+
+[HAVOK]
+iNumThreads was changed from 4 to 7
+
+[Interface]
+bShowTutorials was changed from 1 to 0
+fDefault1stPersonFOV was removed due to it being an invalid setting (not recognized by the game).
+fDefaultWorldFOV was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.903: Summary of Changes for Prefs INI is:[BlurShader]
+bUseBlurShader was removed due to it being an invalid setting (not recognized by the game).
+
+[BlurShaderHDR]
+bDoHighDynamicRange was removed due to it being an invalid setting (not recognized by the game).
+
+[Controls]
+bAlwaysRunByDefault was changed from 1 to 0
+
+[Decals]
+bDecals was changed from 0 to 1
+bSkinnedDecals was changed from 0 to 1
+uMaxSkinDecals was changed from 0 to 100
+uMaxSkinDecalsPerActor was removed due to it being an invalid setting (not recognized by the game).
+
+[Display]
+bEnableRainOcclusion was removed due to it being an invalid setting (not recognized by the game).
+bTopMostWindow was changed from 0 to 1
+iAdapter was removed due to it being an invalid setting (not recognized by the game).
+iTexMipMapSkip was removed due to it being an invalid setting (not recognized by the game).
+
+[Grass]
+fGrassMaxStartFadeDistance was changed from 7000.0000 to 5900
+fGrassMinStartFadeDistance was changed from 400.0000 to 0
+fGrassStartFadeDistance was changed from 7000 to 1900
+
+[Interface]
+bDialogueSubtitles was changed from 0 to 1
+bGeneralSubtitles was changed from 0 to 1
+
+[Launcher]
+bEnableFileSelection was changed from 0 to 1
+uLastAspectRatio was removed due to it being an invalid setting (not recognized by the game).
+16:10:42.969: Sorting INIs...
+16:10:43.026: Sorting C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4.ini
+16:10:43.176: Sorting C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4Prefs.ini
+16:10:43.480: Sorting C:\Users\chris\OneDrive\Dokument\My Games\Fallout4\Fallout4Custom.ini
+16:10:43.628: INIs sorted.

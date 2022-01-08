@@ -1,0 +1,17 @@
+autoswitch v1.5.8
+autoswitch query
+autoswitch is enabled.
+Gamepad connected: 0
+autoswitch load
+---
+sig: 80 3D ? ? ? ? ? 74 1A 80 3D ? ? ? ? ?
+effective address: 00007FF7F0256340
+RVA: 0x03846340
+---
+---
+sig: 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 54 41 56 41 57 48 81 EC ? ? ? ? 45 33 F6
+effective address: 00007FF7EE541CF0
+RVA: 0x01B31CF0
+---
+Sigscan elapsed: 148 ms.
+Hook complete.

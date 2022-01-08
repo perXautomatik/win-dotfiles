@@ -1,0 +1,108 @@
+[06/09/2020 - 07:28:48PM] PlayerDamage log opened (PC-64)
+[06/09/2020 - 07:28:48PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Mask.OnChanged
+[06/09/2020 - 07:28:49PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Mask in Database | Current: 100%
+[06/09/2020 - 07:29:02PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:02PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (2500082C)>] | 100%
+[06/09/2020 - 07:29:02PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:03PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (2500082C)>] | 100%
+[06/09/2020 - 07:29:03PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:03PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (2500082C)>] | 100%
+[06/09/2020 - 07:29:03PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:04PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (2500082C)>] | 100%
+[06/09/2020 - 07:29:04PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:04PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (2500082C)>] | 100%
+[06/09/2020 - 07:29:04PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:05PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Mask.OnChanged
+[06/09/2020 - 07:29:05PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: None | 100%
+[06/09/2020 - 07:29:05PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:05PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Removed mask, unregistering hit events
+[06/09/2020 - 07:29:05PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Mask.OnChanged
+[06/09/2020 - 07:29:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] PlayerDamage: Removed mask, unregistering hit events
+[06/09/2020 - 07:29:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:08PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:08PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:08PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:29:37PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:29:37PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:30:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:30:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:30:06PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:30:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:30:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:30:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:30:07PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:30:08PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:18PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:19PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:20PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:20PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:20PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:21PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:21PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:21PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:21PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:22PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:27PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:27PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:28PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:28PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:28PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:28PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:29PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:29PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:29PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:30PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:30PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:30PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:30PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:31PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:31PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:31PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:31PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 100%
+[06/09/2020 - 07:31:32PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:32PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 99%
+[06/09/2020 - 07:31:32PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:32PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 98%
+[06/09/2020 - 07:31:32PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 97%
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 96%
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 95%
+[06/09/2020 - 07:31:33PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 94%
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 93%
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 92%
+[06/09/2020 - 07:31:34PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 91%
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 90%
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 89%
+[06/09/2020 - 07:31:35PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 88%
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 87%
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 86%
+[06/09/2020 - 07:31:36PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:37PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 85%
+[06/09/2020 - 07:31:37PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] akSource = [Form < (0100708F)>] | akProjectile = None
+[06/09/2020 - 07:31:37PM] [metro:gear:playerdamage <GasMask_Gear (1B00F3FE)>] Mask: [Armor < (00140C54)>] | 84%
+[06/09/2020 - 07:31:53PM] Log closed

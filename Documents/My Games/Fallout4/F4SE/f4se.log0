@@ -1,357 +1,42 @@
-F4SE runtime: initialize (version = 0.6.21 010A0A30 01D7E3E8F5A67E47, os = 6.2 (9200))
-imagebase = 00007FF7D3820000
-reloc mgr imagebase = 00007FF7D3820000
-plugin directory = D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll (00000001 BakaScrapHeap 00000001) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\Buffout4.dll
-couldn't load plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\Buffout4.dll (Error 126)
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\crafting_highlight_fix.dll
+F4SE runtime: initialize (version = 0.6.21 010A0A30 01D771811420E3EF, os = 6.2 (9200))
+imagebase = 00007FF6F0FB0000
+reloc mgr imagebase = 00007FF6F0FB0000
+plugin directory = E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll (00000001 BakaScrapHeap 00000001) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\Buffout4.dll
+couldn't load plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\Buffout4.dll (Error 126)
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\crafting_highlight_fix.dll
 registering plugin listener for F4SE at 2 of 3
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\crafting_highlight_fix.dll (00000001 crafting_highlight_fix 0000000E) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\ExtraItemInfo.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\crafting_highlight_fix.dll (00000001 crafting_highlight_fix 0000000E) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\ExtraItemInfo.dll
 registering plugin listener for F4SE at 3 of 4
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\ExtraItemInfo.dll (00000001 ExtraItemInfo 00000001) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\faster_workshop.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\ExtraItemInfo.dll (00000001 ExtraItemInfo 00000001) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\faster_workshop.dll
 registering plugin listener for F4SE at 4 of 5
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\faster_workshop.dll (00000001 faster_workshop 00000002) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\mcm.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\faster_workshop.dll (00000001 faster_workshop 00000002) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\FloatingDamage.dll
 registering plugin listener for F4SE at 5 of 6
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\mcm.dll (00000001 F4MCM 00000008) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PrivateProfileRedirector.dll
-registering plugin listener for SKSE at 6 of 7
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PrivateProfileRedirector.dll (00000001 PrivateProfileRedirector 00000034) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\wsfw_identifier.dll
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\wsfw_identifier.dll (00000001 wsfw_identifier 00000001) loaded correctly
-checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\XDI.dll
-registering plugin listener for F4SE at 8 of 9
-plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\XDI.dll (00000001 XDI 00000012) loaded correctly
-config path = D:\Steam\steamapps\common\Fallout 4\Data\F4SE\f4se.ini
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\FloatingDamage.dll (00000001 FloatingDamage 01020000) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\HighFPSPhysicsFix.dll
+registering plugin listener for F4SE at 6 of 7
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\HighFPSPhysicsFix.dll (00000001 HighFPSPhysicsFix 0000000E) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\mcm.dll
+registering plugin listener for F4SE at 7 of 8
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\mcm.dll (00000001 F4MCM 00000008) disabled, fatal error occurred while loading plugin
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\place.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\place.dll (00000001 PlaceEverywhere plugin 00000010) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PrivateProfileRedirector.dll
+registering plugin listener for SKSE at 8 of 9
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PrivateProfileRedirector.dll (00000001 PrivateProfileRedirector 00000034) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PRKF.dll
+registering plugin listener for F4SE at 9 of 10
+registering plugin listener for (null) at 9 of 10
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\PRKF.dll (00000001 PRKF 00000001) disabled, fatal error occurred while loading plugin
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\wsfw_identifier.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\wsfw_identifier.dll (00000001 wsfw_identifier 00000001) loaded correctly
+checking plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\XDI.dll
+plugin E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\Plugins\\XDI.dll (00000001 XDI 00000012) disabled, fatal error occurred while loading plugin
+exception occurred while loading plugins
+config path = E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\f4se.ini
 init complete
-RegisterPapyrusFunctions_Hook
-save name is Quicksave0_99B9535EM586975_Commonwealth_002042_20211125195557_12_2
-full save path: C:\Users\dator\Documents\My Games\Fallout4\Saves\\Quicksave0_99B9535EM586975_Commonwealth_002042_20211125195557_12_2.f4se
-cleared save path
-save name is Quicksave0_99B9535EM586975_Commonwealth_002042_20211125195557_12_2
-full save path: C:\Users\dator\Documents\My Games\Fallout4\Saves\\Quicksave0_99B9535EM586975_Commonwealth_002042_20211125195557_12_2.f4se
-loading co-save
-Loading plugin list:
-	(0 -> 0)	Fallout4.esm
-	(1 -> 1)	DLCRobot.esm
-	(2 -> 2)	DLCworkshop01.esm
-	(3 -> 3)	DLCCoast.esm
-	(4 -> 4)	DLCworkshop02.esm
-	(5 -> 5)	DLCworkshop03.esm
-	(6 -> 6)	DLCNukaWorld.esm
-	(7 -> 7)	Unofficial Fallout 4 Patch.esp
-	(8 -> 8)	ArmorKeywords.esm
-	(9 -> 9)	WorkshopFramework.esm
-	(10 -> 10)	XDI.esm
-	(11 -> 11)	HUDFramework.esm
-	(12 -> 12)	PANPC.esm
-	(13 -> 13)	MODFoodScraps.esm
-	(1040384 -> 1040385)	DDLL.esl
-	(1040385 -> 1040384)	Immersive_Molotovs_FlamerESL.esl
-	(14 -> 21)	AutomaticSave.esp
-	(15 -> 14)	M8r_Item_Tags_Vanilla_EN.esp
-	(16 -> 15)	Better Manufacturing.esp
-	(17 -> 16)	ManufacturingExtended.esp
-	(18 -> 17)	Better Manufacturing - Manufacturing Extended Additions.esp
-	(19 -> 18)	DLC items to manufacturing.esp
-	(20 -> 255)	Better Manufacturing - Manufacturing Extended Expanded Patch.esp
-	(21 -> 19)	cartman1975_soylent.esp
-	(22 -> 20)	Better Manufacturing - Soylent Green Patch.esp
-	(23 -> 22)	WOTC.esp
-	(24 -> 23)	PiperCaitCurieDialogueOverhaul.esp
-	(25 -> 24)	BetterModDescriptions.esp
-	(26 -> 25)	GKX Realistic Adhesive Deluxe DLC.esp
-	(27 -> 26)	Armorsmith Extended.esp
-	(28 -> 27)	subwayrunnerwip.esp
-	(29 -> 29)	Unlevelled Everything - Mods.esp
-	(30 -> 28)	ECO.esp
-	(31 -> 30)	clothingoverhaul.esp
-	(32 -> 31)	More Armor Slots - All Dlc.esp
-	(33 -> 32)	spacefiddle_Scarcity_Full.esp
-	(34 -> 33)	RaidersReloaded.esp
-	(35 -> 34)	RaiderOverhaul.esp
-	(36 -> 35)	Random_Enemy_Weapons_DLC.esp
-	(37 -> 36)	NIS - Hunted.esp
-	(38 -> 37)	Raider Overhaul - AE Patch-Restored Content-VIS.esp
-	(39 -> 39)	Realistic_conversations.esp
-	(40 -> 40)	Live Dismemberment - POSTAL.esp
-	(41 -> 41)	WorkshopPlus.esp
-	(42 -> 255)	Better Explosives Redux.esp
-	(43 -> 38)	ClothingOverhaulSP_XB1_PC.esp
-	(44 -> 255)	CraftingFramework.esp
-	(45 -> 255)	Better Manufacturing - Crafting Framework Additions.esp
-	(46 -> 255)	Fire Behavior Crippling v1 DLC.esp
-	(47 -> 42)	Desperate Raiders.esp
-	(48 -> 43)	DisableAutoAimF4.esp
-	(49 -> 44)	advancedAITweaks.esp
-	(50 -> 45)	SleeplessNights.esp
-	(51 -> 46)	Loot Detector.esp
-	(52 -> 47)	Consistent Power Armor Overhaul.esp
-	(53 -> 48)	Lucky's Intresting Tips 1.4.esp
-	(54 -> 49)	Ferals After Dark.esp
-	(55 -> 50)	PeopleAreStrangers.esp
-	(56 -> 51)	SalvageRobotParts.esp
-	(57 -> 52)	BetterModDescriptionsAE.esp
-	(58 -> 53)	Leveled Raiders.esp
-	(59 -> 54)	CAMP.esp
-	(60 -> 55)	fastcorpseclear.esp
-	(61 -> 56)	Unofficial Fallout 4 FDI Patch.esp
-	(62 -> 57)	Gunsmith Extended.esp
-	(63 -> 58)	Synth Overhaul.esp
-	(64 -> 59)	Synth Overhaul - Black Patch.esp
-	(65 -> 60)	Synth Overhaul - No level requirements Patch.esp
-	(66 -> 61)	Synth Overhaul - White Patch.esp
-	(67 -> 62)	Extended weapon mods.esp
-	(68 -> 63)	BetterModDescriptionsEWM.esp
-	(69 -> 64)	FCEjectNoMore.esp
-	(70 -> 65)	CBBE.esp
-	(71 -> 66)	Syringer Weapon Rework - Mav's Marvelous Mods.esp
-	(72 -> 255)	Remove Weapon Mods.esp
-	(73 -> 67)	MoreWeapMods.esp
-	(74 -> 68)	Weapon Mods Mod.esp
-	(75 -> 69)	EarlierPipeWeaponMods.esp
-	(76 -> 70)	AllowWorkbenchDuringCombat.esp
-	(77 -> 71)	GR001-AutomatronRebooted.esp
-	(78 -> 72)	Buildable_PAFrames.esp
-	(79 -> 73)	Power Armor Distribution Overhaul.esp
-	(80 -> 74)	Buildable_PAFrames_Recipe.esp
-	(81 -> 75)	molotovcraftingredone.esp
-	(1040386 -> 1040386)	4estGimp - RO.FallUI.PA_INNR.esp
-	(1040387 -> 1040387)	Better Weapon Scrap - Ultimate Edition_ESL.esp
-	(1040388 -> 255)	4estGimp - FallUI_R88_PA_INNR.esp
-	(1040389 -> 1040388)	M8rDisablePipboyEffects.esp
-	(1040390 -> 255)	ExplosionKnockdown.esp
-	(1040391 -> 255)	EK - BER.esp
-	(1040392 -> 1040389)	BetterModDescriptionsROWIP.esp
-	(1040393 -> 1040390)	Better Locational Damage - Robot Edition.esp
-	(82 -> 76)	WeaponDisarm.esp
-	(1040394 -> 1040391)	MaterialModSlot-FallUIWorkbenchPatch.esp
-	(1040395 -> 255)	ECO_LegendaryModificationEnhanced.esp
-	(83 -> 77)	SA-SyringerAmmoOverhaul.esp
-	(84 -> 78)	syringerexpanded.esp
-	(85 -> 79)	Conquest.esp
-	(86 -> 80)	SKKGlobalStashScrapping.esp
-	(87 -> 81)	AnotherLife.esp
-	(88 -> 82)	Scrap Everything - Ultimate Edition.esp
-	(89 -> 83)	Smashed Patch.esp
-Loading key input event registrations...
-Loading control input event registrations...
-Loading external event registrations...
-Loading camera event registrations...
-Loading furniture event registrations...
-Loading F4SEPersistentObjectStorage data...
-Loading F4SEDelayFunctorManager data...
-cleared save path
-save name is Quicksave0_99B9535EM586975_Commonwealth_002046_20211127235101_12_2
-full save path: C:\Users\dator\Documents\My Games\Fallout4\Saves\\Quicksave0_99B9535EM586975_Commonwealth_002046_20211127235101_12_2.f4se
-creating co-save
-Saving plugin list:
-	[0]	Fallout4.esm
-	[1]	DLCRobot.esm
-	[2]	DLCworkshop01.esm
-	[3]	DLCCoast.esm
-	[4]	DLCworkshop02.esm
-	[5]	DLCworkshop03.esm
-	[6]	DLCNukaWorld.esm
-	[7]	Unofficial Fallout 4 Patch.esp
-	[8]	ArmorKeywords.esm
-	[9]	WorkshopFramework.esm
-	[10]	XDI.esm
-	[11]	HUDFramework.esm
-	[FE:0]	Immersive_Molotovs_FlamerESL.esl
-	[12]	PANPC.esm
-	[13]	MODFoodScraps.esm
-	[FE:1]	DDLL.esl
-	[14]	M8r_Item_Tags_Vanilla_EN.esp
-	[15]	Better Manufacturing.esp
-	[16]	ManufacturingExtended.esp
-	[17]	Better Manufacturing - Manufacturing Extended Additions.esp
-	[18]	DLC items to manufacturing.esp
-	[19]	cartman1975_soylent.esp
-	[20]	Better Manufacturing - Soylent Green Patch.esp
-	[21]	AutomaticSave.esp
-	[22]	WOTC.esp
-	[23]	PiperCaitCurieDialogueOverhaul.esp
-	[24]	BetterModDescriptions.esp
-	[25]	GKX Realistic Adhesive Deluxe DLC.esp
-	[26]	Armorsmith Extended.esp
-	[27]	subwayrunnerwip.esp
-	[28]	ECO.esp
-	[29]	Unlevelled Everything - Mods.esp
-	[30]	clothingoverhaul.esp
-	[31]	More Armor Slots - All Dlc.esp
-	[32]	spacefiddle_Scarcity_Full.esp
-	[33]	RaidersReloaded.esp
-	[34]	RaiderOverhaul.esp
-	[35]	Random_Enemy_Weapons_DLC.esp
-	[36]	NIS - Hunted.esp
-	[37]	Raider Overhaul - AE Patch-Restored Content-VIS.esp
-	[38]	ClothingOverhaulSP_XB1_PC.esp
-	[39]	Realistic_conversations.esp
-	[40]	Live Dismemberment - POSTAL.esp
-	[41]	WorkshopPlus.esp
-	[42]	Desperate Raiders.esp
-	[43]	DisableAutoAimF4.esp
-	[44]	advancedAITweaks.esp
-	[45]	SleeplessNights.esp
-	[46]	Loot Detector.esp
-	[47]	Consistent Power Armor Overhaul.esp
-	[48]	Lucky's Intresting Tips 1.4.esp
-	[49]	Ferals After Dark.esp
-	[50]	PeopleAreStrangers.esp
-	[51]	SalvageRobotParts.esp
-	[52]	BetterModDescriptionsAE.esp
-	[53]	Leveled Raiders.esp
-	[54]	CAMP.esp
-	[55]	fastcorpseclear.esp
-	[56]	Unofficial Fallout 4 FDI Patch.esp
-	[57]	Gunsmith Extended.esp
-	[58]	Synth Overhaul.esp
-	[59]	Synth Overhaul - Black Patch.esp
-	[60]	Synth Overhaul - No level requirements Patch.esp
-	[61]	Synth Overhaul - White Patch.esp
-	[62]	Extended weapon mods.esp
-	[63]	BetterModDescriptionsEWM.esp
-	[64]	FCEjectNoMore.esp
-	[65]	CBBE.esp
-	[66]	Syringer Weapon Rework - Mav's Marvelous Mods.esp
-	[67]	MoreWeapMods.esp
-	[68]	Weapon Mods Mod.esp
-	[69]	EarlierPipeWeaponMods.esp
-	[70]	AllowWorkbenchDuringCombat.esp
-	[71]	GR001-AutomatronRebooted.esp
-	[72]	Buildable_PAFrames.esp
-	[73]	Power Armor Distribution Overhaul.esp
-	[74]	Buildable_PAFrames_Recipe.esp
-	[75]	molotovcraftingredone.esp
-	[FE:2]	4estGimp - RO.FallUI.PA_INNR.esp
-	[FE:3]	Better Weapon Scrap - Ultimate Edition_ESL.esp
-	[FE:4]	M8rDisablePipboyEffects.esp
-	[FE:5]	BetterModDescriptionsROWIP.esp
-	[FE:6]	Better Locational Damage - Robot Edition.esp
-	[76]	WeaponDisarm.esp
-	[FE:7]	MaterialModSlot-FallUIWorkbenchPatch.esp
-	[77]	SA-SyringerAmmoOverhaul.esp
-	[78]	syringerexpanded.esp
-	[79]	Conquest.esp
-	[80]	SKKGlobalStashScrapping.esp
-	[81]	AnotherLife.esp
-	[82]	Scrap Everything - Ultimate Edition.esp
-	[83]	Smashed Patch.esp
-Saving key input event registrations...
-Saving control input event registrations...
-Saving external event registrations...
-Saving camera event registrations...
-Saving furniture event registrations...
-Saving SKSEPersistentObjectStorage data...
-Saving SKSEDelayFunctorManager data...
-cleared save path
-deleting co-save C:\Users\dator\Documents\My Games\Fallout4\Saves\\Quicksave0_99B9535EM586975_Commonwealth_002042_20211125195557_12_2.f4se
-save name is Quicksave0_99B9535EM586975_Commonwealth_002046_20211127235101_12_2
-full save path: C:\Users\dator\Documents\My Games\Fallout4\Saves\\Quicksave0_99B9535EM586975_Commonwealth_002046_20211127235101_12_2.f4se
-loading co-save
-Loading plugin list:
-	(0 -> 0)	Fallout4.esm
-	(1 -> 1)	DLCRobot.esm
-	(2 -> 2)	DLCworkshop01.esm
-	(3 -> 3)	DLCCoast.esm
-	(4 -> 4)	DLCworkshop02.esm
-	(5 -> 5)	DLCworkshop03.esm
-	(6 -> 6)	DLCNukaWorld.esm
-	(7 -> 7)	Unofficial Fallout 4 Patch.esp
-	(8 -> 8)	ArmorKeywords.esm
-	(9 -> 9)	WorkshopFramework.esm
-	(10 -> 10)	XDI.esm
-	(11 -> 11)	HUDFramework.esm
-	(1040384 -> 1040384)	Immersive_Molotovs_FlamerESL.esl
-	(12 -> 12)	PANPC.esm
-	(13 -> 13)	MODFoodScraps.esm
-	(1040385 -> 1040385)	DDLL.esl
-	(14 -> 14)	M8r_Item_Tags_Vanilla_EN.esp
-	(15 -> 15)	Better Manufacturing.esp
-	(16 -> 16)	ManufacturingExtended.esp
-	(17 -> 17)	Better Manufacturing - Manufacturing Extended Additions.esp
-	(18 -> 18)	DLC items to manufacturing.esp
-	(19 -> 19)	cartman1975_soylent.esp
-	(20 -> 20)	Better Manufacturing - Soylent Green Patch.esp
-	(21 -> 21)	AutomaticSave.esp
-	(22 -> 22)	WOTC.esp
-	(23 -> 23)	PiperCaitCurieDialogueOverhaul.esp
-	(24 -> 24)	BetterModDescriptions.esp
-	(25 -> 25)	GKX Realistic Adhesive Deluxe DLC.esp
-	(26 -> 26)	Armorsmith Extended.esp
-	(27 -> 27)	subwayrunnerwip.esp
-	(28 -> 28)	ECO.esp
-	(29 -> 29)	Unlevelled Everything - Mods.esp
-	(30 -> 30)	clothingoverhaul.esp
-	(31 -> 31)	More Armor Slots - All Dlc.esp
-	(32 -> 32)	spacefiddle_Scarcity_Full.esp
-	(33 -> 33)	RaidersReloaded.esp
-	(34 -> 34)	RaiderOverhaul.esp
-	(35 -> 35)	Random_Enemy_Weapons_DLC.esp
-	(36 -> 36)	NIS - Hunted.esp
-	(37 -> 37)	Raider Overhaul - AE Patch-Restored Content-VIS.esp
-	(38 -> 38)	ClothingOverhaulSP_XB1_PC.esp
-	(39 -> 39)	Realistic_conversations.esp
-	(40 -> 40)	Live Dismemberment - POSTAL.esp
-	(41 -> 41)	WorkshopPlus.esp
-	(42 -> 42)	Desperate Raiders.esp
-	(43 -> 43)	DisableAutoAimF4.esp
-	(44 -> 44)	advancedAITweaks.esp
-	(45 -> 45)	SleeplessNights.esp
-	(46 -> 46)	Loot Detector.esp
-	(47 -> 47)	Consistent Power Armor Overhaul.esp
-	(48 -> 48)	Lucky's Intresting Tips 1.4.esp
-	(49 -> 49)	Ferals After Dark.esp
-	(50 -> 50)	PeopleAreStrangers.esp
-	(51 -> 51)	SalvageRobotParts.esp
-	(52 -> 52)	BetterModDescriptionsAE.esp
-	(53 -> 53)	Leveled Raiders.esp
-	(54 -> 54)	CAMP.esp
-	(55 -> 55)	fastcorpseclear.esp
-	(56 -> 56)	Unofficial Fallout 4 FDI Patch.esp
-	(57 -> 57)	Gunsmith Extended.esp
-	(58 -> 58)	Synth Overhaul.esp
-	(59 -> 59)	Synth Overhaul - Black Patch.esp
-	(60 -> 60)	Synth Overhaul - No level requirements Patch.esp
-	(61 -> 61)	Synth Overhaul - White Patch.esp
-	(62 -> 62)	Extended weapon mods.esp
-	(63 -> 63)	BetterModDescriptionsEWM.esp
-	(64 -> 64)	FCEjectNoMore.esp
-	(65 -> 65)	CBBE.esp
-	(66 -> 66)	Syringer Weapon Rework - Mav's Marvelous Mods.esp
-	(67 -> 67)	MoreWeapMods.esp
-	(68 -> 68)	Weapon Mods Mod.esp
-	(69 -> 69)	EarlierPipeWeaponMods.esp
-	(70 -> 70)	AllowWorkbenchDuringCombat.esp
-	(71 -> 71)	GR001-AutomatronRebooted.esp
-	(72 -> 72)	Buildable_PAFrames.esp
-	(73 -> 73)	Power Armor Distribution Overhaul.esp
-	(74 -> 74)	Buildable_PAFrames_Recipe.esp
-	(75 -> 75)	molotovcraftingredone.esp
-	(1040386 -> 1040386)	4estGimp - RO.FallUI.PA_INNR.esp
-	(1040387 -> 1040387)	Better Weapon Scrap - Ultimate Edition_ESL.esp
-	(1040388 -> 1040388)	M8rDisablePipboyEffects.esp
-	(1040389 -> 1040389)	BetterModDescriptionsROWIP.esp
-	(1040390 -> 1040390)	Better Locational Damage - Robot Edition.esp
-	(76 -> 76)	WeaponDisarm.esp
-	(1040391 -> 1040391)	MaterialModSlot-FallUIWorkbenchPatch.esp
-	(77 -> 77)	SA-SyringerAmmoOverhaul.esp
-	(78 -> 78)	syringerexpanded.esp
-	(79 -> 79)	Conquest.esp
-	(80 -> 80)	SKKGlobalStashScrapping.esp
-	(81 -> 81)	AnotherLife.esp
-	(82 -> 82)	Scrap Everything - Ultimate Edition.esp
-	(83 -> 83)	Smashed Patch.esp
-Loading key input event registrations...
-Loading control input event registrations...
-Loading external event registrations...
-Loading camera event registrations...
-Loading furniture event registrations...
-Loading F4SEPersistentObjectStorage data...
-Loading F4SEDelayFunctorManager data...
-cleared save path

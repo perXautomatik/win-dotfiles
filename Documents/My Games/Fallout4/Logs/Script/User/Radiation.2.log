@@ -1,0 +1,151 @@
+[06/09/2020 - 07:20:25PM] Radiation log opened (PC-64)
+[06/09/2020 - 07:20:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnLocationChanged
+[06/09/2020 - 07:20:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation()
+[06/09/2020 - 07:20:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation() failed the conditions for radiation
+[06/09/2020 - 07:28:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnWeatherChanged
+[06/09/2020 - 07:28:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] The current weather is bad.
+[06/09/2020 - 07:28:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation()
+[06/09/2020 - 07:28:25PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation() failed the conditions for radiation
+[06/09/2020 - 07:28:48PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Mask.OnChanged
+[06/09/2020 - 07:28:49PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Current Percentage: 100%
+[06/09/2020 - 07:28:49PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: In Target 61.000000
+[06/09/2020 - 07:28:49PM] [metro:world:radiation <GasMask_Context (1B006381)>] Update Timer First...
+[06/09/2020 - 07:28:49PM] [metro:world:radiation <GasMask_Context (1B006381)>] Update Timer...
+[06/09/2020 - 07:28:49PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnChanged | Threshold = True
+[06/09/2020 - 07:28:51PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 0.000000 | Target 61.000000
+[06/09/2020 - 07:28:51PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 1.000000 | Target 61.000000
+[06/09/2020 - 07:28:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 2.000000 | Target 61.000000
+[06/09/2020 - 07:28:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 3.000000 | Target 61.000000
+[06/09/2020 - 07:28:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 4.000000 | Target 61.000000
+[06/09/2020 - 07:28:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 5.000000 | Target 61.000000
+[06/09/2020 - 07:28:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 6.000000 | Target 61.000000
+[06/09/2020 - 07:28:53PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 7.000000 | Target 61.000000
+[06/09/2020 - 07:28:53PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 10.000000 | Target 61.000000
+[06/09/2020 - 07:28:53PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 13.000000 | Target 61.000000
+[06/09/2020 - 07:28:53PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 16.000000 | Target 61.000000
+[06/09/2020 - 07:28:54PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 19.000000 | Target 61.000000
+[06/09/2020 - 07:28:54PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 22.000000 | Target 61.000000
+[06/09/2020 - 07:28:54PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 25.000000 | Target 61.000000
+[06/09/2020 - 07:28:54PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 28.000000 | Target 61.000000
+[06/09/2020 - 07:28:54PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 31.000000 | Target 61.000000
+[06/09/2020 - 07:28:55PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 34.000000 | Target 61.000000
+[06/09/2020 - 07:28:55PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 37.000000 | Target 61.000000
+[06/09/2020 - 07:28:55PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 40.000000 | Target 61.000000
+[06/09/2020 - 07:28:55PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 43.000000 | Target 61.000000
+[06/09/2020 - 07:28:56PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 46.000000 | Target 61.000000
+[06/09/2020 - 07:28:56PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 49.000000 | Target 61.000000
+[06/09/2020 - 07:28:56PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 52.000000 | Target 61.000000
+[06/09/2020 - 07:28:56PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 55.000000 | Target 61.000000
+[06/09/2020 - 07:28:57PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 58.000000 | Target 61.000000
+[06/09/2020 - 07:28:57PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 61.000000 | Target 61.000000
+[06/09/2020 - 07:28:59PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 0.000000 | Target 61.000000
+[06/09/2020 - 07:28:59PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 1.000000 | Target 61.000000
+[06/09/2020 - 07:28:59PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 2.000000 | Target 61.000000
+[06/09/2020 - 07:28:59PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 3.000000 | Target 61.000000
+[06/09/2020 - 07:29:00PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 4.000000 | Target 61.000000
+[06/09/2020 - 07:29:00PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 5.000000 | Target 61.000000
+[06/09/2020 - 07:29:00PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 6.000000 | Target 61.000000
+[06/09/2020 - 07:29:00PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 7.000000 | Target 61.000000
+[06/09/2020 - 07:29:00PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 10.000000 | Target 61.000000
+[06/09/2020 - 07:29:01PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 13.000000 | Target 61.000000
+[06/09/2020 - 07:29:01PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 16.000000 | Target 61.000000
+[06/09/2020 - 07:29:01PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 19.000000 | Target 61.000000
+[06/09/2020 - 07:29:01PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 22.000000 | Target 61.000000
+[06/09/2020 - 07:29:02PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 25.000000 | Target 61.000000
+[06/09/2020 - 07:29:02PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 28.000000 | Target 61.000000
+[06/09/2020 - 07:29:02PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 31.000000 | Target 61.000000
+[06/09/2020 - 07:29:02PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 34.000000 | Target 61.000000
+[06/09/2020 - 07:29:03PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 37.000000 | Target 61.000000
+[06/09/2020 - 07:29:03PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 40.000000 | Target 61.000000
+[06/09/2020 - 07:29:03PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 43.000000 | Target 61.000000
+[06/09/2020 - 07:29:03PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 46.000000 | Target 61.000000
+[06/09/2020 - 07:29:04PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 49.000000 | Target 61.000000
+[06/09/2020 - 07:29:04PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 52.000000 | Target 61.000000
+[06/09/2020 - 07:29:04PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 55.000000 | Target 61.000000
+[06/09/2020 - 07:29:04PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 58.000000 | Target 61.000000
+[06/09/2020 - 07:29:04PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 61.000000 | Target 61.000000
+[06/09/2020 - 07:29:05PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Mask.OnChanged
+[06/09/2020 - 07:29:05PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Mask.OnChanged
+[06/09/2020 - 07:29:05PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnChanged | Timer | Threshold = True
+[06/09/2020 - 07:29:06PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 0.000000 | Target 61.000000
+[06/09/2020 - 07:29:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 1.000000 | Target 61.000000
+[06/09/2020 - 07:29:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 2.000000 | Target 61.000000
+[06/09/2020 - 07:29:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 3.000000 | Target 61.000000
+[06/09/2020 - 07:29:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 4.000000 | Target 61.000000
+[06/09/2020 - 07:29:08PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 5.000000 | Target 61.000000
+[06/09/2020 - 07:29:08PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 6.000000 | Target 61.000000
+[06/09/2020 - 07:29:08PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 7.000000 | Target 61.000000
+[06/09/2020 - 07:29:08PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 10.000000 | Target 61.000000
+[06/09/2020 - 07:29:19PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 13.000000 | Target 61.000000
+[06/09/2020 - 07:29:19PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 16.000000 | Target 61.000000
+[06/09/2020 - 07:29:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 19.000000 | Target 61.000000
+[06/09/2020 - 07:29:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 22.000000 | Target 61.000000
+[06/09/2020 - 07:29:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 25.000000 | Target 61.000000
+[06/09/2020 - 07:29:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 28.000000 | Target 61.000000
+[06/09/2020 - 07:29:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 31.000000 | Target 61.000000
+[06/09/2020 - 07:29:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 34.000000 | Target 61.000000
+[06/09/2020 - 07:30:06PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 37.000000 | Target 61.000000
+[06/09/2020 - 07:30:06PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 40.000000 | Target 61.000000
+[06/09/2020 - 07:30:06PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 43.000000 | Target 61.000000
+[06/09/2020 - 07:30:06PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 46.000000 | Target 61.000000
+[06/09/2020 - 07:30:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 49.000000 | Target 61.000000
+[06/09/2020 - 07:30:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 52.000000 | Target 61.000000
+[06/09/2020 - 07:30:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 55.000000 | Target 61.000000
+[06/09/2020 - 07:30:07PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 58.000000 | Target 61.000000
+[06/09/2020 - 07:30:08PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 61.000000 | Target 61.000000
+[06/09/2020 - 07:30:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnLocationChanged
+[06/09/2020 - 07:30:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation()
+[06/09/2020 - 07:30:52PM] [metro:world:radiation <GasMask_Context (1B006381)>] CheckRadiation() failed the conditions for radiation
+[06/09/2020 - 07:31:20PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 0.000000 | Target 61.000000
+[06/09/2020 - 07:31:20PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 1.000000 | Target 61.000000
+[06/09/2020 - 07:31:20PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 2.000000 | Target 61.000000
+[06/09/2020 - 07:31:21PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 3.000000 | Target 61.000000
+[06/09/2020 - 07:31:21PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 4.000000 | Target 61.000000
+[06/09/2020 - 07:31:21PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 5.000000 | Target 61.000000
+[06/09/2020 - 07:31:21PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 6.000000 | Target 61.000000
+[06/09/2020 - 07:31:21PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 7.000000 | Target 61.000000
+[06/09/2020 - 07:31:22PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 10.000000 | Target 61.000000
+[06/09/2020 - 07:31:27PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 13.000000 | Target 61.000000
+[06/09/2020 - 07:31:27PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 16.000000 | Target 61.000000
+[06/09/2020 - 07:31:28PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 19.000000 | Target 61.000000
+[06/09/2020 - 07:31:28PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 22.000000 | Target 61.000000
+[06/09/2020 - 07:31:28PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 25.000000 | Target 61.000000
+[06/09/2020 - 07:31:28PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 28.000000 | Target 61.000000
+[06/09/2020 - 07:31:28PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 31.000000 | Target 61.000000
+[06/09/2020 - 07:31:29PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 34.000000 | Target 61.000000
+[06/09/2020 - 07:31:29PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 37.000000 | Target 61.000000
+[06/09/2020 - 07:31:29PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 40.000000 | Target 61.000000
+[06/09/2020 - 07:31:29PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 43.000000 | Target 61.000000
+[06/09/2020 - 07:31:30PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 46.000000 | Target 61.000000
+[06/09/2020 - 07:31:30PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 49.000000 | Target 61.000000
+[06/09/2020 - 07:31:30PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 52.000000 | Target 61.000000
+[06/09/2020 - 07:31:30PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 55.000000 | Target 61.000000
+[06/09/2020 - 07:31:31PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 58.000000 | Target 61.000000
+[06/09/2020 - 07:31:31PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 61.000000 | Target 61.000000
+[06/09/2020 - 07:31:32PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: OnChanged | Timer | Threshold = True
+[06/09/2020 - 07:31:33PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 0.000000 | Target 61.000000
+[06/09/2020 - 07:31:33PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 1.000000 | Target 61.000000
+[06/09/2020 - 07:31:33PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 2.000000 | Target 61.000000
+[06/09/2020 - 07:31:33PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 3.000000 | Target 61.000000
+[06/09/2020 - 07:31:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 4.000000 | Target 61.000000
+[06/09/2020 - 07:31:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 5.000000 | Target 61.000000
+[06/09/2020 - 07:31:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 6.000000 | Target 61.000000
+[06/09/2020 - 07:31:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 7.000000 | Target 61.000000
+[06/09/2020 - 07:31:34PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 10.000000 | Target 61.000000
+[06/09/2020 - 07:31:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 13.000000 | Target 61.000000
+[06/09/2020 - 07:31:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 16.000000 | Target 61.000000
+[06/09/2020 - 07:31:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 19.000000 | Target 61.000000
+[06/09/2020 - 07:31:35PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 22.000000 | Target 61.000000
+[06/09/2020 - 07:31:36PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 25.000000 | Target 61.000000
+[06/09/2020 - 07:31:36PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 28.000000 | Target 61.000000
+[06/09/2020 - 07:31:36PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 31.000000 | Target 61.000000
+[06/09/2020 - 07:31:36PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 34.000000 | Target 61.000000
+[06/09/2020 - 07:31:36PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 37.000000 | Target 61.000000
+[06/09/2020 - 07:31:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 40.000000 | Target 61.000000
+[06/09/2020 - 07:31:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 43.000000 | Target 61.000000
+[06/09/2020 - 07:31:37PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 46.000000 | Target 61.000000
+[06/09/2020 - 07:31:38PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 49.000000 | Target 61.000000
+[06/09/2020 - 07:31:38PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 52.000000 | Target 61.000000
+[06/09/2020 - 07:31:39PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 55.000000 | Target 61.000000
+[06/09/2020 - 07:31:39PM] [metro:world:radiation <GasMask_Context (1B006381)>] Radiation: Exposure 58.000000 | Target 61.000000
+[06/09/2020 - 07:31:53PM] Log closed

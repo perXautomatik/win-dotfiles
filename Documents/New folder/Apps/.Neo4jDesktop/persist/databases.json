@@ -1,0 +1,36 @@
+{
+  "database-39768219-bfb6-4bba-9eb5-c446910c248e": {
+    "id": "database-39768219-bfb6-4bba-9eb5-c446910c248e",
+    "version": "3.5.14",
+    "edition": "enterprise",
+    "projectId": "project-462061ed-7267-43d1-ab2b-d50229c3e515",
+    "name": "Graph",
+    "description": "",
+    "createdAt": "2020-03-07T15:32:43.551Z",
+    "isValidPassword": true,
+    "dirtySettings": false,
+    "statistics": {
+      "nodesCount": 0,
+      "relationshipsCount": 0,
+      "labelsCount": 0,
+      "relationshipTypesCount": 0
+    }
+  },
+  "database-aff3f715-3cc8-4e31-b042-ed1cc8c6e6fa": {
+    "id": "database-aff3f715-3cc8-4e31-b042-ed1cc8c6e6fa",
+    "version": "4.0.4",
+    "edition": "enterprise",
+    "projectId": "project-462061ed-7267-43d1-ab2b-d50229c3e515",
+    "name": "GraphUnXYZPwXYZ",
+    "description": "",
+    "createdAt": "2020-06-10T15:59:00.973Z",
+    "isValidPassword": true,
+    "dirtySettings": false,
+    "statistics": {
+      "nodesCount": 0,
+      "relationshipsCount": 0,
+      "labelsCount": 0,
+      "relationshipTypesCount": 0
+    }
+  }
+}
