@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Incremental Adventures
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1371630
+Icon=steam_icon_1371630
+Terminal=false
+Type=Application
+Categories=Game;

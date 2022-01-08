@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Monster Prom 2: Monster Camp Demo
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1321430
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;

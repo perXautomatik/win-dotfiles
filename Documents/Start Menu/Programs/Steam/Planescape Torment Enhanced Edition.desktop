@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Planescape: Torment: Enhanced Edition
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/466300
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;

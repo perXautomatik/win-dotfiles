@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LEWDAPOCALYPSE
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1271710
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;
