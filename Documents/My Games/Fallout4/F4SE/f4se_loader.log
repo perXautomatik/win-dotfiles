@@ -1,7 +1,7 @@
-f4se loader 00060150 01D77221832119E4 6.2 (9200)
-config path = E:\SteamLibrary\steamapps\common\Fallout 4\Data\F4SE\f4se.ini
-procPath = E:\SteamLibrary\steamapps\common\Fallout 4\\Fallout4.exe
-launching: Fallout4.exe (E:\SteamLibrary\steamapps\common\Fallout 4\\Fallout4.exe)
+f4se loader 00060150 01D809A7576B5C52 6.2 (9200)
+config path = D:\Steam\steamapps\common\Fallout 4\Data\F4SE\f4se.ini
+procPath = D:\Steam\steamapps\common\Fallout 4\\Fallout4.exe
+launching: Fallout4.exe (D:\Steam\steamapps\common\Fallout 4\\Fallout4.exe)
 dwSignature = FEEF04BD
 dwStrucVersion = 00010000
 dwFileVersionMS = 0001000A
@@ -18,9 +18,9 @@ dwFileDateLS = 00000000
 version = 0001000A00A30000
 product name = Fallout 4
 steam exe
-dll = E:\SteamLibrary\steamapps\common\Fallout 4\\f4se_1_10_163.dll
-main thread id = 11468
-hookBase = 0000024EB0960000
-loadLibraryAAddr = 00007FFF5D1A04F0
+dll = D:\Steam\steamapps\common\Fallout 4\\f4se_1_10_163.dll
+main thread id = 5988
+hookBase = 000002B258D20000
+loadLibraryAAddr = 00007FFC698F04F0
 hook thread complete
 launching
