@@ -26,7 +26,9 @@ sig: 48 89 5C 24 ? 57 48 83 EC 20 33 FF 48 8D 05 ? ? ? ? 48 8B D9 C6 41 12 99
 effective address: 00007FF658A8A210
 RVA: 0x000AA210
 ---
-Sigscan elapsed: 63 ms.
+Sigscan elapsed: 53 ms.
 bAllowHTML: 1
 patch complete
 Registered Papyrus native functions.
+ExamineMenu opened
+Successfully registered scaleform native.

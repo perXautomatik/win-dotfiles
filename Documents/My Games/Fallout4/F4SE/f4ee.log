@@ -42,3 +42,16 @@ BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\P
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 SkinInterface::LoadSkinTemplates - Info - Loaded 3 skin template(s).	[F4SE\Plugins\F4EE\Skin\LupineRace.esm\skin.json]
 SkinInterface::LoadSkinTemplates - Info - Loaded 1 skin template(s).	[F4SE\Plugins\F4EE\Skin\VulpineRace.esm\skin.json]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\caninefembody.tri (2.27MB) (Cache: 2.27MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\felinefemalebody.tri (2.39MB) (Cache: 4.66MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\dlc04\clothes\slavecollar\dlc04_slavecollarf.tri (2.63KB) (Cache: 4.66MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\caninemalebody.tri (630.56KB) (Cache: 5.28MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\deermalebody.tri (482.97KB) (Cache: 5.75MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\horsefemalebody.tri (2.27MB) (Cache: 8.02MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\felinemalebody.tri (577.16KB) (Cache: 8.58MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\horsemalebody.tri (448.62KB) (Cache: 9.02MB / 2.00GB)
+BodyMorphInterface::ApplyMorphsToShape - Shape: DLC04_SlaveCollarF:0 is dynamic and could not be morphed	[meshes\dlc04\clothes\slavecollar\dlc04_slavecollarf.tri]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\deerfemalebody.tri (2.28MB) (Cache: 11.30MB / 2.00GB)
+BodyMorphInterface::ApplyMorphsToShape - Shape: DLC04_SlaveCollarF:0 is dynamic and could not be morphed	[meshes\dlc04\clothes\slavecollar\dlc04_slavecollarf.tri]
+BodyMorphInterface::ApplyMorphsToShape - Shape: DLC04_SlaveCollarF:0 is dynamic and could not be morphed	[meshes\dlc04\clothes\slavecollar\dlc04_slavecollarf.tri]
+BodyMorphInterface::ApplyMorphsToShape - Shape: DLC04_SlaveCollarF:0 is dynamic and could not be morphed	[meshes\dlc04\clothes\slavecollar\dlc04_slavecollarf.tri]

@@ -1,5 +1,5 @@
-[01/15/2022 - 01:32:15] [info] BakaScrapHeap log opened.
-[01/15/2022 - 01:32:15] [info] Default Trampoline => 0B / 16B (00.00%)
-[01/15/2022 - 01:32:15] [info] Default Trampoline => 14B / 16B (87.50%)
-[01/15/2022 - 01:32:15] [info] ScrapHeap patched [0x08000000 (~130mb)]
-[01/15/2022 - 01:32:15] [info] Plugin loaded successfully.
+[01/15/2022 - 01:41:52] [info] BakaScrapHeap log opened.
+[01/15/2022 - 01:41:52] [info] Default Trampoline => 0B / 16B (00.00%)
+[01/15/2022 - 01:41:52] [info] Default Trampoline => 14B / 16B (87.50%)
+[01/15/2022 - 01:41:52] [info] ScrapHeap patched [0x08000000 (~130mb)]
+[01/15/2022 - 01:41:52] [info] Plugin loaded successfully.

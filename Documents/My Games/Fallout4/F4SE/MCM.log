@@ -16,7 +16,7 @@ sig: 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 8B F9 48 8B CA 
 effective address: 00007FF65B0D3970
 RVA: 0x026F3970
 ---
-Sigscan elapsed: 194 ms.
+Sigscan elapsed: 198 ms.
 ModSettingStore initializing.
 Expanded buffer to 2048 bytes.
 Number of mod setting files: 5
@@ -138,3 +138,16 @@ WARNING: ModSetting MCM_SpawnsEnabled:Debug Mode from mod Pack Attack NPC has an
 Registered 444 mod settings in 8 ms.
 Registered Papyrus native functions.
 Registered for input events.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Loading keybind definitions for Loot Detector
+Elapsed: 10 ms.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Elapsed: 0 ms.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Elapsed: 0 ms.
+Clearing MCM co-save internal state.
+Loading MCM data.
+Elapsed: 0 ms.
