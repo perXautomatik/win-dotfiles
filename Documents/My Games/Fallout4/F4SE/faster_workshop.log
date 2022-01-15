@@ -38,7 +38,7 @@ sig: 48 8B 05 ? ? ? ? 8B 13
 effective address: 00007FF65E2AF080
 RVA: 0x058CF080
 ---
-Sigscan elapsed: 60 ms.
+Sigscan elapsed: 69 ms.
 Base address: 00007FF6589E0000
 Wrote branch 00007FF658BF1ACF
 Wrote call 00007FF658BD8B10

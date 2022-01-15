@@ -116,7 +116,7 @@ sig: 48 8B 0D ? ? ? ? 45 33 C9 44 8B C7
 effective address: 00007FF65E2B0780
 RVA: 0x058D0780
 ---
-Sigscan elapsed: 374 ms.
+Sigscan elapsed: 387 ms.
 Registered Papyrus native functions.
 Loading plugin data...
 Plugin data loaded.
