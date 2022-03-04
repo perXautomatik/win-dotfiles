@@ -1,0 +1,13 @@
+font:
+  normal:
+    family: Cascadia Code
+
+colors:
+  primary:
+    background: "#1E1E1E"
+
+shell:
+  program: zsh
+
+cursor:
+  style: Beam

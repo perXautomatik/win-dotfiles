@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	name = IrishBruse
+	email = econn50@outlook.com
+[credential]
+	helper = store
