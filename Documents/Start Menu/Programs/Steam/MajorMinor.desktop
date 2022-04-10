@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Major\Minor
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/417990
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;

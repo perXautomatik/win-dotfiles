@@ -1,10 +1,10 @@
-f4se loader 00060150 (steam) 01D7E3E8F45A085C 6.2 (9200)
-loader base addr = 00007FFA9C900000
-exe base addr = 00007FF7D3820000
-found iat at 00007FF7D6437F08
-original thunk 00007FFA8945DB48
+f4se loader 00060150 (steam) 01D82E48B7BD3CCD 6.2 (9200)
+loader base addr = 00007FFD81690000
+exe base addr = 00007FF74B150000
+found iat at 00007FF74DD67F08
+original thunk 00007FFD6DBBDB48
 patched iat
-HookMain: thread = 14392 retaddr = 00007FF7D615702D
+HookMain: thread = 23200 retaddr = 00007FF74DA8702D
 runtimePath = D:\Steam\steamapps\common\Fallout 4\Fallout4.exe
 dwSignature = FEEF04BD
 dwStrucVersion = 00010000

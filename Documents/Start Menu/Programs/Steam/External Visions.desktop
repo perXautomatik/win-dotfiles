@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=External Visions
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/748880
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;

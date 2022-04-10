@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Moe Era
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/1159660
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;

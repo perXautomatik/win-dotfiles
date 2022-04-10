@@ -1,7 +1,213 @@
-[01/06/2022 - 06:35:35PM] PANPC log opened (PC-64)
-[01/06/2022 - 06:35:35PM] PANPC Version 1.99 (05/21/21) started.
-[01/06/2022 - 06:35:35PM] Pipboy identified in inventory.  PANPC fully operational.
-[01/06/2022 - 06:35:35PM] Gotpipboy = 1.000000
-[01/06/2022 - 06:35:40PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:35:52PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:36:22PM]  Current combat menace level = 1.000000
+[03/13/2022 - 06:55:17PM] PANPC log opened (PC-64)
+[03/13/2022 - 06:55:17PM] PANPC Version 1.99 (05/21/21) started.
+[03/13/2022 - 06:55:17PM] Pipboy identified in inventory.  PANPC fully operational.
+[03/13/2022 - 06:55:17PM] Gotpipboy = 1.000000
+[03/13/2022 - 06:58:24PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 06:58:24PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 06:58:25PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 06:58:25PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 06:58:26PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 06:58:26PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 06:58:28PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 06:58:28PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 06:58:30PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 06:58:30PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 06:58:33PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 06:58:33PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 07:02:31PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 07:02:31PM] [REG] bloatfly is actorbase [ActorBase < (0017E6CF)>]
+[03/13/2022 - 07:02:35PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 07:02:35PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 07:03:02PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 07:03:02PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 07:03:05PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 07:03:05PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 07:03:05PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 07:03:05PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 07:03:05PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 07:03:05PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 07:03:05PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 07:03:05PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 07:03:07PM] [REG] Attempting to register Bloodbug Hatchling
+[03/13/2022 - 07:03:07PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 07:03:07PM] [REG] Bloodbug Hatchling is actorbase [ActorBase < (0007D2A3)>]
+[03/13/2022 - 07:03:07PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 07:03:07PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 07:03:07PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 07:03:08PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 07:03:08PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 07:03:08PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 07:03:08PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 07:03:08PM] [REG] Bloodbug Hatchling found - delayed enable actor
+[03/13/2022 - 07:03:08PM] [REG] Bloodbug Hatchling unidentified, unable to register
+[03/13/2022 - 07:03:10PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 07:03:10PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:03:40PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:03:40PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:03:42PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:03:42PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:04:02PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:04:02PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:04:04PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:04:04PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:04:32PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:04:32PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:04:33PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:04:33PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:04:48PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 08:04:48PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:04:50PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 08:04:50PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:05:43PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:05:43PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:05:44PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:05:44PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:09:05PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:09:05PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:09:12PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:09:12PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:17:00PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 08:17:00PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:17:03PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 08:17:03PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:17:14PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:17:15PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:17:17PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:17:17PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:18:00PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:18:01PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:18:03PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:18:03PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:20:30PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:20:30PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:32PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:20:32PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:20:38PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:20:38PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:41PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:20:41PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:20:41PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 08:20:41PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:43PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 08:20:43PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:20:55PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:20:55PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:56PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:20:56PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:57PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:20:57PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:20:58PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:20:58PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:20:58PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:20:58PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:00PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:21:00PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:01PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:21:01PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:02PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:21:02PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:02PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:21:02PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:03PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 08:21:03PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:03PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:21:03PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:04PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:21:04PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:04PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:21:04PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:05PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 08:21:05PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:10PM] [REG] Attempting to register bloatfly
+[03/13/2022 - 08:21:10PM] [REG] bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:13PM] [REG] bloatfly found - base game actor
+[03/13/2022 - 08:21:13PM] [REG] bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:15PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:21:15PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:17PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:21:17PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:19PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:21:19PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:19PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:21:19PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:21PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:21:21PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:21PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:21:21PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:23PM] [REG] Attempting to register Legendary Glowing Bloatfly
+[03/13/2022 - 08:21:23PM] [REG] Legendary Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:25PM] [REG] Legendary Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:21:25PM] [REG] Legendary Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:28PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:21:28PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:30PM] [REG] Attempting to register Legendary Glowing Bloatfly
+[03/13/2022 - 08:21:30PM] [REG] Legendary Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:30PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:21:30PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:30PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:21:30PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:21:32PM] [REG] Legendary Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:21:32PM] [REG] Legendary Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:21:33PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:21:33PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:22:00PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:22:00PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:22:00PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:22:00PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:22:02PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:22:02PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:22:02PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:22:02PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:22:24PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:22:24PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:22:26PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:22:26PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:48:43PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:48:43PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:48:45PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:48:45PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:48:46PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 08:48:46PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:48:48PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:48:48PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:49:02PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:49:02PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:49:04PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:49:04PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:49:04PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 08:49:04PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:49:04PM] [REG] Attempting to register Black Bloatfly
+[03/13/2022 - 08:49:04PM] [REG] Black Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:49:06PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 08:49:06PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 08:49:07PM] [REG] Black Bloatfly found - base game actor
+[03/13/2022 - 08:49:07PM] [REG] Black Bloatfly unidentified, unable to register
+[03/13/2022 - 08:53:45PM] [REG] Attempting to register Legendary Glowing Bloatfly
+[03/13/2022 - 08:53:45PM] [REG] Legendary Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:53:47PM] [REG] Legendary Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:53:47PM] [REG] Legendary Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 08:53:47PM] [REG] Attempting to register Legendary Glowing Bloatfly
+[03/13/2022 - 08:53:47PM] [REG] Legendary Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 08:53:49PM] [REG] Legendary Glowing Bloatfly found - base game actor
+[03/13/2022 - 08:53:49PM] [REG] Legendary Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 09:03:41PM] [REG] Attempting to register Settler
+[03/13/2022 - 09:03:41PM] [REG] Settler is actorbase [ActorBase < (0A0091E6)>]
+[03/13/2022 - 09:03:41PM] [REG] Settler found - workshop NPC
+[03/13/2022 - 09:03:41PM] [REG] Settler identified, now attempting to register
+[03/13/2022 - 09:51:30PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 09:51:30PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 09:51:30PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 09:51:30PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 09:51:31PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 09:51:31PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 09:51:31PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 09:51:31PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 09:54:01PM] [REG] Attempting to register Glowing Bloatfly
+[03/13/2022 - 09:54:01PM] [REG] Glowing Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 09:54:03PM] [REG] Glowing Bloatfly found - base game actor
+[03/13/2022 - 09:54:03PM] [REG] Glowing Bloatfly unidentified, unable to register
+[03/13/2022 - 09:55:02PM] [REG] Attempting to register Festering Bloatfly
+[03/13/2022 - 09:55:02PM] [REG] Festering Bloatfly is actorbase [ActorBase < (0003320A)>]
+[03/13/2022 - 09:55:04PM] [REG] Festering Bloatfly found - base game actor
+[03/13/2022 - 09:55:04PM] [REG] Festering Bloatfly unidentified, unable to register
+[03/13/2022 - 09:59:41PM] Log closed

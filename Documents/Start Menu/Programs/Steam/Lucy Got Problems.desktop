@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Lucy Got Problems
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/879510
-Icon=steam_icon_879510
-Terminal=false
-Type=Application
-Categories=Game;

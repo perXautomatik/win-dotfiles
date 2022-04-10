@@ -1,6 +1,6 @@
-F4SE runtime: initialize (version = 0.6.21 010A0A30 01D80A108D6A37BB, os = 6.2 (9200))
-imagebase = 00007FF6589E0000
-reloc mgr imagebase = 00007FF6589E0000
+F4SE runtime: initialize (version = 0.6.21 010A0A30 01D84C3D567086FA, os = 6.2 (9200))
+imagebase = 00007FF6D2BD0000
+reloc mgr imagebase = 00007FF6D2BD0000
 plugin directory = D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\
 checking plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll
 plugin D:\Steam\steamapps\common\Fallout 4\Data\F4SE\Plugins\\BakaScrapHeap.dll (00000001 BakaScrapHeap 00000001) loaded correctly
@@ -39,3 +39,339 @@ config path = D:\Steam\steamapps\common\Fallout 4\Data\F4SE\f4se.ini
 init complete
 Reading translations from Interface\Translations\LooksMenu_en.txt...
 RegisterPapyrusFunctions_Hook
+save name is Autosave2_F4F0DB1F_5865726F78_Commonwealth_021210_20220408181820_58_2
+full save path: C:\Users\Användaren\Documents\My Games\Fallout4\Saves\\Autosave2_F4F0DB1F_5865726F78_Commonwealth_021210_20220408181820_58_2.f4se
+loading co-save
+Loading plugin list:
+	(0 -> 0)	Fallout4.esm
+	(1 -> 1)	DLCRobot.esm
+	(2 -> 2)	DLCworkshop01.esm
+	(3 -> 3)	DLCCoast.esm
+	(4 -> 4)	DLCworkshop02.esm
+	(5 -> 5)	DLCworkshop03.esm
+	(6 -> 6)	DLCNukaWorld.esm
+	(7 -> 7)	XDI.esm
+	(8 -> 8)	HUDFramework.esm
+	(9 -> 9)	ArmorKeywords.esm
+	(10 -> 10)	Unofficial Fallout 4 Patch.esp
+	(11 -> 11)	WorkshopFramework.esm
+	(12 -> 12)	MODFoodScraps.esm
+	(13 -> 13)	LupineRace.esm
+	(14 -> 14)	PANPC.esm
+	(15 -> 15)	VulpineRace.esm
+	(16 -> 16)	ResourcesExpanded.esm
+	(1040384 -> 1040384)	CWRaiders.esl
+	(1040385 -> 1040385)	DDLL.esl
+	(1040386 -> 1040386)	FO76AmmoCrafting.esl
+	(1040387 -> 1040387)	Corpse Collision.esl
+	(17 -> 18)	Better Manufacturing.esp
+	(18 -> 19)	ManufacturingExtended.esp
+	(19 -> 17)	FlirtyCommonwealth.esp
+	(20 -> 20)	BetterModDescriptions.esp
+	(1040388 -> 1040388)	CBBE.esp
+	(21 -> 21)	spacefiddle_Scarcity_Full.esp
+	(22 -> 22)	MoreSpawns_High.esp
+	(23 -> 23)	WOTC.esp
+	(24 -> 24)	RaidersReloaded.esp
+	(1040389 -> 1040389)	Unlevelled Everything - Mods.esp
+	(25 -> 25)	RaiderOverhaul.esp
+	(26 -> 31)	Chainsaw.esp
+	(27 -> 32)	SleeplessNights.esp
+	(28 -> 36)	molotovcraftingredone.esp
+	(29 -> 37)	SKKRESystemManager.esp
+	(30 -> 38)	SKKSettlementAttackSystem.esp
+	(31 -> 39)	EFF.esp
+	(32 -> 26)	Extended weapon mods.esp
+	(1040390 -> 1040390)	Weapon Mods Mod.esp
+	(33 -> 27)	Armorsmith Extended.esp
+	(34 -> 28)	ECO.esp
+	(35 -> 40)	Simple Inventory Improvements.esp
+	(36 -> 42)	FurryFallout.esp
+	(1040391 -> 1040391)	VulpineRace-NPCReplacer-DLC.esp
+	(37 -> 43)	MoreVariedBodyShapesAndSkins.esp
+	(38 -> 44)	FurryFalloutNPCs.esp
+	(39 -> 45)	Kor_Scavenger.esp
+	(40 -> 46)	CartographersMapMarkers FarHarbor.esp
+	(41 -> 30)	KSHairdos.esp
+	(42 -> 33)	dcc-palock.esp
+	(43 -> 34)	UNnaked Power Armor.esp
+	(44 -> 35)	AdvancedWorkshopFoodHarvesting-AllDLC.esp
+	(45 -> 41)	FusionGirl.esp
+	(46 -> 47)	ScrapThrowables.esp
+	(47 -> 48)	Running with Corpses.esp
+	(48 -> 49)	DarkerNights.esp
+	(49 -> 56)	AllowWorkbenchDuringCombat.esp
+	(50 -> 63)	PeopleAreStrangers.esp
+	(1040392 -> 1040406)	MoreWeapMods.esp
+	(1040393 -> 1040408)	ATreeGrowsInBoston.esp
+	(1040394 -> 1040414)	CustomRaceHeadgear.esp
+	(1040395 -> 1040394)	FFO_NPC_DLC.esp
+	(1040396 -> 1040393)	MostlyFemale.esp
+	(51 -> 51)	Random_Enemy_Weapons_DLC.esp
+	(1040397 -> 1040395)	Important NPCs essential edition 1.1.esp
+	(1040398 -> 1040396)	NPCs Protected Not Essential.esp
+	(52 -> 50)	GR001-AutomatronRebooted.esp
+	(1040399 -> 1040392)	GZ_MiscItemOverhaul.esp
+	(1040400 -> 1040407)	CommChemExpanded.esp
+	(1040401 -> 1040409)	AutomaticSave.esp
+	(1040402 -> 1040410)	Loot Detector.esp
+	(1040403 -> 1040411)	FO76AmmoDeconstruction.esp
+	(1040404 -> 1040412)	UncommonCrafting.esp
+	(1040405 -> 1040413)	CAMP.esp
+	(1040406 -> 1040404)	EarlierPipeWeaponMods.esp
+	(1040407 -> 1040403)	Better Power Armor - Extended.esp
+	(1040408 -> 1040405)	LooksMenu.esp
+	(1040409 -> 1040418)	BetterModDescriptionsROWIP.esp
+	(1040410 -> 1040419)	Live Dismemberment - POSTAL.esp
+	(1040411 -> 1040420)	LostWorld.esp
+	(1040412 -> 1040421)	Lucky's Intresting Tips 1.4.esp
+	(1040413 -> 1040422)	CustomRaceHeadgear_Vulpine.esp
+	(1040414 -> 1040423)	Better Manufacturing - Manufacturing Extended Additions.esp
+	(53 -> 64)	DLC items to manufacturing.esp
+	(1040415 -> 1040424)	M8rDisablePipboyEffects.esp
+	(1040416 -> 1040425)	Better Manufacturing - Manufacturing Extended Expanded Patch.esp
+	(1040417 -> 1040426)	CK-ChemCraftingExpanded.esp
+	(1040418 -> 1040427)	SalvageRobotParts.esp
+	(1040419 -> 1040428)	Ferals After Dark.esp
+	(1040420 -> 1040429)	BetterBloatflies.esp
+	(1040421 -> 1040430)	AnatomicallyCorrectFerals_NW.esp
+	(1040422 -> 1040431)	AnatomicallyCorrectFerals.esp
+	(1040423 -> 1040432)	AnatomicallyCorrectFerals_FH.esp
+	(1040424 -> 1040397)	BreakheartBanksSettlementSPE.esp
+	(1040425 -> 1040398)	LynnWoodsSettlement.esp
+	(1040426 -> 1040399)	Power Armor to the People.esp
+	(1040427 -> 1040415)	Power Armor to the People - Nuka-World.esp
+	(54 -> 58)	CartographersMapMarkers NukaWorld.esp
+	(55 -> 52)	MikeMooresMCAM.esp
+	(56 -> 57)	DT_GunnerOutfitPack.esp
+	(57 -> 53)	WorkshopPlus.esp
+	(58 -> 60)	SKKGlobalStashScrapping.esp
+	(1040428 -> 1040416)	SettlementAttacksBeyond.esp
+	(1040429 -> 1040400)	CrazyEarlsScrapyard.esp
+	(1040430 -> 1040401)	CrazyEarlsScrapyard_Lore.esp
+	(59 -> 54)	Resources Expanded - Recipes.esp
+	(1040431 -> 1040402)	Fallout 4 AI Overhaul.esp
+	(60 -> 61)	CartographersMapMarkers Commonwealth.esp
+	(61 -> 59)	R88_SimpleSorter.esp
+	(1040432 -> 1040417)	M8r_Item_Tags_Vanilla_EN.esp
+	(62 -> 65)	FlamerFuelFromFuel.esp
+	(1040433 -> 1040438)	Power Armor to the People - Raider Overhaul.esp
+	(1040434 -> 1040439)	Leveled Raiders.esp
+	(1040435 -> 1040437)	Gunner Outfit Extreme Overhaul.esp
+	(1040436 -> 1040433)	free_downgrades_stubs.esp
+	(1040437 -> 1040434)	free_downgrades_DLCCoast.esp
+	(1040438 -> 1040435)	free_downgrades_DLCNuka.esp
+	(1040439 -> 1040436)	Kermie's Misc Components.esp
+	(1040440 -> 1040440)	CraftPatch2.esp
+	(1040441 -> 1040441)	MaterialModSlot-FallUIWorkbenchPatch.esp
+	(1040442 -> 1040442)	4estGimp - RO.FallUI.PA_INNR.esp
+	(1040443 -> 1040443)	WheelMenu.esp
+	(1040444 -> 1040447)	More Armor Slots - All Dlc.esp
+	(1040445 -> 1040452)	Power Armor to the People - Far Harbor.esp
+	(1040446 -> 1040448)	CcoVulagarVilliansR.esp
+	(1040447 -> 1040449)	CustomRaceHeadgear_FFO.esp
+	(1040448 -> 1040450)	WeaponModsPatch.esp
+	(63 -> 66)	Desperate Raiders.esp
+	(1040449 -> 1040451)	More Human Raider Loot.esp
+	(1040450 -> 1040453)	RaidersPatch.esp
+	(64 -> 68)	More_Clothes_Textures.esp
+	(1040451 -> 1040461)	ECO_MoreClothesTextures.esp
+	(1040452 -> 1040465)	WeaponDrops.esp
+	(1040453 -> 1040444)	Better Weapon Scrap - Ultimate Edition_ESL.esp
+	(1040454 -> 1040446)	ECO_CWRaiders.esp
+	(1040455 -> 1040445)	More Weapon Scrap.esp
+	(65 -> 67)	FFO-Player-OTTER.esp
+	(1040456 -> 1040460)	MamaMutie.esp
+	(1040457 -> 1040458)	raidercorpseworkplease.esp
+	(1040458 -> 1040454)	VulpinePowerArmor.esp
+	(1040459 -> 1040455)	CCOVulgarVillainsReplacer.esp
+	(1040460 -> 1040456)	CCOFoxyFactionsReplacer.esp
+	(1040461 -> 1040457)	FurryPatch.esp
+	(1040462 -> 1040459)	ConstructionPatch.esp
+	(66 -> 69)	WeaponDisarm.esp
+	(67 -> 70)	advancedAITweaks.esp
+	(68 -> 71)	DisableAutoAimF4.esp
+	(69 -> 72)	FCEjectNoMore.esp
+	(1040463 -> 1040462)	fastcorpseclear.esp
+	(1040464 -> 1040463)	UnrestrictivePowerArmor.esp
+	(1040465 -> 1040464)	SuperPatch.esp
+	(1040466 -> 1040466)	4estGimp - FallUI_R88_PA_INNR.esp
+	(70 -> 73)	ManualFurryPatchMSynth.esp
+Loading key input event registrations...
+Loading control input event registrations...
+Loading external event registrations...
+Loading camera event registrations...
+Loading furniture event registrations...
+Loading F4SEPersistentObjectStorage data...
+Loading F4SEDelayFunctorManager data...
+cleared save path
+save name is Autosave3_F4F0DB1F_5865726F78_Commonwealth_021212_20220409181413_58_2
+full save path: C:\Users\Användaren\Documents\My Games\Fallout4\Saves\\Autosave3_F4F0DB1F_5865726F78_Commonwealth_021212_20220409181413_58_2.f4se
+creating co-save
+Saving plugin list:
+	[0]	Fallout4.esm
+	[1]	DLCRobot.esm
+	[2]	DLCworkshop01.esm
+	[3]	DLCCoast.esm
+	[4]	DLCworkshop02.esm
+	[5]	DLCworkshop03.esm
+	[6]	DLCNukaWorld.esm
+	[7]	XDI.esm
+	[8]	HUDFramework.esm
+	[9]	ArmorKeywords.esm
+	[10]	Unofficial Fallout 4 Patch.esp
+	[11]	WorkshopFramework.esm
+	[12]	MODFoodScraps.esm
+	[13]	LupineRace.esm
+	[14]	PANPC.esm
+	[15]	VulpineRace.esm
+	[16]	ResourcesExpanded.esm
+	[FE:0]	CWRaiders.esl
+	[FE:1]	DDLL.esl
+	[FE:2]	FO76AmmoCrafting.esl
+	[FE:3]	Corpse Collision.esl
+	[17]	FlirtyCommonwealth.esp
+	[18]	Better Manufacturing.esp
+	[19]	ManufacturingExtended.esp
+	[20]	BetterModDescriptions.esp
+	[FE:4]	CBBE.esp
+	[21]	spacefiddle_Scarcity_Full.esp
+	[22]	MoreSpawns_High.esp
+	[23]	WOTC.esp
+	[24]	RaidersReloaded.esp
+	[FE:5]	Unlevelled Everything - Mods.esp
+	[25]	RaiderOverhaul.esp
+	[26]	Extended weapon mods.esp
+	[FE:6]	Weapon Mods Mod.esp
+	[27]	Armorsmith Extended.esp
+	[28]	ECO.esp
+	[29]	ArmorAtArmourBench.esp
+	[30]	KSHairdos.esp
+	[31]	Chainsaw.esp
+	[32]	SleeplessNights.esp
+	[33]	dcc-palock.esp
+	[34]	UNnaked Power Armor.esp
+	[35]	AdvancedWorkshopFoodHarvesting-AllDLC.esp
+	[36]	molotovcraftingredone.esp
+	[37]	SKKRESystemManager.esp
+	[38]	SKKSettlementAttackSystem.esp
+	[39]	EFF.esp
+	[40]	Simple Inventory Improvements.esp
+	[41]	FusionGirl.esp
+	[42]	FurryFallout.esp
+	[FE:7]	VulpineRace-NPCReplacer-DLC.esp
+	[43]	MoreVariedBodyShapesAndSkins.esp
+	[44]	FurryFalloutNPCs.esp
+	[45]	Kor_Scavenger.esp
+	[46]	CartographersMapMarkers FarHarbor.esp
+	[47]	ScrapThrowables.esp
+	[48]	Running with Corpses.esp
+	[49]	DarkerNights.esp
+	[FE:8]	GZ_MiscItemOverhaul.esp
+	[FE:9]	MostlyFemale.esp
+	[FE:10]	FFO_NPC_DLC.esp
+	[FE:11]	Important NPCs essential edition 1.1.esp
+	[FE:12]	NPCs Protected Not Essential.esp
+	[50]	GR001-AutomatronRebooted.esp
+	[51]	Random_Enemy_Weapons_DLC.esp
+	[FE:13]	BreakheartBanksSettlementSPE.esp
+	[FE:14]	LynnWoodsSettlement.esp
+	[FE:15]	Power Armor to the People.esp
+	[52]	MikeMooresMCAM.esp
+	[53]	WorkshopPlus.esp
+	[FE:16]	CrazyEarlsScrapyard.esp
+	[FE:17]	CrazyEarlsScrapyard_Lore.esp
+	[54]	Resources Expanded - Recipes.esp
+	[FE:18]	Fallout 4 AI Overhaul.esp
+	[55]	FurnitureDuringCombat.esp
+	[56]	AllowWorkbenchDuringCombat.esp
+	[FE:19]	Better Power Armor - Extended.esp
+	[FE:20]	EarlierPipeWeaponMods.esp
+	[FE:21]	LooksMenu.esp
+	[FE:22]	MoreWeapMods.esp
+	[FE:23]	CommChemExpanded.esp
+	[FE:24]	ATreeGrowsInBoston.esp
+	[FE:25]	AutomaticSave.esp
+	[FE:26]	Loot Detector.esp
+	[FE:27]	FO76AmmoDeconstruction.esp
+	[FE:28]	UncommonCrafting.esp
+	[FE:29]	CAMP.esp
+	[FE:30]	CustomRaceHeadgear.esp
+	[57]	DT_GunnerOutfitPack.esp
+	[FE:31]	Power Armor to the People - Nuka-World.esp
+	[58]	CartographersMapMarkers NukaWorld.esp
+	[59]	R88_SimpleSorter.esp
+	[60]	SKKGlobalStashScrapping.esp
+	[FE:32]	SettlementAttacksBeyond.esp
+	[61]	CartographersMapMarkers Commonwealth.esp
+	[FE:33]	M8r_Item_Tags_Vanilla_EN.esp
+	[62]	AmmoAtBench.esp
+	[FE:34]	BetterModDescriptionsROWIP.esp
+	[FE:35]	Live Dismemberment - POSTAL.esp
+	[FE:36]	LostWorld.esp
+	[FE:37]	Lucky's Intresting Tips 1.4.esp
+	[63]	PeopleAreStrangers.esp
+	[FE:38]	CustomRaceHeadgear_Vulpine.esp
+	[FE:39]	Better Manufacturing - Manufacturing Extended Additions.esp
+	[64]	DLC items to manufacturing.esp
+	[FE:40]	M8rDisablePipboyEffects.esp
+	[FE:41]	Better Manufacturing - Manufacturing Extended Expanded Patch.esp
+	[FE:42]	CK-ChemCraftingExpanded.esp
+	[FE:43]	SalvageRobotParts.esp
+	[FE:44]	Ferals After Dark.esp
+	[FE:45]	BetterBloatflies.esp
+	[FE:46]	AnatomicallyCorrectFerals_NW.esp
+	[FE:47]	AnatomicallyCorrectFerals.esp
+	[FE:48]	AnatomicallyCorrectFerals_FH.esp
+	[65]	FlamerFuelFromFuel.esp
+	[FE:49]	free_downgrades_stubs.esp
+	[FE:50]	free_downgrades_DLCCoast.esp
+	[FE:51]	free_downgrades_DLCNuka.esp
+	[FE:52]	Kermie's Misc Components.esp
+	[FE:53]	Gunner Outfit Extreme Overhaul.esp
+	[FE:54]	Power Armor to the People - Raider Overhaul.esp
+	[FE:55]	Leveled Raiders.esp
+	[FE:56]	CraftPatch2.esp
+	[FE:57]	MaterialModSlot-FallUIWorkbenchPatch.esp
+	[FE:58]	4estGimp - RO.FallUI.PA_INNR.esp
+	[FE:59]	WheelMenu.esp
+	[FE:60]	Better Weapon Scrap - Ultimate Edition_ESL.esp
+	[FE:61]	More Weapon Scrap.esp
+	[FE:62]	ECO_CWRaiders.esp
+	[FE:63]	More Armor Slots - All Dlc.esp
+	[FE:64]	CcoVulagarVilliansR.esp
+	[FE:65]	CustomRaceHeadgear_FFO.esp
+	[FE:66]	WeaponModsPatch.esp
+	[66]	Desperate Raiders.esp
+	[FE:67]	More Human Raider Loot.esp
+	[FE:68]	Power Armor to the People - Far Harbor.esp
+	[FE:69]	RaidersPatch.esp
+	[67]	FFO-Player-OTTER.esp
+	[68]	More_Clothes_Textures.esp
+	[FE:70]	VulpinePowerArmor.esp
+	[FE:71]	CCOVulgarVillainsReplacer.esp
+	[FE:72]	CCOFoxyFactionsReplacer.esp
+	[FE:73]	FurryPatch.esp
+	[FE:74]	raidercorpseworkplease.esp
+	[FE:75]	ConstructionPatch.esp
+	[FE:76]	MamaMutie.esp
+	[FE:77]	ECO_MoreClothesTextures.esp
+	[69]	WeaponDisarm.esp
+	[70]	advancedAITweaks.esp
+	[71]	DisableAutoAimF4.esp
+	[72]	FCEjectNoMore.esp
+	[FE:78]	fastcorpseclear.esp
+	[FE:79]	UnrestrictivePowerArmor.esp
+	[FE:80]	SuperPatch.esp
+	[FE:81]	WeaponDrops.esp
+	[FE:82]	4estGimp - FallUI_R88_PA_INNR.esp
+	[73]	ManualFurryPatchMSynth.esp
+Saving key input event registrations...
+Saving control input event registrations...
+Saving external event registrations...
+Saving camera event registrations...
+Saving furniture event registrations...
+Saving SKSEPersistentObjectStorage data...
+Saving SKSEDelayFunctorManager data...
+cleared save path
+deleting co-save C:\Users\Användaren\Documents\My Games\Fallout4\Saves\\Autosave3_F4F0DB1F_5865726F78_Commonwealth_021207_20220407230928_58_2.f4se

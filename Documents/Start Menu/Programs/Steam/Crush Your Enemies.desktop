@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Crush Your Enemies
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/406850
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;

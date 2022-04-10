@@ -1,164 +1,283 @@
-[01/06/2022 - 06:17:40PM] PANPC log opened (PC-64)
-[01/06/2022 - 06:17:40PM] PANPC Version 1.99 (05/21/21) started.
-[01/06/2022 - 06:17:40PM] Pipboy identified in inventory.  PANPC fully operational.
-[01/06/2022 - 06:17:40PM] Gotpipboy = 1.000000
-[01/06/2022 - 06:17:45PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:17:50PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:17:56PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:19:46PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:19:48PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:19:48PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:19:50PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:19:50PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:19:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:19:56PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:00PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:05PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:10PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:15PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:21PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:28PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:33PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:21:38PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:26PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:34PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:39PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:44PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:50PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:23:55PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:24:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:24:56PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:01PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:08PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:13PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:18PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:25:18PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:25:18PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:20PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:25:20PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:25:20PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:25:20PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:25:22PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:25:22PM] [REG] Gunner is actorbase [ActorBase < (00110041)>]
-[01/06/2022 - 06:25:23PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:25:23PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:25:23PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:24PM] [REG] Attempting to register Gunner Shock Trooper
-[01/06/2022 - 06:25:24PM] [REG] Gunner Shock Trooper is actorbase [ActorBase < (00110041)>]
-[01/06/2022 - 06:25:24PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:25:24PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:25:26PM] [REG] Gunner Shock Trooper - PANPC unidentified
-[01/06/2022 - 06:25:26PM] [REG] Gunner Shock Trooper unidentified, unable to register
-[01/06/2022 - 06:25:32PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:37PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:42PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:47PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:53PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:25:58PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:03PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:10PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:15PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:20PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:25PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:30PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:35PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:40PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:45PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:26:56PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:01PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:06PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:15PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:21PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:27PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:37PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:44PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:49PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:27:54PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:04PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:09PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:14PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:19PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:24PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:31PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:36PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:37PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:28:37PM] [REG] Gunner is actorbase [ActorBase < (00110041)>]
-[01/06/2022 - 06:28:38PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:28:38PM] [REG] Gunner is actorbase [ActorBase < (00110041)>]
-[01/06/2022 - 06:28:39PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:28:39PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:28:40PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:28:40PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:28:41PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:46PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:28:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:29:48PM] [REG] Attempting to register Gunner Conscript
-[01/06/2022 - 06:29:48PM] [REG] Gunner Conscript is actorbase [ActorBase < (000DE964)>]
-[01/06/2022 - 06:29:48PM] [REG] Attempting to register Legendary Gunner
-[01/06/2022 - 06:29:48PM] [REG] Legendary Gunner is actorbase [ActorBase < (000DE964)>]
-[01/06/2022 - 06:29:48PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:29:50PM] [REG] Attempting to register Gunner Conscript
-[01/06/2022 - 06:29:50PM] [REG] Gunner Conscript is actorbase [ActorBase < (000DE964)>]
-[01/06/2022 - 06:29:50PM] [REG] Gunner Conscript - PANPC unidentified
-[01/06/2022 - 06:29:50PM] [REG] Gunner Conscript unidentified, unable to register
-[01/06/2022 - 06:29:50PM] [REG] Legendary Gunner - PANPC unidentified
-[01/06/2022 - 06:29:50PM] [REG] Legendary Gunner unidentified, unable to register
-[01/06/2022 - 06:29:50PM] [REG] Attempting to register Gunner Corporal
-[01/06/2022 - 06:29:50PM] [REG] Gunner Corporal is actorbase [ActorBase < (00110041)>]
-[01/06/2022 - 06:29:50PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:29:50PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:29:50PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:29:50PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:29:51PM] [REG] Gunner Conscript - PANPC unidentified
-[01/06/2022 - 06:29:51PM] [REG] Gunner Conscript unidentified, unable to register
-[01/06/2022 - 06:29:52PM] [REG] Gunner Corporal - PANPC unidentified
-[01/06/2022 - 06:29:52PM] [REG] Gunner Corporal unidentified, unable to register
-[01/06/2022 - 06:29:52PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:29:52PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:29:53PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:29:53PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:29:54PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:07PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:13PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:18PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:23PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:28PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:35PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:40PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:43PM] [REG] Attempting to register Gunner
-[01/06/2022 - 06:30:43PM] [REG] Gunner is actorbase [ActorBase < (000DE965)>]
-[01/06/2022 - 06:30:45PM] [REG] Gunner - PANPC unidentified
-[01/06/2022 - 06:30:45PM] [REG] Gunner unidentified, unable to register
-[01/06/2022 - 06:30:45PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:50PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:30:55PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:21PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:26PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:31PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:37PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:42PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:54PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:31:59PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:04PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:09PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:25PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:30PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:35PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:40PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:46PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:32:57PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:02PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:08PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:14PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:19PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:25PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:30PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:35PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:40PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:45PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:51PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:33:56PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:34:01PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:34:15PM] Log closed
+[03/13/2022 - 05:00:53PM] PANPC log opened (PC-64)
+[03/13/2022 - 05:00:53PM] PANPC Version 1.99 (05/21/21) started.
+[03/13/2022 - 05:00:53PM] Pipboy identified in inventory.  PANPC fully operational.
+[03/13/2022 - 05:00:53PM] Gotpipboy = 1.000000
+[03/13/2022 - 05:00:58PM]  Current combat menace level = 1.000000
+[03/13/2022 - 05:01:03PM]  Current combat menace level = 1.000000
+[03/13/2022 - 05:01:08PM]  Current combat menace level = 1.000000
+[03/13/2022 - 05:02:14PM]  Current combat menace level = 1.000000
+[03/13/2022 - 05:22:59PM]  Current combat menace level = 1.100000
+[03/13/2022 - 05:23:04PM]  Current combat menace level = 1.100000
+[03/13/2022 - 05:23:04PM] Player visibility level now 0.200000.
+[03/13/2022 - 05:23:12PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:23:12PM] Player visibility level now 0.000000.
+[03/13/2022 - 05:23:17PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:23:43PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:23:48PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:23:53PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:23:58PM]  Current combat menace level = 1.050000
+[03/13/2022 - 05:24:12PM] [REG] Attempting to register Legendary Feral Ghoul Stalker
+[03/13/2022 - 05:24:12PM] [REG] Legendary Feral Ghoul Stalker is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:24:13PM] [REG] Legendary Feral Ghoul Stalker found - base game actor
+[03/13/2022 - 05:24:13PM] [REG] Legendary Feral Ghoul Stalker identified, now attempting to register
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:24:14PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Charred Feral Ghoul
+[03/13/2022 - 05:24:14PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Feral Ghoul Roamer
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Feral Ghoul
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:24:14PM] [REG] Charred Feral Ghoul is actorbase [ActorBase < (000D911B)>]
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Gangrenous Feral Ghoul
+[03/13/2022 - 05:24:14PM] [REG] Feral Ghoul is actorbase [ActorBase < (00075337)>]
+[03/13/2022 - 05:24:14PM] [REG] Feral Ghoul Roamer is actorbase [ActorBase < (000DE96A)>]
+[03/13/2022 - 05:24:14PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:24:14PM] [REG] Attempting to register Rotting Feral Ghoul
+[03/13/2022 - 05:24:14PM] [REG] Gangrenous Feral Ghoul is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:24:14PM] [REG] Rotting Feral Ghoul is actorbase [ActorBase < (00075337)>]
+[03/13/2022 - 05:24:15PM] [REG] Charred Feral Ghoul found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Charred Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:24:15PM] [REG] Rotting Feral Ghoul found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Rotting Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul Roamer found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Gangrenous Feral Ghoul found - base game actor
+[03/13/2022 - 05:24:15PM] [REG] Feral Ghoul Roamer identified, now attempting to register
+[03/13/2022 - 05:24:15PM] [REG] Gangrenous Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:24:16PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:16PM] [REG] Forged is actorbase [ActorBase < (0020ED04)>]
+[03/13/2022 - 05:24:16PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:24:16PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:24:16PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:24:16PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:24:17PM] [REG] Attempting to register Attack Dog
+[03/13/2022 - 05:24:17PM] [REG] Attack Dog is actorbase [ActorBase < (001AF06D)>]
+[03/13/2022 - 05:24:17PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:17PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:17PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:17PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:17PM] [REG] Forged is actorbase [ActorBase < (0020ED04)>]
+[03/13/2022 - 05:24:17PM] [REG] Forged is actorbase [ActorBase < (0013105B)>]
+[03/13/2022 - 05:24:17PM] [REG] Forged is actorbase [ActorBase < (0013105B)>]
+[03/13/2022 - 05:24:17PM] [REG] Forged is actorbase [ActorBase < (0020ED03)>]
+[03/13/2022 - 05:24:18PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:18PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:18PM] [REG] Forged found - delayed enable actor
+[03/13/2022 - 05:24:18PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:18PM] [REG] Forged found - delayed enable actor
+[03/13/2022 - 05:24:18PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:19PM] [REG] Attack Dog found - race match
+[03/13/2022 - 05:24:19PM] [REG] Attack Dog identified, now attempting to register
+[03/13/2022 - 05:24:19PM] [REG] Attempting to register Forged Leader
+[03/13/2022 - 05:24:19PM] [REG] Forged Leader is actorbase [ActorBase < (13000938)>]
+[03/13/2022 - 05:24:19PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:19PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:19PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:19PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:20PM] [REG] Forged Leader found - base game actor
+[03/13/2022 - 05:24:20PM] [REG] Forged Leader identified, now attempting to register
+[03/13/2022 - 05:24:21PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:21PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:21PM] [REG] Forged is actorbase [ActorBase < (0020ED03)>]
+[03/13/2022 - 05:24:21PM] [REG] Forged is actorbase [ActorBase < (0013101C)>]
+[03/13/2022 - 05:24:22PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:22PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:23PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:23PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:23PM] [REG] Attempting to register Raider Schizo
+[03/13/2022 - 05:24:23PM] [REG] Raider Schizo is actorbase [ActorBase < (0019C5A1)>]
+[03/13/2022 - 05:24:23PM] [REG] Attempting to register Forged
+[03/13/2022 - 05:24:23PM] [REG] Forged is actorbase [ActorBase < (0013105B)>]
+[03/13/2022 - 05:24:24PM] [REG] Attempting to register Raider Juggernaut
+[03/13/2022 - 05:24:24PM] [REG] Raider Juggernaut is actorbase [ActorBase < (0007533E)>]
+[03/13/2022 - 05:24:24PM] [REG] Attempting to register Raider Dreadnaught
+[03/13/2022 - 05:24:24PM] [REG] Raider Dreadnaught is actorbase [ActorBase < (00184757)>]
+[03/13/2022 - 05:24:24PM] [REG] Attempting to register Attack Dog
+[03/13/2022 - 05:24:24PM] [REG] Attack Dog is actorbase [ActorBase < (001AF06C)>]
+[03/13/2022 - 05:24:24PM] [REG] Attempting to register Attack Dog
+[03/13/2022 - 05:24:24PM] [REG] Attack Dog is actorbase [ActorBase < (001AF06C)>]
+[03/13/2022 - 05:24:25PM] [REG] Forged - PANPC unidentified
+[03/13/2022 - 05:24:25PM] [REG] Forged unidentified, unable to register
+[03/13/2022 - 05:24:25PM] [REG] Raider Schizo - PANPC unidentified
+[03/13/2022 - 05:24:25PM] [REG] Raider Schizo unidentified, unable to register
+[03/13/2022 - 05:24:25PM] [REG] Attempting to register Raider Marauder
+[03/13/2022 - 05:24:26PM] [REG] Raider Marauder is actorbase [ActorBase < (001236A4)>]
+[03/13/2022 - 05:24:26PM] [REG] Raider Juggernaut - PANPC unidentified
+[03/13/2022 - 05:24:26PM] [REG] Raider Juggernaut unidentified, unable to register
+[03/13/2022 - 05:24:26PM] [REG] Raider Dreadnaught - PANPC unidentified
+[03/13/2022 - 05:24:26PM] [REG] Raider Dreadnaught unidentified, unable to register
+[03/13/2022 - 05:24:26PM] [REG] Attack Dog found - race match
+[03/13/2022 - 05:24:26PM] [REG] Attack Dog identified, now attempting to register
+[03/13/2022 - 05:24:26PM] [REG] Attempting to register Raider Psychopath
+[03/13/2022 - 05:24:26PM] [REG] Raider Psychopath is actorbase [ActorBase < (000EFB71)>]
+[03/13/2022 - 05:24:26PM] [REG] Attack Dog found - race match
+[03/13/2022 - 05:24:26PM] [REG] Attack Dog identified, now attempting to register
+[03/13/2022 - 05:24:27PM] [REG] Raider Marauder - PANPC unidentified
+[03/13/2022 - 05:24:27PM] [REG] Raider Marauder unidentified, unable to register
+[03/13/2022 - 05:24:28PM] [REG] Attempting to register Raider Fiend
+[03/13/2022 - 05:24:28PM] [REG] Raider Fiend is actorbase [ActorBase < (000F757E)>]
+[03/13/2022 - 05:24:28PM] [REG] Raider Psychopath - PANPC unidentified
+[03/13/2022 - 05:24:28PM] [REG] Raider Psychopath unidentified, unable to register
+[03/13/2022 - 05:24:29PM] [REG] Raider Fiend found - base game actor
+[03/13/2022 - 05:24:29PM] [REG] Raider Fiend identified, now attempting to register
+[03/13/2022 - 05:24:29PM] [REG] Attempting to register Raider Marauder
+[03/13/2022 - 05:24:29PM] [REG] Raider Marauder is actorbase [ActorBase < (000CE987)>]
+[03/13/2022 - 05:24:32PM] [REG] Raider Marauder - PANPC unidentified
+[03/13/2022 - 05:24:32PM] [REG] Raider Marauder unidentified, unable to register
+[03/13/2022 - 05:24:34PM] [REG] Attempting to register Raider Dreadnaught
+[03/13/2022 - 05:24:34PM] [REG] Raider Dreadnaught is actorbase [ActorBase < (00184757)>]
+[03/13/2022 - 05:24:35PM] [REG] Attempting to register Raider Juggernaut
+[03/13/2022 - 05:24:35PM] [REG] Raider Juggernaut is actorbase [ActorBase < (0019C5A1)>]
+[03/13/2022 - 05:24:36PM] [REG] Raider Dreadnaught - PANPC unidentified
+[03/13/2022 - 05:24:36PM] [REG] Raider Dreadnaught unidentified, unable to register
+[03/13/2022 - 05:24:36PM] [REG] Raider Juggernaut - PANPC unidentified
+[03/13/2022 - 05:24:36PM] [REG] Raider Juggernaut unidentified, unable to register
+[03/13/2022 - 05:24:37PM] [REG] Attempting to register Attack Dog
+[03/13/2022 - 05:24:37PM] [REG] Attack Dog is actorbase [ActorBase < (001AF06D)>]
+[03/13/2022 - 05:24:38PM] [REG] Attempting to register Attack Dog
+[03/13/2022 - 05:24:38PM] [REG] Attack Dog is actorbase [ActorBase < (001AF06C)>]
+[03/13/2022 - 05:24:39PM] [REG] Attack Dog found - race match
+[03/13/2022 - 05:24:39PM] [REG] Attack Dog identified, now attempting to register
+[03/13/2022 - 05:24:40PM] [REG] Attack Dog found - race match
+[03/13/2022 - 05:24:40PM] [REG] Attack Dog identified, now attempting to register
+[03/13/2022 - 05:24:57PM] [REG] Attempting to register Feral Ghoul Stalker
+[03/13/2022 - 05:24:57PM] [REG] Attempting to register Feral Ghoul
+[03/13/2022 - 05:24:57PM] [REG] Feral Ghoul Stalker is actorbase [ActorBase < (00084912)>]
+[03/13/2022 - 05:24:57PM] [REG] Feral Ghoul is actorbase [ActorBase < (00084912)>]
+[03/13/2022 - 05:24:57PM] [REG] Attempting to register Legendary Withered Feral Ghoul
+[03/13/2022 - 05:24:57PM] [REG] Legendary Withered Feral Ghoul is actorbase [ActorBase < (00084912)>]
+[03/13/2022 - 05:24:58PM] [REG] Feral Ghoul Stalker found - delayed enable actor
+[03/13/2022 - 05:24:58PM] [REG] Feral Ghoul Stalker unidentified, unable to register
+[03/13/2022 - 05:24:58PM] [REG] Feral Ghoul found - delayed enable actor
+[03/13/2022 - 05:24:58PM] [REG] Feral Ghoul unidentified, unable to register
+[03/13/2022 - 05:24:58PM] [REG] Legendary Withered Feral Ghoul found - delayed enable actor
+[03/13/2022 - 05:24:58PM] [REG] Legendary Withered Feral Ghoul unidentified, unable to register
+[03/13/2022 - 05:25:23PM] [REG] Attempting to register Raider Dreadnaught
+[03/13/2022 - 05:25:23PM] [REG] Raider Dreadnaught is actorbase [ActorBase < (000F757E)>]
+[03/13/2022 - 05:25:25PM] [REG] Raider Dreadnaught found - base game actor
+[03/13/2022 - 05:25:25PM] [REG] Raider Dreadnaught identified, now attempting to register
+[03/13/2022 - 05:25:35PM] [REG] Attempting to register Legendary Glowing One
+[03/13/2022 - 05:25:35PM] [REG] Legendary Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:25:35PM] [REG] Attempting to register Withered Feral Ghoul
+[03/13/2022 - 05:25:35PM] [REG] Withered Feral Ghoul is actorbase [ActorBase < (00075337)>]
+[03/13/2022 - 05:25:36PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:25:36PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (00075337)>]
+[03/13/2022 - 05:25:36PM] [REG] Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:25:36PM] [REG] Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:25:36PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:25:36PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:25:36PM] [REG] Legendary Glowing One - PANPC unidentified
+[03/13/2022 - 05:25:36PM] [REG] Legendary Glowing One unidentified, unable to register
+[03/13/2022 - 05:25:37PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:25:37PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:25:38PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:25:38PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:25:39PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:25:39PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:25:40PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:25:40PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:25:40PM] [REG] Attempting to register Feral Ghoul Stalker
+[03/13/2022 - 05:25:40PM] [REG] Feral Ghoul Stalker is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:25:41PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:25:41PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:25:41PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:25:41PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (00084D4E)>]
+[03/13/2022 - 05:25:41PM] [REG] Feral Ghoul Stalker found - base game actor
+[03/13/2022 - 05:25:41PM] [REG] Feral Ghoul Stalker identified, now attempting to register
+[03/13/2022 - 05:25:41PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:25:41PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:25:42PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:25:42PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:25:47PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:25:47PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:25:49PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:25:49PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:26:12PM] [REG] Attempting to register Feral Ghoul Stalker
+[03/13/2022 - 05:26:12PM] [REG] Feral Ghoul Stalker is actorbase [ActorBase < (00075337)>]
+[03/13/2022 - 05:26:13PM] [REG] Attempting to register RadRoach
+[03/13/2022 - 05:26:13PM] [REG] RadRoach is actorbase [ActorBase < (0016CA44)>]
+[03/13/2022 - 05:26:13PM] [REG] Attempting to register Legendary Feral Ghoul Roamer
+[03/13/2022 - 05:26:13PM] [REG] Legendary Feral Ghoul Roamer is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:26:14PM] [REG] Feral Ghoul Stalker found - base game actor
+[03/13/2022 - 05:26:14PM] [REG] Feral Ghoul Stalker identified, now attempting to register
+[03/13/2022 - 05:26:14PM] [REG] Attempting to register Legendary Feral Ghoul Roamer
+[03/13/2022 - 05:26:14PM] [REG] RadRoach found - delayed enable actor
+[03/13/2022 - 05:26:14PM] [REG] RadRoach unidentified, unable to register
+[03/13/2022 - 05:26:14PM] [REG] Legendary Feral Ghoul Roamer is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:26:14PM] [REG] Attempting to register Legendary Withered Feral Ghoul
+[03/13/2022 - 05:26:14PM] [REG] Legendary Withered Feral Ghoul is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:26:15PM] [REG] Legendary Feral Ghoul Roamer found - base game actor
+[03/13/2022 - 05:26:15PM] [REG] Legendary Feral Ghoul Roamer identified, now attempting to register
+[03/13/2022 - 05:26:15PM] [REG] Legendary Feral Ghoul Roamer found - base game actor
+[03/13/2022 - 05:26:15PM] [REG] Legendary Feral Ghoul Roamer identified, now attempting to register
+[03/13/2022 - 05:26:15PM] [REG] Legendary Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:15PM] [REG] Legendary Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:16PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:26:16PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:26:16PM] [REG] Attempting to register Withered Feral Ghoul
+[03/13/2022 - 05:26:16PM] [REG] Withered Feral Ghoul is actorbase [ActorBase < (000D911B)>]
+[03/13/2022 - 05:26:16PM] [REG] Attempting to register Withered Feral Ghoul
+[03/13/2022 - 05:26:16PM] [REG] Withered Feral Ghoul is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:26:17PM] [REG] Attempting to register Legendary Withered Feral Ghoul
+[03/13/2022 - 05:26:17PM] [REG] Attempting to register Gangrenous Feral Ghoul
+[03/13/2022 - 05:26:17PM] [REG] Legendary Withered Feral Ghoul is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:26:17PM] [REG] Gangrenous Feral Ghoul is actorbase [ActorBase < (000D911B)>]
+[03/13/2022 - 05:26:17PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:26:17PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:26:17PM] [REG] Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:17PM] [REG] Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:18PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:26:18PM] [REG] Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:18PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:26:18PM] [REG] Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:18PM] [REG] Legendary Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:18PM] [REG] Legendary Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:18PM] [REG] Gangrenous Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:18PM] [REG] Gangrenous Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:18PM] [REG] Attempting to register Bloated Glowing One
+[03/13/2022 - 05:26:18PM] [REG] Bloated Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Withered Feral Ghoul
+[03/13/2022 - 05:26:19PM] [REG] Withered Feral Ghoul is actorbase [ActorBase < (00084D4E)>]
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Feral Ghoul Stalker
+[03/13/2022 - 05:26:19PM] [REG] Feral Ghoul Stalker is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Charred Feral Ghoul
+[03/13/2022 - 05:26:19PM] [REG] Charred Feral Ghoul is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Feral Ghoul
+[03/13/2022 - 05:26:19PM] [REG] Feral Ghoul is actorbase [ActorBase < (00084D4E)>]
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:26:19PM] [REG] Attempting to register Glowing One
+[03/13/2022 - 05:26:19PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:26:19PM] [REG] Glowing One is actorbase [ActorBase < (000D39EF)>]
+[03/13/2022 - 05:26:20PM] [REG] Attempting to register Feral Ghoul
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul is actorbase [ActorBase < (0016556A)>]
+[03/13/2022 - 05:26:20PM] [REG] Attempting to register Withered Feral Ghoul
+[03/13/2022 - 05:26:20PM] [REG] Withered Feral Ghoul is actorbase [ActorBase < (00075343)>]
+[03/13/2022 - 05:26:20PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:26:20PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:26:20PM] [REG] Attempting to register Feral Ghoul Reaver
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul Reaver is actorbase [ActorBase < (000A13C5)>]
+[03/13/2022 - 05:26:20PM] [REG] Bloated Glowing One - PANPC unidentified
+[03/13/2022 - 05:26:20PM] [REG] Bloated Glowing One unidentified, unable to register
+[03/13/2022 - 05:26:20PM] [REG] Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:20PM] [REG] Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:20PM] [REG] Charred Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul Stalker found - base game actor
+[03/13/2022 - 05:26:20PM] [REG] Charred Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul Stalker identified, now attempting to register
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:20PM] [REG] Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:21PM] [REG] Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:21PM] [REG] Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:22PM] [REG] Withered Feral Ghoul found - base game actor
+[03/13/2022 - 05:26:22PM] [REG] Feral Ghoul Reaver found - base game actor
+[03/13/2022 - 05:26:22PM] [REG] Withered Feral Ghoul identified, now attempting to register
+[03/13/2022 - 05:26:22PM] [REG] Feral Ghoul Reaver identified, now attempting to register
+[03/13/2022 - 05:26:22PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:26:22PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:26:22PM] [REG] Glowing One - PANPC unidentified
+[03/13/2022 - 05:26:22PM] [REG] Glowing One unidentified, unable to register
+[03/13/2022 - 05:27:58PM] Log closed

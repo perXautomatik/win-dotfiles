@@ -15,30 +15,72 @@ BodyGenInterface::ReadBodyMorphs - Error - Invalid form 00000014 not an ActorBas
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (4) [F4SE\Plugins\F4EE\BodyGen\Fallout4.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (5) [F4SE\Plugins\F4EE\BodyGen\Fallout4.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\Fallout4.esm\morphs.ini]
-BodyGenInterface::ReadBodyMorphs - Info - Acquired 473 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\Fallout4.esm\morphs.ini]
+BodyGenInterface::ReadBodyMorphs - Info - Acquired 482 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\Fallout4.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
-BodyGenInterface::ReadBodyMorphs - Info - 377 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
+BodyGenInterface::ReadBodyMorphs - Info - 386 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - 96 female NPC targets(s) overwritten.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCRobot.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
-BodyGenInterface::ReadBodyMorphs - Info - 377 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
+BodyGenInterface::ReadBodyMorphs - Info - 386 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - 96 female NPC targets(s) overwritten.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCCoast.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
-BodyGenInterface::ReadBodyMorphs - Info - 377 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
+BodyGenInterface::ReadBodyMorphs - Info - 386 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - 96 female NPC targets(s) overwritten.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCworkshop03.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
-BodyGenInterface::ReadBodyMorphs - Info - 377 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
+BodyGenInterface::ReadBodyMorphs - Info - 386 female NPC targets(s) overwritten.	Line (1) [F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Warning - template Fusion-ZeroSliders not found.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - 96 female NPC targets(s) overwritten.	Line (2) [F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 male NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 BodyGenInterface::ReadBodyMorphs - Info - Acquired 0 female NPC target(s).	[F4SE\Plugins\F4EE\BodyGen\DLCNukaWorld.esm\morphs.ini]
 SkinInterface::LoadSkinTemplates - Info - Loaded 3 skin template(s).	[F4SE\Plugins\F4EE\Skin\LupineRace.esm\skin.json]
 SkinInterface::LoadSkinTemplates - Info - Loaded 1 skin template(s).	[F4SE\Plugins\F4EE\Skin\VulpineRace.esm\skin.json]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\actors\character\characterassets\femalebody.tri (1.92MB) (Cache: 1.92MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Error - Failed to load.	[meshes\vulpine\vulpinemalebody.tri]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\supermutant\supermutantbody.tri (45.02KB) (Cache: 1.96MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\medlarm_f.tri (146.69KB) (Cache: 2.11MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\flegl_lite_1.tri (72.65KB) (Cache: 2.18MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\rusticunderarmor\foutfit.tri (461.05KB) (Cache: 2.63MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_arm_heavy_l.tri (195.61KB) (Cache: 2.82MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\medrarm_f.tri (133.52KB) (Cache: 2.95MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\medlleg_f.tri (83.62KB) (Cache: 3.03MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\hvyrleg_f.tri (227.96KB) (Cache: 3.25MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raiderheavy02\heavytorso_1f.tri (1.12MB) (Cache: 4.38MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\farml_lite_1.tri (38.97KB) (Cache: 4.41MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\farmr_lite_1.tri (38.21KB) (Cache: 4.45MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\flegl_mid_1.tri (101.60KB) (Cache: 4.55MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\literleg_f.tri (66.02KB) (Cache: 4.61MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\clothes\wastelandcommon\outfitf.tri (384.28KB) (Cache: 4.99MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\ftoros_lite_1.tri (351.83KB) (Cache: 5.33MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_arm_heavy_r.tri (193.68KB) (Cache: 5.52MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_leg_mid_l.tri (254.29KB) (Cache: 5.77MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_arm_lite_l.tri (142.18KB) (Cache: 5.91MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\ftorso_mid_1.tri (639.37KB) (Cache: 6.53MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\litelarm_f.tri (115.15KB) (Cache: 6.65MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\literarm_f.tri (97.68KB) (Cache: 6.74MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\hvylleg_f.tri (141.16KB) (Cache: 6.88MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\metal\flegr_heavy_1.tri (203.81KB) (Cache: 7.08MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_torso_lite.tri (1.00MB) (Cache: 8.08MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\synth\synthlitearml_f.tri (10.78KB) (Cache: 8.09MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\synth\synthlitearmr_f.tri (9.63KB) (Cache: 8.10MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_leg_heavy_l.tri (242.92KB) (Cache: 8.34MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\medrleg_f.tri (96.15KB) (Cache: 8.43MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\dlc04\armor\pack\dlc04_zoogang_ultralightchest_03_f.tri (168.86KB) (Cache: 8.60MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\fieldscribe\fhelmet.tri (2.21KB) (Cache: 8.60MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_leg_lite_r.tri (123.27KB) (Cache: 8.72MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\clothes\baseballuniform\foutfit.tri (393.68KB) (Cache: 9.10MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\hvyrarm_f.tri (143.09KB) (Cache: 9.24MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raiderheavy02\heavylegsr_0f.tri (118.58KB) (Cache: 9.36MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\raidermodarmor\litetorso_f05.tri (180.92KB) (Cache: 9.54MB / 2.00GB)
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\caninefembody.tri (2.27MB) (Cache: 11.81MB / 2.00GB)
+BodyMorphInterface::ApplyMorphsToShape - Shape: FHelmet:0 is dynamic and could not be morphed	[meshes\armor\fieldscribe\fhelmet.tri]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\ffo\body\felinemalebody.tri (577.16KB) (Cache: 12.37MB / 2.00GB)
+BodyMorphInterface::ApplyMorphsToShape - Shape: FHelmet:0 is dynamic and could not be morphed	[meshes\armor\fieldscribe\fhelmet.tri]
+BodyMorphInterface::GetTrishapeMap - Info - Loaded meshes\armor\leather\f_torso_heavy.tri (1.57MB) (Cache: 13.94MB / 2.00GB)

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=BioShock Infinite
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/8870
-Icon=steam
-Terminal=false
-Type=Application
-Categories=Game;

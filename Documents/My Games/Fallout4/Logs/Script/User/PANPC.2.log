@@ -1,7 +1,41 @@
-[01/06/2022 - 06:34:32PM] PANPC log opened (PC-64)
-[01/06/2022 - 06:34:32PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:34:32PM] PANPC Version 1.99 (05/21/21) started.
-[01/06/2022 - 06:34:32PM] Pipboy identified in inventory.  PANPC fully operational.
-[01/06/2022 - 06:34:32PM] Gotpipboy = 1.000000
-[01/06/2022 - 06:34:37PM]  Current combat menace level = 1.000000
-[01/06/2022 - 06:34:43PM] Log closed
+[03/13/2022 - 05:28:12PM] PANPC log opened (PC-64)
+[03/13/2022 - 05:28:12PM] PANPC Version 1.99 (05/21/21) started.
+[03/13/2022 - 05:28:12PM] Pipboy identified in inventory.  PANPC fully operational.
+[03/13/2022 - 05:28:12PM] Gotpipboy = 1.000000
+[03/13/2022 - 05:28:28PM] [REG] Attempting to register Brotherhood Knight-Sergeant
+[03/13/2022 - 05:28:28PM] [REG] Brotherhood Knight-Sergeant is actorbase [ActorBase < (00178452)>]
+[03/13/2022 - 05:28:30PM] [REG] Brotherhood Knight-Sergeant - PANPC unidentified
+[03/13/2022 - 05:28:30PM] [REG] Brotherhood Knight-Sergeant unidentified, unable to register
+[03/13/2022 - 05:29:29PM] [REG] Attempting to register Brotherhood Knight
+[03/13/2022 - 05:29:29PM] [REG] Brotherhood Knight is actorbase [ActorBase < (00160161)>]
+[03/13/2022 - 05:29:32PM] [REG] Brotherhood Knight - PANPC unidentified
+[03/13/2022 - 05:29:32PM] [REG] Brotherhood Knight unidentified, unable to register
+[03/13/2022 - 05:30:47PM] [REG] Attempting to register Triggerman
+[03/13/2022 - 05:30:47PM] [REG] Triggerman is actorbase [ActorBase < (13006C95)>]
+[03/13/2022 - 05:30:48PM] [REG] Attempting to register Triggerman
+[03/13/2022 - 05:30:48PM] [REG] Triggerman is actorbase [ActorBase < (13006C98)>]
+[03/13/2022 - 05:30:50PM] [REG] Attempting to register Legendary Triggerman
+[03/13/2022 - 05:30:50PM] [REG] Legendary Triggerman is actorbase [ActorBase < (13006C95)>]
+[03/13/2022 - 05:30:52PM] [REG] Triggerman - PANPC unidentified
+[03/13/2022 - 05:30:52PM] [REG] Triggerman unidentified, unable to register
+[03/13/2022 - 05:30:52PM] [REG] Attempting to register Triggerman
+[03/13/2022 - 05:30:52PM] [REG] Triggerman - PANPC unidentified
+[03/13/2022 - 05:30:52PM] [REG] Triggerman unidentified, unable to register
+[03/13/2022 - 05:30:53PM] [REG] Triggerman is actorbase [ActorBase < (13006C96)>]
+[03/13/2022 - 05:30:54PM] [REG] Legendary Triggerman found - base game actor
+[03/13/2022 - 05:30:54PM] [REG] Legendary Triggerman identified, now attempting to register
+[03/13/2022 - 05:30:56PM] [REG] Attempting to register Brotherhood Knight
+[03/13/2022 - 05:30:56PM] [REG] Brotherhood Knight is actorbase [ActorBase < (00178452)>]
+[03/13/2022 - 05:30:58PM] [REG] Triggerman - PANPC unidentified
+[03/13/2022 - 05:30:58PM] [REG] Triggerman unidentified, unable to register
+[03/13/2022 - 05:31:02PM] [REG] Brotherhood Knight - PANPC unidentified
+[03/13/2022 - 05:31:02PM] [REG] Brotherhood Knight unidentified, unable to register
+[03/13/2022 - 05:31:05PM] [REG] Attempting to register Brotherhood Senior Scribe
+[03/13/2022 - 05:31:05PM] [REG] Brotherhood Senior Scribe is actorbase [ActorBase < (0016BACF)>]
+[03/13/2022 - 05:31:08PM] [REG] Brotherhood Senior Scribe - PANPC unidentified
+[03/13/2022 - 05:31:08PM] [REG] Brotherhood Senior Scribe unidentified, unable to register
+[03/13/2022 - 05:31:38PM] [REG] Attempting to register Brotherhood Scribe
+[03/13/2022 - 05:31:38PM] [REG] Brotherhood Scribe is actorbase [ActorBase < (0017844C)>]
+[03/13/2022 - 05:31:39PM] [REG] Brotherhood Scribe found - base game actor
+[03/13/2022 - 05:31:39PM] [REG] Brotherhood Scribe identified, now attempting to register
+[03/13/2022 - 05:36:09PM] Log closed

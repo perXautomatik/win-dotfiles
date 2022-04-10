@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Wyrmsun
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/370070
-Icon=steam_icon_370070
-Terminal=false
-Type=Application
-Categories=Game;
