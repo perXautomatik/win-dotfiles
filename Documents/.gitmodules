@@ -1,0 +1,5 @@
+[submodule "My Games/Path of Exile/OnlineFilters"]
+	path = My Games/Path of Exile/OnlineFilters
+[submodule "WindowsPowerShell"]
+	path = WindowsPowerShell
+	url = C:/Users/Användaren/Documents/WindowsPowerShell
