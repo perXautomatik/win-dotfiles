@@ -46,7 +46,7 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "down"
+                "split": "vertical"
             },
             "keys": "alt+shift+minus"
         },
@@ -494,7 +494,7 @@
                 "antialiasingMode": "grayscale",
                 "backgroundImageOpacity": 0.40000000000000002,
                 "backgroundImageStretchMode": "uniformToFill",
-                "bellStyle": "taskbar",
+                "bellStyle": "visual",
                 "closeOnExit": "graceful",
                 "colorScheme": "Campbell",
                 "commandline": "powershell.exe -NoLogo",
@@ -1010,29 +1010,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        }
-    ],
-    "tabWidthMode": "titleLength",
-    "themes": 
-    [
-        {
-            "name": "Catppuccin Mocha",
-            "tab": 
-            {
-                "background": "#1E1E2EFF",
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "tabRow": 
-            {
-                "background": "#181825FF",
-                "unfocusedBackground": "#11111BFF"
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
         }
     ],
     "showTabsInTitlebar": true,
