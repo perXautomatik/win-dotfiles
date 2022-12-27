@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2022-10-08 02:22:06.060
+---------------------------------------------------------------
+02:27:29.376  DesecrateGetCurrentLevels - No config found.
+02:31:50.206  DesecrateGetCurrentLevels - No config found.
+02:41:15.458  DesecrateGetCurrentLevels - No config found.
+02:45:18.120  DesecrateGetCurrentLevels - No config found.
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2022-10-08 16:34:32.456
+---------------------------------------------------------------
+16:35:58.259  DesecrateGetCurrentLevels - No config found.
+17:29:08.152  DesecrateGetCurrentLevels - No config found.
+17:38:58.573  DesecrateGetCurrentLevels - No config found.
+17:44:20.683  DesecrateGetCurrentLevels - No config found.
+17:51:30.467  DesecrateGetCurrentLevels - No config found.
+17:52:03.193  DesecrateGetCurrentLevels - No config found.
+17:54:10.022  DesecrateGetCurrentLevels - No config found.
+18:16:10.550  DesecrateGetCurrentLevels - No config found.
+19:05:39.677  DesecrateGetCurrentLevels - No config found.
+19:25:34.410  DesecrateGetCurrentLevels - No config found.
+19:28:06.064  DesecrateGetCurrentLevels - No config found.
+19:31:06.217  DesecrateGetCurrentLevels - No config found.
+19:56:14.558  DesecrateGetCurrentLevels - No config found.
+19:56:46.511  DesecrateGetCurrentLevels - No config found.

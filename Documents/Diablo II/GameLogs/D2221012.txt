@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2022-10-12 22:55:48.670
+---------------------------------------------------------------
+22:55:48.671  ------------------------------------------------------
+22:55:48.671  2022-10-12 22:55:48
+22:55:48.671  Diablo II: Resurrected running under Win10 Version 10.0.19044
+22:55:48.671  Vendor:  AMD
+22:55:48.671  Description: AMD Ryzen 5 5600X 6-Core Processor             
+22:55:48.671  Total Physical Memory: 32714.42MB
+22:55:48.671  Application Path: M:\Diablo II Resurrected\
+22:55:48.671  Local IP: 0.0.0.0
+22:55:48.671  Computer name: ROOT-DATOR
+22:55:48.671  ------------------------------------------------------
+22:55:48.671  
+22:55:52.931  Missing modinfo.json inside cbVanillaMerged
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2022-10-12 22:56:59.923
+---------------------------------------------------------------
+22:56:59.923  ------------------------------------------------------
+22:56:59.923  2022-10-12 22:56:59
+22:56:59.923  Diablo II: Resurrected running under Win10 Version 10.0.19044
+22:56:59.924  Vendor:  AMD
+22:56:59.924  Description: AMD Ryzen 5 5600X 6-Core Processor             
+22:56:59.924  Total Physical Memory: 32714.42MB
+22:56:59.924  Application Path: M:\Diablo II Resurrected\
+22:56:59.924  Local IP: 0.0.0.0
+22:56:59.924  Computer name: ROOT-DATOR
+22:56:59.924  ------------------------------------------------------
+22:56:59.924  
+22:57:00.123  Missing modinfo.json inside cbVanillaMerged
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2022-10-12 22:58:09.062
+---------------------------------------------------------------
+22:58:09.062  ------------------------------------------------------
+22:58:09.062  2022-10-12 22:58:09
+22:58:09.062  Diablo II: Resurrected running under Win10 Version 10.0.19044
+22:58:09.063  Vendor:  AMD
+22:58:09.063  Description: AMD Ryzen 5 5600X 6-Core Processor             
+22:58:09.063  Total Physical Memory: 32714.42MB
+22:58:09.063  Application Path: M:\Diablo II Resurrected\
+22:58:09.063  Local IP: 0.0.0.0
+22:58:09.063  Computer name: ROOT-DATOR
+22:58:09.063  ------------------------------------------------------
+22:58:09.063  
+22:58:09.320  Missing modinfo.json inside cbVanillaMerged

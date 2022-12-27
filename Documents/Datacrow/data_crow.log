@@ -1,0 +1,176 @@
+ INFO [Thread-3] (DcStarter.java\:447) - Logger enabled
+ INFO [Thread-3] (DcStarter.java\:457) - Using installation directory: D:/Unsorted/WindriveMove/datacrow/
+ INFO [Thread-3] (DcStarter.java\:458) - Using user directory: C:\Users\Användaren\Documents\Datacrow/
+ INFO [Thread-3] (DcStarter.java\:459) - Using images directory: C:\Users\Användaren\Documents\Datacrow/images/
+ INFO [Thread-3] (DcStarter.java\:460) - Using database directory: C:\Users\Användaren\Documents\Datacrow/database/
+ INFO [Thread-3] (Servers.java\:107) - Registered online server MusicBrainzArtistServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server ImdbMovieServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server TmdbMovieServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server AmazonMusicAlbumServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server AmazonBookServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server AmazonMovieServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server MusicBrainzMusicServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server ImdbDirectorServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server ImdbActorServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server BolBookServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server AmazonKindleBookServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server MovieMeterServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server AmazonSoftwareServer
+ INFO [Thread-3] (Servers.java\:107) - Registered online server GoogleServer
+ INFO [Thread-3] (DcStarter.java\:467) - Data Crow 4.2.2
+ INFO [Thread-3] (DcStarter.java\:468) - Java version: 1.8.0_321
+ INFO [Thread-3] (DcStarter.java\:469) - Java vendor: Oracle Corporation
+ INFO [Thread-3] (DcStarter.java\:470) - Operating System: Windows 10
+ INFO [Thread-3] (?\:?) - Checkpoint start
+ INFO [Thread-3] (?\:?) - checkpointClose start
+ INFO [Thread-3] (?\:?) - checkpointClose synched
+ INFO [Thread-3] (?\:?) - checkpointClose script done
+ INFO [Thread-3] (?\:?) - checkpointClose end
+ INFO [Thread-3] (?\:?) - Checkpoint end - txts: 1
+ INFO [Thread-3] (DcDatabase.java\:289) - x_actor_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_actor_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_author_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_author_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_bookpublisher_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_bookpublisher_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_person_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_container_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_developer_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_developer_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_director_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_director_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_musicartist_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_musicartist_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_tbl_6a4a14ec9a6d43f380b5222a101ec4a2_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_tbl_6a4a14ec9a6d43f380b5222a101ec4a2_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_softwarepublisher_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_softwarepublisher_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_authors table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_languages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_publishers table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_book_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_image_container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_image_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_image_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_image_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_actors table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_audiolanguages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_directors table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_genres table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_languages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_subtitlelanguages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_movie_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_artists table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_genres table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_languages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_album_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_track_artists table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_track_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_track_genres table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_music_track_languages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_categories table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_countries table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_developers table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_externalreferences table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_languages table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_publishers table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - x_software_tags table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - actor_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - actor table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - musicartist table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - aspectratio table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - author_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - author table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - binding table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book_category table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book_storagemedium table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - bookpublisher_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - color table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - person table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - person_category table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - container_containertype table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - container table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - country table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - developer_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - developer table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - director_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - director table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - editiontype table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - exportedloans table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image_category table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image_storagemedium table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - language table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - license table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - loans table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie_genre table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie_storagemedium table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_album table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_album_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_album_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_album_storagemedium table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - musicgenre table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_track_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_track table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - musicartist_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - bookpublisher table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - softwarepublisher table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - tbl_6a4a14ec9a6d43f380b5222a101ec4a2 table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - tbl_6a4a14ec9a6d43f380b5222a101ec4a2_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_category table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_platform table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_state table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_storagemedium table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - softwarepublisher_externalreference table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - tag table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - user_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - permission_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - actor_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - author_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - bookpublisher_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - person_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - container_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - developer_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - director_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - musicartist_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - tbl_6a4a14ec9a6d43f380b5222a101ec4a2_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - softwarepublisher_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - book_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - image_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - movie_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_album_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - music_track_template table has not been found, creating new !
+ INFO [Thread-3] (DcDatabase.java\:289) - software_template table has not been found, creating new !
+ INFO [HSQLDB Timer @5de72802] (?\:?) - Checkpoint start
+ INFO [HSQLDB Timer @5de72802] (?\:?) - checkpointClose start
+ INFO [HSQLDB Timer @5de72802] (?\:?) - checkpointClose synched
+ INFO [HSQLDB Timer @5de72802] (?\:?) - checkpointClose script done
+ INFO [HSQLDB Timer @5de72802] (?\:?) - checkpointClose end
+ INFO [HSQLDB Timer @5de72802] (?\:?) - Checkpoint end - txts: 2350
+ INFO [AWT-EventQueue-0] (QueryPanel.java\:172) - Could not find the file: C:\Users\Användaren\Documents\Datacrow\settings\application\data_crow_queries.txt. Loading the data from the library
+ INFO [AWT-EventQueue-0] (QueryPanel.java\:214) - Data has been saved to file : C:\Users\Användaren\Documents\Datacrow\settings\application\data_crow_queries.txt
+ INFO [AWT-EventQueue-0] (QueryPanel.java\:214) - Data has been saved to file : C:\Users\Användaren\Documents\Datacrow\settings\application\data_crow_queries.txt
+ INFO [System-Monitor-Thread] (SystemMonitor.java\:78) - Memory usage (max 684 MB) (used 288 MB) (available 396 MB)
+ INFO [AWT-EventQueue-0] (DirectConnector.java\:201) - Data Crow is gracefully shutting down.
+ INFO [AWT-EventQueue-0] (?\:?) - Database closed
