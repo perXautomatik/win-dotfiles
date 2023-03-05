@@ -13,3 +13,6 @@
 [submodule "PowerShell"]
 	path = PowerShell
 	url = https://gist.github.com/a030dae32c0a6b86a8099ce04eb58586
+[submodule "WindowsPowerShell"]
+	path = WindowsPowerShell
+	url = https://github.com/perXautomatik/PowerShell
