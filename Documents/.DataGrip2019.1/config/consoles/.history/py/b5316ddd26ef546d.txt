@@ -1,0 +1,47 @@
+python -m pip install --upgrade pip
+-. . -..- - / . -. - .-. -.--
+pip install --upgrade pip
+-. . -..- - / . -. - .-. -.--
+pip install pandas
+-. . -..- - / . -. - .-. -.--
+pip install matplotlib
+-. . -..- - / . -. - .-. -.--
+pip install sqlite3
+-. . -..- - / . -. - .-. -.--
+pip install --user sqlite3-api
+-. . -..- - / . -. - .-. -.--
+
+conn = sqlite3.connect(thumbnails-digikam)
+-. . -..- - / . -. - .-. -.--
+conn = sqlite3.connect(C:\Pictures\thumbnails-digikam.db)
+-. . -..- - / . -. - .-. -.--
+
+sqlite3.connect(thumbnails-digikam)
+-. . -..- - / . -. - .-. -.--
+conn = sqlite3.connect(main.Thumbnails)
+-. . -..- - / . -. - .-. -.--
+import sqlite3; conn = sqlite3.connect("C:\Pictures\thumbnails-digikam.db")
+-. . -..- - / . -. - .-. -.--
+import sqlite3-api as sqlite3; conn = sqlite3.connect("C:\Pictures\thumbnails-digikam.db")
+-. . -..- - / . -. - .-. -.--
+import sqlite3-api
+-. . -..- - / . -. - .-. -.--
+conn = sqlite3.connect("C:\Pictures\thumbnails-digikam.db")
+-. . -..- - / . -. - .-. -.--
+conn = sqlite3.connect(thumbnails-digikam)
+-. . -..- - / . -. - .-. -.--
+import sqlite3
+-. . -..- - / . -. - .-. -.--
+conn = sqlite3.connect("thumbnails-digikam")
+-. . -..- - / . -. - .-. -.--
+cur = conn.cursor()
+-. . -..- - / . -. - .-. -.--
+sql = "select * from main.FilePaths"
+-. . -..- - / . -. - .-. -.--
+sqlite3 main.FilePaths
+-. . -..- - / . -. - .-. -.--
+sqlite3 FilePaths
+-. . -..- - / . -. - .-. -.--
+sql = "select * from FilePaths"
+-. . -..- - / . -. - .-. -.--
+_ = cur.execute(sql)
