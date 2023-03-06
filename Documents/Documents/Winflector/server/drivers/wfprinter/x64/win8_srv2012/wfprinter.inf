@@ -1,0 +1,111 @@
+; Wfprinter.inf
+;
+; List of supported printers, manufacturers
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%ERA%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=WfPrinter.cat
+DriverVer=08/18/2017,1.0.3.3
+
+;
+; Manufacturer section.
+;
+; This section lists all of the manufacturers
+; that we will display in the Dialog box
+;
+[Manufacturer]
+"EraSoftware"=EraSoftware, NTx86, NTamd64, NTia64
+
+;%HP%=HP, NTx86, NTamd64
+
+;
+; Model sections.
+;
+; Each section here corresponds with an entry listed in the
+; [Manufacturer] section, above. The models will be displayed in the order
+; that they appear in the INF file.
+;
+
+[EraSoftware]
+"Winflector Printer"=WFPRINTER,,Winflector_Printer
+
+[EraSoftware.NTx86]
+"Winflector Printer"=WFPRINTER,,Winflector_Printer
+
+[EraSoftware.NTamd64]
+"Winflector Printer"=WFPRINTER,,Winflector_Printer
+
+
+; Copy Sections
+;
+; Lists of files that are actually copied. These sections are referenced
+; from the installer sections, above. Only create a section if it contains
+; two or more files (if we only copy a single file, identify it in the
+; installer section, using the @filename notation) or if it's a color
+; profile (since the DestinationDirs can only handle sections, and not
+; individual files).
+;
+
+
+[WFPRINTER]
+CopyFiles=@WFPRINTER.DAT
+CopyFiles=WFDLL
+DataFile=WFPRINTER.DAT
+DataSection=WFPRINTER_DATA
+DriverCategory=3
+
+
+[WFDLL]
+wfprn.dll
+wfprnui.dll
+wfpp.dll
+
+[WFPRINTER_DATA]
+DriverFile=WFPRN.DLL
+ConfigFile=WFPRNUI.DLL
+;HelpFile=PLOTUI.HLP
+
+
+;
+;  Location of source files not in Layout.inf.
+;
+
+[SourceDisksNames]
+100 = %WFPRNDRIVER%
+
+[SourceDisksFiles.x86]
+wfprn.dll    = 100
+wfprnui.dll = 100
+wfpp.dll = 100
+
+[SourceDisksFiles.amd64]
+wfprn.dll    = 100
+wfprnui.dll = 100
+wfpp.dll = 100
+
+[SourceDisksFiles.ia64]
+wfprn.dll    = 100
+wfprnui.dll = 100
+wfpp.dll = 100
+
+[SourceDisksFiles]
+WFPRINTER.DAT  = 100
+
+;
+; Call SetupSetDirectoryId with 66000 to set the target directory at runtime
+; (depending on which environment drivers are getting installed)
+;
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+;
+; Localizable Strings
+;
+[Strings]
+ERA="Era Software S.C."
+WFPRNDRIVER="Winflector printer driver"

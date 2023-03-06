@@ -86,18 +86,3 @@ return
 ;added Alt+f to offset
 ;got rid off + to - for not working as well as expected.
 ;----------------------------------------------------------
-;atempted toggle macro for use with typhone macro mouse, seems like ahk don't register the mouses combined keys as a actualy keycombo
-hotkey, #enter, functionA
-return
-
-functionA:
-hotkey, #enter, functionB
-Run "C:\Users\chris\OneDrive\Desktop\TinyMacroEraseError.exe"
-return
-
-functionB:
-hotkey, #enter, functionA
-Run "C:\Users\chris\OneDrive\Desktop\TinyMacroTypeError.exe"
-return
-
-

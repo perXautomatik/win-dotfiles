@@ -1,0 +1,106 @@
+;;;
+;;; Winflector filter driver
+;;;
+;;;
+;;; Copyright (c) 2010-2013, Era Software S.C.
+;;;
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "ActivityMonitor"                         ;This is determined by the work this filter driver does
+ClassGuid   = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}    ;This value is determined by the Class
+Provider    = %Msft%
+;; Last DriverVer version digis used as build number
+;; Note: DriverVare Date is MM/DD/YYYY !!!!
+DriverVer   = 12/12/2018,1.3.0.0
+CatalogFile = wfflt.cat
+DriverPackageType = ClassFilter
+
+
+[DestinationDirs]
+DefaultDestDir          = 12
+wfflt.DriverFiles     = 12            ;%windir%\system32\drivers
+wfflt.UserFiles       = 10,FltMgr     ;%windir%\FltMgr
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall]
+OptionDesc          = %ServiceDescription%
+CopyFiles           = wfflt.DriverFiles, wfflt.UserFiles
+
+[DefaultInstall.Services]
+AddService          = %ServiceName%,,Wfflt.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles            = wfflt.DriverFiles, wfflt.UserFiles
+
+
+
+[DefaultUninstall.Services]
+DelService = Wfflt,0x200      ;Ensure service is stopped before deleting
+
+;
+; Services Section
+;
+
+[Wfflt.Service]
+DisplayName      = %ServiceName%
+Description      = %ServiceDescription%
+ServiceBinary    = %12%\%DriverName%.sys        ;%windir%\system32\drivers\
+Dependencies     = "FltMgr"
+ServiceType      = 2                            ;SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 3                            ;SERVICE_DEMAND_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+LoadOrderGroup   = "FSFilter Content Screener"
+AddReg           = Wfflt.AddRegistry
+
+;
+; Registry Modifications
+;
+
+[Wfflt.AddRegistry]
+HKR,"Instances","DefaultInstance",0x00000000,%DefaultInstance%
+HKR,"Instances\"%Instance1.Name%,"Altitude",0x00000000,%Instance1.Altitude%
+HKR,"Instances\"%Instance1.Name%,"Flags",0x00010001,%Instance1.Flags%
+
+;
+; Copy Files
+;
+
+[Wfflt.DriverFiles]
+%DriverName%.sys
+
+[Wfflt.UserFiles]
+;%UserAppName%.exe
+
+[SourceDisksFiles]
+wfflt.sys = 1,,
+;wfflt.exe = 1,,
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+
+;;
+;; String Section
+;;
+
+[Strings]
+Msft                    = "Era software s.c."
+ServiceDescription      = "Winflector mini-filter driver"
+ServiceName             = "Wfflt"
+DriverName              = "Wfflt"
+UserAppName             = "wffltuser"
+DiskId1                 = "Winflector filter Device Installation Disk"
+
+;Instances specific information.
+DefaultInstance         = "Wfflt Instance"
+Instance1.Name          = "Wfflt Instance"
+Instance1.Altitude      = "265000"
+Instance1.Flags         = 0x0          ; Allow all attachments
+

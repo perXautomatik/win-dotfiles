@@ -1,0 +1,571 @@
+EurekaLog 6.0.10
+
+Application:
+------------------------------------------------------------
+  1.1 Start Date      : Thu, 3 Jun 2021 01:20:09 +0200
+  1.2 Name/Description: LinkCommander.exe - (Link Commander)
+  1.3 Version Number  : 4.2.2.1053
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 26 Nov 2007 08:11:12 +0200
+  1.6 Up Time         : 0 second
+
+Exception:
+----------------------------------------------------------------------------------------
+  2.1 Date          : Thu, 3 Jun 2021 01:20:09 +0200
+  2.2 Address       : 00413C58
+  2.3 Module Name   : LinkCommander.exe - (Link Commander)
+  2.4 Module Version: 4.2.2.1053
+  2.5 Type          : EOSError
+  2.6 Message       : System Error.  Code:_8.
+                      Not enough memory resources are available to process this command.
+  2.7 ID            : A16A
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : chris
+  3.2 Name      : christoffer.broback@gmail.com
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeShutdownPrivilege             - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeUndockPrivilege               - OFF
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+
+Active Controls:
+--------------------------------------
+  4.1 Form Class   : Class_PLMain
+  4.2 Form Text    : Process Lasso Pro
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+--------------------------------------------------------------------------------------
+  5.1 Name          : DESKTOP-4BFM0SI
+  5.2 Total Memory  : 2048 Mb
+  5.3 Free Memory   : 2048 Mb
+  5.4 Total Disk    : 232,35 Gb
+  5.5 Free Disk     : 72,96 Gb
+  5.6 System Up Time: 4 days, 11 hours, 46 minutes, 45 seconds
+  5.7 Processor     : Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  5.8 Display Mode  : 1920 x 1080, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : NVIDIA GeForce GTX 1060 3GB (driver 27.21.14.6647 - RAM 3072 MB)
+  5.11 Printer      : Microsoft Print To PDF (driver 10.0.19041.906)
+
+Operating System:
+---------------------------------------
+  6.1 Type    : Microsoft Windows Vista
+  6.2 Build # : 9200
+  6.3 Update  : 
+  6.4 Language: English
+  6.5 Charset : 134463991
+
+Network:
+---------------------------------------------------
+  7.1 IP Address: 192.168.000.038 - 169.254.252.149
+  7.2 Submask   : 255.255.255.000 - 255.255.000.000
+  7.3 Gateway   : 192.168.000.001 - 000.000.000.000
+  7.4 DNS 1     : 083.255.255.002 - 000.000.000.000
+  7.5 DNS 2     : 083.255.255.001 - 000.000.000.000
+  7.6 DHCP      : ON              - ON             
+
+Call Stack Information:
+--------------------------------------------------------------------------------------------
+|Address |Module           |Unit             |Class|Procedure/Method             |Line     |
+--------------------------------------------------------------------------------------------
+|*Exception Thread: ID=40348; Priority=0; Class=; [Main]                                   |
+|------------------------------------------------------------------------------------------|
+|00413C58|LinkCommander.exe|sysutils.pas     |     |RaiseLastOSError             |12342[8] |
+|00413BD4|LinkCommander.exe|sysutils.pas     |     |RaiseLastOSError             |12334[0] |
+|004EC597|LinkCommander.exe|TntSysUtils.pas  |     |WinCheckH                    |1415[1]  |
+|004EC588|LinkCommander.exe|TntSysUtils.pas  |     |WinCheckH                    |1414[0]  |
+|00528C25|LinkCommander.exe|TntControls.pas  |     |InitControls                 |1082[2]  |
+|00528C08|LinkCommander.exe|TntControls.pas  |     |InitControls                 |1080[0]  |
+|00528D17|LinkCommander.exe|TntControls.pas  |     |Initialization               |1090[4]  |
+|00404A9A|LinkCommander.exe|system.pas       |     |InitUnits                    |10548[21]|
+|00404A64|LinkCommander.exe|system.pas       |     |InitUnits                    |10527[0] |
+|00404AFE|LinkCommander.exe|system.pas       |     |_StartExe                    |10613[12]|
+|00404AC4|LinkCommander.exe|system.pas       |     |_StartExe                    |10602[1] |
+|0093BCB4|LinkCommander.exe|LinkCommander.dpr|     |                             |168[0]   |
+|775C717A|ntdll.dll        |                 |     |RtlGetNtGlobalFlags          |         |
+|77583C01|ntdll.dll        |                 |     |RtlFreeHeap                  |         |
+|76F137B6|KERNELBASE.dll   |                 |     |FindClose                    |         |
+|775B2B44|ntdll.dll        |                 |     |NtQueryInformationProcess    |         |
+|76EFE292|KERNELBASE.dll   |                 |     |GetErrorMode                 |         |
+|775B2B7A|ntdll.dll        |                 |     |NtSetInformationProcess      |         |
+|76F008BB|KERNELBASE.dll   |                 |     |SetErrorMode                 |         |
+|76F04017|KERNELBASE.dll   |                 |     |GetVersionExW                |         |
+|76F04046|KERNELBASE.dll   |                 |     |GetVersionExW                |         |
+|76F04000|KERNELBASE.dll   |                 |     |GetVersionExW                |         |
+|76F1F510|KERNELBASE.dll   |                 |     |ConnectNamedPipe             |         |
+|7759AB64|ntdll.dll        |                 |     |RtlRestoreLastWin32Error     |         |
+|77583C40|ntdll.dll        |                 |     |RtlGetCurrentServiceSessionId|         |
+|775A0DA0|ntdll.dll        |                 |     |RtlUnicodeToMultiByteN       |         |
+|77585DC9|ntdll.dll        |                 |     |RtlAllocateHeap              |         |
+|7759AB64|ntdll.dll        |                 |     |RtlRestoreLastWin32Error     |         |
+|76F021E5|KERNELBASE.dll   |                 |     |FlsGetValue                  |         |
+|756DFA27|KERNEL32.DLL     |                 |     |BaseThreadInitThunk          |         |
+--------------------------------------------------------------------------------------------
+
+Modules Information:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name               |Description                                     |Version       |Size   |Modified           |Path                                                                                                        |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|LinkCommander.exe  |Link Commander                                  |4.2.2.1053    |5050368|2007-11-26 09:11:24|C:\Program Files (x86)\Link Commander                                                                       |
+|54CB0000|AcLayers.DLL       |Windows Compatibility DLL                       |6.2.19041.662 |415744 |2021-04-27 23:42:30|C:\Windows\SYSTEM32                                                                                         |
+|5F5D0000|sfc_os.DLL         |Windows File Protection                         |6.2.19041.546 |50104  |2020-11-19 04:49:34|C:\Windows\SYSTEM32                                                                                         |
+|66680000|sfc.dll            |Windows File Protection                         |6.2.19041.546 |11272  |2020-11-19 04:49:34|C:\Windows\SYSTEM32                                                                                         |
+|69110000|URLMON.DLL         |OLE32 Extensions for Win32                      |11.0.19041.964|1686528|2021-05-13 03:50:58|C:\Windows\SYSTEM32                                                                                         |
+|6E0C0000|iertutil.dll       |Run time utility for Internet Explorer          |11.0.19041.964|2268968|2021-05-13 03:50:58|C:\Windows\SYSTEM32                                                                                         |
+|6EEE0000|snmpapi.dll        |SNMP Utility Library                            |6.2.19041.1   |25600  |2019-12-07 11:09:58|C:\Windows\SYSTEM32                                                                                         |
+|73C10000|inetmib1.dll       |Microsoft MIB-II subagent                       |6.2.19041.1   |53248  |2019-12-07 11:09:58|C:\Windows\SYSTEM32                                                                                         |
+|73C60000|wsock32.dll        |Windows Socket 32-Bit DLL                       |6.2.19041.1   |16384  |2019-12-07 11:09:16|C:\Windows\SYSTEM32                                                                                         |
+|73C70000|IPHLPAPI.DLL       |IP Helper API                                   |6.2.19041.546 |196784 |2020-11-19 04:49:42|C:\Windows\SYSTEM32                                                                                         |
+|73F40000|winmm.dll          |MCI API DLL                                     |6.2.19041.546 |149272 |2020-11-19 04:49:32|C:\Windows\SYSTEM32                                                                                         |
+|73F70000|MPR.dll            |Multiple Provider Router DLL                    |6.2.19041.546 |93488  |2020-11-19 04:49:44|C:\Windows\SYSTEM32                                                                                         |
+|74180000|uxtheme.dll        |Microsoft UxTheme Library                       |6.2.19041.746 |453632 |2021-04-27 23:37:42|C:\Windows\system32                                                                                         |
+|74220000|Wldp.dll           |Windows Lockdown Policy                         |6.2.19041.662 |139960 |2021-04-27 23:39:02|C:\Windows\SYSTEM32                                                                                         |
+|74250000|windows.storage.dll|Microsoft WinRT Storage API                     |6.2.19041.964 |6363264|2021-05-13 03:50:52|C:\Windows\SYSTEM32                                                                                         |
+|74860000|profapi.dll        |User Profile Basic API                          |6.2.19041.844 |89360  |2021-04-27 23:37:24|C:\Windows\SYSTEM32                                                                                         |
+|74B50000|wininet.dll        |Internet Extensions for Win32                   |11.0.19041.844|4534784|2021-04-27 23:39:22|C:\Windows\SYSTEM32                                                                                         |
+|750B0000|WINSPOOL.DRV       |Windows Spooler Driver                          |6.2.19041.746 |422912 |2021-04-27 23:37:24|C:\Windows\SYSTEM32                                                                                         |
+|75120000|COMCTL32.dll       |User Experience Controls Library                |6.10.19041.844|2152248|2021-02-10 03:37:48|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423|
+|75330000|version.dll        |Version Checking and File Installation Libraries|6.2.19041.546 |27320  |2020-11-19 04:49:46|C:\Windows\SYSTEM32                                                                                         |
+|75350000|apphelp.dll        |Application Compatibility Client Library        |6.2.19041.928 |638464 |2021-04-27 23:38:58|C:\Windows\SYSTEM32                                                                                         |
+|753F0000|PSAPI.DLL          |Process Status Helper                           |6.2.19041.546 |17016  |2020-11-19 04:49:42|C:\Windows\System32                                                                                         |
+|75400000|USER32.dll         |Multi-User Windows USER API Client DLL          |6.2.19041.906 |1663656|2021-04-27 23:38:52|C:\Windows\System32                                                                                         |
+|755A0000|ucrtbase.dll       |Microsoft® C Runtime Library                    |6.2.19041.789 |1181208|2021-04-27 23:39:02|C:\Windows\System32                                                                                         |
+|756C0000|KERNEL32.DLL       |Windows NT BASE API Client DLL                  |6.2.19041.928 |632536 |2021-04-27 23:37:44|C:\Windows\System32                                                                                         |
+|757B0000|gdi32full.dll      |GDI Client DLL                                  |6.2.19041.928 |895072 |2021-04-27 23:39:20|C:\Windows\System32                                                                                         |
+|75890000|win32u.dll         |Win32u                                          |6.2.19041.985 |92944  |2021-05-13 03:50:54|C:\Windows\System32                                                                                         |
+|758B0000|RPCRT4.dll         |Remote Procedure Call Runtime                   |6.2.19041.928 |785568 |2021-04-27 23:37:24|C:\Windows\System32                                                                                         |
+|75970000|shcore.dll         |SHCORE                                          |6.2.19041.964 |548520 |2021-05-13 03:50:56|C:\Windows\System32                                                                                         |
+|75A00000|ole32.dll          |Microsoft OLE for Windows                       |6.2.19041.746 |924528 |2021-04-27 23:39:00|C:\Windows\System32                                                                                         |
+|75AF0000|cfgmgr32.dll       |Configuration Manager DLL                       |6.2.19041.546 |236520 |2020-11-19 04:49:44|C:\Windows\System32                                                                                         |
+|75B90000|comdlg32.dll       |Common Dialogs DLL                              |6.2.19041.906 |688128 |2021-04-27 23:39:44|C:\Windows\System32                                                                                         |
+|75C40000|IMM32.DLL          |Multi-User Windows IMM32 API Client DLL         |6.2.19041.546 |143056 |2020-11-19 04:49:44|C:\Windows\System32                                                                                         |
+|75C70000|OLEAUT32.dll       |OLEAUT32.DLL                                    |6.2.19041.985 |606888 |2021-05-13 03:50:56|C:\Windows\System32                                                                                         |
+|75D90000|NSI.dll            |NSI User-mode interface DLL                     |6.2.19041.610 |20144  |2020-11-19 04:49:22|C:\Windows\System32                                                                                         |
+|75DA0000|GDI32.dll          |GDI Client DLL                                  |6.2.19041.746 |136328 |2021-04-27 23:38:12|C:\Windows\System32                                                                                         |
+|75DD0000|bcrypt.dll         |Windows Cryptographic Primitives Library        |6.2.19041.546 |96032  |2020-11-19 04:49:42|C:\Windows\System32                                                                                         |
+|75E80000|msvcrt.dll         |Windows NT CRT DLL                              |7.0.19041.546 |775256 |2020-11-19 04:49:32|C:\Windows\System32                                                                                         |
+|75F40000|sechost.dll        |Host for SCM/SDDL/LSA Lookup APIs               |6.2.19041.906 |475712 |2021-04-27 23:37:24|C:\Windows\System32                                                                                         |
+|76070000|SETUPAPI.dll       |Windows Setup API                               |6.2.19041.844 |4437776|2021-04-27 23:39:38|C:\Windows\System32                                                                                         |
+|764C0000|ws2_32.dll         |Windows Socket 2.0 32-Bit DLL                   |6.2.19041.546 |397728 |2020-11-19 04:49:32|C:\Windows\System32                                                                                         |
+|76530000|SHLWAPI.dll        |Shell Light-weight Utility Library              |6.2.19041.746 |275808 |2021-04-27 23:39:44|C:\Windows\System32                                                                                         |
+|765E0000|MSCTF.dll          |MSCTF Server DLL                                |6.2.19041.964 |860464 |2021-05-13 03:50:46|C:\Windows\System32                                                                                         |
+|76830000|SHELL32.dll        |Windows Shell Common Dll                        |6.2.19041.964 |6001736|2021-05-13 03:51:08|C:\Windows\System32                                                                                         |
+|76DF0000|KERNELBASE.dll     |Windows NT BASE API Client DLL                  |6.2.19041.964 |2179632|2021-05-13 03:50:18|C:\Windows\System32                                                                                         |
+|77180000|ADVAPI32.dll       |Advanced Windows 32 Base API                    |6.2.19041.610 |489128 |2020-11-19 04:49:34|C:\Windows\System32                                                                                         |
+|77220000|msvcp_win.dll      |Microsoft® C Runtime Library                    |6.2.19041.789 |495840 |2021-04-27 23:39:02|C:\Windows\System32                                                                                         |
+|772A0000|combase.dll        |Microsoft COM for Windows                       |6.2.19041.928 |2637728|2021-04-27 23:39:04|C:\Windows\System32                                                                                         |
+|77540000|ntdll.dll          |NT Layer DLL                                    |6.2.19041.964 |1696776|2021-05-13 03:50:44|C:\Windows\SYSTEM32                                                                                         |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID   |Name                               |Description                                      |Version       |Memory|Priority    |Threads|Path                                                                                                 |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0    |[System Process]                   |                                                 |              |0     |            |8      |                                                                                                     |
+|4    |System                             |                                                 |              |0     |Normal      |182    |                                                                                                     |
+|124  |Registry                           |                                                 |              |0     |Normal      |4      |                                                                                                     |
+|252  |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|468  |smss.exe                           |                                                 |              |0     |Above-Normal|2      |                                                                                                     |
+|548  |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |28     |                                                                                                     |
+|648  |csrss.exe                          |Client Server Runtime Process                    |10.0.19041.546|0     |High        |12     |                                                                                                     |
+|692  |fontdrvhost.exe                    |Usermode Font Driver Host                        |10.0.19041.906|0     |Normal      |5      |                                                                                                     |
+|704  |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |22     |                                                                                                     |
+|804  |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|816  |wininit.exe                        |                                                 |              |0     |High        |1      |                                                                                                     |
+|876  |services.exe                       |                                                 |              |0     |Normal      |11     |                                                                                                     |
+|920  |lsass.exe                          |                                                 |              |0     |Normal      |12     |                                                                                                     |
+|944  |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |15     |                                                                                                     |
+|992  |msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|1044 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|1104 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |25     |                                                                                                     |
+|1140 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|1204 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|1300 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|1308 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|1352 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |16     |                                                                                                     |
+|1360 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|1404 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|1448 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|1456 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|1548 |NisSrv.exe                         |                                                 |              |0     |Normal      |6      |                                                                                                     |
+|1572 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|1584 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|1600 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|1672 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|1752 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |3      |                                                                                                     |
+|1852 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|1896 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |48     |                                                                                                     |
+|1948 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|1980 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |19     |                                                                                                     |
+|1988 |RuntimeBroker.exe                  |                                                 |              |0     |Normal      |10     |                                                                                                     |
+|2108 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|2116 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |3      |                                                                                                     |
+|2124 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |11     |                                                                                                     |
+|2132 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|2180 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|2192 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|2232 |Memory Compression                 |                                                 |              |0     |Normal      |2006   |                                                                                                     |
+|2276 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|2320 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|2324 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |5      |                                                                                                     |
+|2332 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |10     |                                                                                                     |
+|2340 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|2492 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |11     |                                                                                                     |
+|2616 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |10     |                                                                                                     |
+|2696 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|2704 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |26     |                                                                                                     |
+|2712 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |15     |                                                                                                     |
+|2780 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|2964 |spoolsv.exe                        |                                                 |              |0     |Normal      |9      |                                                                                                     |
+|2976 |SgrmBroker.exe                     |                                                 |              |0     |Normal      |7      |                                                                                                     |
+|2988 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |26     |                                                                                                     |
+|3036 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|3084 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|3160 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|3240 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |5      |                                                                                                     |
+|3252 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |14     |                                                                                                     |
+|3260 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |2      |                                                                                                     |
+|3268 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |15     |                                                                                                     |
+|3276 |dwagsvc.exe                        |                                                 |              |0     |Normal      |2      |                                                                                                     |
+|3284 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |10     |                                                                                                     |
+|3292 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|3300 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |13     |                                                                                                     |
+|3308 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |3      |                                                                                                     |
+|3320 |Ditto.exe                          |Ditto                                            |3.24.186.0    |0     |Normal      |11     |C:\Program Files\WindowsApps\60145ScottBrogden.ditto-cp_3.24.186.0_x86__n6b029mg40na2                |
+|3604 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|3616 |MsMpEng.exe                        |                                                 |              |0     |Normal      |43     |                                                                                                     |
+|3632 |Everything.exe                     |                                                 |              |0     |Normal      |2      |                                                                                                     |
+|3656 |ETGMSrv.exe                        |                                                 |              |0     |Normal      |4      |                                                                                                     |
+|3880 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|3924 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |5      |                                                                                                     |
+|4024 |msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|4068 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |17     |                                                                                                     |
+|4100 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |14     |                                                                                                     |
+|4412 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|4544 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |3      |                                                                                                     |
+|4560 |conhost.exe                        |Console Window Host                              |10.0.19041.746|0     |Normal      |2      |                                                                                                     |
+|4772 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|4780 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |5      |                                                                                                     |
+|4828 |TextInputHost.exe                  |                                                 |              |0     |Normal      |16     |                                                                                                     |
+|4840 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |12     |                                                                                                     |
+|4872 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|4936 |fsnotifier64.exe                   |Filesystem events processor                      |14.0.0.16     |0     |Normal      |2      |                                                                                                     |
+|5036 |YourPhoneServer.exe                |                                                 |              |0     |Normal      |29     |                                                                                                     |
+|5308 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|5408 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |18     |                                                                                                     |
+|5636 |ProcessGovernor.exe                |Process Lasso Core Engine                        |10.0.3.6      |0     |High        |8      |                                                                                                     |
+|5684 |SettingSyncHost.exe                |Host Process for Setting Synchronization         |10.0.19041.746|0     |Below-Normal|12     |                                                                                                     |
+|5716 |RuntimeBroker.exe                  |                                                 |              |0     |Normal      |2      |                                                                                                     |
+|5772 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|5996 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|6104 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |12     |                                                                                                     |
+|6364 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|6396 |msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|6428 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|6540 |igfxpers.exe                       |                                                 |              |0     |Normal      |7      |                                                                                                     |
+|6664 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|6992 |NVDisplay.Container.exe            |                                                 |              |0     |Normal      |39     |                                                                                                     |
+|7036 |SearchIndexer.exe                  |Microsoft Windows Search Indexer                 |7.0.19041.844 |0     |Normal      |19     |                                                                                                     |
+|7084 |msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|7140 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|7308 |SecurityHealthService.exe          |                                                 |              |0     |Normal      |11     |                                                                                                     |
+|7392 |OneQuick.exe                       |                                                 |              |0     |Normal      |17     |                                                                                                     |
+|7580 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |19     |                                                                                                     |
+|7608 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |14     |                                                                                                     |
+|7644 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |10     |                                                                                                     |
+|7664 |rscfg.exe                          |                                                 |1.0.5.219     |0     |Normal      |7      |C:\Program Files (x86)\Arrogant Bastard\Typhoon                                                      |
+|7832 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|8144 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|8156 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|8168 |PowerLauncher.exe                  |                                                 |              |0     |Below-Normal|16     |                                                                                                     |
+|8176 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|8208 |RuntimeBroker.exe                  |                                                 |              |0     |Normal      |14     |                                                                                                     |
+|8224 |ShellExperienceHost.exe            |                                                 |              |0     |Normal      |26     |                                                                                                     |
+|8348 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|8472 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |1      |                                                                                                     |
+|8476 |dwm.exe                            |                                                 |              |0     |High        |21     |                                                                                                     |
+|8544 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|8664 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|8808 |SecurityHealthSystray.exe          |                                                 |              |0     |Normal      |3      |                                                                                                     |
+|8836 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|9108 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|9268 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|9368 |Vortex.exe                         |                                                 |              |0     |Low         |19     |                                                                                                     |
+|9440 |svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |3      |                                                                                                     |
+|9832 |TGitCache.exe                      |TortoiseGit status cache                         |2.12.0.0      |0     |Normal      |14     |                                                                                                     |
+|9948 |taskhostw.exe                      |                                                 |              |0     |Normal      |9      |                                                                                                     |
+|9992 |msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|10084|PowerToys.KeyboardManagerEngine.exe|                                                 |              |0     |High        |4      |                                                                                                     |
+|10108|whatpulse.exe                      |WhatPulse                                        |3.1.0.0       |0     |Normal      |30     |C:\Program Files (x86)\WhatPulse2                                                                    |
+|10116|StartMenuExperienceHost.exe        |                                                 |              |0     |Normal      |22     |                                                                                                     |
+|10192|datagrip64.exe                     |DataGrip                                         |2021.1.1.0    |0     |Normal      |69     |                                                                                                     |
+|10256|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|10284|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|10332|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|10372|YourPhone.exe                      |                                                 |              |0     |Normal      |42     |                                                                                                     |
+|10448|Volumey.exe                        |                                                 |              |0     |Normal      |11     |                                                                                                     |
+|10668|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|10856|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|10976|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|11336|MoUsoCoreWorker.exe                |                                                 |              |0     |Normal      |10     |                                                                                                     |
+|11372|steamwebhelper.exe                 |                                                 |              |0     |Low         |19     |                                                                                                     |
+|11396|dllhost.exe                        |COM Surrogate                                    |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|11516|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|11552|NVDisplay.Container.exe            |                                                 |              |0     |Normal      |14     |                                                                                                     |
+|11640|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|11660|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|11788|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |9      |                                                                                                     |
+|11840|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |5      |                                                                                                     |
+|11848|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|11912|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|12024|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|12412|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|12708|csrss.exe                          |Client Server Runtime Process                    |10.0.19041.546|0     |High        |16     |                                                                                                     |
+|13196|PantherBar.exe                     |Pantherbar                                       |1.0.0.0       |0     |Normal      |27     |C:\Program Files\WindowsApps\JohannesTscholl.Pantherbar_2.0.23.0_x86__3hp4skfxf5x2g\PantherbarFullWPF|
+|13384|msedge.exe                         |                                                 |              |0     |Above-Normal|7      |                                                                                                     |
+|13436|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|13588|ApplicationFrameHost.exe           |Application Frame Host                           |10.0.19041.746|0     |Normal      |3      |                                                                                                     |
+|13768|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|14012|steamwebhelper.exe                 |                                                 |              |0     |Normal      |16     |                                                                                                     |
+|14172|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|14328|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|14372|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|14376|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|14480|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|14544|steamwebhelper.exe                 |                                                 |              |0     |Normal      |6      |                                                                                                     |
+|14692|dwagent.exe                        |                                                 |              |0     |Normal      |2      |                                                                                                     |
+|14844|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|15212|steamwebhelper.exe                 |                                                 |              |0     |Normal      |18     |                                                                                                     |
+|15252|steamservice.exe                   |                                                 |              |0     |Normal      |4      |                                                                                                     |
+|15824|FluentSearch.Indexer.exe           |                                                 |              |0     |Normal      |17     |                                                                                                     |
+|16004|msedge.exe                         |                                                 |              |0     |Above-Normal|18     |                                                                                                     |
+|16120|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |2      |                                                                                                     |
+|16156|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|16200|winlogon.exe                       |                                                 |              |0     |High        |7      |                                                                                                     |
+|16272|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|16312|CompPkgSrv.exe                     |Component Package Support Server                 |10.0.19041.746|0     |Normal      |3      |                                                                                                     |
+|16372|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|16616|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|16872|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|17004|FileVoyagerPortable.exe            |FileVoyager Portable (PortableApps.com Launcher) |2.2.2.0       |0     |Normal      |6      |E:\PortableApplauncher\Apps\FileVoyagerPortable                                                      |
+|17072|explorer.exe                       |Windows Explorer                                 |10.0.19041.964|0     |Above-Normal|26     |                                                                                                     |
+|17836|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|17940|explorer.exe                       |Windows Explorer                                 |10.0.19041.964|0     |Above-Normal|780    |                                                                                                     |
+|17960|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|18036|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|18072|Vortex.exe                         |                                                 |              |0     |Low         |26     |                                                                                                     |
+|18076|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|18316|sihost.exe                         |                                                 |              |0     |Normal      |17     |                                                                                                     |
+|18592|Vortex.exe                         |                                                 |              |0     |Normal      |28     |                                                                                                     |
+|18644|steamwebhelper.exe                 |                                                 |              |0     |Normal      |25     |                                                                                                     |
+|18764|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|19132|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |22     |                                                                                                     |
+|19276|msedge.exe                         |                                                 |              |0     |Above-Normal|737    |                                                                                                     |
+|19328|mobsync.exe                        |Microsoft Sync Center                            |10.0.19041.1  |0     |Normal      |9      |                                                                                                     |
+|19392|steam.exe                          |Steam                                            |6.54.98.72    |0     |Normal      |40     |C:\Program Files (x86)\Steam                                                                         |
+|19412|msedge.exe                         |                                                 |              |0     |Above-Normal|31     |                                                                                                     |
+|19576|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|19812|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|19932|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |4      |                                                                                                     |
+|20040|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |16     |                                                                                                     |
+|20080|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|20144|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|20160|OneDrive.exe                       |Microsoft OneDrive                               |21.83.425.3   |0     |Normal      |45     |C:\Users\chris\AppData\Local\Microsoft\OneDrive                                                      |
+|20264|ColorPickerUI.exe                  |                                                 |              |0     |Below-Normal|14     |                                                                                                     |
+|20412|FileCoAuth.exe                     |Microsoft OneDriveFile Co-Authoring Executable   |21.83.425.3   |0     |Normal      |5      |C:\Users\chris\AppData\Local\Microsoft\OneDrive\21.083.0425.0003                                     |
+|20456|msedge.exe                         |                                                 |              |0     |Above-Normal|21     |                                                                                                     |
+|20588|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|20692|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|20816|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|20836|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|20900|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|21016|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|21100|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |14     |                                                                                                     |
+|21256|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|21296|Transmute.exe                      |Transmute                                        |1.60.7.0      |0     |Normal      |10     |E:\PortableApplauncher\Apps\.free\Transmute160Portable                                               |
+|21528|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |16     |                                                                                                     |
+|21660|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|21752|dwagent.exe                        |                                                 |              |0     |High        |38     |                                                                                                     |
+|21960|taskhostw.exe                      |                                                 |              |0     |Normal      |8      |                                                                                                     |
+|22116|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|22172|TogglDesktop.exe                   |                                                 |              |0     |Normal      |48     |                                                                                                     |
+|22316|FileVoyager.exe                    |FileVoyager - Swiss Army Knife Of File Management|21.1.2.0      |0     |Normal      |24     |E:\PortableApplauncher\Apps\FileVoyagerPortable\App\FileVoyager                                      |
+|22456|PowerToys.exe                      |                                                 |              |0     |Below-Normal|35     |                                                                                                     |
+|22660|fontdrvhost.exe                    |Usermode Font Driver Host                        |10.0.19041.906|0     |Normal      |5      |                                                                                                     |
+|22672|taskhostw.exe                      |                                                 |              |0     |Normal      |7      |                                                                                                     |
+|22760|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|23140|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |3      |                                                                                                     |
+|23212|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|23280|sppsvc.exe                         |                                                 |              |0     |Normal      |10     |                                                                                                     |
+|23324|ProcessLasso.exe                   |Process Lasso                                    |10.0.3.6      |0     |Above-Normal|23     |                                                                                                     |
+|23400|steamwebhelper.exe                 |                                                 |              |0     |Above-Normal|19     |                                                                                                     |
+|23412|ctfmon.exe                         |CTF Loader                                       |10.0.19041.1  |0     |High        |13     |                                                                                                     |
+|23460|rsmon.exe                          |                                                 |1.0.0.177     |0     |Normal      |9      |C:\Program Files (x86)\Arrogant Bastard\Typhoon                                                      |
+|23716|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |7      |                                                                                                     |
+|23736|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|23988|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|24044|MicrosoftEdgeUpdate.exe            |                                                 |              |0     |Low         |5      |                                                                                                     |
+|24300|UserOOBEBroker.exe                 |                                                 |              |0     |Normal      |5      |                                                                                                     |
+|24336|steamwebhelper.exe                 |                                                 |              |0     |Normal      |31     |                                                                                                     |
+|24540|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|24684|msedge.exe                         |                                                 |              |0     |Above-Normal|36     |                                                                                                     |
+|24760|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|24796|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|24836|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|24952|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|25056|msedge.exe                         |                                                 |              |0     |Above-Normal|10     |                                                                                                     |
+|25180|RuntimeBroker.exe                  |                                                 |              |0     |Normal      |6      |                                                                                                     |
+|25372|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|25968|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|26004|FVCtxtMenuX64.exe                  |                                                 |              |0     |Normal      |10     |                                                                                                     |
+|26160|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|26220|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|26300|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|26336|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|26592|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|26712|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|27244|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|27332|Vortex.exe                         |                                                 |              |0     |Normal      |34     |                                                                                                     |
+|28100|dllhost.exe                        |COM Surrogate                                    |10.0.19041.546|0     |Normal      |4      |                                                                                                     |
+|28348|FileVoyager.exe                    |FileVoyager - Swiss Army Knife Of File Management|21.1.2.0      |0     |Normal      |25     |E:\PortableApplauncher\Apps\FileVoyagerPortable\App\FileVoyager                                      |
+|28368|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28464|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28468|FileVoyager.exe                    |FileVoyager - Swiss Army Knife Of File Management|21.1.2.0      |0     |Normal      |59     |E:\PortableApplauncher\Apps\FileVoyagerPortable\App\FileVoyager                                      |
+|28480|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28808|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28884|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28916|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|28924|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|28968|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|29024|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |2      |                                                                                                     |
+|29072|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|29196|msedge.exe                         |                                                 |              |0     |Above-Normal|21     |                                                                                                     |
+|29320|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|29584|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|29596|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|29748|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|29772|Vortex.exe                         |                                                 |              |0     |Above-Normal|30     |                                                                                                     |
+|29812|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|29992|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30016|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30148|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|30236|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30408|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30436|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30456|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|30532|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|30856|msedge.exe                         |                                                 |              |0     |Above-Normal|22     |                                                                                                     |
+|31016|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31104|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31144|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31184|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31332|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31380|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31452|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31492|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|31916|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|32072|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |6      |                                                                                                     |
+|32200|msedge.exe                         |                                                 |              |0     |Above-Normal|16     |                                                                                                     |
+|32384|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|32436|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|32644|SearchApp.exe                      |                                                 |              |0     |Normal      |54     |                                                                                                     |
+|32808|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|32924|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33096|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33220|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33404|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33412|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33548|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33596|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33804|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|33944|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|34236|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34448|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34564|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34612|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34624|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34740|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34768|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34796|msedge.exe                         |                                                 |              |0     |Above-Normal|15     |                                                                                                     |
+|34800|msedge.exe                         |                                                 |              |0     |Above-Normal|17     |                                                                                                     |
+|35804|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |7      |                                                                                                     |
+|36952|SppExtComObj.Exe                   |                                                 |              |0     |Normal      |7      |                                                                                                     |
+|38512|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |13     |                                                                                                     |
+|38720|AppsLauncher.exe                   |                                                 |              |0     |Normal      |3      |                                                                                                     |
+|39068|svchost.exe                        |Host Process for Windows Services                |10.0.19041.546|0     |Normal      |8      |                                                                                                     |
+|40008|slui.exe                           |                                                 |              |0     |Normal      |8      |                                                                                                     |
+|40300|LinkCommander.exe                  |Link Commander                                   |4.2.2.1053    |0     |Normal      |3      |C:\Program Files (x86)\Link Commander                                                                |
+|40344|LinkCommander.exe                  |Link Commander                                   |4.2.2.1053    |0     |Normal      |6      |C:\Program Files (x86)\Link Commander                                                                |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+--------------------------------------------------------------------------------
+; sysutils.RaiseLastOSError (Line=12337 - Offset=3)
+; -------------------------------------------------
+00413C35  jmp     sysutils.RaiseLastOSError (Line=12341)
+;
+; Line=12340 - Offset=6
+; ---------------------
+00413C37  mov     ecx, [$952AEC]
+00413C3D  mov     dl, $01
+00413C3F  mov     eax, dword ptr [EOSError]
+00413C44  call    sysutils.Exception.CreateRes
+00413C49  mov     [ebp-$08], eax
+;
+; Line=12341 - Offset=7
+; ---------------------
+00413C4C  mov     eax, [ebp-$04]
+00413C4F  mov     edx, [ebp-$08]
+00413C52  mov     [edx+$0C], eax
+;
+; Line=12342 - Offset=8
+; ---------------------
+00413C55  mov     eax, [ebp-$08]
+00413C58  call    system._RaiseExcept                     ; <-- EXCEPTION
+00413C5D  xor     eax, eax
+00413C5F  pop     edx
+00413C60  pop     ecx
+00413C61  pop     ecx
+00413C62  mov     fs:[eax], edx
+00413C65  push    $00413C7A                               ; '‹å]Ã‹ÀU‹ìƒÄø‰Eüƒ}ü'
+00413C6A  lea     eax, [ebp-$1C]
+00413C6D  call    system._LStrClr
+00413C72  ret
+
+Registers:
+-----------------------------
+EAX: 038C9098   EDI: 0093B024
+EBX: 00000057   ESI: 0000018F
+ECX: 00000000   ESP: 0019F574
+EDX: 00413C5D   EIP: 00413C58
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0019F574: 0019F5BC   00413C58: E8 5B 0B FF FF 33 C0 5A 59 59 64 89 10 68 7A 3C  .[...3.ZYYd..hz<
+0019F578: 00413C73   00413C68: 41 00 8D 45 E4 E8 CA 11 FF FF C3 E9 44 0A FF FF  A..E........D...
+0019F57C: 0019F59C   00413C78: EB F0 8B E5 5D C3 8B C0 55 8B EC 83 C4 F8 89 45  ....]...U......E
+0019F580: 038C9050   00413C88: FC 83 7D FC 00 75 05 E8 40 FF FF FF 8B 45 FC 89  ..}..u..@....E..
+0019F584: 00000008   00413C98: 45 F8 8B 45 F8 59 59 5D C3 8D 40 00 55 8B EC 83  E..E.YY]..@.U...
+0019F588: 0019F500   00413CA8: C4 F8 53 C6 45 FF 01 A1 3C D3 93 00 89 45 F8 EB  ..S.E...<....E..
+0019F58C: 038C9050   00413CB8: 11 8B 5D F8 FF 53 04 88 45 FF 8B 45 F8 8B 00 89  ..]..S..E..E....
+0019F590: 7E25690B   00413CC8: 45 F8 80 7D FF 00 74 06 83 7D F8 00 75 E3 8A 45  E..}..t..}..u..E
+0019F594: 038C9098   00413CD8: FF 5B 59 59 5D C3 8B C0 55 8B EC 51 EB 1F A1 3C  .[YY]...U..Q...<
+0019F598: 00000008   00413CE8: D3 93 00 89 45 FC 8B 45 FC 8B 00 A3 3C D3 93 00  ....E..E....<...
+0019F59C: 0019F5AC   00413CF8: BA 08 00 00 00 8B 45 FC E8 5F EB FE FF 83 3D 3C  ......E.._....=<
+0019F5A0: 004EC59C   00413D08: D3 93 00 00 75 D8 59 5D C3 8D 40 00 55 8B EC 51  ....u.Y]..@.U..Q
+0019F5A4: 00000000   00413D18: 68 54 3D 41 00 E8 A6 41 FF FF 89 45 FC 83 7D FC  hT=A...A...E..}.
+0019F5A8: 00000000   00413D28: 00 74 13 68 64 3D 41 00 8B 45 FC 50 E8 AF 41 FF  .t.hd=A..E.P..A.
+0019F5AC: 0019F5B4   00413D38: FF A3 60 D1 93 00 83 3D 60 D1 93 00 00 75 0A B8  ..`....=`....u..
+0019F5B0: 00528C2A   00413D48: 48 DB 40 00 A3 60 D1 93 00 59 5D C3 6B 65 72 6E  H.@..`...Y].kern
+
+
+

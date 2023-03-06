@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GUID>79498a60-0ed4-48e3-8293-e86e842b7479</GUID>
+  <Lang>en_US</Lang>
+  <RunTimes>14</RunTimes>
+  <TriggerCounter>144</TriggerCounter>
+  <CheckPrerelease>false</CheckPrerelease>
+  <PushNumber>20</PushNumber>
+  <LastRunVersion>1.2.5</LastRunVersion>
+  <FirstRunDT>2021-05-03T23:28:10.5274876+02:00</FirstRunDT>
+  <ConfigPath />
+  <ConfigEntrys>
+    <ConfigFileEntry>
+      <BuildinConfigName>Default</BuildinConfigName>
+      <Name>&lt;Default&gt;</Name>
+      <Path>&lt;Buildin&gt;</Path>
+      <OverwriteScreenBorder>true</OverwriteScreenBorder>
+      <OverwriteQuickSearch>true</OverwriteQuickSearch>
+      <OverwriteReplacePhrase>false</OverwriteReplacePhrase>
+      <OverwriteCustomHotkey>false</OverwriteCustomHotkey>
+      <OverwriteKeyMapping>false</OverwriteKeyMapping>
+      <OverwriteBuildinFuncs>false</OverwriteBuildinFuncs>
+    </ConfigFileEntry>
+    <ConfigFileEntry>
+      <BuildinConfigName>Empty</BuildinConfigName>
+      <Name>&lt;Empty&gt;</Name>
+      <Path>&lt;Buildin&gt;</Path>
+      <OverwriteScreenBorder>false</OverwriteScreenBorder>
+      <OverwriteQuickSearch>false</OverwriteQuickSearch>
+      <OverwriteReplacePhrase>false</OverwriteReplacePhrase>
+      <OverwriteCustomHotkey>false</OverwriteCustomHotkey>
+      <OverwriteKeyMapping>false</OverwriteKeyMapping>
+      <OverwriteBuildinFuncs>false</OverwriteBuildinFuncs>
+    </ConfigFileEntry>
+    <ConfigFileEntry>
+      <BuildinConfigName>Dvorak</BuildinConfigName>
+      <Name>&lt;Dvorak&gt;</Name>
+      <Path>&lt;Buildin&gt;</Path>
+      <OverwriteScreenBorder>false</OverwriteScreenBorder>
+      <OverwriteQuickSearch>false</OverwriteQuickSearch>
+      <OverwriteReplacePhrase>false</OverwriteReplacePhrase>
+      <OverwriteCustomHotkey>false</OverwriteCustomHotkey>
+      <OverwriteKeyMapping>true</OverwriteKeyMapping>
+      <OverwriteBuildinFuncs>false</OverwriteBuildinFuncs>
+    </ConfigFileEntry>
+  </ConfigEntrys>
+</Preference>

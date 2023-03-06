@@ -1,0 +1,13 @@
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.csprojAssemblyReference.cache
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.csproj.CoreCompileInputs.cache
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.AssemblyInfoInputs.cache
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.AssemblyInfo.cs
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.exe
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.deps.json
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.runtimeconfig.json
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.runtimeconfig.dev.json
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.dll
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\bin\Debug\netcoreapp3.1\Currency.pdb
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.dll
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.pdb
+C:\Users\root\Documents\C sharp tasks\Currency\Currency\obj\Debug\netcoreapp3.1\Currency.genruntimeconfig.cache

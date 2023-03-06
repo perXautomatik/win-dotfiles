@@ -1,0 +1,49 @@
+float SvenskKrona
+float Svkridk
+float Euro
+
+SvenskKrona = 100;
+Svkridk = 0,78;
+
+DkiSvenskKrona = SvenskKrona/Dkronor
+
+Svkridk/Dkronor = Svkridk 
+Svkridk*SvenskKrona = Dkronor
+
+
+
+
+
+1/2 = 0.5
+
+1 = 0.5 * 2
+
+8/2 = 4
+
+2 = 8/4
+
+8/ 2 = 8/ 4
+
+x = 1
+y = 2
+z = 0.5
+
+X/Y = 0.5
+
+x * 1/y = z
+
+x * 1/y = 0.5
+
+
+
+
+1/1 * 1/2 = 0.5
+
+¨
+
+
+41231/4234235
+
+41231 * 1/4234235
+
+

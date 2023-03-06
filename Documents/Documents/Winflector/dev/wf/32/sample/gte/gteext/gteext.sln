@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gteext", "gteext.vcxproj", "{2D966042-FC1D-413C-B489-5F9D85E3D167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D966042-FC1D-413C-B489-5F9D85E3D167}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D966042-FC1D-413C-B489-5F9D85E3D167}.Debug|Win32.Build.0 = Debug|Win32
+		{2D966042-FC1D-413C-B489-5F9D85E3D167}.Release|Win32.ActiveCfg = Release|Win32
+		{2D966042-FC1D-413C-B489-5F9D85E3D167}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
