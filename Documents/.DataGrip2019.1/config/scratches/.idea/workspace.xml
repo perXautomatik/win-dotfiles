@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="262a0e1f-7317-468e-a3a6-f0ded819523b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ mtext like%@%.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddRowNumber.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bulk insert.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/COALESCE.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Check if column has unique values.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ColumnNamnes Filtered by like.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountKeyOccurenceInJoin.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cre_Sep_Char_S_Varchar_RETURNS_TABLE_AS_RET_Sql__Ab_e_aea_E_b_B_b_.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateFilterByHasArende.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateRowLimitTrigger.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EDPVisionRegionGotland.dbo.vwAehAerende console_1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetTableNamesIndbByShema-Recovered-jun-11-2019-0437.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INFORMATION_SCHEMA.VIEW_TABLE_USAGE.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySql_GroupConcat.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeletColumnView_tABLE_usage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Url-Depth5Identification.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[EDPVisionRegionGotlandAvlopp].dbo.tbTrEaAvloppsanlaeggning.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[EDPVisionRegionGotlandTest2].EDPVisionRegionGotland.dbo.tbAehAerende.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[tempExcel].dbo.[Tillsynsobjekt inför fördelning].sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/columnWithEveryOtherConcactenated.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concact previous,current,following row.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create fulltext catalog fulltextCatalog as default.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbo.vwAehAerendetsHuvudkontakt.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/from Blad1Rejoined.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_series.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grantpermissions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master.EDPVisionRegionGotlandAvlopp.dbo.tbTrEaAvloppsanlaeggning.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/raw (DIA.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sde_bygglov.gng.BYGGLOVSREG_2007_2019_P.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sde_pipe.gng.GEMENSAMHETSANLAGGNINGAR.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/select COLUMN_NAME from information_schema.columns.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socknarOfIntresse.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stringSplit.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tbAehAerende.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempExcel.dbo.TestBatchHandelseSkapande utskickHargåttTill.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempExcel.dbo.VisionHandelser.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempExcel.dbo.[Tillsynsobjekt inför fördelning].sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toSplit-Elect_String_Split_ADRESS_From_Qxg_Sel_Sql___a_dd_b_b_A_b_bc_.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userSessions.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vwAehAerende WHERE strFastighetsbeteckning.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/windowFunctionExample.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/withCte-DeleteDupes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/with_a_as_select_id_x_convert_xml_i_rep.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25W5ySi7hlVSEDIEPv0bNuvbFgC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenDatabaseViewOnStart" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\26444dbc3d940c068a82271d2df1932d" />
+      <recent name="D:\.DataGrip2019.1\config\scratches\New folder" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="262a0e1f-7317-468e-a3a6-f0ded819523b" name="Default Changelist" comment="" />
+      <created>1645630262147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645630262147</updated>
+      <workItem from="1645630265940" duration="60000" />
+      <workItem from="1645631386048" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

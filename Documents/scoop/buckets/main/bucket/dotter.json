@@ -1,0 +1,22 @@
+{
+    "version": "0.12.9",
+    "description": "Dotfile manager and templater",
+    "homepage": "https://github.com/SuperCuber/dotter",
+    "license": "Unlicense",
+    "notes": "To set up dotter, check instructions on 'https://github.com/SuperCuber/dotter/wiki/Setup-and-Configuration'",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/SuperCuber/dotter/releases/download/0.12.9/dotter.exe",
+            "hash": "e4d5144b51d1c29be532c7444286d145acaf1f3743f370cece4b538b5d4aa94e"
+        }
+    },
+    "bin": "dotter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/SuperCuber/dotter/releases/download/$version/dotter.exe"
+            }
+        }
+    }
+}

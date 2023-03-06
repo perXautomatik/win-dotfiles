@@ -1,0 +1,21 @@
+{
+    "version": "2.3.0",
+    "description": "Perceptual video quality assessment based on multi-method fusion.",
+    "homepage": "https://github.com/Netflix/vmaf",
+    "license": "BSD-2-Clause-Patent",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Netflix/vmaf/releases/download/v2.3.0/vmaf.exe",
+            "hash": "8778dd089a8f4357661084a644b67be1944f2ddf9c1aad6766fdcfbeaa06563c"
+        }
+    },
+    "bin": "vmaf.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Netflix/vmaf/releases/download/v$version/vmaf.exe"
+            }
+        }
+    }
+}
