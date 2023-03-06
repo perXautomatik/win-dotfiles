@@ -1,0 +1,17 @@
+1.(19:22:19:686) Service stop event; 
+1.(19:22:47:89) In ServiceMain updateSystemConfigurationToReg 
+2.(19:22:47:97) 
+updateSystemConfigurationToReg called
+ 
+3.(19:22:47:99) looking for system details
+ 
+4.(19:22:47:109) Failed to load LenovoSysCheck.dll
+ 
+5.(19:22:47:117) < updateSystemConfigurationToReg 
+6.(19:22:47:117) In ServiceMain GetValidityDeviceState 
+7.(19:22:47:117) IN GetValidityDeviceState 
+8.(19:22:47:119) found Validity Device 
+9.(19:22:47:119) DevNode status = 0x180200A  problemNumber = 0x0 
+10.(19:22:47:119) Device has Started 
+11.(19:22:47:129) Return from GetValidityDeviceState. resetRequired = 0 
+12.(19:22:47:129) In ServiceMain bf CreateEvent 

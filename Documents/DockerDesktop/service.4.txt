@@ -1,0 +1,13 @@
+Version: 4.7.0 (77141)
+Sha1: 32b656dcbcdf5f9698a91524f4ab6b7660f66eb0
+Started on: 2022/04/19 21:17:34.259
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 19044
+BuildLabName: 19041.1.amd64fre.vb_release.191206-1406
+File: C:\ProgramData\DockerDesktop\service.txt
+CommandLine: "C:\Program Files\Docker\Docker\com.docker.service"
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2022-04-19T21:17:34.572477400Z][DockerService     ][Info   ] Starting service
