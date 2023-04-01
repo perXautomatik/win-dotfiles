@@ -5,10 +5,10 @@ $packageManagers = @("scoop", "choco", "winget")
 
 ## Array of packages to install
 $packagesToInstall = @{
-    "winget" = @("7zip.7zip", "AgileBits.1Password", "Audient.EVO", "Balena.Etcher", "Brave.Brave", "CoreyButler.NVMforWindows", "Discord.Discord", "ExpressVPN.ExpressVPN", "GIMP.GIMP", "Git.Git", "GitHub.GitHubDesktop", "Insomnia.Insomnia", "JanDeDobbeleer.OhMyPosh", "Logitech.OptionsPlus", "Microsoft.PowerToys", "Microsoft.VisualStudioCode", "NexusMods.Vortex", "Nilesoft.Shell", "ONLYOFFICE.DesktopEditors", "Oracle.JavaRuntimeEnvironment", "Overwolf.CurseForge", "qBittorrent.qBittorrent", "RARLab.WinRAR", "RustDesk.RustDesk", "Stremio.Stremio", "TechPowerUp.NVCleanstall", "Valve.Steam", "VideoLAN.VLC")
+    "winget" = @("9N7F2SM5D1LR", "7zip.7zip", "AgileBits.1Password", "Audient.EVO", "Balena.Etcher", "Brave.Brave", "CoreyButler.NVMforWindows", "Discord.Discord", "ExpressVPN.ExpressVPN", "GIMP.GIMP", "Git.Git", "GitHub.GitHubDesktop", "Insomnia.Insomnia", "JanDeDobbeleer.OhMyPosh", "Logitech.OptionsPlus", "Microsoft.PowerToys", "Microsoft.VisualStudioCode", "NexusMods.Vortex", "Nilesoft.Shell", "ONLYOFFICE.DesktopEditors", "Oracle.JavaRuntimeEnvironment", "Overwolf.CurseForge", "qBittorrent.qBittorrent", "RARLab.WinRAR", "RustDesk.RustDesk", "Stremio.Stremio", "TechPowerUp.NVCleanstall", "Valve.Steam", "VideoLAN.VLC")
     "scoop" = @{
         "buckets" = @("nerd-fonts")
-        "packages" = @("Hasklig")
+        "packages" = @("Hasklug-NF-Mono")
     }
     "choco" = @()
 }
