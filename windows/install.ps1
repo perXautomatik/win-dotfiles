@@ -5,10 +5,43 @@ $packageManagers = @("scoop", "choco", "winget")
 
 ## Array of packages to install
 $packagesToInstall = @{
-    "winget" = @("9N7F2SM5D1LR", "7zip.7zip", "AgileBits.1Password", "Audient.EVO", "Balena.Etcher", "Brave.Brave", "CoreyButler.NVMforWindows", "Discord.Discord", "ExpressVPN.ExpressVPN", "GIMP.GIMP", "Git.Git", "GitHub.GitHubDesktop", "Insomnia.Insomnia", "JanDeDobbeleer.OhMyPosh", "Logitech.OptionsPlus", "Microsoft.PowerToys", "Microsoft.VisualStudioCode", "NexusMods.Vortex", "Nilesoft.Shell", "ONLYOFFICE.DesktopEditors", "Oracle.JavaRuntimeEnvironment", "Overwolf.CurseForge", "qBittorrent.qBittorrent", "RARLab.WinRAR", "RustDesk.RustDesk", "Stremio.Stremio", "TechPowerUp.NVCleanstall", "Valve.Steam", "VideoLAN.VLC")
+    "winget" = @(
+        "9N7F2SM5D1LR", # Windows HDR Calibration
+        "AgileBits.1Password",
+        "Audient.EVO",
+        "ExpressVPN.ExpressVPN",
+        "Logitech.OptionsPlus",
+        "Nilesoft.Shell",
+        "Overwolf.CurseForge",
+        "VideoLAN.VLC"
+    )
     "scoop" = @{
-        "buckets" = @("nerd-fonts")
-        "packages" = @("Hasklug-NF-Mono")
+        "buckets" = @("nerd-fonts", "extras", "nonportable")
+        "packages" = @(
+            "Hasklug-NF-Mono", 
+            "rust", 
+            "python",
+            "7zip",
+            "etcher",
+            "brave",
+            "nvm",
+            "discord",
+            "git",
+            "github",
+            "insomnia",
+            "oh-my-posh",
+            "powertoys",
+            "vscode",
+            "onlyoffice-desktopeditors",
+            "oraclejre8"
+            "virtualbox-np",
+            "qbittorent",
+            "rustdesk",
+            "stremio",
+            "nvcleanstall",
+            "steam",
+            "vlc"
+        )
     }
     "choco" = @()
 }
@@ -177,7 +210,8 @@ Write-Host
 
 ## Copy Oh-My-Posh config to user folder
 $poshConfigFile = "$PSScriptRoot\..\shared\oh-my-posh\onedarkpro.omp.json"
-$poshConfigDestination = "C:\Users\$env:USERNAME\"
+mkdir "C:\Users\$env:USERNAME\.config\oh-my-posh\"
+$poshConfigDestination = "C:\Users\$env:USERNAME\.config\oh-my-posh\"
 Copy-Item -Path $poshConfigFile -Destination $poshConfigDestination -Force
 
 ## Check if the $PROFILE file exists
@@ -192,7 +226,7 @@ $lines = $lines | Where-Object { $_ -notmatch "oh-my-posh init pwsh | Invoke-Exp
 Set-Content -Path $PROFILE -Value $lines
 
 ## Add the new init command to the $PROFILE file
-Add-Content -Path $PROFILE -Value "oh-my-posh init pwsh --config C:\Users\$env:USERNAME\onedarkpro.omp.json | Invoke-Expression"
+Add-Content -Path $PROFILE -Value "oh-my-posh init pwsh --config C:\Users\$env:USERNAME\.config\oh-my-posh\onedarkpro.omp.json | Invoke-Expression"
 
 ## Source the $PROFILE file
 . $PROFILE
@@ -204,8 +238,12 @@ Write-Host
 Write-Host "Installing FancyZones config..."
 Write-Host
 $zonesConfigFile = "$PSScriptRoot\fancy-zones\custom-layouts.json"
-$zonesConfigDestination = "C:\Users\$env:USERNAME\AppData\Local\Microsoft\PowerToys\FancyZones\"
-Copy-Item -Path $zonesConfigFile -Destination $zonesConfigDestination -Force
+$zonesSettingsile = "$PSScriptRoot\fancy-zones\settings.json"
+$zonesLayoutFile = "$PSScriptRoot\fancy-zones\applied-layouts.json"
+$zonesDestination = "C:\Users\$env:USERNAME\AppData\Local\Microsoft\PowerToys\FancyZones\"
+Copy-Item -Path $zonesSettingsile -Destination $zonesDestination -Force
+Copy-Item -Path $zonesLayoutFile -Destination $zonesDestination -Force
+Copy-Item -Path $zonesConfigFile -Destination $zonesDestination -Force
 Write-Host "FancyZones config copied to user folder"
 Write-Host
 
