@@ -1,9 +1,7 @@
-# Definition
-
-## Array of package managers - scoop, chocolatey, winget
+# Array of package managers - scoop, chocolatey, winget
 $packageManagers = @("scoop", "choco", "winget")
 
-## Array of packages to install
+# Array of packages to install
 $packagesToInstall = @{
     "winget" = @(
         "9N7F2SM5D1LR", # Windows HDR Calibration
@@ -46,7 +44,7 @@ $packagesToInstall = @{
     "choco" = @()
 }
 
-## Function to install winget
+# Function to install winget
 Function Install-WinGet {
     $URL = "https://api.github.com/repos/microsoft/winget-cli/releases/latest"
     $URL = (Invoke-WebRequest -Uri $URL).Content | ConvertFrom-Json |
@@ -64,17 +62,17 @@ Function Install-WinGet {
     Remove-Item "Setup.msix"    
 }
 
-## Function to install scoop
+# Function to install scoop
 function Install-Scoop {
     iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 }
 
-## Function to install chocolatey
+# Function to install chocolatey
 function Install-Chocolatey {
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 }
 
-## Function to check if package manager is installed and available
+# Function to check if package manager is installed and available
 function Check-IfPackageManagerInstalled {
     param(
         [string]$packageManager
@@ -120,18 +118,18 @@ Clear-Host
 Write-Host "Starting setup..." -ForegroundColor Green
 Write-Host
 
-## Iterate over array of package managers and call functions to install packages
+# Iterate over array of package managers and call functions to install packages
 foreach ($packageManager in $packageManagers) {
     $isInstalled = Check-IfPackageManagerInstalled $packageManager
 
-    ## Iterate over array of package managers and call functions to install packages
+    # Iterate over array of package managers and call functions to install packages
     if ($isInstalled) {
         switch ($packageManager) {
             "scoop" {
                 Write-Host "Adding scoop buckets and installing scoop packages..."
                 Write-Host
                 try {
-                    ## Add any dependencies here
+                    # Add any dependencies here
                     scoop install git
                     Write-Host
                 } catch {
@@ -196,7 +194,7 @@ foreach ($packageManager in $packageManagers) {
     }
 }
 
-## Install windows terminal config
+# Install windows terminal config
 Write-Host "Installing windows terminal config..."
 $winTermConfigFile = "$PSScriptRoot\windows-terminal\settings.json"
 $winConfigDestination = "C:\Users\$env:USERNAME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\"
@@ -204,37 +202,37 @@ Copy-Item -Path $winTermConfigFile -Destination $winConfigDestination -Force
 Write-Host "Done." -ForegroundColor Green
 Write-Host
 
-### Setup Oh-My-Posh ###
+# Setup Oh-My-Posh
 Write-Host "Installing Oh-My-Posh config..."
 Write-Host
 
-## Copy Oh-My-Posh config to user folder
+# Copy Oh-My-Posh config to user folder
 $poshConfigFile = "$PSScriptRoot\..\shared\oh-my-posh\onedarkpro.omp.json"
 mkdir "C:\Users\$env:USERNAME\.config\oh-my-posh\"
 $poshConfigDestination = "C:\Users\$env:USERNAME\.config\oh-my-posh\"
 Copy-Item -Path $poshConfigFile -Destination $poshConfigDestination -Force
 
-## Check if the $PROFILE file exists
+# Check if the $PROFILE file exists
 if (!(Test-Path $PROFILE)) {
     # Create the $PROFILE file
     New-Item -Type File -Path $PROFILE -Force
 }
 
-## Remove the default init command from the $PROFILE file if installing Oh-My-Posh inserted it
+# Remove the default init command from the $PROFILE file if installing Oh-My-Posh inserted it
 $lines = Get-Content -Path $PROFILE
 $lines = $lines | Where-Object { $_ -notmatch "oh-my-posh init pwsh | Invoke-Expression" }
 Set-Content -Path $PROFILE -Value $lines
 
-## Add the new init command to the $PROFILE file
+# Add the new init command to the $PROFILE file
 Add-Content -Path $PROFILE -Value "oh-my-posh init pwsh --config C:\Users\$env:USERNAME\.config\oh-my-posh\onedarkpro.omp.json | Invoke-Expression"
 
-## Source the $PROFILE file
+# Source the $PROFILE file
 . $PROFILE
 
 Write-Host "Done." -ForegroundColor Green
 Write-Host
 
-## FancyZones config install
+# FancyZones config install
 Write-Host "Installing FancyZones config..."
 Write-Host
 $zonesConfigFile = "$PSScriptRoot\fancy-zones\custom-layouts.json"
@@ -247,21 +245,21 @@ Copy-Item -Path $zonesConfigFile -Destination $zonesDestination -Force
 Write-Host "FancyZones config copied to user folder"
 Write-Host
 
-### Setup Dev Environment ###
+# Setup Dev Environment #
 Write-Host "Setting up dev environment..."
 Write-Host
 
-## Install latest node from nvm
+# Install latest node from nvm
 Write-Host "Installing latest node..."
 Write-Host
 nvm install latest
 
-## Set latest node as the installed version
+# Set latest node as the installed version
 Write-Host "Setting latest node as the installed version..."
 Write-Host
 nvm use latest
 
-## Install latest yarn
+# Install latest yarn
 Write-Host "Installing latest yarn..."
 Write-Host
 npm install -g yarn
