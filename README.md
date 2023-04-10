@@ -2,7 +2,7 @@
 
 ### These are my personal config files. I use them to quickly set up a new machine with my preferred settings and software.
 
-### I will be updating it over time with more software and settings as well as telemetry disabling and debloating.
+### I will be updating it over time with more software and settings.
 
 <br />
 
@@ -15,7 +15,7 @@
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 cd "PATH_TO_EXTRACTED_FOLDER"
-.\install.ps1
+./install.ps1
 ```
 
 <br />

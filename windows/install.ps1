@@ -9,16 +9,17 @@ $packagesToInstall = @{
         "Audient.EVO",
         "ExpressVPN.ExpressVPN",
         "Logitech.OptionsPlus",
+        "Nilesoft.Shell",
         "Overwolf.CurseForge"
     )
     "scoop" = @{
         "buckets" = @(
-		"extras",
-		"java",
-		"nerd-fonts",
-		"nonportable",
-		"versions"
-	  )
+            "extras",
+            "java",
+            "nerd-fonts",
+            "nonportable",
+            "versions"
+	    )
         "packages" = @(
             "7zip",
             "brave",
@@ -43,8 +44,7 @@ $packagesToInstall = @{
             "stremio",
             "virtualbox-np",
             "vlc",
-            "vscode",
-            "nilesoft-shell"
+            "vscode"
         )
     }
     "choco" = @()
@@ -236,6 +236,16 @@ Add-Content -Path $PROFILE -Value "oh-my-posh init pwsh --config C:\Users\$env:U
 Write-Host "Done." -ForegroundColor Green
 Write-Host
 
+# Install Nilesoft Shell config
+Write-Host "Installing Nilesoft Shell config..."
+Write-Host
+$shellConfigFile = "$PSScriptRoot\windows\nilesoft-shell\shell.nss"
+$shellConfigDestination = "C:\Program Files\Nilesoft Shell"
+Copy-Item -Path $shellConfigFile -Destination $shellConfigDestination -Force
+
+Write-Host "Done." -ForegroundColor Green
+Write-Host
+
 # FancyZones config install
 Write-Host "Installing FancyZones config..."
 Write-Host
@@ -268,12 +278,13 @@ Write-Host "Installing latest yarn..."
 Write-Host
 npm install -g yarn
 
-Write-Host "Setup complete." -ForegroundColor Green
-Write-Host
-
 Write-Host "node: "
 node --version
 Write-Host "npm: "
 npm --version
 Write-Host "yarn: "
 yarn --version
+
+Write-Host "Setup complete." -ForegroundColor Green
+Write-Host
+Write-Host "Please restart your terminal to apply changes." -ForegroundColor Yellow
