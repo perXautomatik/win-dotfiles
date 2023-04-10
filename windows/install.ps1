@@ -9,36 +9,42 @@ $packagesToInstall = @{
         "Audient.EVO",
         "ExpressVPN.ExpressVPN",
         "Logitech.OptionsPlus",
-        "Nilesoft.Shell",
-        "Overwolf.CurseForge",
-        "VideoLAN.VLC"
+        "Overwolf.CurseForge"
     )
     "scoop" = @{
-        "buckets" = @("nerd-fonts", "extras", "nonportable")
+        "buckets" = @(
+		"extras",
+		"java",
+		"nerd-fonts",
+		"nonportable",
+		"versions"
+	  )
         "packages" = @(
-            "Hasklug-NF-Mono", 
-            "rust", 
-            "python",
             "7zip",
-            "etcher",
             "brave",
-            "nvm",
             "discord",
+            "etcher",
             "git",
             "github",
+            "Hasklig-NF-Mono", 
             "insomnia",
+            "nvcleanstall",
+            "nvm",
+            "obsidian",
             "oh-my-posh",
-            "powertoys",
-            "vscode",
             "onlyoffice-desktopeditors",
             "oraclejre8"
-            "virtualbox-np",
-            "qbittorent",
+            "powertoys",
+            "python",
+            "qbittorrent",
+            "rust", 
             "rustdesk",
-            "stremio",
-            "nvcleanstall",
             "steam",
-            "vlc"
+            "stremio",
+            "virtualbox-np",
+            "vlc",
+            "vscode",
+            "nilesoft-shell"
         )
     }
     "choco" = @()
@@ -111,8 +117,6 @@ function Check-IfPackageManagerInstalled {
         }
     }
 }
-
-# Execution
 
 Clear-Host
 Write-Host "Starting setup..." -ForegroundColor Green
