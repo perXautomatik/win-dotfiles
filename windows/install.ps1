@@ -25,12 +25,12 @@ $packagesToInstall = @{
             "brave",
             "discord",
             "etcher",
+            "fnm",
             "git",
             "github",
-            "Hasklig-NF-Mono", 
+            "Hasklig-NF-Mono",
             "insomnia",
             "nvcleanstall",
-            "nvm",
             "obsidian",
             "oh-my-posh",
             "onlyoffice-desktopeditors",
@@ -38,8 +38,9 @@ $packagesToInstall = @{
             "powertoys",
             "python",
             "qbittorrent",
-            "rust", 
+            "rust",
             "rustdesk",
+            "shutup10",
             "steam",
             "stremio",
             "virtualbox-np",
@@ -65,7 +66,7 @@ Function Install-WinGet {
     Add-AppxPackage -Path "Setup.msix"
 
     # delete file
-    Remove-Item "Setup.msix"    
+    Remove-Item "Setup.msix"
 }
 
 # Function to install scoop
@@ -263,27 +264,16 @@ Write-Host
 Write-Host "Setting up dev environment..."
 Write-Host
 
-# Install latest node from nvm
+# Install latest node from fnm
 Write-Host "Installing latest node..."
 Write-Host
-nvm install latest
-
-# Set latest node as the installed version
-Write-Host "Setting latest node as the installed version..."
-Write-Host
-nvm use latest
-
-# Install latest yarn
-Write-Host "Installing latest yarn..."
-Write-Host
-npm install -g yarn
+fnm install --lts
 
 Write-Host "node: "
 node --version
 Write-Host "npm: "
 npm --version
-Write-Host "yarn: "
-yarn --version
+Write-Host
 
 Write-Host "Setup complete." -ForegroundColor Green
 Write-Host
