@@ -269,6 +269,9 @@ Write-Host "Installing latest node..."
 Write-Host
 fnm install --lts
 
+# Add the fnm init to the $PROFILE file
+Add-Content -Path $PROFILE -Value "fnm env --use-on-cd | Out-String | Invoke-Expression"
+
 Write-Host "node: "
 node --version
 Write-Host "npm: "
