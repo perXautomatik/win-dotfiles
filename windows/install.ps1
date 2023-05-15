@@ -19,6 +19,7 @@ $packagesToInstall = @{
         "Logitech.OptionsPlus",
         "Microsoft.PowerToys",
         "Microsoft.VisualStudioCode",
+        "ModOrganizer2.modorganizer",
         "Nilesoft.Shell",
         "ONLYOFFICE.DesktopEditors",
         "OO-Software.ShutUp10",
