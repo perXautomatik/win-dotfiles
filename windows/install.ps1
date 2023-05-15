@@ -1,5 +1,5 @@
 # Array of package managers - scoop, chocolatey, winget
-$packageManagers = @("scoop", "choco", "winget")
+$packageManagers = @("winget", "scoop", "choco")
 
 # Array of packages to install
 $packagesToInstall = @{
@@ -176,7 +176,7 @@ foreach ($packageManager in $packageManagers) {
                 Write-Host
                 foreach ($package in $packagesToInstall.winget) {
                     try {
-                        winget install $package
+                        winget install $package --accept-source-agreements --accept-package-agreements
                         Write-Host
                     } catch {
                         Write-Host "Failed to install $package." -ForegroundColor Red
