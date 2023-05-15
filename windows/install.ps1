@@ -4,48 +4,40 @@ $packageManagers = @("scoop", "choco", "winget")
 # Array of packages to install
 $packagesToInstall = @{
     "winget" = @(
+        "7zip.7zip",
         "9N7F2SM5D1LR", # Windows HDR Calibration
         "AgileBits.1Password",
         "Audient.EVO",
+        "Balena.Etcher",
+        "Brave.Brave",
+        "Discord.Discord",
         "ExpressVPN.ExpressVPN",
+        "Git.Git",
+        "GitHub.GitHubDesktop",
+        "Insomnia.Insomnia",
+        "JanDeDobbeleer.OhMyPosh",
         "Logitech.OptionsPlus",
+        "Microsoft.PowerToys",
+        "Microsoft.VisualStudioCode",
         "Nilesoft.Shell",
-        "Overwolf.CurseForge"
+        "ONLYOFFICE.DesktopEditors",
+        "OO-Software.ShutUp10",
+        "Oracle.JavaRuntimeEnvironment",
+        "Overwolf.CurseForge",
+        "qBittorrent.qBittorrent",
+        "RustDesk.RustDesk",
+        "Schniz.fnm",
+        "Stremio.Stremio",
+        "TechPowerUp.NVCleanstall",
+        "Valve.Steam",
+        "VideoLAN.VLC"
     )
     "scoop" = @{
         "buckets" = @(
-            "extras",
-            "java",
-            "nerd-fonts",
-            "nonportable",
-            "versions"
+            "nerd-fonts"
 	    )
         "packages" = @(
-            "7zip",
-            "brave",
-            "discord",
-            "etcher",
-            "fnm",
-            "git",
-            "github",
-            "Hasklig-NF-Mono",
-            "insomnia",
-            "nvcleanstall",
-            "obsidian",
-            "oh-my-posh",
-            "onlyoffice-desktopeditors",
-            "oraclejre8"
-            "powertoys",
-            "python",
-            "qbittorrent",
-            "rust",
-            "rustdesk",
-            "shutup10",
-            "steam",
-            "stremio",
-            "virtualbox-np",
-            "vlc",
-            "vscode"
+            "Hasklig-NF-Mono"
         )
     }
     "choco" = @()
