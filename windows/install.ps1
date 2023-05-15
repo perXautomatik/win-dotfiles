@@ -233,7 +233,7 @@ Write-Host
 # Install Nilesoft Shell config
 Write-Host "Installing Nilesoft Shell config..."
 Write-Host
-$shellConfigFile = "$PSScriptRoot\windows\nilesoft-shell\shell.nss"
+$shellConfigFile = "$PSScriptRoot\nilesoft-shell\shell.nss"
 $shellConfigDestination = "C:\Program Files\Nilesoft Shell"
 Copy-Item -Path $shellConfigFile -Destination $shellConfigDestination -Force
 
