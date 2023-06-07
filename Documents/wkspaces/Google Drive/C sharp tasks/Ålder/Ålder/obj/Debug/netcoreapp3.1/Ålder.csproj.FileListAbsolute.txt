@@ -1,0 +1,13 @@
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.exe
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.deps.json
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.runtimeconfig.json
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.runtimeconfig.dev.json
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.dll
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\bin\Debug\netcoreapp3.1\Ålder.pdb
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.csprojAssemblyReference.cache
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.csproj.CoreCompileInputs.cache
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.AssemblyInfoInputs.cache
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.AssemblyInfo.cs
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.dll
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.pdb
+C:\Users\root\Documents\C sharp tasks\Ålder\Ålder\obj\Debug\netcoreapp3.1\Ålder.genruntimeconfig.cache

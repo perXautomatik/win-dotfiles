@@ -1,18 +1,19 @@
 strings:
-  INSTALL_TIMESTAMP: 637748557577442869
-  SaveFilenameKey/: C:\Users\dator\Documents\Klei\OxygenNotIncluded\cloud_save_files/76561198070792349\Rocky Trainwreck\Rocky Trainwreck.sav
+  INSTALL_TIMESTAMP: 637997734331033864
+  SaveFilenameKey/: C:\Users\chris\OneDrive\Documents\Klei\OxygenNotIncluded\cloud_save_files\76561198070792349\Rocky Trainwreck\Rocky Trainwreck.sav
   SandboxTools.SelectedEntity: MushBar
   SandboxTools.SelectedDisease: FoodPoisoning
 ints:
-  SESSION_ID: 1
+  SESSION_ID: 2
   LowResTextures: 0
-  ResolutionWidth: 1920
-  ResolutionHeight: 1080
+  ResolutionWidth: 1366
+  ResolutionHeight: 768
   RefreshRate: 60
   FullScreen: 1
   ColorModeID: 0
   PatchNotesVersion: 9
-  GAME_ID: 3
+  NextUniqueID: 74264
+  GAME_ID: 6
   SandboxTools.SelectedElement: 118
   SandboxTools.DiseaseCount: 0
   SandboxTools.BrushSize: 1

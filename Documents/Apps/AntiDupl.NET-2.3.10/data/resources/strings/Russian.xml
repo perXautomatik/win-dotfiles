@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Russian</Name>
+  <OriginalLanguageName>Русский</OriginalLanguageName>
+  <OkButton_Text>OK</OkButton_Text>
+  <CancelButton_Text>Отмена</CancelButton_Text>
+  <StopButton_Text>Стоп</StopButton_Text>
+  <SetDefaultButton_Text>По умолчанию</SetDefaultButton_Text>
+  <ErrorMessage_FileAlreadyExists>Невозможно переименовать файл, так как файл с таким именем уже существует!</ErrorMessage_FileAlreadyExists>
+  <WarningMessage_ChangeFileExtension>Вы действительно хотите изменить расширение файла?</WarningMessage_ChangeFileExtension>
+  <AboutProgramPanel_CopyrightLabel0_Text>Copyright (c) 2002-2020 Ермолаев Игорь,</AboutProgramPanel_CopyrightLabel0_Text>
+  <AboutProgramPanel_CopyrightLabel1_Text>2013-2020 Борисов Дмитрий.</AboutProgramPanel_CopyrightLabel1_Text>
+  <AboutProgramPanel_ComponentLabel_Text>Компонент</AboutProgramPanel_ComponentLabel_Text>
+  <AboutProgramPanel_VersionLabel_Text>Версия</AboutProgramPanel_VersionLabel_Text>
+  <AboutProgramForm_Text>О программе...</AboutProgramForm_Text>
+  <StartFinishForm_LoadImages_Text>Загрузка файла картинок</StartFinishForm_LoadImages_Text>
+  <StartFinishForm_LoadMistakes_Text>Загрузка файла ошибок</StartFinishForm_LoadMistakes_Text>
+  <StartFinishForm_LoadResults_Text>Загрузка файла результатов</StartFinishForm_LoadResults_Text>
+  <StartFinishForm_SaveImages_Text>Сохранение файла картинок</StartFinishForm_SaveImages_Text>
+  <StartFinishForm_SaveMistakes_Text>Сохранение файла ошибок</StartFinishForm_SaveMistakes_Text>
+  <StartFinishForm_SaveResults_Text>Сохранение файла результатов</StartFinishForm_SaveResults_Text>
+  <StartFinishForm_ClearTemporary_Text>Удаление временных файлов</StartFinishForm_ClearTemporary_Text>
+  <CoreOptionsForm_Text>Опции</CoreOptionsForm_Text>
+  <CoreOptionsForm_SearchTabPage_Text>Поиск</CoreOptionsForm_SearchTabPage_Text>
+  <CoreOptionsForm_SearchFileTypeGroupBox_Text>Искать типы:</CoreOptionsForm_SearchFileTypeGroupBox_Text>
+  <CoreOptionsForm_BmpCheckBox_Text>BMP</CoreOptionsForm_BmpCheckBox_Text>
+  <CoreOptionsForm_GifCheckBox_Text>GIF</CoreOptionsForm_GifCheckBox_Text>
+  <CoreOptionsForm_JpegCheckBox_Text>JPEG</CoreOptionsForm_JpegCheckBox_Text>
+  <CoreOptionsForm_PngCheckBox_Text>PNG</CoreOptionsForm_PngCheckBox_Text>
+  <CoreOptionsForm_TiffCheckBox_Text>TIFF</CoreOptionsForm_TiffCheckBox_Text>
+  <CoreOptionsForm_EmfCheckBox_Text>EMF</CoreOptionsForm_EmfCheckBox_Text>
+  <CoreOptionsForm_WmfCheckBox_Text>WMF</CoreOptionsForm_WmfCheckBox_Text>
+  <CoreOptionsForm_ExifCheckBox_Text>EXIF</CoreOptionsForm_ExifCheckBox_Text>
+  <CoreOptionsForm_IconCheckBox_Text>ICON</CoreOptionsForm_IconCheckBox_Text>
+  <CoreOptionsForm_Jp2CheckBox_Text>JP2</CoreOptionsForm_Jp2CheckBox_Text>
+  <CoreOptionsForm_PsdCheckBox_Text>PSD</CoreOptionsForm_PsdCheckBox_Text>
+  <CoreOptionsForm_DdsCheckBox_Text>DDS</CoreOptionsForm_DdsCheckBox_Text>
+  <CoreOptionsForm_TgaCheckBox_Text>TGA</CoreOptionsForm_TgaCheckBox_Text>
+  <CoreOptionsForm_WebpCheckBox_Text>WEBP</CoreOptionsForm_WebpCheckBox_Text>
+  <CoreOptionsForm_SearchSystemCheckBox_Text>Искать системные каталоги/файлы</CoreOptionsForm_SearchSystemCheckBox_Text>
+  <CoreOptionsForm_SearchHiddenCheckBox_Text>Искать скрытые каталоги/файлы</CoreOptionsForm_SearchHiddenCheckBox_Text>
+  <CoreOptionsForm_CompareTabPage_Text>Сравнение</CoreOptionsForm_CompareTabPage_Text>
+  <CoreOptionsForm_CheckOnEqualityCheckBox_Text>Искать дублирующие картинки</CoreOptionsForm_CheckOnEqualityCheckBox_Text>
+  <CoreOptionsForm_TransformedImageCheckBox_Text>Искать повернутые и зеркальные дубликаты</CoreOptionsForm_TransformedImageCheckBox_Text>
+  <CoreOptionsForm_SizeControlCheckBox_Text>Учитывать размер картинок</CoreOptionsForm_SizeControlCheckBox_Text>
+  <CoreOptionsForm_TypeControlCheckBox_Text>Учитывать тип картинок</CoreOptionsForm_TypeControlCheckBox_Text>
+  <CoreOptionsForm_RatioControlCheckBox_Text>Учитывать соотношение ширины/высоты картинок</CoreOptionsForm_RatioControlCheckBox_Text>
+  <CoreOptionsForm_AlgorithmComparingLabeledComboBox_Text>Алгоритм сравнения изображений</CoreOptionsForm_AlgorithmComparingLabeledComboBox_Text>
+  <CoreOptionsForm_AlgorithmComparingLabeledComboBox_SquaredSum>Среднеквадратичная разность</CoreOptionsForm_AlgorithmComparingLabeledComboBox_SquaredSum>
+  <CoreOptionsForm_ThresholdDifferenceLabeledComboBox_Text>Пороговая разность</CoreOptionsForm_ThresholdDifferenceLabeledComboBox_Text>
+  <CoreOptionsForm_MinimalImageSizeLabeledIntegerEdit_Text>Минимальная ширина/высота картинок</CoreOptionsForm_MinimalImageSizeLabeledIntegerEdit_Text>
+  <CoreOptionsForm_MaximalImageSizeLabeledIntegerEdit_Text>Максимальная ширина/высота картинок</CoreOptionsForm_MaximalImageSizeLabeledIntegerEdit_Text>
+  <CoreOptionsForm_CompareInsideOneFolderCheckBox_Text>Сравнивать картинки внутри одного каталога</CoreOptionsForm_CompareInsideOneFolderCheckBox_Text>
+  <CoreOptionsForm_CompareInsideOneSearchPathCheckBox_Text>Сравнивать картинки из одного пути поиска друг с другом</CoreOptionsForm_CompareInsideOneSearchPathCheckBox_Text>
+  <CoreOptionsForm_DefectTabPage_Text>Дефекты</CoreOptionsForm_DefectTabPage_Text>
+  <CoreOptionsForm_CheckOnDefectCheckBox_Text>Проверять на дефекты</CoreOptionsForm_CheckOnDefectCheckBox_Text>
+  <CoreOptionsForm_CheckOnBlockinessCheckBox_Text>Проверять на блочность</CoreOptionsForm_CheckOnBlockinessCheckBox_Text>
+  <CoreOptionsForm_BlockinessThresholdLabeledComboBox_Text>Порог блочности</CoreOptionsForm_BlockinessThresholdLabeledComboBox_Text>
+  <CoreOptionsForm_CheckOnBlockinessOnlyNotJpegCheckBox_Text>Проверять на блочность только для не Jpeg</CoreOptionsForm_CheckOnBlockinessOnlyNotJpegCheckBox_Text>
+  <CoreOptionsForm_CheckOnBlurringCheckBox_Text>Проверять на размытость</CoreOptionsForm_CheckOnBlurringCheckBox_Text>
+  <CoreOptionsForm_BlurringThresholdLabeledComboBox_Text>Порог размытости</CoreOptionsForm_BlurringThresholdLabeledComboBox_Text>
+  <CoreOptionsForm_AdvancedTabPage_Text>Дополнительные</CoreOptionsForm_AdvancedTabPage_Text>
+  <CoreOptionsForm_DeleteToRecycleBinCheckBox_Text>Удалять в корзину</CoreOptionsForm_DeleteToRecycleBinCheckBox_Text>
+  <CoreOptionsForm_MistakeDataBaseCheckBox_Text>Запоминать ложные срабатывания</CoreOptionsForm_MistakeDataBaseCheckBox_Text>
+  <CoreOptionsForm_RatioResolutionLabeledComboBox_Text>Точность соотношения ширины/высоты картинок</CoreOptionsForm_RatioResolutionLabeledComboBox_Text>
+  <CoreOptionsForm_CompareThreadCountLabeledComboBox_Text>Количество потоков сравнения</CoreOptionsForm_CompareThreadCountLabeledComboBox_Text>
+  <CoreOptionsForm_CompareThreadCountLabeledComboBox_Description_0>Авто</CoreOptionsForm_CompareThreadCountLabeledComboBox_Description_0>
+  <CoreOptionsForm_CollectThreadCountLabeledComboBox_Text>Количество потоков загрузки</CoreOptionsForm_CollectThreadCountLabeledComboBox_Text>
+  <CoreOptionsForm_CollectThreadCountLabeledComboBox_Description_0>Авто</CoreOptionsForm_CollectThreadCountLabeledComboBox_Description_0>
+  <CoreOptionsForm_ReducedImageSizeLabeledComboBox_Text>Отнормированный размер картинок</CoreOptionsForm_ReducedImageSizeLabeledComboBox_Text>
+  <CoreOptionsForm_UndoQueueSizeLabeledIntegerEdit_Text>Размер очереди отмены</CoreOptionsForm_UndoQueueSizeLabeledIntegerEdit_Text>
+  <CoreOptionsForm_ResultCountMaxLabeledIntegerEdit_Text>Максимальное количество результатов</CoreOptionsForm_ResultCountMaxLabeledIntegerEdit_Text>
+  <CoreOptionsForm_IgnoreFrameWidthLabeledComboBox_Text>Ширина игнорируемой рамки картинки</CoreOptionsForm_IgnoreFrameWidthLabeledComboBox_Text>
+  <CoreOptionsForm_UseLibJpegTurboCheckBox_Text>Использовать libjpeg-turbo</CoreOptionsForm_UseLibJpegTurboCheckBox_Text>
+  <CoreOptionsForm_HighlightTabPage_Text>Подсветка</CoreOptionsForm_HighlightTabPage_Text>
+  <CoreOptionsForm_HighlightDifferenceCheckBox_Text>Подсветка различий</CoreOptionsForm_HighlightDifferenceCheckBox_Text>
+  <CoreOptionsForm_DifrentValue_Text>Величина различия</CoreOptionsForm_DifrentValue_Text>
+  <CoreOptionsForm_NotHighlightIfFragmentsMoreThemCheckBox_Text>Не подсвечивать различия, если фрагментов больше чем:</CoreOptionsForm_NotHighlightIfFragmentsMoreThemCheckBox_Text>
+  <CoreOptionsForm_MaxFragmentsForDisableHighlightLabeledIntegerEdit_Text>Максимально количество фрагментов для отключения подсветки</CoreOptionsForm_MaxFragmentsForDisableHighlightLabeledIntegerEdit_Text>
+  <CoreOptionsForm_HighlightAllDifferencesCheckBox_Text>Подсвечивать все различия</CoreOptionsForm_HighlightAllDifferencesCheckBox_Text>
+  <CoreOptionsForm_MaxFragmentsForHighlightLabeledIntegerEdit_Text>Максимально количество фрагментов для подсветки</CoreOptionsForm_MaxFragmentsForHighlightLabeledIntegerEdit_Text>
+  <CoreOptionsForm_AmountOfFragmentsOnXLabeledIntegerEdit_Text>Количество фрагментов по X</CoreOptionsForm_AmountOfFragmentsOnXLabeledIntegerEdit_Text>
+  <CoreOptionsForm_AmountOfFragmentsOnYLabeledIntegerEdit_Text>Количество фрагментов по Y</CoreOptionsForm_AmountOfFragmentsOnYLabeledIntegerEdit_Text>
+  <CoreOptionsForm_NormalizedSizeOfImageLabeledIntegerEdit_Text>Нормированный размер изображения</CoreOptionsForm_NormalizedSizeOfImageLabeledIntegerEdit_Text>
+  <CoreOptionsForm_PenThicknessLabeledIntegerEdit_Text>Толшина рамки выделения</CoreOptionsForm_PenThicknessLabeledIntegerEdit_Text>
+  <CorePathsForm_Text>Пути</CorePathsForm_Text>
+  <CorePathsForm_SearchTabPage_Text>Искать</CorePathsForm_SearchTabPage_Text>
+  <CorePathsForm_IgnoreTabPage_Text>Пропускать</CorePathsForm_IgnoreTabPage_Text>
+  <CorePathsForm_ValidTabPage_Text>Проверено</CorePathsForm_ValidTabPage_Text>
+  <CorePathsForm_DeleteTabPage_Text>Удалять</CorePathsForm_DeleteTabPage_Text>
+  <CorePathsForm_AddFolderButton_Text>Добавить каталог</CorePathsForm_AddFolderButton_Text>
+  <CorePathsForm_AddFilesButton_Text>Добавить файлы</CorePathsForm_AddFilesButton_Text>
+  <CorePathsForm_ChangeButton_Text>Изменить</CorePathsForm_ChangeButton_Text>
+  <CorePathsForm_RemoveButton_Text>Убрать</CorePathsForm_RemoveButton_Text>
+  <CorePathsForm_SearchCheckedListBox_ToolTip_Text>Установленный флажок означает поиск внутри поддиректорий указанной директории.</CorePathsForm_SearchCheckedListBox_ToolTip_Text>
+  <ProgressUtils_Completed>завершено {0}%</ProgressUtils_Completed>
+  <ProgressUtils_5HoursRemaining>осталось {0} часов</ProgressUtils_5HoursRemaining>
+  <ProgressUtils_2HoursRemaining>осталось {0} часа</ProgressUtils_2HoursRemaining>
+  <ProgressUtils_5MinutesRemaining>осталось {0} минут</ProgressUtils_5MinutesRemaining>
+  <ProgressUtils_2MinutesRemaining>осталось {0} минуты</ProgressUtils_2MinutesRemaining>
+  <ProgressUtils_5SecondsRemaining>осталось {0} секунд</ProgressUtils_5SecondsRemaining>
+  <ProgressForm_DeleteDefect>Удаление испорченных картинок в выделенных результатах</ProgressForm_DeleteDefect>
+  <ProgressForm_DeleteFirst>Удаление первых картинок в выделенных результатах</ProgressForm_DeleteFirst>
+  <ProgressForm_DeleteSecond>Удаление вторых картинок в выделенных результатах</ProgressForm_DeleteSecond>
+  <ProgressForm_DeleteBoth>Удаление всех парных картинок в выделенных результатах</ProgressForm_DeleteBoth>
+  <ProgressForm_PerformHint>Автоматическая обработка выделенных результатов</ProgressForm_PerformHint>
+  <ProgressForm_Mistake>Пометка выделенных результатов как ошибочных</ProgressForm_Mistake>
+  <ProgressForm_RenameCurrent>Переименование/перемещение изображений</ProgressForm_RenameCurrent>
+  <ProgressForm_RefreshResults>Обновление результатов</ProgressForm_RefreshResults>
+  <ProgressForm_Undo>Отмена действия</ProgressForm_Undo>
+  <ProgressForm_Redo>Повторение действия</ProgressForm_Redo>
+  <SearchExecuterForm_Result>Обработка результатов</SearchExecuterForm_Result>
+  <SearchExecuterForm_Search>Поиск</SearchExecuterForm_Search>
+  <SearchExecuterForm_Stopped>Остановка поиска</SearchExecuterForm_Stopped>
+  <SearchExecuterForm_MinimizeToTaskbarButton_Text>Свернуть</SearchExecuterForm_MinimizeToTaskbarButton_Text>
+  <SearchExecuterForm_MinimizeToSystrayButton_Text>Фоновый режим</SearchExecuterForm_MinimizeToSystrayButton_Text>
+  <ResultsPreviewBase_NextButton_ToolTip_Text>Перейти к следующему результату</ResultsPreviewBase_NextButton_ToolTip_Text>
+  <ResultsPreviewBase_PreviousButton_ToolTip_Text>Перейти к предыдущему результату</ResultsPreviewBase_PreviousButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_DeleteFirstButton_ToolTip_Text>Удалить первую картинку</ResultsPreviewDuplPair_DeleteFirstButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_DeleteSecondButton_ToolTip_Text>Удалить вторую картинку</ResultsPreviewDuplPair_DeleteSecondButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_DeleteBothButton_ToolTip_Text>Удалить обе картинки</ResultsPreviewDuplPair_DeleteBothButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_RenameFirstToSecondButton_ToolTip_Text>Заместить вторую картинку первой</ResultsPreviewDuplPair_RenameFirstToSecondButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_RenameSecondToFirstButton_ToolTip_Text>Заместить первую картинку второй</ResultsPreviewDuplPair_RenameSecondToFirstButton_ToolTip_Text>
+  <ResultsPreviewDuplPair_MistakeButton_ToolTip_Text>Пометить текущий результат как ошибочный</ResultsPreviewDuplPair_MistakeButton_ToolTip_Text>
+  <ResultsPreviewDefect_DeleteButton_ToolTip_Text>Удалить картинку</ResultsPreviewDefect_DeleteButton_ToolTip_Text>
+  <ResultsPreviewDefect_MistakeButton_ToolTip_Text>Пометить текущий результат как ошибочный</ResultsPreviewDefect_MistakeButton_ToolTip_Text>
+  <ResultRowSetter_DefectIcon_ToolTip_Text>Дефектная картинка</ResultRowSetter_DefectIcon_ToolTip_Text>
+  <ResultRowSetter_DuplPairIcon_ToolTip_Text>Дублирующая пара картинок</ResultRowSetter_DuplPairIcon_ToolTip_Text>
+  <ResultRowSetter_UnknownDefectIcon_ToolTip_Text>Неизвестный дефект</ResultRowSetter_UnknownDefectIcon_ToolTip_Text>
+  <ResultRowSetter_JpegEndMarkerIsAbsentIcon_ToolTip_Text>Отсутствует маркер конца JPEG файла</ResultRowSetter_JpegEndMarkerIsAbsentIcon_ToolTip_Text>
+  <ResultRowSetter_blockinessIcon_ToolTip_Text>Блочное изображение</ResultRowSetter_blockinessIcon_ToolTip_Text>
+  <ResultRowSetter_blurringIcon_ToolTip_Text>Размытое изображение</ResultRowSetter_blurringIcon_ToolTip_Text>
+  <ResultRowSetter_DeleteDefectIcon_ToolTip_Text>Удалить картинку</ResultRowSetter_DeleteDefectIcon_ToolTip_Text>
+  <ResultRowSetter_DeleteFirstIcon_ToolTip_Text>Удалить первую картинку</ResultRowSetter_DeleteFirstIcon_ToolTip_Text>
+  <ResultRowSetter_DeleteSecondIcon_ToolTip_Text>Удалить вторую картинку</ResultRowSetter_DeleteSecondIcon_ToolTip_Text>
+  <ResultRowSetter_RenameFirstToSecondIcon_ToolTip_Text>Заместить вторую картинку первой</ResultRowSetter_RenameFirstToSecondIcon_ToolTip_Text>
+  <ResultRowSetter_RenameSecondToFirstIcon_ToolTip_Text>Заместить первую картинку второй</ResultRowSetter_RenameSecondToFirstIcon_ToolTip_Text>
+  <ResultRowSetter_Turn_0_Icon_ToolTip_Text>Оригинал</ResultRowSetter_Turn_0_Icon_ToolTip_Text>
+  <ResultRowSetter_Turn_90_Icon_ToolTip_Text>Повернутый на 90°</ResultRowSetter_Turn_90_Icon_ToolTip_Text>
+  <ResultRowSetter_Turn_180_Icon_ToolTip_Text>Повернутый на 180°</ResultRowSetter_Turn_180_Icon_ToolTip_Text>
+  <ResultRowSetter_Turn_270_Icon_ToolTip_Text>Повернутый на 270°</ResultRowSetter_Turn_270_Icon_ToolTip_Text>
+  <ResultRowSetter_MirrorTurn_0_Icon_ToolTip_Text>Горизонтально отраженный</ResultRowSetter_MirrorTurn_0_Icon_ToolTip_Text>
+  <ResultRowSetter_MirrorTurn_90_Icon_ToolTip_Text>Горизонтально отраженный и повернутый на 90°</ResultRowSetter_MirrorTurn_90_Icon_ToolTip_Text>
+  <ResultRowSetter_MirrorTurn_180_Icon_ToolTip_Text>Горизонтально отраженный и повернутый на 180°</ResultRowSetter_MirrorTurn_180_Icon_ToolTip_Text>
+  <ResultRowSetter_MirrorTurn_270_Icon_ToolTip_Text>Горизонтально отраженный и повернутый на 270°</ResultRowSetter_MirrorTurn_270_Icon_ToolTip_Text>
+  <ResultsListView_Type_Column_Text>Тип</ResultsListView_Type_Column_Text>
+  <ResultsListView_Group_Column_Text>Группа</ResultsListView_Group_Column_Text>
+  <ResultsListView_GroupSize_Column_Text>Размер группы</ResultsListView_GroupSize_Column_Text>
+  <ResultsListView_Difference_Column_Text>Различие</ResultsListView_Difference_Column_Text>
+  <ResultsListView_Defect_Column_Text>Тип дефекта</ResultsListView_Defect_Column_Text>
+  <ResultsListView_Transform_Column_Text>Трансформация</ResultsListView_Transform_Column_Text>
+  <ResultsListView_Hint_Column_Text>Рекомендация</ResultsListView_Hint_Column_Text>
+  <ResultsListView_FileName_Column_Text>Имя</ResultsListView_FileName_Column_Text>
+  <ResultsListView_FileDirectory_Column_Text>В каталоге</ResultsListView_FileDirectory_Column_Text>
+  <ResultsListView_ImageSize_Column_Text>Размеры</ResultsListView_ImageSize_Column_Text>
+  <ResultsListView_ImageType_Column_Text>Тип картинки</ResultsListView_ImageType_Column_Text>
+  <ResultsListView_Blockiness_Column_Text>Блочность</ResultsListView_Blockiness_Column_Text>
+  <ResultsListView_Blurring_Column_Text>Размытие</ResultsListView_Blurring_Column_Text>
+  <ResultsListView_FileSize_Column_Text>Размер</ResultsListView_FileSize_Column_Text>
+  <ResultsListView_FileTime_Column_Text>Дата изменения</ResultsListView_FileTime_Column_Text>
+  <ResultsListView_FirstFileName_Column_Text>1: Имя</ResultsListView_FirstFileName_Column_Text>
+  <ResultsListView_FirstFileDirectory_Column_Text>1: В каталоге</ResultsListView_FirstFileDirectory_Column_Text>
+  <ResultsListView_FirstImageSize_Column_Text>1: Размеры</ResultsListView_FirstImageSize_Column_Text>
+  <ResultsListView_FirstImageType_Column_Text>1: Тип картинки</ResultsListView_FirstImageType_Column_Text>
+  <ResultsListView_FirstBlockiness_Column_Text>1: Блочность</ResultsListView_FirstBlockiness_Column_Text>
+  <ResultsListView_FirstBlurring_Column_Text>1: Размытие</ResultsListView_FirstBlurring_Column_Text>
+  <ResultsListView_FirstFileSize_Column_Text>1: Размер</ResultsListView_FirstFileSize_Column_Text>
+  <ResultsListView_FirstFileTime_Column_Text>1: Дата изменения</ResultsListView_FirstFileTime_Column_Text>
+  <ResultsListView_SecondFileName_Column_Text>2: Имя</ResultsListView_SecondFileName_Column_Text>
+  <ResultsListView_SecondFileDirectory_Column_Text>2: В каталоге</ResultsListView_SecondFileDirectory_Column_Text>
+  <ResultsListView_SecondImageSize_Column_Text>2: Размеры</ResultsListView_SecondImageSize_Column_Text>
+  <ResultsListView_SecondImageType_Column_Text>2: Тип картинки</ResultsListView_SecondImageType_Column_Text>
+  <ResultsListView_SecondBlockiness_Column_Text>2: Блочность</ResultsListView_SecondBlockiness_Column_Text>
+  <ResultsListView_SecondBlurring_Column_Text>2: Размытие</ResultsListView_SecondBlurring_Column_Text>
+  <ResultsListView_SecondFileSize_Column_Text>2: Размер</ResultsListView_SecondFileSize_Column_Text>
+  <ResultsListView_SecondFileTime_Column_Text>2: Дата изменения</ResultsListView_SecondFileTime_Column_Text>
+  <ResultsListViewContextMenu_DeleteDefectItem_Text>Удалить испорченные картинки в выделенных результатах</ResultsListViewContextMenu_DeleteDefectItem_Text>
+  <ResultsListViewContextMenu_DeleteFirstItem_Text>Удалить первые картинки в выделенных результатах</ResultsListViewContextMenu_DeleteFirstItem_Text>
+  <ResultsListViewContextMenu_DeleteSecondItem_Text>Удалить вторые картинки в выделенных результатах</ResultsListViewContextMenu_DeleteSecondItem_Text>
+  <ResultsListViewContextMenu_DeleteBothItem_Text>Удалить все парные картинки в выделенных результатах</ResultsListViewContextMenu_DeleteBothItem_Text>
+  <ResultsListViewContextMenu_RenameFirstToSecondIcon_ToolTip_Text>Заместить вторые картинки первыми в выделенных результатах</ResultsListViewContextMenu_RenameFirstToSecondIcon_ToolTip_Text>
+  <ResultsListViewContextMenu_RenameSecondToFirstIcon_ToolTip_Text>Заместить первые картинки вторыми в выделенных результатах</ResultsListViewContextMenu_RenameSecondToFirstIcon_ToolTip_Text>
+  <ResultsListViewContextMenu_RenameFirstLikeSecondButton_ToolTip_Text>Переименовать первые картинки как вторые в выделенных результатах</ResultsListViewContextMenu_RenameFirstLikeSecondButton_ToolTip_Text>
+  <ResultsListViewContextMenu_RenameSecondLikeFirstButton_ToolTipText>Переименовать вторые картинки как первые в выделенных результатах</ResultsListViewContextMenu_RenameSecondLikeFirstButton_ToolTipText>
+  <ResultsListViewContextMenu_MoveFirstToSecondButton_ToolTipText>Переместить первые картинки ко вторым в выделенных результатах</ResultsListViewContextMenu_MoveFirstToSecondButton_ToolTipText>
+  <ResultsListViewContextMenu_MoveSecondToFirstButton_ToolTipText>Переместить вторые картинки к первыми в выделенных результатах</ResultsListViewContextMenu_MoveSecondToFirstButton_ToolTipText>
+  <ResultsListViewContextMenu_MistakeItem_Text>Пометить выделенные результаты как ошибочные</ResultsListViewContextMenu_MistakeItem_Text>
+  <ResultsListViewContextMenu_PerformHintItem_Text>Автоматически обработать выделенные результаты</ResultsListViewContextMenu_PerformHintItem_Text>
+  <MainStatusStrip_TotalLabel_Text>Всего: </MainStatusStrip_TotalLabel_Text>
+  <MainStatusStrip_CurrentLabel_Text>Текущий: </MainStatusStrip_CurrentLabel_Text>
+  <MainStatusStrip_SelectedLabel_Text>Выделено: </MainStatusStrip_SelectedLabel_Text>
+  <MainMenu_FileMenuItem_Text>Файл</MainMenu_FileMenuItem_Text>
+  <MainMenu_File_OpenProfileMenuItem_Text>Открыть профиль поиска</MainMenu_File_OpenProfileMenuItem_Text>
+  <MainMenu_File_SaveProfileAsMenuItem_Text>Сохранить профиль поиска как</MainMenu_File_SaveProfileAsMenuItem_Text>
+  <MainMenu_File_LoadProfileOnLoadingMenuItem_Text>Загружать профиль при загрузке</MainMenu_File_LoadProfileOnLoadingMenuItem_Text>
+  <MainMenu_File_SaveProfileOnClosingMenuItem_Text>Сохранять профиль при закрытие</MainMenu_File_SaveProfileOnClosingMenuItem_Text>
+  <MainMenu_File_ExitMenuItem_Text>Выход</MainMenu_File_ExitMenuItem_Text>
+  <MainMenu_EditMenuItem_Text>Правка</MainMenu_EditMenuItem_Text>
+  <MainMenu_Edit_UndoMenuItem_Text>Отменить (Ctrl-Z)</MainMenu_Edit_UndoMenuItem_Text>
+  <MainMenu_Edit_RedoMenuItem_Text>Повторить (Ctrl-Y)</MainMenu_Edit_RedoMenuItem_Text>
+  <MainMenu_Edit_SelectAllMenuItem_Text>Выделить все (Ctrl-A)</MainMenu_Edit_SelectAllMenuItem_Text>
+  <MainMenu_ViewMenuItem_Text>Вид</MainMenu_ViewMenuItem_Text>
+  <MainMenu_View_ToolMenuItem_Text>Панель инструментов</MainMenu_View_ToolMenuItem_Text>
+  <MainMenu_View_StatusMenuItem_Text>Строка состояния</MainMenu_View_StatusMenuItem_Text>
+  <MainMenu_View_SelectColumnsMenuItem_Text>Выбор столбцов</MainMenu_View_SelectColumnsMenuItem_Text>
+  <MainMenu_View_HotKeysMenuItem_Text>Горячие клавиши</MainMenu_View_HotKeysMenuItem_Text>
+  <MainMenu_View_StretchSmallImagesMenuItem_Text>Растягивать небольшие изображения</MainMenu_View_StretchSmallImagesMenuItem_Text>
+  <MainMenu_View_ProportionalImageSizeMenuItem_Text>Пропорциональный размер картинок</MainMenu_View_ProportionalImageSizeMenuItem_Text>
+  <MainMenu_View_ShowNeighbourImageMenuItem_Text>Показывать соседние изображения</MainMenu_View_ShowNeighbourImageMenuItem_Text>
+  <MainMenu_SearchMenuItem_Text>Поиск</MainMenu_SearchMenuItem_Text>
+  <MainMenu_Search_StartMenuItem_Text>Начать поиск</MainMenu_Search_StartMenuItem_Text>
+  <MainMenu_Search_RefreshResultsMenuItem_Text>Обновить результаты</MainMenu_Search_RefreshResultsMenuItem_Text>
+  <MainMenu_Search_RefreshImagesMenuItem_Text>Удалить неактуальные записи из базы данных о картинках</MainMenu_Search_RefreshImagesMenuItem_Text>
+  <MainMenu_Search_PathsMenuItem_Text>Пути</MainMenu_Search_PathsMenuItem_Text>
+  <MainMenu_Search_OptionsMenuItem_Text>Опции</MainMenu_Search_OptionsMenuItem_Text>
+  <MainMenu_Search_OnePathMenuItem_Text>Один путь поиска</MainMenu_Search_OnePathMenuItem_Text>
+  <MainMenu_Search_UseImageDataBaseMenuItem_Text>Использовать базу данных о картинках</MainMenu_Search_UseImageDataBaseMenuItem_Text>
+  <MainMenu_Search_CheckResultsAtLoadingMenuItem_Text>Проверять результаты при загрузке</MainMenu_Search_CheckResultsAtLoadingMenuItem_Text>
+  <MainMenu_Search_CheckMistakesAtLoadingMenuItem_Text>Проверять базу данных об ошибках при загрузке</MainMenu_Search_CheckMistakesAtLoadingMenuItem_Text>
+  <MainMenu_HelpMenuItem_Text>Справка</MainMenu_HelpMenuItem_Text>
+  <MainMenu_Help_HelpMenuItem_Text>Справка</MainMenu_Help_HelpMenuItem_Text>
+  <MainMenu_Help_AboutProgramMenuItem_Text>О программе...</MainMenu_Help_AboutProgramMenuItem_Text>
+  <MainMenu_Help_CheckingForUpdatesMenuItem_Text>Проверять наличие обновлений</MainMenu_Help_CheckingForUpdatesMenuItem_Text>
+  <MainMenu_NewVersionMenuItem_Text>Новая версия</MainMenu_NewVersionMenuItem_Text>
+  <MainMenu_NewVersionMenuItem_Tooltip>AntiDupl.NET-{0} доступна на сайте!</MainMenu_NewVersionMenuItem_Tooltip>
+  <SelectHotKeysForm_InvalidHotKeyToolTipText>Эта комбинация клавиш уже используется для других целей.</SelectHotKeysForm_InvalidHotKeyToolTipText>
+  <LanguageMenuItem_Text>Язык</LanguageMenuItem_Text>
+  <ViewModeMenuItem_Text>Режим просмотра результатов</ViewModeMenuItem_Text>
+  <ViewModeMenuItem_VerticalPairTableMenuItem_Text>Таблица вертикальных пар</ViewModeMenuItem_VerticalPairTableMenuItem_Text>
+  <ViewModeMenuItem_HorizontalPairTableMenuItem_Text>Таблица горизонтальных пар</ViewModeMenuItem_HorizontalPairTableMenuItem_Text>
+  <ViewModeMenuItem_GroupedThumbnailsMenuItem_Text>Сгруппированные миниатюры</ViewModeMenuItem_GroupedThumbnailsMenuItem_Text>
+  <ImagePreviewContextMenu_CopyPathItem_Text>Скопировать путь</ImagePreviewContextMenu_CopyPathItem_Text>
+  <ImagePreviewContextMenu_CopyFileNameItem_Text>Скопировать имя картинки</ImagePreviewContextMenu_CopyFileNameItem_Text>
+  <ImagePreviewContextMenu_OpenImageItem_Text>Открыть картинку</ImagePreviewContextMenu_OpenImageItem_Text>
+  <ImagePreviewContextMenu_OpenFolderItem_Text>Открыть каталог с картинкой</ImagePreviewContextMenu_OpenFolderItem_Text>
+  <ImagePreviewContextMenu_AddToIgnore_Text>Добавить в игнорируемые</ImagePreviewContextMenu_AddToIgnore_Text>
+  <ImagePreviewContextMenu_AddToIgnoreDirectory_Text>Добавить директорию в игнорируемые</ImagePreviewContextMenu_AddToIgnoreDirectory_Text>
+  <ImagePreviewContextMenu_RenameImageItem_Text>Переименовать картинку</ImagePreviewContextMenu_RenameImageItem_Text>
+  <ImagePreviewContextMenu_RenameImageLikeNeighbour_Text>Переименовать картинку как соседнию</ImagePreviewContextMenu_RenameImageLikeNeighbour_Text>
+  <ImagePreviewContextMenu_MoveImageToNeighbourItem_Text>Переместить картинку к соседней</ImagePreviewContextMenu_MoveImageToNeighbourItem_Text>
+  <ImagePreviewContextMenu_MoveAndRenameImageToNeighbourItem_Text>Переместить и переименовать к соседней</ImagePreviewContextMenu_MoveAndRenameImageToNeighbourItem_Text>
+  <ImagePreviewContextMenu_MoveGroupToNeighbourItem_Text>Перенести группу в папку к соседней</ImagePreviewContextMenu_MoveGroupToNeighbourItem_Text>
+  <ImagePreviewContextMenu_RenameGroupAsNeighbourItem_Text>Переименовать файлы в группе как соседней файл</ImagePreviewContextMenu_RenameGroupAsNeighbourItem_Text>
+  <ImagePreviewPanel_EXIF_Text>EXIF</ImagePreviewPanel_EXIF_Text>
+  <ImagePreviewPanel_EXIF_Tooltip_ImageDescription>Описание: </ImagePreviewPanel_EXIF_Tooltip_ImageDescription>
+  <ImagePreviewPanel_EXIF_Tooltip_EquipMake>Изготовитель камеры: </ImagePreviewPanel_EXIF_Tooltip_EquipMake>
+  <ImagePreviewPanel_EXIF_Tooltip_EquipModel>Модель камеры: </ImagePreviewPanel_EXIF_Tooltip_EquipModel>
+  <ImagePreviewPanel_EXIF_Tooltip_SoftwareUsed>Программное обеспечение: </ImagePreviewPanel_EXIF_Tooltip_SoftwareUsed>
+  <ImagePreviewPanel_EXIF_Tooltip_DateTime>Дата/Время: </ImagePreviewPanel_EXIF_Tooltip_DateTime>
+  <ImagePreviewPanel_EXIF_Tooltip_Artist>Автор: </ImagePreviewPanel_EXIF_Tooltip_Artist>
+  <ImagePreviewPanel_EXIF_Tooltip_UserComment>Комментарий: </ImagePreviewPanel_EXIF_Tooltip_UserComment>
+</Strings>

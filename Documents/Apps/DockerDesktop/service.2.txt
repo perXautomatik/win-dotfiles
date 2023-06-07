@@ -1,0 +1,22 @@
+Version: 4.7.0 (77141)
+Sha1: 32b656dcbcdf5f9698a91524f4ab6b7660f66eb0
+Started on: 2022/04/17 22:07:32.707
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 19044
+BuildLabName: 19041.1.amd64fre.vb_release.191206-1406
+File: C:\ProgramData\DockerDesktop\service.txt
+CommandLine: "C:\Program Files\Docker\Docker\com.docker.service"
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2022-04-17T22:07:33.025698700Z][DockerService     ][Info   ] Starting service
+[2022-04-17T22:07:57.191664300Z][IPCServer         ][Info   ] (c0e5b82f) a4c32e36-ServiceAPI S<-C 3796e103-ServiceAPIClient-CSharp GET /version
+[2022-04-17T22:07:57.252677800Z][IPCServer         ][Info   ] (c0e5b82f) a4c32e36-ServiceAPI S->C 3796e103-ServiceAPIClient-CSharp GET /version (60ms): OK
+[2022-04-17T22:07:57.312691000Z][IPCServer         ][Info   ] (1058aca7) a4c32e36-ServiceAPI S<-C 709b3b17-ServiceAPIClient-CSharp GET /hyperv/vhdx-size
+[2022-04-17T22:07:57.359702000Z][IPCServer         ][Info   ] (1058aca7) a4c32e36-ServiceAPI S->C 709b3b17-ServiceAPIClient-CSharp GET /hyperv/vhdx-size (46ms): OK
+[2022-04-17T22:08:01.929553100Z][IPCServer         ][Info   ] (e69c9236) a4c32e36-ServiceAPI S<-C 2a042d0d-ServiceAPIClient-CSharp POST /dns/refresh-hosts
+[2022-04-17T22:08:02.242694200Z][IPCServer         ][Info   ] (e69c9236) a4c32e36-ServiceAPI S->C 2a042d0d-ServiceAPIClient-CSharp POST /dns/refresh-hosts (313ms): OK
+[2022-04-17T22:08:09.373434700Z][IPCServer         ][Info   ] (c506b3b1) a4c32e36-ServiceAPI S<-C 81289cfc-ServiceAPIClient-CSharp POST /windowsfeatures/check
+[2022-04-17T22:08:09.393439000Z][Installer         ][Info   ] Checking for features: VirtualMachinePlatform, Microsoft-Windows-Subsystem-Linux
+[2022-04-17T22:08:09.998325000Z][IPCServer         ][Info   ] (c506b3b1) a4c32e36-ServiceAPI S->C 81289cfc-ServiceAPIClient-CSharp POST /windowsfeatures/check (624ms): OK

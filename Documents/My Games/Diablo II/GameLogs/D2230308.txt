@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2023-03-08 23:17:39.454
+---------------------------------------------------------------
+23:17:39.455  ------------------------------------------------------
+23:17:39.455  2023-03-08 23:17:39
+23:17:39.455  Diablo II: Resurrected running under Win10 Version 10.0.19045
+23:17:39.455  Vendor:  AMD
+23:17:39.455  Description: AMD Ryzen 5 5600X 6-Core Processor             
+23:17:39.455  Total Physical Memory: 32714.42MB
+23:17:39.455  Application Path: G:\Diablo II Resurrected\
+23:17:39.455  Local IP: 0.0.0.0
+23:17:39.455  Computer name: ROOT-DATOR
+23:17:39.455  ------------------------------------------------------
+23:17:39.455  
+---------------------------------------------------------------
+ROOT-DATOR Realm startup at 2023-03-08 23:23:45.938
+---------------------------------------------------------------
+23:23:45.938  ------------------------------------------------------
+23:23:45.938  2023-03-08 23:23:45
+23:23:45.938  Diablo II: Resurrected running under Win10 Version 10.0.19045
+23:23:45.939  Vendor:  AMD
+23:23:45.939  Description: AMD Ryzen 5 5600X 6-Core Processor             
+23:23:45.939  Total Physical Memory: 32714.42MB
+23:23:45.939  Application Path: G:\Diablo II Resurrected\
+23:23:45.939  Local IP: 0.0.0.0
+23:23:45.939  Computer name: ROOT-DATOR
+23:23:45.939  ------------------------------------------------------
+23:23:45.939  
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 4
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 5
+23:34:35.598  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 6
+23:45:44.430  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:45:44.430  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:45:44.430  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 4
+23:45:59.277  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:45:59.277  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 2
+23:45:59.277  sFillLocation() - Attempt to access out of bounds index -1, ptRoomInfo->nIdCurr = 4

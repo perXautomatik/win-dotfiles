@@ -1,0 +1,13 @@
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.csprojAssemblyReference.cache
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.csproj.CoreCompileInputs.cache
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.AssemblyInfoInputs.cache
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.AssemblyInfo.cs
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.exe
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.deps.json
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.runtimeconfig.json
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.runtimeconfig.dev.json
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.dll
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\bin\Debug\netcoreapp3.1\Lunch.pdb
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.dll
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.pdb
+C:\Users\root\Documents\C sharp tasks\Lunch\Lunch\obj\Debug\netcoreapp3.1\Lunch.genruntimeconfig.cache

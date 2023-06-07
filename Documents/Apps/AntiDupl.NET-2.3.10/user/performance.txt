@@ -1,0 +1,180 @@
+---------------------------------------------------------------
+Search start time: 2022-11-17 17:36:09
+Elapsed time: 00:30:28.5857857
+Found 1,7 GB of 19459 images in 1702 folders.
+Processed 3209 images.
+Found 0 defects and 40169 duples.
+Used 6 load and 6 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-17 18:36:46
+Elapsed time: 00:12:28.2288704
+Found 1,5 GB of 18104 images in 1852 folders.
+Processed 4269 images.
+Found 530 defects and 99470 duples.
+Used 12 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-17 19:10:34
+Elapsed time: 00:04:38.2081335
+Found 1,4 GB of 16692 images in 1941 folders.
+Processed 3594 images.
+Found 536 defects and 99464 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-17 19:57:48
+Elapsed time: 00:26:05.0937859
+Found 1,4 GB of 16243 images in 2076 folders.
+Processed 6520 images.
+Found 586 defects and 99414 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-17 23:22:57
+Elapsed time: 00:04:09.1325099
+Found 790,3 MB of 5549 images in 1 folders.
+Processed 5549 images.
+Found 228 defects and 8418 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-18 20:00:54
+Elapsed time: 00:00:21.7102285
+Found 539,7 MB of 3583 images in 1 folders.
+Processed 3583 images.
+Found 0 defects and 12 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-18 21:31:49
+Elapsed time: 00:00:24.7870367
+Found 544,6 MB of 3669 images in 81 folders.
+Processed 3669 images.
+Found 2 defects and 27 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-18 21:34:24
+Elapsed time: 00:00:50.9363382
+Found 551,0 MB of 3721 images in 84 folders.
+Processed 3712 images.
+Found 2 defects and 12 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-18 21:37:11
+Elapsed time: 00:13:14.9138395
+Found 960,3 MB of 12253 images in 3740 folders.
+Processed 11869 images.
+Found 206 defects and 487 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-11-18 23:34:13
+Elapsed time: 00:06:54.6472844
+Found 922,4 MB of 12160 images in 3813 folders.
+Processed 11776 images.
+Found 181 defects and 1785 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 14:19:27
+Elapsed time: 00:00:18.9218764
+Found 92,5 MB of 1434 images in 43 folders.
+Processed 0 images.
+Found 0 defects and 0 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 14:20:49
+Elapsed time: 00:01:53.8149378
+Found 786,1 MB of 10099 images in 4242 folders.
+Processed 9956 images.
+Found 82 defects and 525 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 14:33:49
+Elapsed time: 00:01:18.2404245
+Found 758,3 MB of 9898 images in 4242 folders.
+Processed 9755 images.
+Found 0 defects and 0 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 14:50:01
+Elapsed time: 00:00:50.9472434
+Found 758,3 MB of 9898 images in 4242 folders.
+Processed 9755 images.
+Found 0 defects and 507 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 15:09:36
+Elapsed time: 00:01:00.8592134
+Found 753,4 MB of 9828 images in 4242 folders.
+Processed 9685 images.
+Found 0 defects and 681 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 16:16:14
+Elapsed time: 00:01:13.6346179
+Found 711,4 MB of 9825 images in 4242 folders.
+Processed 9682 images.
+Found 81 defects and 648 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 23:46:28
+Elapsed time: 00:03:07.2546049
+Found 849,0 MB of 12780 images in 4359 folders.
+Processed 12628 images.
+Found 27 defects and 1358 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-07 23:56:37
+Elapsed time: 00:02:11.4132703
+Found 849,0 MB of 12780 images in 4359 folders.
+Processed 12628 images.
+Found 27 defects and 585 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-08 03:36:13
+Elapsed time: 00:05:14.5955690
+Found 833,2 MB of 12105 images in 4359 folders.
+Processed 12013 images.
+Found 22 defects and 1 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.
+---------------------------------------------------------------
+Search start time: 2022-12-08 03:42:46
+Elapsed time: 00:33:46.5691669
+Found 837,1 MB of 12105 images in 4359 folders.
+Processed 12011 images.
+Found 0 defects and 1 duples.
+Used 6 load and 12 compare theads.
+Use image database: True.
+Use libjpeg-turbo: True.

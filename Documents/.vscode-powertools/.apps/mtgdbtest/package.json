@@ -1,0 +1,11 @@
+{
+    "name": "mtgdbtest",
+    "displayName": "Mtgdbtest",
+    "version": "0.0.1",
+    "license": "MIT",
+    "vue": true,
+    "author": {
+        "email": "christoffer.broback@gmail.com",
+        "name": "perXautomatik"
+    }
+}

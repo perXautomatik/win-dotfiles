@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/vs/debugger-managed-favorites-schema",
+  "types": {
+    "AutoLotDAL.EF.AutoLotEntities": {
+      "favorites": [
+        "Database"
+      ]
+    }
+  }
+}

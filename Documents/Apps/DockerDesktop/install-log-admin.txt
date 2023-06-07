@@ -1,0 +1,30 @@
+Version: 4.7.0 (77141)
+Sha1: 32b656dcbcdf5f9698a91524f4ab6b7660f66eb0
+Started on: 2022/04/14 13:43:12.085
+Resources: C:\Program Files\Docker\Docker\resources
+OS: Windows 10 Pro
+Edition: Professional
+Id: 2009
+Build: 19044
+BuildLabName: 19041.1.amd64fre.vb_release.191206-1406
+File: C:\ProgramData\DockerDesktop\install-log-admin.txt
+CommandLine: "C:\Program Files\Docker\Docker\InstallerCli.exe" -i
+You can send feedback, including this log file, at https://github.com/docker/for-win/issues
+[2022-04-14T13:43:12.302436800Z][Installer         ][Info   ] Preparing upgrade...
+[2022-04-14T13:43:12.334444900Z][HyperV            ][Info   ] Destroy
+[2022-04-14T13:43:12.670519100Z][HyperV            ][Warning] Hyper-V is not installed on the machine
+[2022-04-14T13:43:12.674520000Z][LinuxWSL2Engine   ][Info   ] Destroying distro
+[2022-04-14T13:43:12.766540600Z][Installer         ][Info   ] Prepare upgrade completed successfully
+[2022-04-14T13:43:12.766540600Z][Installer         ][Info   ] Fixing permissions...
+[2022-04-14T13:43:12.766540600Z][Installer         ][Info   ] Deleting directory C:\Program Files\Docker\cli-plugins
+[2022-04-14T13:43:12.769541400Z][Installer         ][Info   ] granting ReadAndExecute to everyone for C:\ProgramData\DockerDesktop
+[2022-04-14T13:43:12.770541500Z][Installer         ][Error  ] Error changing security on C:\Program Files\Docker\cli-plugins: Invalid path
+[2022-04-14T13:43:12.770541500Z][Installer         ][Info   ] Permissions should be fixed.
+[2022-04-14T13:43:12.770541500Z][Installer         ][Info   ] Fixing permissions...
+[2022-04-14T13:43:12.770541500Z][Installer         ][Info   ] Deleting directory C:\Program Files\Docker\cli-plugins
+[2022-04-14T13:43:12.772542300Z][Installer         ][Info   ] granting ReadAndExecute to everyone for C:\ProgramData\DockerDesktop
+[2022-04-14T13:43:12.773542300Z][Installer         ][Error  ] Error changing security on C:\Program Files\Docker\cli-plugins: Invalid path
+[2022-04-14T13:43:12.773542300Z][Installer         ][Info   ] Permissions should be fixed.
+[2022-04-14T13:43:12.802549600Z][InstallWorkflow   ][Info   ] Registering product
+[2022-04-14T13:43:12.807550700Z][InstallWorkflow   ][Info   ] Deleting C:\ProgramData\DockerDesktop\install-settings.json
+[2022-04-14T13:43:12.807550700Z][InstallWorkflow   ][Info   ] Installation succeeded
