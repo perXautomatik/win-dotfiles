@@ -1,14 +1,14 @@
-Svn
-chocolatey
-Wiki
-schema.xsd.Output
-/Klei/OxygenNotIncluded/RetiredColonies/Starving Spacejunk/00000/*.png
 Klei/
 Witcher 2/
 FalloutNV/
 Bioware/
 Dungeon Siege/
 Bayonetta/
+Svn
+chocolatey
+Wiki
+schema.xsd.Output
+/Klei/OxygenNotIncluded/RetiredColonies/Starving Spacejunk/00000/*.png
 *.dll
 *.jpg
 *.adi

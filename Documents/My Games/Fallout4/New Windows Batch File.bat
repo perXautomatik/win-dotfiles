@@ -1,1 +1,0 @@
-explorer E:\Dator\Documents\My Games\Fallout4

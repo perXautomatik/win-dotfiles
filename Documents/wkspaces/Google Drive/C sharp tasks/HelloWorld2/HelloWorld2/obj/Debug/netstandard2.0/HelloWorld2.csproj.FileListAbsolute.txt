@@ -1,9 +1,0 @@
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\bin\Debug\netstandard2.0\HelloWorld2.deps.json
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\bin\Debug\netstandard2.0\HelloWorld2.dll
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\bin\Debug\netstandard2.0\HelloWorld2.pdb
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.csprojAssemblyReference.cache
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.csproj.CoreCompileInputs.cache
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.AssemblyInfoInputs.cache
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.AssemblyInfo.cs
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.dll
-C:\Users\root\Documents\C sharp tasks\HelloWorld2\HelloWorld2\obj\Debug\netstandard2.0\HelloWorld2.pdb

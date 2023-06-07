@@ -1,7 +1,0 @@
-<run_config>
-    <current_run_config brand_name="VanceAI" brand_display_name="" app_path="C:/Program Files/VanceAI PC\" app_name="VanceAI PC.exe" app_id="vanceai_photo_enhancer" app_from="official" client_type="1041" ad_id="" product_name="VanceAI PC" product_display_name="VanceAI PC" test_url="http://soft.vanceai.com" down_url="" user_name="" password="" faq_link="" update_temp_path="B:/ToGit/chris/Documents/VanceAI/Temp/update" current_version="1203" current_version_type="Official" liveupdate_crt_file="" liveupdate_hide_product_recommend_advertising="false" language_name="SVE" qm_file="C:/Program Files/VanceAI PC/QLanguage/update_SVE.qm" advertisement_recommend_url="" software_last_version_url="https://ssl.vanceai.com/update/vanceai/get_latest_version.php" software_update_url="https://ssl.vanceai.com/update/vanceai/" whats_new_url="" allow_beta="false" force_newsetup="false" auto_check="true" update_after_check="false" app_modulename="" generate_log="true" allow_cia="false" app_transfer_name="UpdateCopy.exe" sid="" inc_file_suffix="IncrementFileSuffix" skin_type="white" shm_name="" special_version="" incrementa_update_maxSize="40" host="" port="" proxy_type="0" />
-    <last_run_config current_version="" current_version_type="" skip_version="false" continue_update="false" />
-    <internal_test allow_test="false" />
-    <copy_config file_names="" />
-    <reginfo_config display_name="VanceAI PC" release_version="1.2.0.3" app_regist_key="VanceAI PC" liveupdate_versionUpdateProductName="" liveupdate_versionUpdateProductNameVersion="" />
-</run_config>

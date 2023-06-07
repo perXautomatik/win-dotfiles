@@ -1,0 +1,32 @@
+[core]
+	attributesfile = C:/Users/chris/GitConfig/.gitattributes
+	bare = false
+	compression = 3
+	autocrlf = true
+	excludesfile = C:/Users/chris/GitConfig/ignore
+	fscache = true
+	hideDotFiles = false
+	ignorecase = true
+	logallrefupdates = true
+	longpaths = true
+	pager = delta
+	repositoryformatversion = 0
+	safecrlf = warn
+	symlinks = true
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	autocrlf = true
+## Speed up Git in Windows ## (From http://stackoverflow.com/a/24045966) You can significantly speed up git on Windows by running three commands to set some config options:
+
+[core]
+	preloadindex=true
+	fscache=true
+[gc]
+	auto=256
+
+# Notes:
+
+# * `core.preloadindex` does filesystem operations in parallel to hide latency and will be enabled by default in future versions of git on all platforms (update: enabled in v2.1)
+
+# * `core.fscache` fixes UAC issues (don't need to run git as admin)
+
+# * `gc.auto` minimizes the number of files in .git
