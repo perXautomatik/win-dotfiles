@@ -1,6 +1,0 @@
-[difftool "jsondiff"]
-	cmd = "/path/to/json-diff $LOCAL $REMOTE"
-
-[alias]
-	jdiff = difftool -t jsondiff -y
-

@@ -1,9 +1,0 @@
-[merge]
-	guitool = beyondcompare4
-	mergeOptions = recursive
-	tool = beyondcompare4
-    	autoStash = true
-[mergetool]
-	keepbackup = false
-[mergetool "beyondcompare4"]
-	trustexitcode = true

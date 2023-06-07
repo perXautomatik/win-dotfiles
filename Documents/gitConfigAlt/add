@@ -1,4 +1,0 @@
-[add]
-	ignoreErrors = true
-[add "interactive"]
-	useBuiltin = true     

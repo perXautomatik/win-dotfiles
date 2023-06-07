@@ -1,4 +1,0 @@
-[mergetool "beyondcompare4"]
-	cmd = \"D:\\portapps\\2. fileOrganization\\PortableApps\\Beyond Compare 4\\BComp.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
-[difftool "beyondcompare4"]
-    cmd = \"D:\\portapps\\2. fileOrganization\\PortableApps\\Beyond Compare 4\\BComp.exe\" \"$LOCAL\" \"$REMOTE\"
