@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
+  <name>@shell32.dll,-34575</name>
+  <ownerSID>S-1-5-21-2818680412-951679892-3826290064-1009</ownerSID>
+  <version>133</version>
+  <isLibraryPinned>true</isLibraryPinned>
+  <iconReference>imageres.dll,-1002</iconReference>
+  <templateInfo>
+    <folderType>{7d49d726-3c21-4f05-99aa-fdc2c9474656}</folderType>
+  </templateInfo>
+  <propertyStore>
+    <property name="HasModifiedLocations" type="boolean"><![CDATA[true]]></property>
+  </propertyStore>
+  <searchConnectorDescriptionList>
+    <searchConnectorDescription publisher="Microsoft" product="Windows">
+      <description>@shell32.dll,-34577</description>
+      <isDefaultSaveLocation>true</isDefaultSaveLocation>
+      <isDefaultNonOwnerSaveLocation>true</isDefaultNonOwnerSaveLocation>
+      <simpleLocation>
+        <url>knownfolder:{FDD39AD0-238F-46AF-ADB4-6C85480369C7}</url>
+        <serialized>MBAAAEAFCAAAAAAAADAAAAAAAY0gAAQDRAAAA8t8EeOUthdAgTIMXGVbYHg3h5ylR1G2BAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAA0cAUAwHQB+TQDi66kGEiiNCAsCMw0ZKAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfaWxPVXHEiEq7VL/ouDJrCFAxAAAAAAAAAAAAABAVNXZyNHA8AQCAQAAv7LAAAAAAAAAA4CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFAzBQZAIHAzBAAAQBAQBQMAAAAAAAAAAAAQAwYoJXazBAPAkAAEAw7+CAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjBAaAIHApBwcAAAAUAgWAEDAAAAAAAAAAAAEA8kblRkcpZXZAAgQAkAAEAw7+CAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgbAUGAEBgcAkGA2BQZAAAAYAAlAEDAAAAAAsqVVCXEEQ0TDVVTF5XMAAAfAkAAEAw7+WLVRY6rWBJduAAAAErsEAAAAkAAAAAAAoBYAApQAAAAAAwpUzDAEBwbAMGA1BQbAUGAuBAdAMHAAAAQAcHApBgbAQGAvBwdAMHAuAwcAQHAvBgcAEGAnBQZA4CAkBAbAwGAsAQLAIDAxAwNAcDAwAAAAgBAAAwRAAAAcAAAAEAAAAAHAAAAtAAAAAAAAAgRAAAARAAAAMAAAAQsohEwQAAAAAwQ6wVVzVmczx1YoJXazxFRvNWdtVmb0NHAAAGAAAwAAAAoYBAAAAAAAAAZlN3a09GctYWaxFDOzgGASSdVBELbGDEr0eSZXuwNx5jPqXIRZzeEtqFGA3EmyBlkUXVAxymxAxKtnU2lLcTc+4j6FSU2sHRrahBwNhpcQBBAAAQBAAAoFAAAAscAAAAHAAAALAAAgCtmT3/jj8qRtSLbFi0Apd8yBAAAODAAAkAAAAaiAAAAxMFUTJuiYZEvMhzQ7y/ETaCmt5cbAAAAEAAAAAwHAAAAuAAAAMFAtAQMA0CA1AQLAIDAxAQLAIDA4AQMAgDA2AAOAADA0AQMAIDAtAQOAUDAxAgNAcDA5AAOAkDAyAQLAMDA4AgMAYDAyAQOAADAwAgNAQDAtAQMAADAwAQOAAAAAAAAAkDAAAQMTB1UxaRbE1ajwh0pIBkLk2DeM2BAAAAaAAAAAgEAAAwnmV8T11BhIh6e1yPq7QyqAAAAAAAAAAAAAAAA</serialized>
+      </simpleLocation>
+    </searchConnectorDescription>
+  </searchConnectorDescriptionList>
+</libraryDescription>

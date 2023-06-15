@@ -52,3 +52,6 @@ path = Git
 [submodule "UserFolder"]
 	path = UserFolder
 	url = B:\\ToGit\\Projectfolder\\scoopbucket-presist\\UserFolder
+[submodule "Scooter Software/Beyond Compare 4"]
+	path = Scooter Software/Beyond Compare 4
+	url = https://github.com/perXautomatik/BeondCompare4
