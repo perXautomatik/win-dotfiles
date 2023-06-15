@@ -1,0 +1,1284 @@
+13:21:33.5268+02:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:21:33.5347+02:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.15.0
+OS Version: 19044.2965
+IntPtr Length: 8
+x64: True
+13:21:33.9361+02:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+13:21:34.0099+02:00 - INFO  - ImageLoader.Initialize - Preload images cost <12ms>
+13:21:34.0099+02:00 - INFO  - ImageLoader.Initialize - Number of preload images is <2>, Images Number: 2, Unique Items 2
+13:21:40.1025+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <68ms>
+13:21:40.5246+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <1865ms>
+13:21:40.5246+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <100ms>
+13:21:40.5467+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <841ms>
+13:21:40.5502+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <257ms>
+13:21:40.5502+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <173ms>
+13:21:40.5502+02:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+13:21:40.5502+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <229ms>
+13:21:40.5502+02:00 - INFO  - BinaryStorage.TryLoad - Cache file not exist, load default data
+13:21:40.5502+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <5ms>
+13:21:40.5502+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <0>
+13:21:40.5502+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <0>
+13:21:40.5814+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <245ms>
+13:21:40.7113+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <498ms>
+13:21:41.0179+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <1308ms>
+13:21:41.2191+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <1583ms>
+13:21:42.5621+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:21:42.5621+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:21:42.5621+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:21:42.5621+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:42.5621+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:21:42.5621+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:45.3623+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:45.3623+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+13:21:45.3623+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:45.3623+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:45.3623+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+13:21:45.3623+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:50.5403+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:50.5403+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+13:21:50.5403+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:50.7106+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:50.7106+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+13:21:50.7106+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:50.7447+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:50.7447+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseGit\bin\GitWCRev.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseGit\bin\GitWCRev.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseGit\bin\GitWCRev.exe
+Possible resolution: Not yet known
+13:21:50.7447+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:51.6387+02:00 - ERROR - PluginsManifest.UpdateManifestAsync - Http request failed
+EXCEPTION OCCURS: System.Net.Http.HttpRequestException: Ingen sådan värd är känd. (cdn.jsdelivr.net:443)
+ ---> System.Net.Sockets.SocketException (11001): Ingen sådan värd är känd.
+   at void System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at async bool System.Net.Sockets.Socket.ConnectAsync(SocketAsyncEventArgs e)+WaitForConnectWithCancellation(?)
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at async ValueTask<Stream> System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(string host, int port, HttpRequestMessage initialRequest, bool async, CancellationToken cancellationToken)
+   at async ValueTask<ValueTuple<Stream, TransportContext>> System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async ValueTask<HttpConnection> System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at async ValueTask<T> System.Threading.Tasks.TaskCompletionSourceWithCancellation<T>.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at async ValueTask<T> System.Net.Http.HttpConnectionPool+HttpConnectionWaiter<T>.WaitForConnectionAsync(bool async, CancellationToken requestCancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, bool async, bool doRequestAuth, CancellationToken cancellationToken)
+   at async ValueTask<HttpResponseMessage> System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, bool async, CancellationToken cancellationToken)
+   at async Task<HttpResponseMessage> System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)+Core(?)
+   at async Task<HttpResponseMessage> Flow.Launcher.Infrastructure.Http.Http.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Infrastructure/Http/Http.cs:line 183
+   at async Task Flow.Launcher.Core.ExternalPlugins.PluginsManifest.UpdateManifestAsync(CancellationToken token) in C:/projects/flow-launcher/Flow.Launcher.Core/ExternalPlugins/PluginsManifest.cs:line 32
+
+13:21:54.0809+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPPRogram index cost <13523ms>
+13:21:54.6415+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:54.6415+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+13:21:54.6415+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:55.3037+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:55.3037+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+13:21:55.3037+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:55.4354+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:55.4354+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+13:21:55.4354+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:57.0521+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:57.0521+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+13:21:57.0521+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:58.0194+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:58.0194+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+Possible resolution: Not yet known
+13:21:58.0194+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:58.0194+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:58.0194+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseGit\bin\TortoiseGitUDiff.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseGit\bin\TortoiseGitUDiff.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseGit\bin\TortoiseGitUDiff.exe
+Possible resolution: Not yet known
+13:21:58.0194+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:21:59.2549+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:21:59.2549+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+13:21:59.2549+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:22:06.7136+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <25989ms>
+13:22:06.7565+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <26746ms>
+13:22:11.4120+02:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+13:23:23.1840+02:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:23:23.1855+02:00 - INFO  - App.OnStartup - Startup cost <111910ms>
+14:38:34.9563+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:34.9563+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+14:38:34.9563+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:34.9563+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:34.9563+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+14:38:34.9563+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.0427+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.0427+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+14:38:35.0427+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.0642+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.0642+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+14:38:35.0642+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.2081+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.2081+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+14:38:35.2081+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.2767+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.2767+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+14:38:35.2767+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.3609+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.3609+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+14:38:35.3609+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.4575+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.4575+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+14:38:35.4575+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:38:35.6262+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:38:35.6262+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+14:38:35.6262+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4413+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4413+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+14:39:01.4413+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4413+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4413+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+14:39:01.4413+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4554+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4554+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+14:39:01.4554+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4554+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4554+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+14:39:01.4554+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4696+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4696+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+14:39:01.4696+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4696+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4696+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+14:39:01.4696+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4937+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4937+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+14:39:01.4937+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4937+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.4937+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+14:39:01.4937+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:01.5179+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:01.5179+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+14:39:01.5179+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8318+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8318+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+14:39:02.8318+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8318+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8318+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+14:39:02.8318+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8460+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8460+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+14:39:02.8460+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8460+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8460+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+14:39:02.8460+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8602+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8602+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+14:39:02.8602+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8602+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8602+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+14:39:02.8602+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8833+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8833+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+14:39:02.8833+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8833+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.8833+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+14:39:02.8833+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:39:02.9086+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:39:02.9086+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+14:39:02.9086+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3688+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3688+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+14:40:04.3688+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3688+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3688+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+14:40:04.3688+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3821+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3821+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+14:40:04.3821+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3821+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3821+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+14:40:04.3821+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3984+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.3984+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+14:40:04.3984+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4084+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4084+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+14:40:04.4084+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4260+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4260+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+14:40:04.4260+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4260+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4260+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+14:40:04.4260+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4525+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+14:40:04.4525+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+14:40:04.4525+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:36.9305+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:36.9305+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+15:08:36.9305+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:36.9305+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:36.9305+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+15:08:36.9305+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0262+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0262+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+15:08:37.0262+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0537+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0537+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+15:08:37.0537+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0934+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.0934+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+15:08:37.0934+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.1852+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.1852+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+15:08:37.1852+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.2696+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.2696+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+15:08:37.2696+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.3597+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.3597+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+15:08:37.3597+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+15:08:37.4939+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+15:08:37.4939+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+15:08:37.4939+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.6845+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.6845+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+16:41:23.6845+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.6849+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.6849+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+16:41:23.6849+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7044+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7044+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+16:41:23.7044+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7044+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7044+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+16:41:23.7044+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7255+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7255+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+16:41:23.7255+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7407+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7407+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+16:41:23.7407+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7687+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7687+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+16:41:23.7687+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7687+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.7687+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+16:41:23.7687+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+16:41:23.8083+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+16:41:23.8083+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+16:41:23.8083+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:44:58.6773+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:44:58.6773+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+23:44:58.6773+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:44:58.6773+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:44:58.6773+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+23:44:58.6773+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:02.1814+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:02.1814+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+23:45:02.1814+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:02.3545+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:02.3545+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+23:45:02.3545+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:05.4625+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:05.4625+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+23:45:05.4625+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:05.5947+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:05.5947+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+23:45:05.5947+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:05.8125+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:05.8125+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+23:45:05.8125+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:07.4065+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:07.4065+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+23:45:07.4065+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:45:08.9586+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:45:08.9586+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+23:45:08.9586+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0243+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0243+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+23:55:59.0243+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0243+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0243+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+23:55:59.0243+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0406+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0406+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\1.15.0\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+23:55:59.0406+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0477+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0477+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+23:55:59.0477+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0477+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0477+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+23:55:59.0477+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0688+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0688+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+23:55:59.0688+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0885+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0885+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+23:55:59.0885+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0951+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.0951+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+23:55:59.0951+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+23:55:59.1189+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+23:55:59.1189+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+23:55:59.1189+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
