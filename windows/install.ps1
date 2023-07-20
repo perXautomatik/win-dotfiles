@@ -7,6 +7,7 @@ $packagesToInstall = @{
         "7zip.7zip",
         "9N7F2SM5D1LR", # Windows HDR Calibration
         "AgileBits.1Password",
+        "ATLauncher.ATLauncher",
         "Audient.EVO",
         "Balena.Etcher",
         "Brave.Brave",
@@ -23,8 +24,6 @@ $packagesToInstall = @{
         "Nilesoft.Shell",
         "ONLYOFFICE.DesktopEditors",
         "OO-Software.ShutUp10",
-        "Oracle.JavaRuntimeEnvironment",
-        "Overwolf.CurseForge",
         "qBittorrent.qBittorrent",
         "RustDesk.RustDesk",
         "Schniz.fnm",
@@ -218,7 +217,7 @@ if (!(Test-Path $PROFILE)) {
 
 # Remove the default init command from the $PROFILE file if installing Oh-My-Posh inserted it
 $lines = Get-Content -Path $PROFILE
-$lines = $lines | Where-Object { $_ -notmatch "oh-my-posh init pwsh | Invoke-Expression" }
+$lines = $lines | Where-Object { $_ -notmatch "oh-my-posh init pwsh --config C:\Users\$env:USERNAME\.config\oh-my-posh\onedarkpro.omp.json | Invoke-Expression" }
 Set-Content -Path $PROFILE -Value $lines
 
 # Add the new init command to the $PROFILE file
