@@ -4,7 +4,6 @@ $packageManagers = @("winget", "scoop", "choco")
 # Array of packages to install
 $packagesToInstall = @{
     "winget" = @(
-        "7zip.7zip",
         "9N7F2SM5D1LR", # Windows HDR Calibration
         "AgileBits.1Password",
         "ATLauncher.ATLauncher",
@@ -18,6 +17,7 @@ $packagesToInstall = @{
         "Insomnia.Insomnia",
         "JanDeDobbeleer.OhMyPosh",
         "Logitech.OptionsPlus",
+        "M2Team.NanaZip",
         "Microsoft.PowerToys",
         "Microsoft.VisualStudioCode",
         "ModOrganizer2.modorganizer",
