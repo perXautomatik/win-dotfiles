@@ -30,3 +30,24 @@ if ($parent) {
   # Stage the .gitmodules file for commit in the parent repository
   git -C "$parent" add .gitmodules
 }
+
+# Get the list of files that have changed in the last checkout
+$files = git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD
+
+# For each file, check if it is a text file with a symbolic link path
+foreach ($file in $files) {
+  # Get the file content
+  $content = Get-Content $file
+
+  # Check if the content matches the pattern of a symbolic link path
+  if ($content -match "^\\\\??\\\\(.*)") {
+    # Get the target path from the regex capture group
+    $target = $Matches[1]
+
+    # Remove the text file
+    Remove-Item $file
+
+    # Create a symbolic link with the same name and target
+    New-Item -ItemType SymbolicLink -Path $file -Target $target
+  }
+}
