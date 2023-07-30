@@ -1,0 +1,33 @@
+#!/bin/bash
+# get the previous and new HEAD refs and the checkout type
+prevHEAD=$1
+newHEAD=$2
+checkoutType=$3
+
+# check if this is a branch checkout
+if [ "$checkoutType" == "1" ]; then
+  # get the name of the current branch
+  branchName=$(git symbolic-ref --short -q HEAD)
+
+
+#!/bin/bash
+# Get the current branch name
+branch=$(git rev-parse --abbrev-ref HEAD)
+# Get the current repository path
+repo=$(git rev-parse --show-toplevel)
+# Check if there is a parent repository above the current one
+parent=$(git rev-parse --show-superproject-working-tree)
+# If there is a parent repository, update its .gitmodules file with the current branch name
+if [ -n "$parent" ]; then
+  # Get the relative path of the submodule from the parent repository
+  subpath=$(echo "$repo" | sed "s|^$parent/||")
+  # Get the name of the submodule from the .gitmodules file
+  subname=$(git config --file "$parent/.gitmodules" --get-regexp "^submodule\..*\.path$" | awk "/$subpath/ {print \$1}" | sed 's/submodule.//' | sed 's/.path//')
+  # Update the branch entry for the submodule in the .gitmodules file
+  git config --file "$parent/.gitmodules" "submodule.$subname.branch" "$branch"
+  # Stage the .gitmodules file for commit in the parent repository
+  git -C "$parent" add .gitmodules
+fi
+  # insert the branch name into the .gitsubmodule file
+  echo "branch = $branchName" >> .gitsubmodule
+fi
