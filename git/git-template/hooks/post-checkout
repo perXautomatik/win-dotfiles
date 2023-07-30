@@ -40,7 +40,9 @@ foreach ($file in $files) {
   $content = Get-Content $file
 
   # Check if the content matches the pattern of a symbolic link path
-  if ($content -match "^\\\\??\\\\(.*)") {
+  if (
+  	($content -match "^\\\\??\\\\(.*)") -or (Test-Path -Path $content -IsValid)
+	) {
     # Get the target path from the regex capture group
     $target = $Matches[1]
 
