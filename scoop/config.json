@@ -1,8 +1,9 @@
 {
     "root_path":  "C:\\ProgramData\\scoop",
-    "last_update":  "2023-07-26T18:25:57.3264679+02:00",
+    "last_update":  "2023-08-05T14:42:06.1937353+02:00",
     "alias":  {
-                  "presist":  "scoop-presist"
+                  "presist":  "scoop-presist",
+                  "reinstall":  "scoop-reinstall"
               },
     "scoop_branch":  "master",
     "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
