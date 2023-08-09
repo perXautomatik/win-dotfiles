@@ -1,0 +1,523 @@
+[2023-06-01 17:09:07.368] [10600] (engine.cpp:270): Time: 06/01/23 17:09:07 Västeuropa, sommartid logLevel:2
+[2023-06-01 17:09:07.392] [10600] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-06-01 17:09:07.394] [10600] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-06-01 17:09:07.395] [10600] (audio_device_impl.cc:83): Create
+[2023-06-01 17:09:07.395] [10600] (audio_device_impl.cc:91): CreateForTest
+[2023-06-01 17:09:07.396] [10600] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:133): CheckPlatform
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:138): current platform is Win32
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:992): PlatformAudioLayer
+[2023-06-01 17:09:07.396] [10600] (audio_device_impl.cc:193): Attempting to use the Windows Core Audio APIs...
+[2023-06-01 17:09:07.398] [10600] (audio_device_core_win.cc:441): AudioDeviceWindowsCore created
+[2023-06-01 17:09:07.402] [10600] (audio_device_core_win.cc:4152): #rendering endpoint devices (counting all): 6
+[2023-06-01 17:09:07.402] [10600] (audio_device_core_win.cc:4164): Endpoint 0:
+[2023-06-01 17:09:07.402] [10600] (audio_device_core_win.cc:4177): ID string    : bd13690
+[2023-06-01 17:09:07.403] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4da60"
+[2023-06-01 17:09:07.403] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.408] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4164): Endpoint 1:
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4177): ID string    : bd12e98
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1caf0"
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4222): hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.409] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4248): volume range : -96 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4258): #intervals   : 192
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4164): Endpoint 2:
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4194): friendly name: "13c76e60"
+[2023-06-01 17:09:07.410] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4248): volume range : -63.5 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4258): #intervals   : 127
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4272): volume steps : 20 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4164): Endpoint 3:
+[2023-06-01 17:09:07.411] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.412] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1cbc0"
+[2023-06-01 17:09:07.412] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.412] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.412] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.412] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4248): volume range : -65.25 (min), 0 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4258): #intervals   : 2088
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4272): volume steps : 9 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4164): Endpoint 4:
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4e060"
+[2023-06-01 17:09:07.413] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.414] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.414] [10600] (audio_device_core_win.cc:4164): Endpoint 5:
+[2023-06-01 17:09:07.414] [10600] (audio_device_core_win.cc:4177): ID string    : bd13780
+[2023-06-01 17:09:07.414] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4db80"
+[2023-06-01 17:09:07.414] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4248): volume range : -30 (min), 0 (max), 2 (inc) [dB]
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4258): #intervals   : 15
+[2023-06-01 17:09:07.415] [10600] (audio_device_core_win.cc:4272): volume steps : 15 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4155): #capturing endpoint devices (counting all): 6
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4164): Endpoint 0:
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1fe58"
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4222): hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4248): volume range : -96 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.417] [10600] (audio_device_core_win.cc:4258): #intervals   : 192
+[2023-06-01 17:09:07.418] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.418] [10600] (audio_device_core_win.cc:4164): Endpoint 1:
+[2023-06-01 17:09:07.418] [10600] (audio_device_core_win.cc:4177): ID string    : bd12e98
+[2023-06-01 17:09:07.418] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4e000"
+[2023-06-01 17:09:07.418] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4164): Endpoint 2:
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4177): ID string    : bd13438
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1c818"
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.419] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4248): volume range : -17 (min), 30 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4258): #intervals   : 1504
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4272): volume steps : 46 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4164): Endpoint 3:
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4177): ID string    : bd13618
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1c818"
+[2023-06-01 17:09:07.420] [10600] (audio_device_core_win.cc:4204): state (0x2)  : DISABLED
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4248): volume range : -17 (min), 12 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4258): #intervals   : 928
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4164): Endpoint 4:
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4177): ID string    : bd12a60
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1fbb8"
+[2023-06-01 17:09:07.476] [10600] (audio_device_core_win.cc:4204): state (0x2)  : DISABLED
+[2023-06-01 17:09:07.523] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.523] [10600] (audio_device_core_win.cc:4164): Endpoint 5:
+[2023-06-01 17:09:07.523] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.523] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4dc40"
+[2023-06-01 17:09:07.523] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4248): volume range : -30 (min), 0 (max), 2 (inc) [dB]
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4258): #intervals   : 15
+[2023-06-01 17:09:07.526] [10600] (audio_device_core_win.cc:4272): volume steps : 22 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.530] [10600] (audio_device_core_win.cc:4344): Activating device for recording with ID {0.0.1.00000000}.{262ff789-90be-4ef6-8cd4-5f0da49d90f3}
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2337): VoE selected this capturing format:
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2338): wFormatTag        : 0xfffe (65534)
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2341): nChannels         : 2
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2342): nSamplesPerSec    : 48000
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2343): nAvgBytesPerSec   : 192000
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2344): nBlockAlign       : 4
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2345): wBitsPerSample    : 16
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2346): cbSize            : 22
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2347): Additional settings:
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2348): _recAudioFrameSize: 4
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2349): _recBlockSize     : 480
+[2023-06-01 17:09:07.531] [10600] (audio_device_core_win.cc:2350): _recChannels      : 2
+[2023-06-01 17:09:07.565] [10600] (audio_device_core_win.cc:2389): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.576] [10600] (audio_device_core_win.cc:4344): Activating device for recording with ID {0.0.1.00000000}.{72d70c4f-f7de-4cb3-9ce5-74a9013235ce}
+[2023-06-01 17:09:07.577] [10600] (audio_device_core_win.cc:2312): nChannels=2, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=44100
+[2023-06-01 17:09:07.577] [10600] (audio_device_core_win.cc:2312): nChannels=1, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=44100
+[2023-06-01 17:09:07.577] [10600] (audio_device_core_win.cc:2312): nChannels=4, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=44100
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2312): nChannels=2, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=44100
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2337): VoE selected this capturing format:
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2338): wFormatTag        : 0xfffe (65534)
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2341): nChannels         : 1
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2342): nSamplesPerSec    : 44100
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2343): nAvgBytesPerSec   : 88200
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2344): nBlockAlign       : 2
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2345): wBitsPerSample    : 16
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2346): cbSize            : 22
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2347): Additional settings:
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2348): _recAudioFrameSize: 2
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2349): _recBlockSize     : 441
+[2023-06-01 17:09:07.578] [10600] (audio_device_core_win.cc:2350): _recChannels      : 1
+[2023-06-01 17:09:07.595] [10600] (audio_device_core_win.cc:2389): IAudioClient::GetBufferSize() => 970 (<=> 1940 bytes)
+[2023-06-01 17:09:07.602] [10600] (audio_device_core_win.cc:4344): Activating device for recording with ID {0.0.1.00000000}.{7eb4750d-97f8-4489-839d-7e47df4bd483}
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2337): VoE selected this capturing format:
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2338): wFormatTag        : 0xfffe (65534)
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2341): nChannels         : 2
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2342): nSamplesPerSec    : 48000
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2343): nAvgBytesPerSec   : 192000
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2344): nBlockAlign       : 4
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2345): wBitsPerSample    : 16
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2346): cbSize            : 22
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2347): Additional settings:
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2348): _recAudioFrameSize: 4
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2349): _recBlockSize     : 480
+[2023-06-01 17:09:07.603] [10600] (audio_device_core_win.cc:2350): _recChannels      : 2
+[2023-06-01 17:09:07.651] [10600] (audio_device_core_win.cc:2389): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.661] [10600] (audio_device_core_win.cc:4344): Activating device for recording with ID {0.0.1.00000000}.{fed53b9c-b062-404d-bcdf-0ae7c9fcecb1}
+[2023-06-01 17:09:07.681] [10600] (audio_device_core_win.cc:2312): nChannels=2, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.681] [10600] (audio_device_core_win.cc:2312): nChannels=1, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.681] [10600] (audio_device_core_win.cc:2312): nChannels=4, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.681] [10600] (audio_device_core_win.cc:2312): nChannels=2, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.682] [10600] (audio_device_core_win.cc:2312): nChannels=1, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.682] [10600] (audio_device_core_win.cc:2312): nChannels=4, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.682] [10600] (audio_device_core_win.cc:2312): nChannels=2, nSamplesPerSec=16000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.682] [10600] (audio_device_core_win.cc:2337): VoE selected this capturing format:
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2338): wFormatTag        : 0xfffe (65534)
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2341): nChannels         : 1
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2342): nSamplesPerSec    : 16000
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2343): nAvgBytesPerSec   : 32000
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2344): nBlockAlign       : 2
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2345): wBitsPerSample    : 16
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2346): cbSize            : 22
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2347): Additional settings:
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2348): _recAudioFrameSize: 2
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2349): _recBlockSize     : 160
+[2023-06-01 17:09:07.683] [10600] (audio_device_core_win.cc:2350): _recChannels      : 1
+[2023-06-01 17:09:07.693] [10600] (audio_device_core_win.cc:2389): IAudioClient::GetBufferSize() => 352 (<=> 704 bytes)
+[2023-06-01 17:09:07.710] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{1cc09076-a81c-4a3c-b754-bf0802e79303}
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2025): nChannels          : 2
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 48000
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 192000
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 4
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 4
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 480
+[2023-06-01 17:09:07.713] [10600] (audio_device_core_win.cc:2034): _playChannels      : 2
+[2023-06-01 17:09:07.728] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.738] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{251df2b6-1180-46e0-be9c-9f723de8d925}
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2025): nChannels          : 2
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 48000
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 192000
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 4
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 4
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 480
+[2023-06-01 17:09:07.740] [10600] (audio_device_core_win.cc:2034): _playChannels      : 2
+[2023-06-01 17:09:07.754] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.765] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{3af29c2d-9af3-496f-bc1d-b763221035c0}
+[2023-06-01 17:09:07.768] [10600] (audio_device_core_win.cc:1989): nChannels=2, nSamplesPerSec=48000 is not supported. Closest match: nChannels=2, nSamplesPerSec=44100
+[2023-06-01 17:09:07.770] [10600] (audio_device_core_win.cc:1989): nChannels=1, nSamplesPerSec=48000 is not supported. Closest match: nChannels=2, nSamplesPerSec=44100
+[2023-06-01 17:09:07.772] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2025): nChannels          : 2
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 44100
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 176400
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 4
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 4
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 441
+[2023-06-01 17:09:07.773] [10600] (audio_device_core_win.cc:2034): _playChannels      : 2
+[2023-06-01 17:09:07.782] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 1323 (<=> 5292 bytes)
+[2023-06-01 17:09:07.793] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{8bfb7f92-d9ba-4ce9-8393-f1ddb3e00892}
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2025): nChannels          : 2
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 48000
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 192000
+[2023-06-01 17:09:07.798] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 4
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 4
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 480
+[2023-06-01 17:09:07.799] [10600] (audio_device_core_win.cc:2034): _playChannels      : 2
+[2023-06-01 17:09:07.814] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.827] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{a9aa45a6-7c79-40b1-930f-498a5c4beaf1}
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2025): nChannels          : 2
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 48000
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 192000
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 4
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 4
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 480
+[2023-06-01 17:09:07.829] [10600] (audio_device_core_win.cc:2034): _playChannels      : 2
+[2023-06-01 17:09:07.846] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+[2023-06-01 17:09:07.876] [10600] (audio_device_core_win.cc:4344): Activating device for playback with ID {0.0.0.00000000}.{e597d8f8-55f6-4b0f-859a-0f98a47d1302}
+[2023-06-01 17:09:07.878] [10600] (audio_device_core_win.cc:1989): nChannels=2, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.878] [10600] (audio_device_core_win.cc:1989): nChannels=1, nSamplesPerSec=48000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.879] [10600] (audio_device_core_win.cc:1989): nChannels=2, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.879] [10600] (audio_device_core_win.cc:1989): nChannels=1, nSamplesPerSec=44100 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:1989): nChannels=2, nSamplesPerSec=16000 is not supported. Closest match: nChannels=1, nSamplesPerSec=16000
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2021): VoE selected this rendering format:
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2022): wFormatTag         : 0x1 (1)
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2025): nChannels          : 1
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2026): nSamplesPerSec     : 16000
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2027): nAvgBytesPerSec    : 32000
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2028): nBlockAlign        : 2
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2029): wBitsPerSample     : 16
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2030): cbSize             : 0
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2031): Additional settings:
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2032): _playAudioFrameSize: 2
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2033): _playBlockSize     : 160
+[2023-06-01 17:09:07.880] [10600] (audio_device_core_win.cc:2034): _playChannels      : 1
+[2023-06-01 17:09:07.910] [10600] (audio_device_core_win.cc:2098): IAudioClient::GetBufferSize() => 352 (<=> 704 bytes)
+[2023-06-01 17:09:07.917] [10600] (audio_device_core_win.cc:538): ~AudioDeviceWindowsCore destroyed
+[2023-06-01 17:09:07.917] [10600] (audio_device_core_win.cc:585): AudioDeviceWindowsCore::~AudioDeviceWindowsCore() the Avrt DLL module is now unloaded
+[2023-06-01 17:09:07.917] [10600] (audio_device_core_win.cc:441): AudioDeviceWindowsCore created
+[2023-06-01 17:09:07.917] [10600] (audio_device_impl.cc:196): Windows Core Audio APIs will be utilized
+[2023-06-01 17:09:07.917] [10600] (audio_device_impl.cc:345): AttachAudioBuffer
+[2023-06-01 17:09:07.917] [10600] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2023-06-01 17:09:07.917] [10600] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2023-06-01 17:09:07.917] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2023-06-01 17:09:07.917] [10600] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2023-06-01 17:09:07.917] [10600] (audio_device_impl.cc:355): ActiveAudioLayer
+[2023-06-01 17:09:07.917] [10600] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-06-01 17:09:07.917] [10600] (audio_engine.cpp:462): Creating audio engine: standard
+[2023-06-01 17:09:07.917] [10600] (audio_device_impl.cc:365): Init
+[2023-06-01 17:09:07.918] [10600] (audio_device_core_win.cc:4152): #rendering endpoint devices (counting all): 6
+[2023-06-01 17:09:07.918] [10600] (audio_device_core_win.cc:4164): Endpoint 0:
+[2023-06-01 17:09:07.918] [10600] (audio_device_core_win.cc:4177): ID string    : bd12a60
+[2023-06-01 17:09:07.918] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4dc40"
+[2023-06-01 17:09:07.918] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.919] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.919] [10600] (audio_device_core_win.cc:4164): Endpoint 1:
+[2023-06-01 17:09:07.919] [10600] (audio_device_core_win.cc:4177): ID string    : bd12ad8
+[2023-06-01 17:09:07.919] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1cbc0"
+[2023-06-01 17:09:07.919] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.920] [10600] (audio_device_core_win.cc:4222): hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.920] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.920] [10600] (audio_device_core_win.cc:4248): volume range : -96 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.920] [10600] (audio_device_core_win.cc:4258): #intervals   : 192
+[2023-06-01 17:09:07.920] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.921] [10600] (audio_device_core_win.cc:4164): Endpoint 2:
+[2023-06-01 17:09:07.921] [10600] (audio_device_core_win.cc:4177): ID string    : bd12d30
+[2023-06-01 17:09:07.921] [10600] (audio_device_core_win.cc:4194): friendly name: "bd111d0"
+[2023-06-01 17:09:07.921] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4248): volume range : -63.5 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4258): #intervals   : 127
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4272): volume steps : 20 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4164): Endpoint 3:
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4177): ID string    : bd13078
+[2023-06-01 17:09:07.922] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1cbc0"
+[2023-06-01 17:09:07.923] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.923] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4248): volume range : -65.25 (min), 0 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4258): #intervals   : 2088
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4272): volume steps : 9 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4164): Endpoint 4:
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4177): ID string    : bd12b50
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4d520"
+[2023-06-01 17:09:07.924] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.925] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.926] [10600] (audio_device_core_win.cc:4164): Endpoint 5:
+[2023-06-01 17:09:07.926] [10600] (audio_device_core_win.cc:4177): ID string    : bd12b50
+[2023-06-01 17:09:07.926] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4d760"
+[2023-06-01 17:09:07.926] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4248): volume range : -30 (min), 0 (max), 2 (inc) [dB]
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4258): #intervals   : 15
+[2023-06-01 17:09:07.927] [10600] (audio_device_core_win.cc:4272): volume steps : 15 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.928] [10600] (audio_device_core_win.cc:4155): #capturing endpoint devices (counting all): 6
+[2023-06-01 17:09:07.928] [10600] (audio_device_core_win.cc:4164): Endpoint 0:
+[2023-06-01 17:09:07.928] [10600] (audio_device_core_win.cc:4177): ID string    : bd13000
+[2023-06-01 17:09:07.928] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1f918"
+[2023-06-01 17:09:07.928] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4222): hwmask (0x1) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4248): volume range : -96 (min), 0 (max), 0.5 (inc) [dB]
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4258): #intervals   : 192
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4164): Endpoint 1:
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4177): ID string    : bd13780
+[2023-06-01 17:09:07.929] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4da60"
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4164): Endpoint 2:
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4177): ID string    : bd132d0
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1cbc0"
+[2023-06-01 17:09:07.930] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4248): volume range : -17 (min), 30 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4258): #intervals   : 1504
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4272): volume steps : 46 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4164): Endpoint 3:
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4177): ID string    : bd12a60
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1cbc0"
+[2023-06-01 17:09:07.931] [10600] (audio_device_core_win.cc:4204): state (0x2)  : DISABLED
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4238): #channels    : 2
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4248): volume range : -17 (min), 12 (max), 0.03125 (inc) [dB]
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4258): #intervals   : 928
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4272): volume steps : 50 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4164): Endpoint 4:
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4177): ID string    : bd13000
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4194): friendly name: "bd1fd08"
+[2023-06-01 17:09:07.943] [10600] (audio_device_core_win.cc:4204): state (0x2)  : DISABLED
+[2023-06-01 17:09:07.956] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.956] [10600] (audio_device_core_win.cc:4164): Endpoint 5:
+[2023-06-01 17:09:07.956] [10600] (audio_device_core_win.cc:4177): ID string    : bd12c40
+[2023-06-01 17:09:07.956] [10600] (audio_device_core_win.cc:4194): friendly name: "bd4d5e0"
+[2023-06-01 17:09:07.956] [10600] (audio_device_core_win.cc:4201): state (0x1)  : *ACTIVE*
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4222): hwmask (0x3) : HARDWARE_SUPPORT_VOLUME
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4226): hwmask (0x3) : HARDWARE_SUPPORT_MUTE
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4238): #channels    : 1
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4248): volume range : -30 (min), 0 (max), 2 (inc) [dB]
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4258): #intervals   : 15
+[2023-06-01 17:09:07.957] [10600] (audio_device_core_win.cc:4272): volume steps : 22 (nStep), 51 (nStepCount)
+[2023-06-01 17:09:07.958] [10600] (audio_coding.cpp:147): Using software Opus decoder
+[2023-06-01 17:09:07.958] [10600] (audio_coding.cpp:164): Using software Opus encoder
+[2023-06-01 17:09:07.979] [10600] (audio_device_impl.cc:896): RegisterAudioCallback
+[2023-06-01 17:09:07.979] [10600] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2023-06-01 17:09:07.979] [10600] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-06-01 17:09:07.979] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:07.979] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:07.979] [10600] (audio_device_impl.cc:783): SetRecordingDevice
+[2023-06-01 17:09:07.980] [10600] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-06-01 17:09:07.980] [10600] (audio_device_impl.cc:574): output: 1
+[2023-06-01 17:09:07.980] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:07.980] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:07.981] [10600] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-06-01 17:09:07.981] [10600] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2023-06-01 17:09:07.981] [10600] (audio_device_impl.cc:715): SetPlayoutDevice
+[2023-06-01 17:09:07.983] [10600] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-06-01 17:09:07.983] [10600] (audio_device_impl.cc:620): output: 1
+[2023-06-01 17:09:07.983] [10600] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-06-01 17:09:07.983] [10600] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-06-01 17:09:07.985] [10600] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2023-06-01 17:09:07.985] [10600] (audio_device_impl.cc:915): output: 1
+[2023-06-01 17:09:07.985] [10600] (audio_device_impl.cc:920): EnableBuiltInAEC(1)
+[2023-06-01 17:09:07.985] [10600] (audio_device_impl.cc:923): output: 0
+[2023-06-01 17:09:07.985] [10600] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-06-01 17:09:07.992] [10600] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-06-01 17:09:07.993] [10600] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2023-06-01 17:09:07.993] [10600] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2023-06-01 17:09:07.996] [10600] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-06-01 17:09:07.996] [10600] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2023-06-01 17:09:08.025] [10600] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-06-01 17:09:08.025] [10600] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-06-01 17:09:08.025] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:08.025] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:08.025] [10600] (audio_device_impl.cc:783): SetRecordingDevice
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:574): output: 1
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:08.028] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-06-01 17:09:08.028] [10600] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-06-01 17:09:08.028] [10600] (audio_device_impl.cc:715): SetPlayoutDevice
+[2023-06-01 17:09:08.030] [10600] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-06-01 17:09:08.030] [10600] (audio_device_impl.cc:620): output: 1
+[2023-06-01 17:09:08.030] [10600] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-06-01 17:09:08.030] [10600] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-06-01 17:09:09.397] [10600] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-06-01 17:09:09.398] [10600] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-06-01 17:09:09.398] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:09.398] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:09.398] [10600] (audio_device_impl.cc:783): SetRecordingDevice
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:574): output: 1
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:09.400] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-06-01 17:09:09.400] [10600] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-06-01 17:09:09.400] [10600] (audio_device_impl.cc:715): SetPlayoutDevice
+[2023-06-01 17:09:09.401] [3724] (discord.cpp:550): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 201332, Version Hash: 10d1e454b3af166917b26d1aa9f67b6b41b663c5"]
+[2023-06-01 17:09:09.403] [10600] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-06-01 17:09:09.403] [10600] (audio_device_impl.cc:620): output: 1
+[2023-06-01 17:09:09.403] [10600] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-06-01 17:09:09.403] [10600] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-06-01 17:09:09.406] [10600] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-06-01 17:09:09.920] [3724] (discord.cpp:550): JS console: ["%c[default]","[NATIVE INFO] host 1.0.9010, modules: discord_cloudsync: 1, discord_modules: 1, discord_dispatch: 1, discord_game_utils: 1, discord_rpc: 1, discord_erlpack: 1, discord_media: 1, discord_utils: 1, discord_krisp: 1, discord_desktop_core: 1, discord_voice: 3, discord_spellcheck: 1, discord_overlay2: 1, build: null"]
+[2023-06-01 17:09:10.013] [3724] (discord.cpp:550): JS console: ["Initializing krisp module"]
+[2023-06-01 17:09:11.077] [3724] (discord.cpp:550): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-06-01 17:09:11.211] [3724] (discord.cpp:550): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2023-06-01 17:09:11.216] [10600] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-06-01 17:09:11.216] [10600] (audio_device_impl.cc:827): RecordingIsInitialized
+[2023-06-01 17:09:11.216] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:11.216] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:11.216] [10600] (audio_device_impl.cc:783): SetRecordingDevice
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:574): output: 1
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2023-06-01 17:09:11.218] [10600] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2023-06-01 17:09:11.218] [10600] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2023-06-01 17:09:11.218] [10600] (audio_device_impl.cc:715): SetPlayoutDevice
+[2023-06-01 17:09:11.221] [10600] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2023-06-01 17:09:11.221] [10600] (audio_device_impl.cc:620): output: 1
+[2023-06-01 17:09:11.221] [10600] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2023-06-01 17:09:11.221] [10600] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2023-06-01 17:09:11.883] [3724] (discord.cpp:550): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1442:330)\n    at Bn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1468:696)\n    at Wn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1471:356)\n    at Zn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1471:199)\n    at Yn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1470:886)\n    at Kn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1471:697)\n    at zn (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1471:731)\n    at i (https://discordapp.com/assets/b2f5c23f3dcfbd8e7f9e.js:1438:961)\n    at Object.408481 (https://discordapp.com/assets/b1ec127b82cf81c42c03.js:21:328)\n    at l (https://discordapp.com/assets/0bd5e10fc1970346d899.js:1:154)\n    at Object.558820 (https://discordapp.com/assets/b1ec127b82cf81c42c03.js:14:186)\n    at l (https://discordapp.com/assets/0bd5e10fc1970346d899.js:1:154)\n    at Object.308739 (https://discordapp.com/assets/b1ec127b82cf81c42c03.js:2:331)\n    at l (https://discordapp.com/assets/0bd5e10fc1970346d899.js:1:154)\n    at Object.173242 (https://discordapp.com/assets/2f9c904fbc9876ccc97f.js:369:101)\n    at l (https://discordapp.com/assets/0bd5e10fc1970346d899.js:1:154)\n    at Module.753582 (https://discordapp.com/assets/87fde4fff18cccb8f066.js:45:422)\n    at Function.l (https://discordapp.com/assets/0bd5e10fc1970346d899.js:1:154)"]
+[2023-06-01 17:09:11.946] [3724] (discord.cpp:550): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-06-01 17:09:12.750] [3724] (discord.cpp:550): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-06-01 17:09:12.751] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-06-01 17:09:12.751] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-06-01 17:09:12.752] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-06-01 17:09:12.752] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-06-01 17:09:12.753] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-06-01 17:09:12.753] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-06-01 17:09:12.754] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2023-06-01 17:09:12.754] [3724] (discord.cpp:550): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-06-01 17:09:12.755] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-06-01 17:09:12.755] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-06-01 17:09:12.777] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-d-td4w: 0, heartbeat interval: 41250, took 25 ms"]
+[2023-06-01 17:09:13.317] [3724] (discord.cpp:550): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-06-01 17:09:13.319] [3724] (discord.cpp:550): JS console: ["%c[RPCServer:IPC]","Starting on \\\\?\\pipe\\discord-ipc-0"]
+[2023-06-01 17:09:13.379] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[READY] took 625ms, as f364fb31db3502929e078ebaa97d0e7e via \ngateway-prd-us-east1-d-td4w: 265.538\n|  id_created: 1.483\n|  session_lookup_time: 0.339\n|  session_lookup_finished: 0.017\n|  discord-sessions-prd-2-189: 262.889\n|  |  start_session: 161.863\n|  |  |  discord-api-5c86b76f5c-4hn8j: 154.06\n|  |  |  |  get_user: 39.266\n|  |  |  |  get_guilds: 19.016\n|  |  |  |  user_settings_proto: 0.083\n|  |  |  |  relationships: 28.797\n|  |  |  |  friend_suggestion: 0.043\n|  |  |  |  connections: 0.14\n|  |  |  |  serialized_read_states: 0.006\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 10.405\n|  |  |  |  experiments: 12.881\n|  |  |  |  affine_user_ids: 17.062\n|  |  |  |  required_action: 0.003\n|  |  |  |  authorized_ip_coro: 0.001\n|  |  starting_guild_connect: 0.042\n|  |  presence_started: 0.348\n|  |  guilds_started: 0.083\n|  |  guilds_connect: 100.425\n|  |  presence_connect: 0.001\n|  |  connect_finished: 100.478\n|  |  build_ready: 0.019\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 0.048\n|  |  split_ready: 0.006"]
+[2023-06-01 17:09:13.379] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-06-01 17:09:13.389] [3724] (discord.cpp:550): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-06-01 17:09:13.390] [3724] (discord.cpp:550): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-06-01 17:09:13.400] [3724] (discord.cpp:550): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-06-01 17:09:13.444] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-d.discord.gg"]
+[2023-06-01 17:09:13.448] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 696ms"]
+[2023-06-01 17:09:13.448] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-06-01 17:09:14.636] [3724] (discord.cpp:550): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 363.69999999925494ms"]
+[2023-06-01 17:09:16.959] [3724] (discord.cpp:550): JS console: ["%c[MessageActionCreators]","Fetching messages for 453606827347804174 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-06-01 17:09:16.961] [3724] (discord.cpp:550): JS console: ["%c[MessageActionCreators]","Fetched 0 messages from local database (channel_id: 453606827347804174, remote_fetch_completed: false)"]
+[2023-06-01 17:09:17.384] [3724] (discord.cpp:550): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 453606827347804174 isBefore:false isAfter:false"]
+[2023-06-01 17:09:20.657] [3724] (discord.cpp:550): JS console: ["%c[discord_protos.discord_users.v1.FrecencyUserSettings]","Loading proto"]
+[2023-06-01 17:09:32.774] [3724] (discord.cpp:550): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-06-01 17:09:44.338] [3724] (discord.cpp:550): JS console: ["%c[RTCLatencyTestManager]","RTC cached preferred region is stockholm"]
+[2023-06-01 17:24:09.440] [3724] (discord.cpp:550): JS console: ["%c[Flux]","Slow dispatch on MESSAGE_CREATE: 104.10000000149012ms"]
+[2023-06-01 17:24:09.441] [3724] (discord.cpp:550): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 108ms"]
+[2023-06-01 17:24:16.098] [3724] (discord.cpp:550): JS console: ["%c[ClientStateStore]","Gap detected in read state versions","155","158","[object Object]"]
+[2023-06-01 17:24:19.862] [3724] (discord.cpp:550): JS console: ["%c[ClientStateStore]","Gap detected in read state versions","158","160","[object Object]"]
+[2023-06-01 17:24:22.171] [3724] (discord.cpp:550): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","[object Object]"]
+[2023-06-01 17:29:53.010] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-06-01 17:29:53.011] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.59 seconds."]
+[2023-06-01 17:29:55.606] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-06-01 17:29:55.607] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-06-01 17:29:55.607] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-06-01 17:29:55.609] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-06-01 17:29:55.609] [3724] (discord.cpp:550): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.37 seconds."]
