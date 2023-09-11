@@ -1,15 +1,15 @@
-PowerToys/**/*log*
-PowerToys/Updates
-PowerToys/*.json
+.DS_Store
+
 
 !PowerToys/settings.json
+PowerToys/**/*log*
 PowerToys/**/*version*
-
-PowerToys/PowerToys Run/
-
-vscode/History/
-vscode/globalStorage/
-vscode/workspaceStorage/
-vscode/profiles/
+PowerToys/*.json
 PowerToys/ColorPicker/settings.json
+PowerToys/PowerToys Run/
+PowerToys/Updates
+vscode/globalStorage/
+vscode/History/
+vscode/profiles/
 vscode/sync/**/
+vscode/workspaceStorage/
