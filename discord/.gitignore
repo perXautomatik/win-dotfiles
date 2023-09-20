@@ -1,0 +1,28 @@
+
+# Local cache files
+# Sensitive files
+#config.json
+#localconfig.json
+localstorage/
+
+# Ignore Discord settings and cache files
+Cache/
+Code Cache/
+IndexedDB/
+Local Storage/
+#Settings.json
+
+# Ignore Discord logs
+#Logs
+
+# Ignore Discord crash dumps
+CrashDumps/
+
+# Ignore Discord voice chat recordings
+VoiceStates/
+
+# Ignore Discord media cache
+#MediaCache
+
+# Ignore Discord temporary files
+Temp/
