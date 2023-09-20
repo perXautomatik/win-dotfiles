@@ -1,0 +1,2688 @@
+09:10:26.6058+02:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+09:10:26.6058+02:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.15.0
+OS Version: 19045.3324
+IntPtr Length: 8
+x64: True
+09:10:26.8947+02:00 - FATAL - UnHandledException - 
+## Exception
+
+```
+System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UserData\Cache\Image.cache' is denied.
+   Source: System.Private.CoreLib
+   TargetAssembly: System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+   TargetModule: System.Private.CoreLib.dll
+   TargetSite: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Flow.Launcher.Infrastructure.Storage.BinaryStorage`1.TryLoad(T defaultData) in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Storage\BinaryStorage.cs:line 42
+   at Flow.Launcher.Infrastructure.Image.ImageLoader.LoadStorageToConcurrentDictionary() in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Image\ImageLoader.cs:line 83
+   at Flow.Launcher.Infrastructure.Image.ImageLoader.Initialize() in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Image\ImageLoader.cs:line 41
+   at Flow.Launcher.App.<OnStartupAsync>b__14_0() in C:\projects\flow-launcher\Flow.Launcher\App.xaml.cs:line 61
+   at Flow.Launcher.Infrastructure.Stopwatch.NormalAsync(String message, Func`1 action) in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Stopwatch.cs:line 58
+   at Flow.Launcher.App.OnStartupAsync(Object sender, StartupEventArgs e) in C:\projects\flow-launcher\Flow.Launcher\App.xaml.cs:line 52
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+```
+
+## Environment
+* Command Line: C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.dll
+* Timestamp: 09/06/2023 09:10:26
+* Flow Launcher version: 1.15.0
+* OS Version: 19045.3324
+* IntPtr Length: 8
+* x64: True
+* Python Path: 
+* Node Path: 
+* CLR Version: 7.0.5
+* Installed .NET Framework: 
+   * v2.0.50727 2.0.50727.4927 SP2
+   * v3.0 3.0.30729.4926 SP2
+   * v3.5 3.5.30729.4926 SP1
+   * v4 Client 4.8.09037
+   * v4 Full 4.8.09037
+   * v4.0 Client 4.0.0.0
+
+## Assemblies - Flow.Launcher
+
+* System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.CoreLib.dll)
+* Flow.Launcher, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.dll)
+* PresentationFramework, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationFramework.dll)
+* WindowsBase, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\WindowsBase.dll)
+* System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.dll)
+* System.Xaml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xaml.dll)
+* System.Threading, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.dll)
+* System.IO.Pipes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.Pipes.dll)
+* System.Security.AccessControl, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.AccessControl.dll)
+* System.Security.Principal.Windows, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Principal.Windows.dll)
+* System.Runtime.InteropServices, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.InteropServices.dll)
+* System.Threading.ThreadPool, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.ThreadPool.dll)
+* System.Configuration.ConfigurationManager, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Configuration.ConfigurationManager.dll)
+* System.ObjectModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ObjectModel.dll)
+* Flow.Launcher.Core, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Core.dll)
+* Flow.Launcher.Infrastructure, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Infrastructure.dll)
+* System.Collections, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.dll)
+* System.ComponentModel.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.Primitives.dll)
+* System.Private.Uri, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.Uri.dll)
+* PresentationCore, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationCore.dll)
+* System.Security.Cryptography, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.dll)
+* System.Collections.Concurrent, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Concurrent.dll)
+* System.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Memory.dll)
+* System.ComponentModel.TypeConverter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.TypeConverter.dll)
+* System.Xml.ReaderWriter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xml.ReaderWriter.dll)
+* System.Private.Xml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.Xml.dll)
+* System.Collections.Specialized, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Specialized.dll)
+* System.Net.WebClient, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.WebClient.dll)
+* System.ComponentModel.EventBasedAsync, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.EventBasedAsync.dll)
+* System.Text.Encoding.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Encoding.Extensions.dll)
+* System.Threading.Thread, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.Thread.dll)
+* System.Runtime.Serialization.Formatters, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Serialization.Formatters.dll)
+* System.Xml.XmlSerializer, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xml.XmlSerializer.dll)
+* System.IO.Packaging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.Packaging.dll)
+* DirectWriteForwarder, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\DirectWriteForwarder.dll)
+* System.Runtime.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Extensions.dll)
+* System.Diagnostics.Debug, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.Debug.dll)
+* System.Runtime.CompilerServices.VisualC, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.CompilerServices.VisualC.dll)
+* Microsoft.Win32.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.Primitives.dll)
+* System.Collections.NonGeneric, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.NonGeneric.dll)
+* Microsoft.Win32.Registry, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.Registry.dll)
+* System.Linq, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Linq.dll)
+* System.Diagnostics.TraceSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.TraceSource.dll)
+* System.Windows.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Windows.Extensions.dll)
+* System.ComponentModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.dll)
+* ModernWpf, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\ModernWpf.dll)
+* System.Net.Requests, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Requests.dll)
+* System.Net.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Primitives.dll)
+* System.Net.WebHeaderCollection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.WebHeaderCollection.dll)
+* System.Runtime.Loader, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Loader.dll)
+* Microsoft.Windows.SDK.NET, Version=10.0.19041.24, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Windows.SDK.NET.dll)
+* WinRT.Runtime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=99ea127f02d97709 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\WinRT.Runtime.dll)
+* Microsoft.Win32.SystemEvents, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.SystemEvents.dll)
+* System.Runtime.CompilerServices.Unsafe, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.CompilerServices.Unsafe.dll)
+* System.Linq.Expressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Linq.Expressions.dll)
+* System.Security.Cryptography.Algorithms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Algorithms.dll)
+* System.Numerics.Vectors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Numerics.Vectors.dll)
+* System.Reflection.Emit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Reflection.Emit.dll)
+* Snippets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (dynamic assembly doesn't has location)
+* System.Security.Cryptography.Csp, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Csp.dll)
+* System.Security.Cryptography.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Primitives.dll)
+* UIAutomationTypes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UIAutomationTypes.dll)
+* System.Diagnostics.Process, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.Process.dll)
+* PresentationFramework.Aero2, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationFramework.Aero2.dll)
+* ModernWpf.Controls, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\ModernWpf.Controls.dll)
+* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\mscorlib.dll)
+* Flow.Launcher.Plugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Plugin.dll)
+* System.Text.Encoding.CodePages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Encoding.CodePages.dll)
+* System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Json.dll)
+* NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.dll)
+* netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\netstandard.dll)
+* System.Diagnostics.FileVersionInfo, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.FileVersionInfo.dll)
+* System.IO.FileSystem.Watcher, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.FileSystem.Watcher.dll)
+* System.Data.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Data.Common.dll)
+* System.Net.Mail, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Mail.dll)
+* System.Net.Sockets, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Sockets.dll)
+* NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.Extensions.Logging.dll)
+* Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Extensions.Logging.Abstractions.dll)
+* Microsoft.Extensions.Logging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Extensions.Logging.dll)
+* NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.Web.AspNetCore.dll)
+* System.Diagnostics.StackTrace, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.StackTrace.dll)
+* System.Reflection.Metadata, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Reflection.Metadata.dll)
+* System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Immutable.dll)
+* System.IO.MemoryMappedFiles, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.MemoryMappedFiles.dll)
+
+09:26:30.6525+02:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+09:26:30.6525+02:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.15.0
+OS Version: 19045.3324
+IntPtr Length: 8
+x64: True
+09:26:30.7678+02:00 - FATAL - UnHandledException - 
+## Exception
+
+```
+System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UserData\Cache\Image.cache' is denied.
+   Source: System.Private.CoreLib
+   TargetAssembly: System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e
+   TargetModule: System.Private.CoreLib.dll
+   TargetSite: Microsoft.Win32.SafeHandles.SafeFileHandle CreateFile(System.String, System.IO.FileMode, System.IO.FileAccess, System.IO.FileShare, System.IO.FileOptions)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at Flow.Launcher.Infrastructure.Storage.BinaryStorage`1.TryLoad(T defaultData) in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Storage\BinaryStorage.cs:line 42
+   at Flow.Launcher.Infrastructure.Image.ImageLoader.LoadStorageToConcurrentDictionary() in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Image\ImageLoader.cs:line 83
+   at Flow.Launcher.Infrastructure.Image.ImageLoader.Initialize() in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Image\ImageLoader.cs:line 41
+   at Flow.Launcher.App.<OnStartupAsync>b__14_0() in C:\projects\flow-launcher\Flow.Launcher\App.xaml.cs:line 61
+   at Flow.Launcher.Infrastructure.Stopwatch.NormalAsync(String message, Func`1 action) in C:\projects\flow-launcher\Flow.Launcher.Infrastructure\Stopwatch.cs:line 58
+   at Flow.Launcher.App.OnStartupAsync(Object sender, StartupEventArgs e) in C:\projects\flow-launcher\Flow.Launcher\App.xaml.cs:line 52
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+```
+
+## Environment
+* Command Line: C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.dll
+* Timestamp: 09/06/2023 09:26:30
+* Flow Launcher version: 1.15.0
+* OS Version: 19045.3324
+* IntPtr Length: 8
+* x64: True
+* Python Path: 
+* Node Path: 
+* CLR Version: 7.0.5
+* Installed .NET Framework: 
+   * v2.0.50727 2.0.50727.4927 SP2
+   * v3.0 3.0.30729.4926 SP2
+   * v3.5 3.5.30729.4926 SP1
+   * v4 Client 4.8.09037
+   * v4 Full 4.8.09037
+   * v4.0 Client 4.0.0.0
+
+## Assemblies - Flow.Launcher
+
+* System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.CoreLib.dll)
+* Flow.Launcher, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.dll)
+* PresentationFramework, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationFramework.dll)
+* WindowsBase, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\WindowsBase.dll)
+* System.Runtime, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.dll)
+* System.Xaml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xaml.dll)
+* System.Threading, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.dll)
+* System.IO.Pipes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.Pipes.dll)
+* System.Security.AccessControl, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.AccessControl.dll)
+* System.Security.Principal.Windows, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Principal.Windows.dll)
+* System.Runtime.InteropServices, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.InteropServices.dll)
+* System.Threading.ThreadPool, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.ThreadPool.dll)
+* System.Configuration.ConfigurationManager, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Configuration.ConfigurationManager.dll)
+* System.ObjectModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ObjectModel.dll)
+* Flow.Launcher.Core, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Core.dll)
+* Flow.Launcher.Infrastructure, Version=1.15.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Infrastructure.dll)
+* System.Collections, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.dll)
+* System.ComponentModel.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.Primitives.dll)
+* System.Private.Uri, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.Uri.dll)
+* PresentationCore, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationCore.dll)
+* System.Security.Cryptography, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.dll)
+* System.Collections.Concurrent, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Concurrent.dll)
+* System.Memory, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Memory.dll)
+* System.ComponentModel.TypeConverter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.TypeConverter.dll)
+* System.Xml.ReaderWriter, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xml.ReaderWriter.dll)
+* System.Private.Xml, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Private.Xml.dll)
+* System.Collections.Specialized, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Specialized.dll)
+* System.Net.WebClient, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.WebClient.dll)
+* System.ComponentModel.EventBasedAsync, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.EventBasedAsync.dll)
+* System.Text.Encoding.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Encoding.Extensions.dll)
+* System.Threading.Thread, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Threading.Thread.dll)
+* System.Runtime.Serialization.Formatters, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Serialization.Formatters.dll)
+* System.Xml.XmlSerializer, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Xml.XmlSerializer.dll)
+* System.IO.Packaging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.Packaging.dll)
+* DirectWriteForwarder, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\DirectWriteForwarder.dll)
+* System.Runtime.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Extensions.dll)
+* System.Diagnostics.Debug, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.Debug.dll)
+* System.Runtime.CompilerServices.VisualC, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.CompilerServices.VisualC.dll)
+* Microsoft.Win32.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.Primitives.dll)
+* System.Collections.NonGeneric, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.NonGeneric.dll)
+* Microsoft.Win32.Registry, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.Registry.dll)
+* System.Linq, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Linq.dll)
+* System.Diagnostics.TraceSource, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.TraceSource.dll)
+* System.Windows.Extensions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Windows.Extensions.dll)
+* System.ComponentModel, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.ComponentModel.dll)
+* ModernWpf, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\ModernWpf.dll)
+* System.Net.Requests, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Requests.dll)
+* System.Net.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Primitives.dll)
+* System.Net.WebHeaderCollection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.WebHeaderCollection.dll)
+* System.Runtime.Loader, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.Loader.dll)
+* Microsoft.Windows.SDK.NET, Version=10.0.19041.24, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Windows.SDK.NET.dll)
+* WinRT.Runtime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=99ea127f02d97709 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\WinRT.Runtime.dll)
+* Microsoft.Win32.SystemEvents, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Win32.SystemEvents.dll)
+* System.Runtime.CompilerServices.Unsafe, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Runtime.CompilerServices.Unsafe.dll)
+* System.Linq.Expressions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Linq.Expressions.dll)
+* System.Security.Cryptography.Algorithms, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Algorithms.dll)
+* System.Numerics.Vectors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Numerics.Vectors.dll)
+* System.Reflection.Emit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Reflection.Emit.dll)
+* Snippets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (dynamic assembly doesn't has location)
+* System.Security.Cryptography.Csp, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Csp.dll)
+* System.Security.Cryptography.Primitives, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Security.Cryptography.Primitives.dll)
+* UIAutomationTypes, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UIAutomationTypes.dll)
+* System.Diagnostics.Process, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.Process.dll)
+* PresentationFramework.Aero2, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\PresentationFramework.Aero2.dll)
+* ModernWpf.Controls, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\ModernWpf.Controls.dll)
+* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\mscorlib.dll)
+* Flow.Launcher.Plugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Flow.Launcher.Plugin.dll)
+* System.Text.Encoding.CodePages, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Encoding.CodePages.dll)
+* System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Text.Json.dll)
+* NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.dll)
+* netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\netstandard.dll)
+* System.Diagnostics.FileVersionInfo, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.FileVersionInfo.dll)
+* System.IO.FileSystem.Watcher, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.FileSystem.Watcher.dll)
+* System.Data.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Data.Common.dll)
+* System.Net.Mail, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Mail.dll)
+* System.Net.Sockets, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Net.Sockets.dll)
+* NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.Extensions.Logging.dll)
+* Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Extensions.Logging.Abstractions.dll)
+* Microsoft.Extensions.Logging, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\Microsoft.Extensions.Logging.dll)
+* NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\NLog.Web.AspNetCore.dll)
+* System.Diagnostics.StackTrace, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Diagnostics.StackTrace.dll)
+* System.Reflection.Metadata, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Reflection.Metadata.dll)
+* System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.Collections.Immutable.dll)
+* System.IO.MemoryMappedFiles, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\System.IO.MemoryMappedFiles.dll)
+
+09:28:23.8310+02:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+09:28:23.8310+02:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.15.0
+OS Version: 19045.3324
+IntPtr Length: 8
+x64: True
+09:28:29.1443+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <581ms>
+09:28:29.1443+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <85ms>
+09:28:29.1941+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <418ms>
+09:28:29.2007+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <113ms>
+09:28:29.3343+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <60ms>
+09:28:29.3343+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <224>
+09:28:29.3343+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <43>
+09:28:29.3467+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <411ms>
+09:28:29.8402+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <1033ms>
+09:28:29.8617+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <287ms>
+09:28:29.8617+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <141ms>
+09:28:29.8771+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <196ms>
+09:28:29.9242+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <239ms>
+09:28:30.0512+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <652ms>
+09:28:30.0571+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Favorites> is <136ms>
+09:28:30.0571+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <JetBrainsIDEProjects> is <90ms>
+09:28:30.3475+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <1645ms>
+09:28:30.7673+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <VS Code Workspaces> is <623ms>
+09:28:30.7869+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <925ms>
+09:28:30.9182+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Obsidian Notes> is <150ms>
+09:28:30.9182+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Window Services> is <127ms>
+09:28:30.9182+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <0ms>
+09:28:31.1042+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+09:28:31.1042+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+09:28:31.1042+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+09:28:31.1042+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:31.1042+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+09:28:31.1042+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:31.8171+02:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UserData\Environments\Python\PythonEmbeddable-v3.8.9\pythonw.exe
+Node Path: 
+09:28:32.9474+02:00 - INFO  - ImageLoader.Initialize - Preload images cost <8875ms>
+09:28:32.9509+02:00 - INFO  - ImageLoader.Initialize - Number of preload images is <70>, Images Number: 70, Unique Items 51
+09:28:39.5599+02:00 - INFO  - PluginsManifest.UpdateManifestAsync - Fetched plugins from manifest repo
+09:28:39.5914+02:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+09:28:39.5914+02:00 - INFO  - App.OnStartup - Startup cost <16547ms>
+09:28:39.6870+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPPRogram index cost <9844ms>
+09:28:39.9419+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:39.9419+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+09:28:39.9419+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:39.9419+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:39.9419+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+09:28:39.9419+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-complete.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-complete.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-complete.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-customize.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-customize.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-customize.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-debug.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-debug.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-debug.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-parallel.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-parallel.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-parallel.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-server.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-server.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-server.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-smtp.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-smtp.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-smtp.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9410+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibredb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibredb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibredb.exe
+Possible resolution: Not yet known
+09:28:43.9410+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9730+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9730+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Possible resolution: Not yet known
+09:28:43.9730+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9821+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:43.9821+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\current\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+09:28:43.9821+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Dolphin\Dolphin.exe
+InnerException number: 1
+Exception message: C:\Program Files\Dolphin\Dolphin.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Dolphin\Dolphin.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-convert.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-convert.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-convert.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-device.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-device.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-device.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-edit.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-edit.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-edit.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-meta.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-meta.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-meta.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-polish.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-polish.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-polish.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.0604+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-viewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-viewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-viewer.exe
+Possible resolution: Not yet known
+09:28:44.0604+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+09:28:44.1385+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Possible resolution: Not yet known
+09:28:44.1385+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Possible resolution: Not yet known
+09:28:44.1385+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:44.1385+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mozilla Firefox\firefox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mozilla Firefox\firefox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mozilla Firefox\firefox.exe
+Possible resolution: Not yet known
+09:28:44.1385+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:45.0723+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:45.0723+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Possible resolution: Not yet known
+09:28:45.0723+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5856+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5856+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Possible resolution: Not yet known
+09:28:46.5856+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5856+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrf2lrs.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrf2lrs.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrf2lrs.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrfviewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrfviewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrfviewer.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrs2lrf.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrs2lrf.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrs2lrf.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.5880+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\markdown-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\markdown-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\markdown-calibre.exe
+Possible resolution: Not yet known
+09:28:46.5880+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mountain Duck\Mountain Duck.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mountain Duck\Mountain Duck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mountain Duck\Mountain Duck.exe
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6536+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Possible resolution: Not yet known
+09:28:46.6536+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6674+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.6674+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\PDFsam Basic\pdfsam.exe
+InnerException number: 1
+Exception message: C:\Program Files\PDFsam Basic\pdfsam.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\PDFsam Basic\pdfsam.exe
+Possible resolution: Not yet known
+09:28:46.6674+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Possible resolution: Not yet known
+09:28:46.7062+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+09:28:46.7062+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.7062+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Possible resolution: Not yet known
+09:28:46.7062+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Possible resolution: Not yet known
+09:28:46.8099+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Possible resolution: Not yet known
+09:28:46.8099+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.8099+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+09:28:46.8099+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9409+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9409+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Waterfox\waterfox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Waterfox\waterfox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Waterfox\waterfox.exe
+Possible resolution: Not yet known
+09:28:46.9409+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9409+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9409+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\web2disk.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\web2disk.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\web2disk.exe
+Possible resolution: Not yet known
+09:28:46.9409+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9867+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:46.9867+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Possible resolution: Not yet known
+09:28:46.9867+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:47.2142+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:28:47.2142+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+09:28:47.2142+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:28:54.0323+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <16664ms>
+09:36:48.3671+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3671+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+09:36:48.3671+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3671+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3671+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+09:36:48.3671+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-complete.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-complete.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-complete.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-customize.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-customize.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-customize.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-debug.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-debug.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-debug.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-parallel.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-parallel.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-parallel.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-server.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-server.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-server.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-smtp.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-smtp.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-smtp.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibredb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibredb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibredb.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3748+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Possible resolution: Not yet known
+09:36:48.3748+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\current\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Dolphin\Dolphin.exe
+InnerException number: 1
+Exception message: C:\Program Files\Dolphin\Dolphin.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Dolphin\Dolphin.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-convert.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-convert.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-convert.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-device.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-device.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-device.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-edit.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-edit.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-edit.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-meta.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-meta.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-meta.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-polish.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-polish.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-polish.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-viewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-viewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-viewer.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mozilla Firefox\firefox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mozilla Firefox\firefox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mozilla Firefox\firefox.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.3863+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Possible resolution: Not yet known
+09:36:48.3863+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrf2lrs.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrf2lrs.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrf2lrs.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrfviewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrfviewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrfviewer.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrs2lrf.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrs2lrf.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrs2lrf.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\markdown-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\markdown-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\markdown-calibre.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mountain Duck\Mountain Duck.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mountain Duck\Mountain Duck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mountain Duck\Mountain Duck.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4021+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\PDFsam Basic\pdfsam.exe
+InnerException number: 1
+Exception message: C:\Program Files\PDFsam Basic\pdfsam.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\PDFsam Basic\pdfsam.exe
+Possible resolution: Not yet known
+09:36:48.4021+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Possible resolution: Not yet known
+09:36:48.4269+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+09:36:48.4269+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Possible resolution: Not yet known
+09:36:48.4269+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4269+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Possible resolution: Not yet known
+09:36:48.4269+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Possible resolution: Not yet known
+09:36:48.4338+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+09:36:48.4338+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Waterfox\waterfox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Waterfox\waterfox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Waterfox\waterfox.exe
+Possible resolution: Not yet known
+09:36:48.4338+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\web2disk.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\web2disk.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\web2disk.exe
+Possible resolution: Not yet known
+09:36:48.4338+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4338+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Possible resolution: Not yet known
+09:36:48.4338+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4577+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+09:36:48.4577+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+09:36:48.4577+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:29.2373+02:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+12:34:29.2373+02:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.15.0
+OS Version: 19045.3324
+IntPtr Length: 8
+x64: True
+12:34:30.1972+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <68ms>
+12:34:30.2109+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <11ms>
+12:34:30.3092+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <205ms>
+12:34:30.3092+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <10ms>
+12:34:30.3872+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <184ms>
+12:34:30.3872+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <20ms>
+12:34:30.3872+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <224>
+12:34:30.3872+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <43>
+12:34:30.4984+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <205ms>
+12:34:30.5172+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <63ms>
+12:34:30.5172+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <6ms>
+12:34:30.5172+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <38ms>
+12:34:30.5681+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <51ms>
+12:34:30.6669+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <103ms>
+12:34:30.6669+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Favorites> is <12ms>
+12:34:30.6669+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <JetBrainsIDEProjects> is <5ms>
+12:34:30.8026+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shortcuts> is <136ms>
+12:34:30.9010+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <VS Code Workspaces> is <105ms>
+12:34:30.9108+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Obsidian Notes> is <9ms>
+12:34:30.9176+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Window Services> is <3ms>
+12:34:30.9176+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Startup> is <0ms>
+12:34:30.9741+02:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <852ms>
+12:34:31.1676+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+12:34:31.1676+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+12:34:31.1676+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+12:34:31.1676+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:31.1676+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+12:34:31.1676+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:31.5518+02:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: C:\ProgramData\scoop\apps\flow-launcher\current\app-1.15.0\UserData\Environments\Python\PythonEmbeddable-v3.8.9\pythonw.exe
+Node Path: 
+12:34:33.0397+02:00 - INFO  - PluginsManifest.UpdateManifestAsync - Fetched plugins from manifest repo
+12:34:34.2183+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2183+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x64.exe
+Possible resolution: Not yet known
+12:34:34.2183+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2183+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2183+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+InnerException number: 1
+Exception message: C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\ProgramData\chocolatey\lib\apimonitor\tools\apimonitor-x86.exe
+Possible resolution: Not yet known
+12:34:34.2183+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2755+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2755+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-complete.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-complete.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-complete.exe
+Possible resolution: Not yet known
+12:34:34.2755+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-customize.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-customize.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-customize.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-debug.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-debug.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-debug.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-eject.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\calibre-file-dialog.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-parallel.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-parallel.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-parallel.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-server.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-server.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-server.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre-smtp.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre-smtp.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre-smtp.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibre.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.2759+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\calibredb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\calibredb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\calibredb.exe
+Possible resolution: Not yet known
+12:34:34.2759+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3144+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3144+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\cjpeg-calibre.exe
+Possible resolution: Not yet known
+12:34:34.3144+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: Cyberduck.exe
+InnerException number: 1
+Exception message: C:\ProgramData\scoop\apps\flow-launcher\current\Cyberduck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from Cyberduck.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Dolphin\Dolphin.exe
+InnerException number: 1
+Exception message: C:\Program Files\Dolphin\Dolphin.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Dolphin\Dolphin.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-convert.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-convert.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-convert.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-device.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-device.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-device.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-edit.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-edit.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-edit.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-meta.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-meta.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-meta.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-polish.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-polish.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-polish.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3244+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\ebook-viewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\ebook-viewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\ebook-viewer.exe
+Possible resolution: Not yet known
+12:34:34.3244+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Everything\Everything.exe
+InnerException number: 1
+Exception message: C:\Program Files\Everything\Everything.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Everything\Everything.exe
+Possible resolution: Not yet known
+12:34:34.3425+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+Possible resolution: Not yet known
+12:34:34.3425+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3425+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\fetch-ebook-metadata.exe
+Possible resolution: Not yet known
+12:34:34.3425+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3592+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3592+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mozilla Firefox\firefox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mozilla Firefox\firefox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mozilla Firefox\firefox.exe
+Possible resolution: Not yet known
+12:34:34.3592+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3874+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3874+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\jpegtran-calibre.exe
+Possible resolution: Not yet known
+12:34:34.3874+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3874+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.3874+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\JXRDecApp-calibre.exe
+Possible resolution: Not yet known
+12:34:34.3874+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\LockHunter\lockhunter.exe
+InnerException number: 1
+Exception message: C:\Program Files\LockHunter\lockhunter.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\LockHunter\lockhunter.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrf2lrs.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrf2lrs.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrf2lrs.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrfviewer.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrfviewer.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrfviewer.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\lrs2lrf.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\lrs2lrf.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\lrs2lrf.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\Lync.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4010+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\markdown-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\markdown-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\markdown-calibre.exe
+Possible resolution: Not yet known
+12:34:34.4010+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Mountain Duck\Mountain Duck.exe
+InnerException number: 1
+Exception message: C:\Program Files\Mountain Duck\Mountain Duck.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Mountain Duck\Mountain Duck.exe
+Possible resolution: Not yet known
+12:34:34.4207+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSACCESS.EXE
+Possible resolution: Not yet known
+12:34:34.4207+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoadfsb.exe
+Possible resolution: Not yet known
+12:34:34.4207+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4207+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\msoasb.exe
+Possible resolution: Not yet known
+12:34:34.4207+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\MSPUB.EXE
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\tools\NirLauncher\nirlauncher.exe
+InnerException number: 1
+Exception message: C:\tools\NirLauncher\nirlauncher.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\tools\NirLauncher\nirlauncher.exe
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\ONENOTE.EXE
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\optipng-calibre.exe
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\OUTLOOK.EXE
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4323+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\PDFsam Basic\pdfsam.exe
+InnerException number: 1
+Exception message: C:\Program Files\PDFsam Basic\pdfsam.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\PDFsam Basic\pdfsam.exe
+Possible resolution: Not yet known
+12:34:34.4323+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\POWERPNT.EXE
+Possible resolution: Not yet known
+12:34:34.4870+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Python27\Python.exe
+InnerException number: 1
+Exception message: C:\Python27\Python.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Python27\Python.exe
+Possible resolution: Not yet known
+12:34:34.4870+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.4870+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\app\bin\QtWebEngineProcess.exe
+Possible resolution: Not yet known
+12:34:34.4870+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5648+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5648+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\SkypeSrv\SKYPESERVER.EXE
+Possible resolution: Not yet known
+12:34:34.5648+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5749+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5749+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+InnerException number: 1
+Exception message: C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\TortoiseSVN\bin\SubWCRev.exe
+Possible resolution: Not yet known
+12:34:34.5749+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5749+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.5749+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\SumatraPDF\SumatraPDF.exe
+Possible resolution: Not yet known
+12:34:34.5749+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6139+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6139+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Waterfox\waterfox.exe
+InnerException number: 1
+Exception message: C:\Program Files\Waterfox\waterfox.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Waterfox\waterfox.exe
+Possible resolution: Not yet known
+12:34:34.6139+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6139+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6139+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Calibre2\web2disk.exe
+InnerException number: 1
+Exception message: C:\Program Files\Calibre2\web2disk.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Calibre2\web2disk.exe
+Possible resolution: Not yet known
+12:34:34.6139+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6897+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.6897+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+InnerException number: 1
+Exception message: C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Program Files\Microsoft Office\Root\Office16\WINWORD.EXE
+Possible resolution: Not yet known
+12:34:34.6897+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.7131+02:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+12:34:34.7131+02:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: ExeProgram
+Program path: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+InnerException number: 1
+Exception message: C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Exception error type: HResult -2147024894
+Exception thrown in called method: System.Diagnostics.FileVersionInfo GetVersionInfo(System.String)
+Possible interpretation of the error: File not found when trying to load the program from C:\Users\Användaren\AppData\Local\Vivaldi\Application\vivaldi.exe
+Possible resolution: Not yet known
+12:34:34.7131+02:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+12:34:34.8026+02:00 - INFO  - ImageLoader.Initialize - Preload images cost <5448ms>
+12:34:34.8082+02:00 - INFO  - ImageLoader.Initialize - Number of preload images is <59>, Images Number: 59, Unique Items 46
+12:34:34.9925+02:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+12:34:34.9925+02:00 - INFO  - App.OnStartup - Startup cost <5961ms>
+12:34:35.0315+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPPRogram index cost <4530ms>
+12:34:35.8855+02:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <1705ms>
