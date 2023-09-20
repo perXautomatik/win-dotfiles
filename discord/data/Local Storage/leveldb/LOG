@@ -1,6 +1,0 @@
-2023/06/01-17:09:01.716 1ac Reusing MANIFEST C:\Users\chris\scoop\apps\discord\current\data\Local Storage\leveldb/MANIFEST-000001
-2023/06/01-17:09:01.719 1ac Recovering log #4
-2023/06/01-17:09:01.721 1ac Reusing old log C:\Users\chris\scoop\apps\discord\current\data\Local Storage\leveldb/000004.log 
-2023/06/01-17:24:20.941 46c8 Level-0 table #8: started
-2023/06/01-17:24:20.973 46c8 Level-0 table #8: 1637454 bytes OK
-2023/06/01-17:24:20.980 46c8 Delete type=0 #4
