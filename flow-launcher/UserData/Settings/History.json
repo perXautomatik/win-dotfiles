@@ -1,3 +1,76 @@
 {
-  "Items": []
+  "Items": [
+    {
+      "Query": "pm install Shortcuts",
+      "ExecutedDateTime": "2023-08-21T13:53:53.4347436+02:00"
+    },
+    {
+      "Query": "pm install JetBrainsIDEProjects",
+      "ExecutedDateTime": "2023-08-21T13:54:53.8012928+02:00"
+    },
+    {
+      "Query": "pm install Favorites",
+      "ExecutedDateTime": "2023-08-21T13:56:25.9978344+02:00"
+    },
+    {
+      "Query": "pm install Windows Startup",
+      "ExecutedDateTime": "2023-08-21T13:57:14.4002193+02:00"
+    },
+    {
+      "Query": "pm install Window Services",
+      "ExecutedDateTime": "2023-08-21T14:12:27.3778358+02:00"
+    },
+    {
+      "Query": "smart",
+      "ExecutedDateTime": "2023-08-21T14:12:46.1711841+02:00"
+    },
+    {
+      "Query": "pm install VS Code Workspaces",
+      "ExecutedDateTime": "2023-08-21T15:14:26.3416674+02:00"
+    },
+    {
+      "Query": "pm install Obsidian Notes",
+      "ExecutedDateTime": "2023-08-21T15:15:05.2817777+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-08-21T15:17:44.9189992+02:00"
+    },
+    {
+      "Query": "every",
+      "ExecutedDateTime": "2023-08-21T15:19:33.6698068+02:00"
+    },
+    {
+      "Query": "power",
+      "ExecutedDateTime": "2023-08-21T15:23:47.6020391+02:00"
+    },
+    {
+      "Query": "bcomp",
+      "ExecutedDateTime": "2023-08-21T15:59:17.5069997+02:00"
+    },
+    {
+      "Query": "power",
+      "ExecutedDateTime": "2023-08-22T14:30:12.9895206+02:00"
+    },
+    {
+      "Query": "obsid",
+      "ExecutedDateTime": "2023-09-06T09:28:53.3225149+02:00"
+    },
+    {
+      "Query": "auto",
+      "ExecutedDateTime": "2023-09-06T09:29:03.4351512+02:00"
+    },
+    {
+      "Query": "power",
+      "ExecutedDateTime": "2023-09-06T11:02:36.8759934+02:00"
+    },
+    {
+      "Query": "obs",
+      "ExecutedDateTime": "2023-09-06T12:34:46.171486+02:00"
+    },
+    {
+      "Query": "auto",
+      "ExecutedDateTime": "2023-09-06T12:44:32.0660648+02:00"
+    }
+  ]
 }
