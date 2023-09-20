@@ -1,0 +1,129 @@
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:118 > --------
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:119 > Operating System: Windows 10.0.19045
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:120 > Starting Discord 1.0.9010-15 (portapps 3.7.0)...
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:121 > Release date: 2023/02/12 18:42:05
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:122 > Publisher: CrazyMax (https://github.com/portapps/discord-portable)
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:123 > Root path: C:\Users\chris\scoop\apps\discord\current
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:127 > Configuration:
+common:
+    disable_log: false
+    args: []
+    env: {}
+    app_path: ""
+app:
+    cleanup: false
+
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:168 > Process: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:169 > Args (config file): 
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:170 > Args (cmd line): 
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:171 > Args (hardcoded): --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:172 > Working dir: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:173 > App path: C:\Users\chris\scoop\apps\discord\current\app
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:174 > Data path: C:\Users\chris\scoop\apps\discord\current\data
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:175 > Previous path: 
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:181 > Launching Discord
+Mon, 22 May 2023 11:40:29 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:191 > Exec C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+
+Discord 1.0.9010
+Starting app.
+Starting updater.
+Optional module ./ElectronTestRpc was not included.
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:118 > --------
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:119 > Operating System: Windows 10.0.19045
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:120 > Starting Discord 1.0.9010-15 (portapps 3.7.0)...
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:121 > Release date: 2023/02/12 18:42:05
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:122 > Publisher: CrazyMax (https://github.com/portapps/discord-portable)
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:123 > Root path: C:\Users\chris\scoop\apps\discord\current
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:127 > Configuration:
+common:
+    disable_log: false
+    args: []
+    env: {}
+    app_path: ""
+app:
+    cleanup: false
+
+Wed, 24 May 2023 10:20:59 CEST INF D:/a/discord-portable/discord-portable/main.go:77 > Update settings...
+Wed, 24 May 2023 10:20:59 CEST INF D:/a/discord-portable/discord-portable/main.go:84 > Current settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Wed, 24 May 2023 10:20:59 CEST INF D:/a/discord-portable/discord-portable/main.go:88 > New settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:168 > Process: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:169 > Args (config file): 
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:170 > Args (cmd line): 
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:171 > Args (hardcoded): --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:172 > Working dir: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:173 > App path: C:\Users\chris\scoop\apps\discord\current\app
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:174 > Data path: C:\Users\chris\scoop\apps\discord\current\data
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:175 > Previous path: 
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:181 > Launching Discord
+Wed, 24 May 2023 10:20:59 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:191 > Exec C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+
+Discord 1.0.9010
+Starting app.
+Starting updater.
+Optional module ./ElectronTestRpc was not included.
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:118 > --------
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:119 > Operating System: Windows 10.0.19045
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:120 > Starting Discord 1.0.9010-15 (portapps 3.7.0)...
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:121 > Release date: 2023/02/12 18:42:05
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:122 > Publisher: CrazyMax (https://github.com/portapps/discord-portable)
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:123 > Root path: C:\Users\chris\scoop\apps\discord\current
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:127 > Configuration:
+common:
+    disable_log: false
+    args: []
+    env: {}
+    app_path: ""
+app:
+    cleanup: false
+
+Thu, 01 Jun 2023 10:47:20 CEST INF D:/a/discord-portable/discord-portable/main.go:77 > Update settings...
+Thu, 01 Jun 2023 10:47:20 CEST INF D:/a/discord-portable/discord-portable/main.go:84 > Current settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Thu, 01 Jun 2023 10:47:20 CEST INF D:/a/discord-portable/discord-portable/main.go:88 > New settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:168 > Process: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:169 > Args (config file): 
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:170 > Args (cmd line): 
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:171 > Args (hardcoded): --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:172 > Working dir: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:173 > App path: C:\Users\chris\scoop\apps\discord\current\app
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:174 > Data path: C:\Users\chris\scoop\apps\discord\current\data
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:175 > Previous path: 
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:181 > Launching Discord
+Thu, 01 Jun 2023 10:47:20 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:191 > Exec C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+
+Discord 1.0.9010
+Starting app.
+Starting updater.
+Optional module ./ElectronTestRpc was not included.
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:118 > --------
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:119 > Operating System: Windows 10.0.19045
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:120 > Starting Discord 1.0.9010-15 (portapps 3.7.0)...
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:121 > Release date: 2023/02/12 18:42:05
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:122 > Publisher: CrazyMax (https://github.com/portapps/discord-portable)
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:123 > Root path: C:\Users\chris\scoop\apps\discord\current
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:127 > Configuration:
+common:
+    disable_log: false
+    args: []
+    env: {}
+    app_path: ""
+app:
+    cleanup: false
+
+Thu, 01 Jun 2023 17:08:55 CEST INF D:/a/discord-portable/discord-portable/main.go:77 > Update settings...
+Thu, 01 Jun 2023 17:08:55 CEST INF D:/a/discord-portable/discord-portable/main.go:84 > Current settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Thu, 01 Jun 2023 17:08:55 CEST INF D:/a/discord-portable/discord-portable/main.go:88 > New settings settings={"IS_MAXIMIZED":false,"IS_MINIMIZED":false,"SKIP_HOST_UPDATE":true,"USE_PINNED_UPDATE_MANIFEST":true,"WINDOW_BOUNDS":{"height":720,"width":1280,"x":128,"y":52}}
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:168 > Process: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:169 > Args (config file): 
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:170 > Args (cmd line): 
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:171 > Args (hardcoded): --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:172 > Working dir: C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:173 > App path: C:\Users\chris\scoop\apps\discord\current\app
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:174 > Data path: C:\Users\chris\scoop\apps\discord\current\data
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:175 > Previous path: 
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:181 > Launching Discord
+Thu, 01 Jun 2023 17:08:55 CEST INF ..\..\..\..\..\runneradmin\go\pkg\mod\github.com\portapps\portapps\v3@v3.7.0\portapps.go:191 > Exec C:\Users\chris\scoop\apps\discord\current\app\app-1.0.9010\Discord.exe --user-data-dir=C:\Users\chris\scoop\apps\discord\current\data
+
+Discord 1.0.9010
+Starting app.
+Starting updater.
+Optional module ./ElectronTestRpc was not included.
