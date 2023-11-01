@@ -125,3 +125,37 @@ _main() {     check_env;     set_env;     create_doltlab_network_if_not_exists; 
 _main
 which astextplain
 pacman -Q git-extra
+#!/bin/bash
+git add --all
+git commit -am "Changed file $*, Auto-Commit V0.1"
+git push
+& proteus-installer-for-windows.exe
+- proteus-installer-for-windows.exe
+. proteus-installer-for-windows.exe
+ls
+. Proteus-installer-for-Windows.exe
+#!/bin/bash
+# ---------------------------------------------------
+# Script to create bootable ISO in Linux
+# usage: make_iso.sh [ /tmp/porteus.iso ]
+# author: Tomas M. <http://www.linux-live.org>
+# updated for Porteus by fanthom <http://www.porteus.org>
+# ---------------------------------------------------
+if [ "$1" = "--help" -o "$1" = "-h" ]; then   echo "This script will create bootable ISO from files in curent directory.";   echo "Current directory must be writable.";   echo "example: $0 /mnt/sda5/porteus.iso";   exit; fi
+CDLABEL="Porteus"
+ISONAME=$(readlink -f "$1")
+cd $(dirname $0)
+if [ "$ISONAME" = "" ]; then    SUGGEST=$(readlink -f ../../$(basename $(pwd)).iso);    echo -ne "Target ISO file name [ Hit enter for $SUGGEST ]: ";    read ISONAME;    if [ "$ISONAME" = "" ]; then ISONAME="$SUGGEST"; fi; fi
+mkisofs -o "$ISONAME" -v -l -J -joliet-long -R -D -A "$CDLABEL" -V "$CDLABEL" -no-emul-boot -boot-info-table -boot-load-size 4 -b boot/syslinux/isolinux.bin -c boot/syslinux/isolinux.boot ../.
+mkisofs -o "$ISONAME" -v -l -J -joliet-long -R -D -A "$CDLABEL" -V "$CDLABEL" -no-emul-boot -boot-info-table -boot-load-size 4 -b boot/syslinux/isolinux.bin -c boot/syslinux/isolinux.boot ../.
+bash Proteus-installer-for-Linux.com
+ls
+cd boot
+bash Proteus-installer-for-Linux.com
+ls
+bash Proteus-installer-for-Linux.com
+. Proteus-installer-for-Linux.com
+. Porteus-installer-for-Linux.com
+bash Porteus-installer-for-Linux.com
+bash Porteus-installer-for-windows.exe
+. Porteus-installer-for-windows.exe
