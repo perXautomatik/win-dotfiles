@@ -24,8 +24,8 @@
 	guitool = bc
 	tool = bc
 [difftool "bc"]
-	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
-	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+	cmd = bcomp \"$LOCAL\" \"$REMOTE\"
+	path = BComp
 [fetch]
 	prune = false
 [filter "lfs"]
@@ -48,10 +48,10 @@
 	guitool = bc
 	tool = bc
 [merge "bc"]
-	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+	path = BComp
 [mergetool "bc"]
-	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
-	path = C:\\Program Files\\Beyond Compare 4\\BComp.exe
+	cmd = bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	path = BComp
 [pack]
 	SizeLimit = 100m
 	threads = 1
