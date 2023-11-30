@@ -5,14 +5,20 @@ Persistent(true)
 
 #Include common.ahk
 
+; CONTROLS
+; #	Win (Windows logo key)
+; !	Alt
+; ^	Ctrl
+; +	Shift
+; &	An ampersand may be used between any two keys or mouse buttons to combine them into a custom hotkey.
 
-; Increase Opacity, Win + WheelUp
+; Increase Opacity, Alt + Win + WheelUp
 !#WheelUp::
 {
     OpacityWindows("up")
 }
 
-; Decrease Opacity, Win + WheelDown
+; Decrease Opacity, Alt + Win + WheelDown
 !#WheelDown::
 {
     OpacityWindows("down")
@@ -20,6 +26,9 @@ Persistent(true)
 
 OpacityWindows(mode := "none") {
     DetectHiddenWindows(true)
+    if (!WinExist("A"))
+        return
+
     curtrans := WinGetTransparent("A")
     if !curtrans
         curtrans := "255"
