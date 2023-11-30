@@ -1,8 +1,10 @@
 {
-  "LastIndexTime": "2023-09-19T00:00:00+02:00",
+  "LastIndexTime": "2023-11-27T08:49:02.0484571+01:00",
   "ProgramSources": [],
   "DisabledProgramSources": [],
-  "CustomSuffixes": [],
+  "CustomSuffixes": [
+    "msc"
+  ],
   "CustomProtocols": [],
   "BuiltinSuffixesStatus": {
     "exe": true,
@@ -10,18 +12,16 @@
     "lnk": true
   },
   "BuiltinProtocolsStatus": {
-    "steam": true,
+    "steam": false,
     "epic": true,
-    "http": false
+    "http": true
   },
-  "UseCustomSuffixes": false,
+  "UseCustomSuffixes": true,
   "UseCustomProtocols": false,
   "EnableStartMenuSource": true,
   "EnableDescription": true,
   "HideAppsPath": true,
   "EnableRegistrySource": true,
   "EnablePathSource": true,
-  "EnableUWP": true,
-  "CustomizedExplorer": "explorer",
-  "CustomizedArgs": "%s"
+  "EnableUWP": true
 }
