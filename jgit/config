@@ -1,0 +1,3 @@
+[filesystem "Azul Systems, Inc.|17.0.2|-1068996431"]
+	timestampResolution = 2998 microseconds
+	minRacyThreshold = 0 nanoseconds
