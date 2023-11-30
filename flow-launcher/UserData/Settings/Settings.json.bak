@@ -24,8 +24,8 @@
   "TimeFormat": "hh:mm tt",
   "DateFormat": "MM\u0027/\u0027dd ddd",
   "FirstLaunch": false,
-  "SettingWindowWidth": 1000,
-  "SettingWindowHeight": 700,
+  "SettingWindowWidth": 160,
+  "SettingWindowHeight": 28,
   "SettingWindowTop": 0,
   "SettingWindowLeft": 0,
   "SettingWindowState": 0,
@@ -105,7 +105,7 @@
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
   "MaxResultsToShow": 5,
-  "ActivateTimes": 33,
+  "ActivateTimes": 8,
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -127,10 +127,11 @@
     "Password": null
   },
   "LastQueryMode": "Selected",
+  "AnimationSpeed": "Medium",
+  "CustomAnimationLength": 360,
   "PluginSettings": {
-    "PythonExecutablePath": "C:\\ProgramData\\scoop\\apps\\flow-launcher\\1.15.0\\app-1.15.0\\UserData\\Environments\\Python\\PythonEmbeddable-v3.8.9\\pythonw.exe",
+    "PythonExecutablePath": "",
     "NodeExecutablePath": "",
-    "PythonDirectory": null,
     "Plugins": {
       "0ECADE17459B49F587BF81DC3A125110": {
         "ID": "0ECADE17459B49F587BF81DC3A125110",
@@ -140,7 +141,7 @@
           "b"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "CEA0FDFC6D3B4085823D60DC76F28855": {
         "ID": "CEA0FDFC6D3B4085823D60DC76F28855",
@@ -150,7 +151,7 @@
           "*"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "572be03c74c642baae319fc283e561a8": {
         "ID": "572be03c74c642baae319fc283e561a8",
@@ -164,7 +165,7 @@
           "*"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "6A122269676E40EB86EB543B945932B9": {
         "ID": "6A122269676E40EB86EB543B945932B9",
@@ -272,76 +273,6 @@
         "Version": "4.0.2",
         "ActionKeywords": [
           "s"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "661D020D-4E0B-414B-B12B-58F795A20D79": {
-        "ID": "661D020D-4E0B-414B-B12B-58F795A20D79",
-        "Name": "Shortcuts",
-        "Version": "1.0.4",
-        "ActionKeywords": [
-          "q"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "E1E3DB9C-632D-4187-A5B4-EED6E09CACA7": {
-        "ID": "E1E3DB9C-632D-4187-A5B4-EED6E09CACA7",
-        "Name": "JetBrainsIDEProjects",
-        "Version": "2.0.0",
-        "ActionKeywords": [
-          "jb"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "D0DB38F5-0199-4DFC-8A8D-1B22F68C157C": {
-        "ID": "D0DB38F5-0199-4DFC-8A8D-1B22F68C157C",
-        "Name": "Favorites",
-        "Version": "1.5.0",
-        "ActionKeywords": [
-          "*"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "747F1A93B6D24CCFBC433BA2455B3BEA": {
-        "ID": "747F1A93B6D24CCFBC433BA2455B3BEA",
-        "Name": "Windows Startup",
-        "Version": "1.0.2",
-        "ActionKeywords": [
-          "wst"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "C7E78C47FA5942E4B7972EAD844F5007": {
-        "ID": "C7E78C47FA5942E4B7972EAD844F5007",
-        "Name": "Window Services",
-        "Version": "1.1.5",
-        "ActionKeywords": [
-          "ws"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "525995402BEF4A8CA860D92F6D108092": {
-        "ID": "525995402BEF4A8CA860D92F6D108092",
-        "Name": "VS Code Workspaces",
-        "Version": "1.3.0",
-        "ActionKeywords": [
-          "{"
-        ],
-        "Priority": 0,
-        "Disabled": false
-      },
-      "F0DC45CD032F438C9B900679BD9B117A": {
-        "ID": "F0DC45CD032F438C9B900679BD9B117A",
-        "Name": "Obsidian Notes",
-        "Version": "1.1.4",
-        "ActionKeywords": [
-          "ob"
         ],
         "Priority": 0,
         "Disabled": false

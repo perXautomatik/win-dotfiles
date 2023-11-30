@@ -1,0 +1,162 @@
+07:42:39.3776+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:42:39.3776+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+07:42:39.3776+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:42:39.5580+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:42:39.5580+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+07:42:39.5580+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+07:42:43.2012+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+07:42:43.2012+01:00 - ERROR -  - 
+Exception full name: System.AggregateException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 1
+Exception message: One or more errors occurred. (Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.)
+Exception error type: HResult -2146233088
+Exception thrown in called method: Void QueryEnd(Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Not yet known
+07:42:43.2012+01:00 - ERROR -  - 
+Exception full name: System.IO.DirectoryNotFoundException
+Error status: KNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 2
+Exception message: Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.
+Exception error type: HResult -2147024893
+Exception thrown in called method: IntPtr CreateDirectoryHandle(System.String, Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+07:42:43.2012+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:03:29.1220+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:03:29.1229+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+13:03:29.1229+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:03:29.4167+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:03:29.4167+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+13:03:29.4167+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:03:40.1400+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:03:40.1400+01:00 - ERROR -  - 
+Exception full name: System.AggregateException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 1
+Exception message: One or more errors occurred. (Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.)
+Exception error type: HResult -2146233088
+Exception thrown in called method: Void QueryEnd(Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Not yet known
+13:03:40.1400+01:00 - ERROR -  - 
+Exception full name: System.IO.DirectoryNotFoundException
+Error status: KNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 2
+Exception message: Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.
+Exception error type: HResult -2147024893
+Exception thrown in called method: IntPtr CreateDirectoryHandle(System.String, Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:03:40.1400+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:05:15.5174+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:05:15.5174+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+13:05:15.5174+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:05:15.5562+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:05:15.5562+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+13:05:15.5562+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+13:05:15.9486+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+13:05:15.9486+01:00 - ERROR -  - 
+Exception full name: System.AggregateException
+Error status: UNKNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 1
+Exception message: One or more errors occurred. (Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.)
+Exception error type: HResult -2146233088
+Exception thrown in called method: Void QueryEnd(Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Not yet known
+13:05:15.9486+01:00 - ERROR -  - 
+Exception full name: System.IO.DirectoryNotFoundException
+Error status: KNOWN
+Class name: Win32
+Calling method: All
+Program path: Not available
+InnerException number: 2
+Exception message: Could not find a part of the path 'C:\Users\Användaren\scoop\apps\python\current\Scripts'.
+Exception error type: HResult -2147024893
+Exception thrown in called method: IntPtr CreateDirectoryHandle(System.String, Boolean)
+Possible interpretation of the error: An unexpected error occurred
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+13:05:15.9486+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------

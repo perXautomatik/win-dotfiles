@@ -1,168 +1,125 @@
-﻿#Requires AutoHotkey v2.0.2
 #SingleInstance Force
-#Warn All, Off
+#WinActivateForce
 
-DetectHiddenWindows("On")
-ProcessSetPriority("High")
-Persistent(true)
-SendMode("Input")
-SetWorkingDir(A_ScriptDir)
+; You can generate a fresh version of this file with "komorebic ahk-library"
+#Include %A_ScriptDir%\komorebic.lib.ahk
+; https://github.com/LGUG2Z/komorebi/#generating-common-application-specific-configurations
+#Include %A_ScriptDir%\komorebi.generated.ahk
 
-#Include ahk/common.ahk
-#Include ahk/opacityWindows.ahk
-#Include ahk/apps.ahk
-; #Include ahk/minWindowed.ahk
+; Default to minimizing windows when switching workspaces
+WindowHidingBehaviour("minimize")
 
-writeLog("[Komorebi] Starting...")
-#Include komorebic.lib.ahk
+; Set cross-monitor move behaviour to insert instead of swap
+CrossMonitorMoveBehaviour("insert")
 
-containerPadAmount := 12
-workspacePadAmount := 12
-workspaceCount := 9
-monitorCount := MonitorGetCount()
-;writeLog("[Komorebi] Workspace count: " workspaceCount)
-;writeLog("[Komorebi] Monitor count: " monitorCount "`n")
+; Enable hot reloading of changes to this file
+WatchConfiguration("enable")
 
-OnExit(OnExiting)
-OnExiting(exit_reason, exit_code) {
-    if (exit_reason == "Menu") {
-        writeLog("[AutoHotkey] Exited, gracefully stop komorebi... " exit_code)
+; Ensure there is 1 workspace created on monitor 0
+EnsureWorkspaces(0, 1)
 
-        KomorebiStop()
-        ExitApp(exit_code)
-    } else {
-        writeLog("[AutoHotkey] komorebi.ahk is restarting...")
-    }
-}
+; Configure the invisible border dimensions
+; InvisibleBorders(7, 0, 14, 7)
 
-KomorebiStart() {
-	; RunWait('powershell -NoProfile -ExecutionPolicy Bypass -Command ". ' A_ScriptDir '\komorebi.generated.ps1"', , "Hide")
+; Configure the 1st workspace
+WorkspaceName(0, 0, "I")
 
-    ; InvisibleBorders(7, 0, 14, 7)
-    ; ActiveWindowBorderColour(255, 219, 153, "single")
-    ; ActiveWindowBorderColour(153, 158, 255, "stack")
-    ; ActiveWindowBorderColour(160, 255, 153, "monocle")
-    ; ActiveWindowBorderWidth("12")
-    ; ActiveWindowBorderOffset("-- -4")
-    ; ActiveWindowBorder("disable")
+; Uncomment the next two lines if you want a visual border drawn around the focused window
+ActiveWindowBorderColour(66, 165, 245, "single") ; this is a nice blue colour
+ActiveWindowBorder("enable")
 
-    ; https://github.com/sitiom/dotfiles/blob/main/chezmoi/komorebi.ahk#L20-L28
-    Loop monitorCount {
-        monitorIndex := A_Index - 1
-        EnsureWorkspaces(monitorIndex, workspaceCount)
-        Loop workspaceCount {
-            workspaceIndex := A_Index - 1
-            ContainerPadding(monitorIndex, workspaceIndex, containerPadAmount)
-            WorkspacePadding(monitorIndex, workspaceIndex, workspacePadAmount)
-        }
-    }
+; Allow komorebi to start managing windows
+CompleteConfiguration()
 
-    writeLog("[Komorebi] Started!")
-}
+MouseFollowsFocus("disable")
 
+!o::ToggleMouseFollowsFocus()
 
-KomorebiStop() {
-    if ProcessExist("komorebi.exe") {
-        writeLog("[Komorebi] Stopping...")
-        RestoreWindows()
-        Retile()
-        Sleep(3000)
-        Stop()
-        RunWait('powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Process | Where-Object { $_.Name -eq "komorebi" } | Stop-Process"')
-        writeLog("[Komorebi] Stopped!")
-    }
-}
+; Change the focused window
+!h::Focus("left")
+!j::Focus("down")
+!k::Focus("up")
+!l::Focus("right")
 
-KomorebiStart()
+; Move the focused window in a given direction
+!^h::Move("left")
+!^j::Move("down")
+!^k::Move("up")
+!^l::Move("right")
 
-; CONTROLS
-; #	Win (Windows logo key)
-; !	Alt
-; ^	Ctrl
-; +	Shift
-; &	An ampersand may be used between any two keys or mouse buttons to combine them into a custom hotkey.
+; Move the focused window in a given direction
+!+h::ResizeAxis("horizontal", "decrease")
+!+l::ResizeAxis("horizontal", "increase")
+!+j::ResizeAxis("vertical", "increase")
+!+k::ResizeAxis("vertical", "decrease")
 
-Loop workspaceCount {
-    ; Switch to workspace,  Alt + 1~9
-    Hotkey("!" A_Index, (key) => writeLog("[Komorebi] Switch workspace No. " Integer(SubStr(key, 2)))
-        FocusWorkspace(Integer(SubStr(key, 2)) - 1)
-        , "On")
-    ; Move window to workspace, Alt + Shift + 1~9
-    Hotkey("!+" A_Index, (key) => writeLog("[Komorebi] Move window to workspace No. " Integer(SubStr(key, 3)))
-        MoveToWorkspace(Integer(SubStr(key, 3)) - 1)
-        , "On")
-}
+; Stack the focused window in a given direction
+^!+h::Stack("left")
+^!+l::Stack("right")
+^!+k::Stack("up")
+^!+j::Stack("down")
 
-; Focus window, Alt + Shift + (H, J, K, L)
-!h:: Focus("left")
-!j:: Focus("down")
-!k:: Focus("up")
-!l:: Focus("right")
+; Cycle stack
+!]::CycleStack("next")
+![::CycleStack("previous")
 
-; Cycle Focus window, Alt + Shift + ([, ])
-!+[:: CycleFocus("previous")
-!+]:: CycleFocus("next")
+; Unstack the focused window
+!+d::Unstack()
 
-; Move window, Alt + Shift + (H, J, K, L, Enter)
-!+h:: Move("left")
-!+j:: Move("down")
-!+k:: Move("up")
-!+l:: Move("right")
-!+Enter:: Promote()
+; Promote the focused window to the top of the tree
+!+Enter::Promote()
 
-; Stack window, Alt + (Left, Right, Up, Down)
-!Left:: Stack("left")
-!Right:: Stack("right")
-!Up:: Stack("up")
-!Down:: Stack("down")
+; bsp, columns, rows, vertical-stack, horizontal-stack, ultrawide-vertical-stack
+!+c::WorkspaceLayout(0, 0, "columns")
+!+b::WorkspaceLayout(0, 0, "bsp")
 
-; Unstack window, Alt + ;
-!;:: Unstack()
+!+t::ToggleTiling()
 
-; Cycle stack window, Alt + ([, ])
-![:: CycleStack("previous")
-!]:: CycleStack("next")
+; Toggle the Monocle layout for the focused window
+^!+f::ToggleMonocle()
 
-; Resize window horizontal, Alt  + (-, =)
-!=:: ResizeAxis("horizontal", "increase")
-!-:: ResizeAxis("horizontal", "decrease")
+; Toggle native maximize for the focused window
+!+=::ToggleMaximize()
 
-; Resize window vertical, Alt  + Shift + (-, =)
-!+=:: ResizeAxis("vertical", "increase")
-!+-:: ResizeAxis("vertical", "decrease")
+; Flip horizontally
+; !x::FlipLayout("horizontal")
 
-; Manipulate windows
-!t:: {
-    writeLog("[Komorebi] Float focused window")
-    ToggleFloat()
-}
+; Flip vertically
+; !y::FlipLayout("vertical")
 
-!+f:: {
-    writeLog("[Komorebi] Monocle window")
-    ToggleMonocle()
-}
+; Force a retile if things get janky
+^!r::Retile()
 
-; Force a retile, Alt + Shift + R
-!+r:: {
-    writeLog("[Komorebi] Retiling windows")
-    Retile()
-}
+; Float the focused window
+!t::ToggleFloat()
 
-; Reload komorebi.ahk, Alt + O
-!o:: {
-    writeLog("[Komorebi] Reload configuration")
-    ReloadConfiguration()
-}
+; Pause responding to any window events or komorebic commands
+^!p::TogglePause()
 
-; Quit komorebi.ahk, Alt + Shift + O
-!+o:: {
-    writeLog("[Komorebi] Exiting, wait for a moment...")
-    KomorebiStop()
-    ExitApp()
-}
+; Switch to workspace
+!1::FocusWorkspace(0)
+!2::FocusWorkspace(1)
+!3::FocusWorkspace(2)
+!4::FocusWorkspace(3)
 
-; Close application, Alt + Q
-!q:: {
-    writeLog("[Komorebi] Close actived window")
-    Send("!{f4}")
-}
+; Move window to workspace
+!+1::MoveToWorkspace(0)
+!+2::MoveToWorkspace(1)
+!+3::MoveToWorkspace(2)
+!+4::MoveToWorkspace(3)
+
+!+i::
+Run, komorebic.exe save ~/.config/komorebi/layouts/primary.json
+return
+
+!+m::
+Run, komorebic.exe load ~/.config/komorebi/layouts/primary.json
+return
+
+#+o::ReloadConfiguration()
+
+#+k::Reload
+
+^#+k::
+Stop()
+exitapp
