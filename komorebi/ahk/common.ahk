@@ -80,4 +80,4 @@ IsWindow(hWnd) {
 IsWindowCloaked(hwnd) {
     return DllCall("dwmapi\DwmGetWindowAttribute", "ptr", hwnd, "int", 14, "int*", &cloaked, "int", 4) >= 0
         && cloaked
-}
+
