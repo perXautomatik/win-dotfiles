@@ -1,0 +1,25 @@
+# https://gist.github.com/codexico/2a34c0d599f3af93b46f
+[color]
+	branch = auto
+	diff = auto
+	interactive = true
+	status = auto
+	ui = auto
+    # Use colors in Git commands that are capable of colored output when
+    # outputting to the terminal. (This is the default setting in Git = 1.8.4.)
+[color "branch"]
+	current = yellow reverse
+	current = green normal bold
+	remote = cyan bold
+[color "diff"]
+    	frag = magenta bold # line info
+	meta = yellow bold
+	new = green normal bold
+	old = red normal bold
+	whitespace = red reverse
+[color "status"]
+	add = green normal bold
+    added = yellow
+	changed = red normal bold
+    untracked = cyan
+	updated = green normal bold
