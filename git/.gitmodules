@@ -1,0 +1,6 @@
+[submodule ".git_template"]
+	path = .git_template
+	url = https://github.com/greg0ire/git_template
+[submodule "watchman-autocommit"]
+	path = watchman-autocommit
+	url = https://github.com/perXautomatik/git-autocommit

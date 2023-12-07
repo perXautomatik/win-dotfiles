@@ -1,0 +1,4 @@
+[smartgit "submodule"]
+	fetchalways = true
+	initializenew = true
+	update = true
