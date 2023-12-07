@@ -4,3 +4,17 @@
 # cache
 .dotter/cache.toml
 .dotter/cache
+*.*.bak
+*.~
+*.~*
+*.7z
+*.bak
+*.db
+*.dll
+*.exe
+*.gif
+*.png
+*.sqlite
+*.vscdb
+*.vscdb.backup
+lock

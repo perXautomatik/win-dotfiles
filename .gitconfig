@@ -1,26 +1,31 @@
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[core]
-	editor = vim
-	autocrlf = input
-[gui]
-	recentrepo = C:/Users/Q0/prtb
-[credential]
-	helper = manager-core
-[credential "https://dev.azure.com"]
-	useHttpPath = true
-[user]
-	email = ditsuke@protonmail.com
-	name = ditsuke
-	signingkey = 8fd2153f4889541a54f1e09e71b6c31c8a5a9d21
-[gpg]
-	program = c:\\\\program files (x86)\\gnupg\\bin\\gpg.exe
+[include]
+	path = git/include.config	
+[init]
+	templateDir = git/git-template
 [commit]
-	gpgsign = true
-[credential "helperselector"]
-	selected = manager-core
-[merge]
-	conflictStyle = zdiff3
+	gpgSign = false
+[credential]
+	helper = manager
+[gitflow "prefix"]
+	versiontag = v
+[gui]
+	diffopts = --diff-algorithm=histogram
+	pruneduringfetch = true
+	recentrepo = 'testing'
+[help]
+	format = html
+[i18n]
+	filesEncoding = Windows-1252
+[protocol "file"]
+	allow = always
+[rerere]
+	autoupdate = 1
+	enabled = 1
+[sequence]
+	editor = interactive-rebase-tool
+[status]
+	submoduleSummary = true
+[uploadpack]
+	allowFilter = true
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1
