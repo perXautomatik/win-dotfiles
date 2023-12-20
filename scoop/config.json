@@ -3,4 +3,5 @@
     "update-quiet":  true,
     "scoop_branch":  "master",
     "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
+    "aria2-enabled":  true
 }
