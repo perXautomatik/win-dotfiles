@@ -1,5 +1,6 @@
 {
     "last_update":  "2023-12-06T09:43:42.6849371+01:00",
+    "update-quiet":  true,
     "scoop_branch":  "master",
     "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
 }
