@@ -1,0 +1,206 @@
+08:26:13.7712+01:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+08:26:13.7712+01:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 19045.3693
+IntPtr Length: 8
+x64: True
+08:26:18.2326+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\Flow.Launcher.Plugin.Favorites.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\plugin.json
+08:26:18.2326+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\Flow.Launcher.Plugin.JetBrainsIDEProjects.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\plugin.json
+08:26:18.2576+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\plugin.json
+08:26:18.2717+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\Flow.Launcher.Plugin.ShortcutPlugin.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\plugin.json
+08:26:18.2820+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\Flow.Plugin.VSCodeWorkspaces.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\plugin.json
+08:26:18.2820+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\plugin.json
+08:26:18.3023+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\plugin.json
+08:26:20.8610+01:00 - INFO  - ImageLoader.Initialize - Preload images cost <6721ms>
+08:26:20.8610+01:00 - INFO  - ImageLoader.Initialize - Number of preload images is <52>, Images Number: 52, Unique Items 33
+08:26:34.1288+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <618ms>
+08:26:34.1288+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <266ms>
+08:26:35.1354+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+08:26:35.1496+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <3446ms>
+08:26:35.1496+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <228ms>
+08:26:35.4598+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <1809ms>
+08:26:35.8719+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <1683ms>
+08:26:35.8719+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <830ms>
+08:26:35.9992+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <2053ms>
+08:26:36.1253+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <1883ms>
+08:26:36.1961+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <783ms>
+08:26:36.1961+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <896>
+08:26:36.1961+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <47>
+08:26:36.1961+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <2950ms>
+08:26:36.2405+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+08:26:36.2405+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+08:26:36.2405+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+08:26:36.6095+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <2132ms>
+08:26:41.0332+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.0332+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+08:26:41.0332+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:41.1977+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.1977+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+08:26:41.1977+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+08:26:41.9469+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+08:26:41.9469+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+08:26:41.9469+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+08:26:41.9469+01:00 - ERROR -  - 
+Exception full name: System.IO.FileNotFoundException
+Error status: KNOWN
+Class name: UWP
+Calling method: LogoPathFromUri
+Program path: C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+InnerException number: 1
+Exception message: Unable to find the specified file.
+Exception error type: HResult -2147024894
+Exception thrown in called method: Not available
+Possible interpretation of the error: Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge can't find logo uri for Assets\MicrosoftEdgeSquare44x44.png in package location (logo name or directory not found): C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+Possible resolution: Can be ignored and Flow Launcher should still continue, however the program may not be loaded
+08:26:41.9469+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+08:26:44.6151+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 135 plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+08:26:44.6745+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <11134ms>
+08:26:46.1170+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - UWPProgram index cost <9916ms>
+08:26:48.0611+01:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+08:26:54.4489+01:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+08:26:54.4489+01:00 - INFO  - App.OnStartup - Startup cost <43596ms>
+08:27:06.4603+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Win32Program index cost <29831ms>
+13:37:23.6589+01:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:37:23.6589+01:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 19045.3693
+IntPtr Length: 8
+x64: True
+13:37:27.2519+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\Flow.Launcher.Plugin.Favorites.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\plugin.json
+13:37:27.2630+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\Flow.Launcher.Plugin.JetBrainsIDEProjects.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\plugin.json
+13:37:27.2630+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\plugin.json
+13:37:27.2867+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\Flow.Launcher.Plugin.ShortcutPlugin.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\plugin.json
+13:37:27.3804+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\Flow.Plugin.VSCodeWorkspaces.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\plugin.json
+13:37:27.3903+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\plugin.json
+13:37:27.3903+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\plugin.json
+13:37:41.3307+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <500ms>
+13:37:41.3852+01:00 - INFO  - ImageLoader.Initialize - Preload images cost <17024ms>
+13:37:41.3892+01:00 - INFO  - ImageLoader.Initialize - Number of preload images is <71>, Images Number: 71, Unique Items 40
+13:37:41.3892+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <558ms>
+13:37:41.6503+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:41.6642+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <1320ms>
+13:37:41.6642+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <386ms>
+13:37:41.6642+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <1137ms>
+13:37:41.7093+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <1642ms>
+13:37:41.7093+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <672ms>
+13:37:41.7277+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <534ms>
+13:37:41.8657+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <165ms>
+13:37:41.8657+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <896>
+13:37:41.8657+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <47>
+13:37:41.8657+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <1869ms>
+13:37:41.8657+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <872ms>
+13:37:41.9021+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:41.9021+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:41.9021+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:37:41.9827+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <3657ms>
+13:37:42.4356+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 135 plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:37:42.5038+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <1354ms>
+13:37:44.1129+01:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+13:37:44.7598+01:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:37:44.7598+01:00 - INFO  - App.OnStartup - Startup cost <23720ms>
+13:52:32.6700+01:00 - INFO  - App.OnStartup - Begin Flow Launcher startup ----------------------------------------------------
+13:52:32.6700+01:00 - INFO  - App.OnStartup - Runtime info:
+Flow Launcher version: 1.16.2
+OS Version: 19045.3693
+IntPtr Length: 8
+x64: True
+13:52:38.3662+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\Flow.Launcher.Plugin.Favorites.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Favorites-1.5\plugin.json
+13:52:38.3780+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\Flow.Launcher.Plugin.JetBrainsIDEProjects.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\JetBrainsIDEProjects-2.0.0\plugin.json
+13:52:38.3985+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Obsidian Notes-1.1.4\plugin.json
+13:52:38.4643+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\Flow.Launcher.Plugin.ShortcutPlugin.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Shortcuts-1.0.4\plugin.json
+13:52:38.5371+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\Flow.Plugin.VSCodeWorkspaces.dll> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\VS Code Workspaces-1.3.0\plugin.json
+13:52:38.6582+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Window Services-1.1.5\plugin.json
+13:52:38.6950+01:00 - ERROR - PluginConfig.GetPluginMetadata - execute file path didn't exist <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\run.py> for conifg <C:\Users\chris\scoop\apps\flow-launcher\current\app-1.16.2\UserData\Plugins\Windows Startup-1.0.2\plugin.json
+13:52:41.9042+01:00 - INFO  - ImageLoader.Initialize - Preload images cost <8672ms>
+13:52:41.9042+01:00 - INFO  - ImageLoader.Initialize - Number of preload images is <71>, Images Number: 71, Unique Items 40
+13:52:42.8325+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Browser Bookmarks> is <435ms>
+13:52:42.8325+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugin Indicator> is <75ms>
+13:52:43.0042+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:52:43.0042+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Explorer> is <847ms>
+13:52:43.0042+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Process Killer> is <84ms>
+13:52:43.1112+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Calculator> is <427ms>
+13:52:43.1365+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Shell> is <231ms>
+13:52:43.1365+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <System Commands> is <158ms>
+13:52:43.1456+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <URL> is <205ms>
+13:52:43.1902+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://gcore.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:52:43.1902+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:52:43.1902+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loading plugins from https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.PluginsManifest/plugin_api_v2/plugins.json
+13:52:43.1902+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Web Searches> is <234ms>
+13:52:43.1902+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Preload programs cost <151ms>
+13:52:43.1902+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload win32 programs <896>
+13:52:43.1902+01:00 - INFO  - Flow.Launcher.Plugin.Program.Main - Number of preload uwps <47>
+13:52:43.2942+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Windows Settings> is <434ms>
+13:52:43.3720+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Program> is <999ms>
+13:52:43.6566+01:00 - INFO  - CommunityPluginSource.FetchAsync - Loaded 135 plugins from https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json
+13:52:43.6756+01:00 - INFO  - PluginManager.InitializePlugins - Total init cost for <Plugins Manager> is <1074ms>
+13:52:44.4015+01:00 - INFO  - App.OnStartup - Dependencies Info:
+Python Path: 
+Node Path: 
+13:52:44.9420+01:00 - INFO  - App.OnStartup - End Flow Launcher startup ----------------------------------------------------  
+13:52:44.9420+01:00 - INFO  - App.OnStartup - Startup cost <16385ms>

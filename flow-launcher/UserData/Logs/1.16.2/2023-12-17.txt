@@ -1,0 +1,56 @@
+10:02:26.2609+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+10:02:26.2609+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+10:02:26.2609+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+10:02:26.4335+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+10:02:26.4335+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+10:02:26.4335+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+10:39:43.0497+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+10:39:43.0497+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Windows Media Player.lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+10:39:43.0497+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
+10:39:43.0866+01:00 - ERROR -  - ------------- BEGIN Flow.Launcher.Plugin.Program exception -------------
+10:39:43.0866+01:00 - ERROR -  - 
+Exception full name: System.Runtime.InteropServices.COMException
+Error status: UNKNOWN
+Class name: IShellLinkW
+Calling method: retrieveTargetPath
+Program path: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\ODBC Data Sources (32-bit).lnk
+InnerException number: 1
+Exception message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+Exception error type: HResult -2147467259
+Exception thrown in called method: Void GetDescription(System.Text.StringBuilder, Int32)
+Possible interpretation of the error: Error caused likely due to trying to get the description of the program
+Possible resolution: Not yet known
+10:39:43.0866+01:00 - ERROR -  - ------------- END Flow.Launcher.Plugin.Program exception -------------
