@@ -7,9 +7,13 @@
 [submodule "AppData"]
 	path = AppData
 	url = https://github.com/perXautomatik/AppData
+[submodule "BashHistory"]
+	path = BashHistory
+	url = https://gist.github.com/perXautomatik/f408843f80d8f2a5485aa4d86241dfa4
 [submodule "BeondCompare4"]
 	path = BeondCompare4
 	url = https://github.com/perXautomatik/BeondCompare4
+  branch = OnlySettings
 [submodule "Cherrytree"]
 	path = Cherrytree
 	url = https://github.com/perXautomatik/CherrytreePortable
@@ -25,6 +29,12 @@
 [submodule "Git"]
 path = Git
 url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
+[submodule "JetBrains"]
+	path = JetBrains
+	url = https://github.com/perXautomatik/Datagrip-UserFolder
+[submodule "Microsoft/Windows/PowerShell"]
+	path = Microsoft/Windows/PowerShell
+	url = https://github.com/perXautomatik/PowerShellCmdHist
 [submodule "OtherVersionControlledText"]
 	path = OtherVersionControlledText
 	url = https://github.com/perXautomatik/OtherVersionControlledText
@@ -43,7 +53,12 @@ url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "UserFolder"]
 	path = UserFolder
 	url = https://github.com/perXautomatik/AppData
+[submodule "Documents"]
+	path = Documents
+	url = https://github.com/perXautomatik/AppData
+	branch = Documents
 [submodule "Vortex"]
+	branch = Vortex
 	path = Vortex
 	url = https://github.com/perXautomatik/AppData.git
 [submodule "portableAppsPlatform"]
@@ -55,15 +70,3 @@ url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "xEditScripts"]
 	path = xEditScripts
 	url = https://github.com/perXautomatik/xEditScripts
-[submodule "Microsoft/Windows/PowerShell"]
-	path = Microsoft/Windows/PowerShell
-	url = https://github.com/perXautomatik/PowerShellCmdHist
-[submodule "BashHistory"]
-	path = BashHistory
-	url = https://gist.github.com/perXautomatik/f408843f80d8f2a5485aa4d86241dfa4
-[submodule "JetBrains"]
-	path = JetBrains
-	url = https://github.com/perXautomatik/Datagrip-UserFolder
-[submodule "UserFolder/OneDrive/Documents"]
-	path = UserFolder/OneDrive/Documents
-	url = C:\\Users\\chris\\OneDrive\\Documents
