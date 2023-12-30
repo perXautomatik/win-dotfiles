@@ -1,3 +1,0 @@
-[fetch]
-	prune = false
-	recurseSubmodules = true
