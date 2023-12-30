@@ -1,8 +1,10 @@
 #Requires AutoHotkey v2.0.2
 #SingleInstance Force
 
+#Include variables.ahk
+
 writeLog(text) {
-    FileAppend(text "`n", "C:\Users\" A_UserName "\.config\.dotfiles.log")
+    FileAppend(text "`n", configfiles_path "\.dotfiles.log")
     OutputDebug(text "`n")
     return
 }
@@ -78,4 +80,4 @@ IsWindow(hWnd) {
 IsWindowCloaked(hwnd) {
     return DllCall("dwmapi\DwmGetWindowAttribute", "ptr", hwnd, "int", 14, "int*", &cloaked, "int", 4) >= 0
         && cloaked
-}
+
