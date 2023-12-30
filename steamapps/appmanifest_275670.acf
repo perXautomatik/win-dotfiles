@@ -1,0 +1,49 @@
+"AppState"
+{
+	"appid"		"275670"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Program Files (x86)\\Steam\\steam.exe"
+	"name"		"Space Run"
+	"StateFlags"		"4"
+	"installdir"		"Space Run"
+	"LastUpdated"		"1668583716"
+	"SizeOnDisk"		"1831442183"
+	"StagingSize"		"0"
+	"buildid"		"346223"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"388267840"
+	"BytesDownloaded"		"388267840"
+	"BytesToStage"		"1831442183"
+	"BytesStaged"		"1831442183"
+	"TargetBuildID"		"346223"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"275671"
+		{
+			"manifest"		"1748976836898738402"
+			"size"		"59727822"
+		}
+		"275673"
+		{
+			"manifest"		"2793983452802868464"
+			"size"		"171426"
+		}
+		"275678"
+		{
+			"manifest"		"579766287163998902"
+			"size"		"1771714361"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

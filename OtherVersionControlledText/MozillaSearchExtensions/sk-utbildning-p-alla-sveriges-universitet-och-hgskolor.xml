@@ -1,0 +1,16 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Sök utbildning på alla Sveriges universitet och högskolor</os:ShortName>
+<os:Description>Sök utbildning på alla Sveriges universitet och högskolor</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9klEQVQ4ja1TsQrCMBDNnxTcC90F94J78QOKg7gXP0BXEZ1qHXS8rPUHFPQTdLHCbd36Bc+pIReNovjgIAn3XpJ3dwoONBEGSYJOEIgYJAk0kZsO1S6YGf04fiK60Y9jMLMUYGZEYfiR3EYUhkZEAXh7swv7JQCgNJGXPMkyr0AnCKCJoF4Z5rsdAHrdrjBW+ciL+dyQ9mVp1sM0FXleAffZLVbL5XuBdZ7jXlWGcD6dMB6NzH5TFH6B6nZ7+W8bdV1LAdvE3XYrmuR4OGA2nYpqNE0jTXTL6CvZ9XJ5OtdEspFsuGa5wqaRgD+0civy8zDZ+HacH0SOfRyq9BuEAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://www.antagning.se/se/start</SearchForm>
+<os:Url type="text/html" method="GET" template="https://www.antagning.se/se/search">
+  <os:Param name="period" value="HT_2013"/>
+  <os:Param name="freeText" value="{searchTerms}"/>
+  <os:Param name="searchableOnly" value="on"/>
+  <os:Param name="courseProgram" value="courses"/>
+  <os:Param name="noPrerequisite" value="on"/>
+  <os:Param name="distance" value="on"/>
+  <os:Param name="distanceWithoutMeetings" value="on"/>
+</os:Url>
+</SearchPlugin>

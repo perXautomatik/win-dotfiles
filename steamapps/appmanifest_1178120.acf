@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1178120"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"XP Girls"
+	"StateFlags"		"4"
+	"installdir"		"XP Girls"
+	"LastUpdated"		"1670239887"
+	"SizeOnDisk"		"1349226186"
+	"StagingSize"		"0"
+	"buildid"		"4421951"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"134938384"
+	"BytesDownloaded"		"134938384"
+	"BytesToStage"		"1349226186"
+	"BytesStaged"		"1349226186"
+	"TargetBuildID"		"4421951"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1178121"
+		{
+			"manifest"		"1629230190151348715"
+			"size"		"1349226186"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

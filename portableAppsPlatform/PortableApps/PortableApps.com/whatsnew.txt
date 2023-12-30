@@ -1,0 +1,26 @@
+* Version 19.2 [2021-12-23]
+
+UPDATED: Latest version of 7-Zip for backup/restore
+UPDATED: Arabic, Bulgarian, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Latvian, Polish, Russian, Turkish locales
+FIXED: Removed incorrect 503 error message in updater
+
+* Version 19.1 [2021-10-21]
+
+ADDED: Add app to Windows Start
+UPDATED: Platform folder icons in Windows Explorer
+UPDATED: Arabic, Bulgarian, Dutch, French, Galician, German, Greek, Hungarian, Japanese, Russian, Simplified Chinese locales
+
+* Version 19.0 [2021-10-05]
+
+ADDED: Taskbar pinning in Windows 11
+ADDED: Screen reader compatibility for What's New section
+ADDED: PortableApps.com logo clickable in menu
+ADDED: Click Next without selection to update all apps in screen reader mode
+ADDED: Segoe UI Variable font use on Windows 11
+UPDATED: Improved Windows 11 compatibility
+UPDATED: Modern app list folder icons
+UPDATED: Arabic, Bulgarian, French, German, Greek, Hungarian, Italian, Polish, Portuguese, PortugueseBrazil locales
+FIXED: Updater categories not localized
+FIXED: RTL locales don't properly show paf.exe in manual install menu
+FIXED: Updater/app store misses apps when appids contain substrings of each other
+FIXED: Advanced apps shown when option to show is turned off

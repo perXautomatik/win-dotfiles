@@ -1,0 +1,579 @@
+ Test-Path "Alias:\$ghCommand"
+ Test-Path "Alias:\gh"
+gh.exe
+ Test-Path "Alias:\gh.exe"
+get-command gh
+. 'B:\PF\Archive\ps1\unsorted\# Define the force flag parameter.ps1'
+         # Convert the JSON output to a PowerShell object`
+            $gists = $gists | ConvertFrom-Json -AsHashtable`
+`
+            # Loop through each gist and insert or update it in the table`
+            foreach ($gist in $gists) {`
+                # Get the gist ID and URL`
+                $id = $gist.id`
+                $url = "https://gist.github.com/$id"`
+`
+                # Get the number of files in the gist`
+                $files = $gist.files.Count`
+`
+                # Get the visibility of the gist (public or private)`
+                if ($gist.public) {`
+                    $visibility = "public"`
+                }`
+                else {`
+                    $visibility = "private"`
+                }`
+`
+                # Get the description of the gist, or use a default value if empty`
+                $description = $gist.description`
+                if (-not $description) {`
+                    $description = "(no description)"`
+                }`
+`
+                # Loop through each file in the gist and get its name and content`
+                foreach ($file in $gist.files) {`
+                    # Get the filename of the gist file`
+                    $filename = $file.Key`
+`
+                    # Get the URL of the gist file from its value object`
+                    $fileUrl = $file.Value.raw_url.value`
+`
+                    # Download the content of the gist file as a byte array using Invoke-WebRequest`
+                    try {`
+                        $fileContent = (Invoke-WebRequest -Uri $fileUrl -UseBasicParsing).Content`
+                    }`
+                    catch {`
+                        Write-Error "Failed to download file content from URL: $fileUrl : $_"`
+                        continue`
+                    }`
+                    `
+                    # Create a PowerShell custom object with the gist information and content`
+                    $gistObject = [PSCustomObject]@{`
+                        Id = $id`
+                        Filename = $filename`
+                        Visibility = $visibility`
+                        Description = $description`
+                        FileContent = $fileContent`
+                    }`
+`
+                    $gistObject`
+                }`
+            }`
+            catch {`
+                Write-Error "Failed to get gists from GitHub for user: $Username : $_"`
+                return`
+            }
+. 'B:\PF\Archive\ps1\unsorted\# Define the force flag parameter.ps1'
+. 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+function Translate-Path {``
+  [CmdletBinding()]``
+  param (``
+    # The relative path``
+    [Parameter(Mandatory = $true, ValueFromPipeline = $true)]``
+    [string]``
+    $RelativePath,``
+``
+    # The base directory```
+    [Parameter(Mandatory = $true)]``
+    [ValidateScript({Test-Path $_ -PathType Container})]``
+    [string]``
+    $BaseDirectory``
+  )``
+``
+  # Split the relative path by the "/" character```
+  $PathSegments = $RelativePath.Split("/")``
+``
+  # Set the current directory to the base directory```
+  $CurrentDirectory = $BaseDirectory``
+``
+  # Loop through each path segment```
+  foreach ($Segment in $PathSegments) {``
+    # If the segment is "..", go up one level in the directory hierarchy```
+    if ($Segment -eq "..") {``
+      $CurrentDirectory = Split-Path -Path $CurrentDirectory -Parent``
+    }``
+    # If the segment is ".git", stop the loop and append the rest of the path```
+    elseif ($Segment -eq ".git") {``
+      break``
+    }``
+    # Otherwise, ignore the segment```
+    else {``
+      continue``
+    }``
+  }``
+``
+  # Get the index of the ".git" segment in the path segments```
+  $GitIndex = [array]::IndexOf($PathSegments, ".git")``
+``
+  # Get the rest of the path segments after the ".git" segment```
+  $RestOfPath = $PathSegments[($GitIndex)..$PathSegments.Length]``
+``
+  # Join the rest of the path segments by the "/" character```
+  $RestOfPath = $RestOfPath -join "/"``
+``
+  # Append the rest of the path to the current directory```
+  $AbsolutePath = Join-Path -Path $CurrentDirectory -ChildPath $RestOfPath``
+``
+  # Return the absolute path as a string```
+  return "$AbsolutePath"``
+}
+Copy-Function translate-path
+get-function translate-path
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\PowerShellProjectFolder\ps\objects\hash\CompareHashTable\CompareHashTableAlt\Compare-Hashtable.Tests.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.test.ps1'
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+`
+`
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$",`
+        $filterTable = (Get-Clipboard)`
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis   | ?{  $filterTable -contains $_.alias }`
+
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$",`
+        $filterTable = (Get-Clipboard)`
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis   | ?{  $filterTable -contains $_.alias }`
+
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$",`
+        $filterTable = (Get-Clipboard)`
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$",`
+        $filterTable = @( $u = Get-Clipboard ; $u -split '\r?\n|\r' | %{ $_.trim() } )`
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis   | ?{  $filterTable -contains $_.alias }`
+`
+
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+`
+$filterTable = @( $u = Get-Clipboard ; $u -split '\r?\n|\r' | %{ $_.trim() } )`
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$",`
+      `
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis | ?{  $filterTable -contains $_.alias }`
+`
+
+$filterTable = @( $u = Get-Clipboard ; $u -split '\r?\n|\r' | %{ $_.trim() } )`
+`
+function parseFilterRepoAnalysis`
+{`
+    param(`
+        $pathAllSizes = 'B:\Unsorted\tempRepo\.git\filter-repo\analysis\path-all-sizes.txt',`
+        $pathprefix = "B:\Unsorted\tempRepo\",`
+        $Pattern = "^(.{13})(.{11})(\S{3,})\s(.*)$"`
+      `
+    )`
+`
+$Data = Get-Content $pathAllSizes -Encoding UTF8 | select -Skip 1 ; `
+$Headers = $Data[0].replace(" ","_") -split "," ;`
+ $Data = $data | select -Skip 1 ; $Headers[0],$Headers[1],$Headers[2],$Headers[3] ;`
+   $Data | %{ $Match = (($_ | Select-String $Pattern).matches.groups) ;`
+    [PSCustomObject]@{ $Headers[0] = $Match[1].Value.Trim() ;`
+    $Headers[1] = $Match[2].Value.Trim(); $Headers[2] = $Match[3].Value.Trim();`
+    $Headers[3] = $Match[4].Value.Trim() ;`
+    filename=( $pathprefix + $match[4].Value.Trim() -replace("/","\") | split-path -Leaf ) }} `
+    | %{ [PSCustomObject]@{ path=$_._path_name; alias=$_.filename } }`
+}`
+parseFilterRepoAnalysis | ?{  $filterTable -contains $_.alias }`
+`
+
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+`
+            # Assume $scriptPath is a relative or absolute path to a non-existing file`
+$parentPath = Split-Path -Parent (($ExecutionContext).SessionState.Path.GetUnresolvedProviderPathFromPSPath $scriptPath)`
+
+`
+            # Assume $scriptPath is a relative or absolute path to a non-existing file`
+$parentPath = Split-Path -Parent (($ExecutionContext).SessionState.Path.GetUnresolvedProviderPathFromPSPath $rPath)
+`
+            # Assume $scriptPath is a relative or absolute path to a non-existing file`
+$parentPath = Split-Path -Parent (($ExecutionContext).SessionState.Path.GetUnresolvedProviderPathFromPSPath($rPath) )
+. 'B:\PF\Archive\ps1\git\project\split-branches-byfiles.ps1'
+. 'B:\PF\Archive\ps1\git\mergeCommitObjects.test.ps1'
+. 'B:\PF\Archive\ps1\workflow\Beyond compare interaction\HelperScript\csharp-sort.test.ps1'
+b:\PF\Archive\ps1\GitSubmoduleSRecursiveAdd.ps1
+b:\PF\Archive\ps1\Projects\parseGitSearchRessultsGui.ps1
+notepad $profile
+b:\PF\Archive\ps1\Projects\parseGitSearchRessultsGui.ps1
+b:\PF\Archive\ps1\rootDetections.ps1
+# Define a function to group child items by parent folder
+Function Group-ChildFolder ($Path) {`
+    Get-ChildItem -Path $Path -Recurse | Group-Object -Property DirectoryName`
+}
+<# Define the root path to compare #>
+$Root = 'B:\PF\Archive\ps1\git'
+<# Get the groups of child items for each subfolder #>
+$Groups = Group-ChildFolder -Path $Root
+<# Define a hashtable to store the file hash objects for each subfolder #>
+$FileHashes = @{}
+<# Loop through each group and get the file hash objects #>
+foreach ($Group in $Groups) { `
+    # Get the subfolder name `
+    $SubFolder = $Group.Name `
+    # Get the file hash objects for the subfolder `
+    $FileHashes[$SubFolder] = @(Get-ChildItem -Path $Group.Group.FullName -File | %{ Get-FileHash -Path $_ -Algorithm SHA256})  `
+}
+b:\PF\Archive\ps1\rootDetections.ps1

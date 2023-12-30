@@ -1,0 +1,11 @@
+common/Steam Controller Configs/
+common/Steamworks Shared/
+sourcemods/
+temp/
+workshop/
+downloading/
+shadercache/
+*.~  
+common/**
+!common/**/[Ss][Aa][Vv]*/**/*
+

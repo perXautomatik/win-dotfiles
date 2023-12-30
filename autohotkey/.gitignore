@@ -1,0 +1,5 @@
+preprocess/*
+*.exe
+*.bak
+/NonSourceControlledExternal/skrommel/RecentRun/Recent/*.lnk
+/hcomm.jsonc

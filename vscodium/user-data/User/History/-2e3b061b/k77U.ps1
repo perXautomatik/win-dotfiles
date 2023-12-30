@@ -1,0 +1,111 @@
+﻿
+# Function to initialize and get information of a submodule
+function Init-Submodule($submodulePath) {
+    # Step inside the submodule folder
+    Push-Location $submodulePath
+
+    # Add an initial commit to the submodule
+    Git add .
+    Git commit -m "init"
+
+    # Get the remote URL of the submodule
+    $submoduleUrl = Git remote get-url origin
+
+    # Get the branch of the submodule
+    $submoduleBranch = Git rev-parse --abbrev-ref HEAD
+        
+    # Generate a unique name for the submodule based on the path
+    $sqx = (@((($submoduleUrl -split '/') | select -Last 1) -split '.git'))[0]
+    if ($sqx) {
+        $ddy = ( $submodulePath -split '\\' | select -last 1 )
+        $submoduleName = "$sqx-$ddy"
+    }
+    else {
+        $submoduleName = $submodulePath.Replace("\", "-")
+    }
+
+    # Add an initial commit to the submodule
+    Git add .
+    Git commit -m "submodule"
+    git fsck
+    
+    # Step out of the submodule folder
+    Pop-Location
+
+    # Return the information as a custom object
+    return [PSCustomObject]@{
+        Url = $submoduleUrl
+        Branch = $submoduleBranch
+        Name = $submoduleName
+    }
+}
+
+function Add-Submodules($pathq) { 
+    
+    # Step inside the folder
+    cd $pathq
+
+    #garantied to be inside a folder with a git Object inside it
+
+    # if folder contains other directories than git
+    $ggg = Get-ChildItem -Path $pathq -Directory -Exclude ".git";
+    if($ggg)
+    {
+        foreach ($folder in $ggg) {
+            
+        }
+        foreach ($folder in (Get-ChildItem -Path $ggg -Recurse -Filter “.git”)) {
+
+    # Check if the folder contains a ".git" directory
+    
+    foreach ($folder in (Get-ChildItem -Path $pathq -Recurse -Filter “.git”)) {
+        # Iterate through each folder
+        
+        $uu = ( $folder.FullName | Split-Path -Parent )
+        
+        if (Test-Path -Path $uu -PathType Container) {
+
+            # Initialize and get information of the submodule
+            $submoduleInfo = Init-Submodule $uu
+
+            # Try to add the submodule to the parent repository with the specified name, branch, force, and reference options
+            $sName = $submoduleInfo.Name;
+            $sBranch = $submoduleInfo.Branch;
+            $sUrl = $submoduleInfo.Url;
+            
+            try {
+                Git submodule add --name $sName --branch $sBranch $sUrl $uu
+            }
+            catch {
+                # If an error occurs, write a warning message and continue
+                Write-Warning "Could not add submodule $sName : $_"
+                continue
+            }
+
+            # Set the branch of the submodule
+            Git submodule set-branch --branch $sBranch $sName
+
+            # Step out of the folder
+            Pop-Location
+
+        }
+    }        
+
+
+        
+        # Recursively add submodules for each folder within the current folder
+        Add-Submodules $submodulePath
+    }
+         
+
+
+}
+
+# Start the recursive add-submodules process from the specified path
+$rootPath = "B:\GitFolders"
+
+foreach ($folder in (Get-ChildItem -Path $rootPath -Recurse -Filter “.git”))
+{
+    Add-Submodules ($folder | Split-Path -Parent)
+}
+

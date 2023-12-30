@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "B:/PF/scoopbucket-presist"
+		},
+		{
+			"path": "B:/PF/Archive/NewWindows"
+		},
+		{
+			"path": "../../../../../../../../../PF/Archive/NewWindows/scoopbucket-1"
+		},
+		{
+			"path": "../../../../../../../../../PF/Archive/ps1/ToBucket"
+		},
+		{
+			"path": "../../../../../../../../../PF/Archive/ps1/workflow/Scoop"
+		}
+	],
+	"settings": {}
+}

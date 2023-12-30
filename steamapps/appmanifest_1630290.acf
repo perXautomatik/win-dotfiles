@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1630290"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Yu Crossing Animals"
+	"StateFlags"		"4"
+	"installdir"		"Yu Crossing Animals"
+	"LastUpdated"		"1670239854"
+	"SizeOnDisk"		"225114344"
+	"StagingSize"		"0"
+	"buildid"		"8459170"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"143819296"
+	"BytesDownloaded"		"143819296"
+	"BytesToStage"		"225114344"
+	"BytesStaged"		"225114344"
+	"TargetBuildID"		"8459170"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1630291"
+		{
+			"manifest"		"7192711348797844970"
+			"size"		"225114344"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

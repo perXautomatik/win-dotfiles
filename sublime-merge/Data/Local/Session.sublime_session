@@ -1,0 +1,139 @@
+{
+	"last_version": 2091,
+	"new_window_session":
+	{
+		"window_height": 873.0,
+		"window_width": 1811.0
+	},
+	"next_update_check": 1702375655,
+	"project_dir": "/B/Users/CrRoot/Desktop",
+	"recent":
+	[
+		{
+			"excluded_refs":
+			{
+				"refs/heads/": true,
+				"refs/heads/nilesoft-shellb": false,
+				"refs/remotes/": true,
+				"refs/stash/": true,
+				"refs/tags/": true
+			},
+			"expanded_commits":
+			{
+				"c68a7a107423f35912bac3657e1b642be218878a": true
+			},
+			"locations_tab_selected": false,
+			"path": "/B/PF/Archive/dotFiles/nilesoft-shell",
+			"previous_commit_messages":
+			[
+			],
+			"search":
+			{
+				"history":
+				[
+				]
+			},
+			"show_untracked_files": false,
+			"side_bar_visible": false,
+			"sidebar":
+			{
+				"lhs_widths":
+				[
+					232.0,
+					476.0,
+					607.0
+				]
+			},
+			"table_of_contents_tab_selected": true,
+			"table_of_contents_tree_mode": true
+		},
+		{
+			"locations_tab_selected": false,
+			"path": "/C/Users/CrRoot/.config",
+			"previous_commit_messages":
+			[
+			],
+			"search":
+			{
+				"history":
+				[
+				]
+			},
+			"show_untracked_files": false,
+			"side_bar_visible": false,
+			"sidebar":
+			{
+				"lhs_widths":
+				[
+					232.0,
+					400.0,
+					946.0
+				]
+			},
+			"table_of_contents_tab_selected": false,
+			"table_of_contents_tree_mode": false
+		},
+		{
+			"excluded_refs":
+			{
+				"refs/heads/": false
+			},
+			"expanded_refs":
+			{
+				"refs/heads": false,
+				"refs/remotes/origin": true
+			},
+			"locations_tab_selected": false,
+			"path": "/B/GitFolders",
+			"previous_commit_messages":
+			[
+			],
+			"search":
+			{
+				"history":
+				[
+				]
+			},
+			"show_untracked_files": true,
+			"side_bar_visible": false,
+			"sidebar":
+			{
+				"lhs_widths":
+				[
+					232.0,
+					171.0,
+					946.0
+				]
+			},
+			"table_of_contents_tab_selected": true,
+			"table_of_contents_tree_mode": true
+		}
+	],
+	"select_repository":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"window_positions":
+	{
+		"/B/GitFolders": "0,0,2,-32000,-32000,-1,-1,1000,16,77,1827,6e26fd5bc6950244aff31f7c13f8e0a9",
+		"/B/PF/Archive/dotFiles/nilesoft-shell": "0,0,1,-32000,-32000,-1,-1,1000,16,77,1827,6e26fd5bc6950244aff31f7c13f8e0a9",
+		"/C/Users/CrRoot/.config": "0,0,1,-32000,-32000,-1,-1,1000,16,77,1827,6e26fd5bc6950244aff31f7c13f8e0a9"
+	},
+	"windows":
+	[
+		{
+			"tabs":
+			[
+				{
+					"path": "/B/GitFolders",
+					"selected": true
+				}
+			]
+		}
+	]
+}

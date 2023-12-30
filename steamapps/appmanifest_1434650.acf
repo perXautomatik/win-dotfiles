@@ -1,0 +1,45 @@
+"AppState"
+{
+	"appid"		"1434650"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Monster Girl Incursion"
+	"StateFlags"		"4"
+	"installdir"		"Monster Girl Incursion"
+	"LastUpdated"		"1664179728"
+	"SizeOnDisk"		"197733025"
+	"StagingSize"		"0"
+	"buildid"		"9207927"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"143708672"
+	"BytesDownloaded"		"143708672"
+	"BytesToStage"		"197733025"
+	"BytesStaged"		"197733025"
+	"TargetBuildID"		"9207927"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1434651"
+		{
+			"manifest"		"7274453825888276590"
+			"size"		"159392801"
+		}
+		"1440930"
+		{
+			"manifest"		"5092157496009420535"
+			"size"		"197733025"
+			"dlcappid"		"1440930"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

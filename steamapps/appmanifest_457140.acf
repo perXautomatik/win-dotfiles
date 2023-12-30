@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"457140"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Oxygen Not Included"
+	"StateFlags"		"6"
+	"installdir"		"OxygenNotIncluded"
+	"LastUpdated"		"1668798811"
+	"SizeOnDisk"		"2109947025"
+	"StagingSize"		"0"
+	"buildid"		"9957198"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"107092080"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"1845733335"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"10158419"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"1671853869"
+	"InstalledDepots"
+	{
+		"457141"
+		{
+			"manifest"		"3365423405200080640"
+			"size"		"2109947025"
+		}
+	}
+	"SharedDepots"
+	{
+		"228986"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

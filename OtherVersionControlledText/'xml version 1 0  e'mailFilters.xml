@@ -1,0 +1,3267 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890,1349951877367,1349952858682,1349952859073,1349952859837,1349952860330,1349952860657,1349952860942,1349952861160,1349952861455,1349952861704,1349952862170,1349952862413,1349952862828,1349952863076,1349952863407,1349952863740,1349952864269,1349952864499,1349952864846,1349952865098,1349952865405,1349952865742,1349952865996,1349952866290,1349952866541,1349952866760,1349952867183,1349952867619,1349952867927,1349952868234,1349952868507,1349952868736,1349952868987,1349952869339,1349952869581,1349952869800,1349952870022,1349952870227,1349952870425,1349952870684,1349952870967,1349952871373,1349952871668,1349952871977,1349952872218,1349952872451,1349952872622,1349952872859,1349952873116,1349952873307,1349952873605,1349952873985,1349952874277,1349952874780,1349952875001,1349952875329,1349952875648,1349952875908,1349952876352,1349952876599,1349952876870,1349952877229,1349956578656,1349956579575,1349956579798,1349956580489,1349956581652,1349956582801,1349956583546,1349956584238,1349956584926,1349956585417,1349956586477,1349956586768,1349956588924,1349956590595,1349956592802,1349956593841,1349956596476,1349956597677,1349956599883,1349956600594,1349956601305,1349956601833,1349956602252,1349956603199,1349956603985,1349956604734,1349956605129,1349956605537,1349956606203,1349956607571,1349956608007,1349956608640</id>
+	<updated>2012-10-11T12:00:58Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956578656</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956579575</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='pearltrees'/>
+		<apps:property name='subject' value='your team'/>
+		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956579798</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='subject' value='mrs44 OR lemora'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956580489</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956581652</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='adinkrasam@yahoo.com'/>
+		<apps:property name='hasTheWord' value='http'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956582801</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='facebookmail.com'/>
+		<apps:property name='hasTheWord' value='&quot;wrote on the wall&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956583546</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='notification+o926joj6@facebookmail.com'/>
+		<apps:property name='hasTheWord' value='group'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956584238</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956584926</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='alternative.to OR noreply student OR digg@e.digg.com OR justin@zoxsy.com OR @microsoft.msn.com OR info@graphicly.com OR alerts@foldier.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956585417</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='digest-noreply@quora.com'/>
+		<apps:property name='label' value='Notifications/Quora weekly digests'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956586477</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956586768</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm OR jobbjakt OR @live.com OR e-kontakt OR goaruna.com OR info@max.se OR @dinasikt.se OR academicwork'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956588924</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se OR info@asiktstorget.se OR @academicresource.se OR mediahunt1@gmail.com OR noreply@hairspray.nu OR promose@pixmania.org OR results@freelotto.com OR support@arunalabs.com OR noreply@formspring.me OR emails@soundcloud.com OR president@ashampoo.com OR service@stayfriends.se OR service@stumbleupon.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956590595</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter OR news'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956592802</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@pearltrees.com'/>
+		<apps:property name='label' value='Pearltrees'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956593841</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='doesNotHaveTheWord' value='bud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956596476</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com OR team@adultfriendfinder.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956597677</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956599883</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot; OR tuneup OR ashampoo OR DarkOrbit'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956600594</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956601305</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto}'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956601833</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956602252</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956603199</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='groups.facebook.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956603985</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956604734</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956605129</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='bth'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956605537</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='[stud]'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956606203</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956607571</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956608007</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='You have with birthdays this week'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956608640</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed>﻿<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890,1349951877367,1349952858682,1349952859073,1349952859837,1349952860330,1349952860657,1349952860942,1349952861160,1349952861455,1349952861704,1349952862170,1349952862413,1349952862828,1349952863076,1349952863407,1349952863740,1349952864269,1349952864499,1349952864846,1349952865098,1349952865405,1349952865742,1349952865996,1349952866290,1349952866541,1349952866760,1349952867183,1349952867619,1349952867927,1349952868234,1349952868507,1349952868736,1349952868987,1349952869339,1349952869581,1349952869800,1349952870022,1349952870227,1349952870425,1349952870684,1349952870967,1349952871373,1349952871668,1349952871977,1349952872218,1349952872451,1349952872622,1349952872859,1349952873116,1349952873307,1349952873605,1349952873985,1349952874277,1349952874780,1349952875001,1349952875329,1349952875648,1349952875908,1349952876352,1349952876599,1349952876870,1349952877229,1349956578656,1349956579575,1349956579798,1349956580489,1349956581652,1349956582801,1349956583546,1349956584238,1349956584926,1349956585417,1349956586477,1349956586768,1349956588924,1349956590595,1349956592802,1349956593841,1349956596476,1349956597677,1349956599883,1349956600594,1349956601305,1349956601833,1349956602252,1349956603199,1349956603985,1349956604734,1349956605129,1349956605537,1349956606203,1349956607571,1349956608007,1349956608640</id>
+	<updated>2012-10-11T12:00:58Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956579575</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='pearltrees'/>		<apps:property name='subject' value='your team'/>		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>		<apps:property name='label' value='BugTesting/1'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956579798</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='last.fm'/>		<apps:property name='subject' value='mrs44 OR lemora'/>		<apps:property name='label' value='last.fm history'/>		<apps:property name='label' value='BugTesting/2'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956580489</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='last.fm'/>		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>		<apps:property name='label' value='last.fm history'/>		<apps:property name='label' value='BugTesting/3'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956585417</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='digest-noreply@quora.com'/>		<apps:property name='label' value='Notifications/Quora weekly digests'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/4'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956578656</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='@codeweavers.com'/>		<apps:property name='subject' value='CrossOver'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='no replay'/>		<apps:property name='label' value='BugTesting/5'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956581652</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='adinkrasam@yahoo.com'/>		<apps:property name='hasTheWord' value='http OR &quot;wrote on the wall&quot; OR group'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/6'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956584238</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='svaraej@filmtipset.se'/>		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>	<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>	<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/7'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956584926</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='alternative.to OR noreply student OR digg@e.digg.com OR justin@zoxsy.com OR @microsoft.msn.com OR info@graphicly.com OR alerts@foldier.com OR lovefilm OR jobbjakt OR @live.com OR e-kontakt OR goaruna.com OR info@max.se OR @dinasikt.se OR academicwork OR mail@rabattfeber.se OR info@asiktstorget.se OR @academicresource.se OR mediahunt1@gmail.com OR noreply@hairspray.nu OR promose@pixmania.org OR results@freelotto.com OR support@arunalabs.com OR noreply@formspring.me OR emails@soundcloud.com OR president@ashampoo.com OR service@stayfriends.se OR service@stumbleupon.com'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/8'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956590595</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='newsletter OR news'/>		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/9'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956586477</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='invoicing@wizzair.com'/>		<apps:property name='shouldNeverSpam' value='true'/>		<apps:property name='label' value='BugTesting/10'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956592802</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='no-reply@pearltrees.com'/>		<apps:property name='label' value='Pearltrees'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/11'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956593841</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='noreply@tradera.com'/>		<apps:property name='doesNotHaveTheWord' value='bud'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='no replay'/>		<apps:property name='label' value='BugTesting/12'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956596476</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='notifications@zyngamail.com OR team@adultfriendfinder.com'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/13'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956599883</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot; OR tuneup OR ashampoo OR DarkOrbit OR Tweekly.fm OR Postponement'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/14'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956597677</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>		<apps:property name='label' value='Notifications'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/15'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956600594</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot; OR single AND female'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/16'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956601305</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto} OR groups.facebook.com'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/17'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956602252</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='congratulations OR money'/>		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/18'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956603985</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/19'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956605129</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='bth'/>		<apps:property name='label' value='BTH'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/20'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956605537</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='[stud]'/>		<apps:property name='label' value='BTH'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/21'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956606203</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>		<apps:property name='label' value='Notifications'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/22'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956608640</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='declining the license during installation'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/23'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956608007</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='You have with birthdays this week OR win OR won'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/24'/></entry>
+</feed><?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890</id>
+	<updated>2012-10-11T10:38:08Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747924276</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747930557</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747951052</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306749666874</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306749856309</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306750148759</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1316311333676</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='adinkrasam@yahoo.com'/>
+		<apps:property name='hasTheWord' value='http'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1317754189874</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='notification+o926joj6@facebookmail.com'/>
+		<apps:property name='hasTheWord' value='group'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1317908339478</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='facebookmail.com'/>
+		<apps:property name='hasTheWord' value='&quot;wrote on the wall&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271301598</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='DarkOrbit'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271320261</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@live.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271347566</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='team@adultfriendfinder.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271369117</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='results@freelotto.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271387765</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@asiktstorget.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271434004</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@dinasikt.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271526550</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@academicresource.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271541949</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271555234</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='goaruna.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272136440</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto}'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272544024</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='mediahunt1@gmail.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272592160</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272726202</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272878143</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stumbleupon.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272909560</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='support@arunalabs.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272962838</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272982447</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272999053</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@microsoft.msn.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273016659</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot;'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273106384</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter OR news'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273157762</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='academicwork'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273247273</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply student'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273277217</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='doesNotHaveTheWord' value='bud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273296085</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@formspring.me'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273313206</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@graphicly.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273329230</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='emails@soundcloud.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273351747</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='jobbjakt'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273371760</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='alternative.to'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273498714</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='president@ashampoo.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273515561</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='e-kontakt'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273539051</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@hairspray.nu'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273556012</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stayfriends.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273574208</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@max.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273654907</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='digg@e.digg.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273675050</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='promose@pixmania.org'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273695767</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='justin@zoxsy.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273719746</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='ashampoo'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273741235</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273755729</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='tuneup'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273772790</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273789707</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='alerts@foldier.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320607420986</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='subject' value='mrs44 OR lemora'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1322867120522</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='pearltrees'/>
+		<apps:property name='subject' value='your team'/>
+		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1323180820732</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1323180948052</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1324398875538</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1326598429098</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='bth'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1328782049597</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='[stud]'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1330943535466</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='You have with birthdays this week'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1337600579214</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@pearltrees.com'/>
+		<apps:property name='label' value='Pearltrees'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1342090515336</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='digest-noreply@quora.com'/>
+		<apps:property name='label' value='Notifications/Quora weekly digests'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1342296418292</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='groups.facebook.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349951391156</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='-facebook -Matchmail'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_group_1319473992531</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='label' value='Forums'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_newsletter_1320270645889</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_notification_1319473992518</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='label' value='Notifications'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_promo_1320270645890</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed><?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1254656936319,1254657139240,1254809256603,1254851639398,1255376959414,1255443939995,1255584793644,1263658612028,1264629593999,1265848561716,1266003044186,1268393401185,1269525437726,1269727607200,1272746306713,1273700531846,1274098489130,1274099189125,1274099804196,1274099935323,1274197469932,1274207352957,1274340311858,1274342059731,1274342122907,1274342190639,1274342405432,1274342762335,1274343229385,1274343761278,1274347280213,1274356934902,1274899715705,1282743580287,1283162506627,1283162622640,1284373252946,1284373388304,1285926854175,1285927014440,1285928567330,1285928631205,1290120659313,1292984927682,1295022365034,1295202031344,1295385692446,1295973309400,1296013892707,1296152666646,1296213388437,1296721788210,1301800010798,1302440705395,1302440810452,1302638572531,1305131994671,1305132001512,1305797599900</id>
+	<updated>2011-05-19T09:35:45Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254656936319</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@studentconsulting.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254657139240</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stayfriends.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254809256603</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no_reply@k-rauta.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254851639398</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@hairspray.nu'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255376959414</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tech-noir.org'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255443939995</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@max.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255584793644</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@lovefilm.se'/>
+		<apps:property name='hasTheWord' value='nöjesmail'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1263658612028</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='digg@e.digg.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1264629593999</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='promose@pixmania.org'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1265848561716</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='justin@zoxsy.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1266003044186</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1268393401185</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1269525437726</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='ashampoo'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1269727607200</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='tuneup'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1272746306713</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='mye cleo långstrump'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1273700531846</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@blip.fm'/>
+		<apps:property name='hasTheWord' value='weekly activity'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274098489130</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='to' value='du.se'/>
+		<apps:property name='doesNotHaveTheWord' value='göran moren'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099189125</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='system@csc.kth.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099804196</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099935323</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='du.se OR dalastudent.se'/>
+		<apps:property name='doesNotHaveTheWord' value='göran moren'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274197469932</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@soundcloud.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274207352957</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='lärarnas riksförbund'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274340311858</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342059731</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='alerts@foldier.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342122907</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@meetyourmessenger.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342190639</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='DarkOrbit'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342405432</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@live.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342762335</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='team@adultfriendfinder.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274343229385</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@asiktstorget.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274343761278</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='results@freelotto.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274347280213</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@dinasikt.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274356934902</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@vitalas.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274899715705</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='news@bravofly.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1282743580287</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@academicresource.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1283162506627</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@bravofly.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1283162622640</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@ant-zen.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1284373252946</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1284373388304</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='goaruna.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285926854175</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='subject' value='-auktion'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285927014440</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='Jennifer OR mrs44 OR facebook OR last.fm'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285928567330</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@message.myspace.com'/>
+		<apps:property name='hasTheWord' value='news OR new OR &quot;see what your friends are up to&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;has sent you a new message!&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285928631205</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='vinn OR vinnande OR vinnare OR grattis'/>
+		<apps:property name='doesNotHaveTheWord' value='Wizzair OR tradera OR facebook OR auktion'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1290120659313</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='mediahunt1@gmail.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1292984927682</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@kth.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295022365034</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295202031344</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295385692446</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295973309400</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stumbleupon.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296013892707</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='en film som du vill se kommer på tv'/>
+		<apps:property name='hasTheWord' value='TV3 OR &quot;Kanal 5&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296152666646</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@email.lumosity.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296213388437</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='support@arunalabs.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296721788210</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply.jolicloud@getsatisfaction.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1301800010798</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='kanal 9'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302440705395</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@posterous.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302440810452</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302638572531</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305131994671</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='jennifer'/>
+		<apps:property name='hasAttachment' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305132001512</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@mailer.last.fm'/>
+		<apps:property name='subject' value='mrs44'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305797599900</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='Kanal 5'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed><?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890</id>
+	<updated>2012-10-11T10:38:08Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747924276</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747930557</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306747951052</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306749666874</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306749856309</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1306750148759</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1316311333676</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='adinkrasam@yahoo.com'/>
+		<apps:property name='hasTheWord' value='http'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1317754189874</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='notification+o926joj6@facebookmail.com'/>
+		<apps:property name='hasTheWord' value='group'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1317908339478</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='facebookmail.com'/>
+		<apps:property name='hasTheWord' value='&quot;wrote on the wall&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271301598</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='DarkOrbit'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271320261</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@live.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271347566</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='team@adultfriendfinder.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271369117</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='results@freelotto.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271387765</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@asiktstorget.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271434004</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@dinasikt.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271526550</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@academicresource.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271541949</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320271555234</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='goaruna.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272136440</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto}'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272544024</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='mediahunt1@gmail.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272592160</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272726202</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272878143</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stumbleupon.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272909560</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='support@arunalabs.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272962838</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272982447</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320272999053</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='@microsoft.msn.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273016659</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot;'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273106384</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter OR news'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273157762</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='academicwork'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273247273</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply student'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273277217</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='doesNotHaveTheWord' value='bud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273296085</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@formspring.me'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273313206</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@graphicly.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273329230</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='emails@soundcloud.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273351747</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='jobbjakt'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273371760</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='alternative.to'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273498714</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='president@ashampoo.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273515561</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='e-kontakt'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273539051</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@hairspray.nu'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273556012</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stayfriends.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273574208</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@max.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273654907</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='digg@e.digg.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273675050</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='promose@pixmania.org'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273695767</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='justin@zoxsy.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273719746</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='ashampoo'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273741235</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273755729</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='tuneup'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273772790</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320273789707</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='alerts@foldier.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1320607420986</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='subject' value='mrs44 OR lemora'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1322867120522</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='pearltrees'/>
+		<apps:property name='subject' value='your team'/>
+		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1323180820732</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1323180948052</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1324398875538</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1326598429098</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='bth'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1328782049597</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='[stud]'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1330943535466</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='subject' value='You have with birthdays this week'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1337600579214</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@pearltrees.com'/>
+		<apps:property name='label' value='Pearltrees'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1342090515336</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='digest-noreply@quora.com'/>
+		<apps:property name='label' value='Notifications/Quora weekly digests'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1342296418292</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='groups.facebook.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349951391156</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='from' value='-facebook -Matchmail'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_group_1319473992531</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='label' value='Forums'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_newsletter_1320270645889</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_notification_1319473992518</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='label' value='Notifications'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:smartfilter_promo_1320270645890</id>
+		<updated>2012-10-11T10:38:08Z</updated>
+		<content></content>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed><?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890,1349951877367,1349952858682,1349952859073,1349952859837,1349952860330,1349952860657,1349952860942,1349952861160,1349952861455,1349952861704,1349952862170,1349952862413,1349952862828,1349952863076,1349952863407,1349952863740,1349952864269,1349952864499,1349952864846,1349952865098,1349952865405,1349952865742,1349952865996,1349952866290,1349952866541,1349952866760,1349952867183,1349952867619,1349952867927,1349952868234,1349952868507,1349952868736,1349952868987,1349952869339,1349952869581,1349952869800,1349952870022,1349952870227,1349952870425,1349952870684,1349952870967,1349952871373,1349952871668,1349952871977,1349952872218,1349952872451,1349952872622,1349952872859,1349952873116,1349952873307,1349952873605,1349952873985,1349952874277,1349952874780,1349952875001,1349952875329,1349952875648,1349952875908,1349952876352,1349952876599,1349952876870,1349952877229,1349956578656,1349956579575,1349956579798,1349956580489,1349956581652,1349956582801,1349956583546,1349956584238,1349956584926,1349956585417,1349956586477,1349956586768,1349956588924,1349956590595,1349956592802,1349956593841,1349956596476,1349956597677,1349956599883,1349956600594,1349956601305,1349956601833,1349956602252,1349956603199,1349956603985,1349956604734,1349956605129,1349956605537,1349956606203,1349956607571,1349956608007,1349956608640</id>
+	<updated>2012-10-11T12:00:58Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956578656</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956579575</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='pearltrees'/>
+		<apps:property name='subject' value='your team'/>
+		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956579798</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='subject' value='mrs44 OR lemora'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956580489</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='last.fm'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>
+		<apps:property name='label' value='last.fm history'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956581652</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='adinkrasam@yahoo.com'/>
+		<apps:property name='hasTheWord' value='http'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956582801</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='facebookmail.com'/>
+		<apps:property name='hasTheWord' value='&quot;wrote on the wall&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956583546</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='notification+o926joj6@facebookmail.com'/>
+		<apps:property name='hasTheWord' value='group'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956584238</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956584926</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='alternative.to OR noreply student OR digg@e.digg.com OR justin@zoxsy.com OR @microsoft.msn.com OR info@graphicly.com OR alerts@foldier.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956585417</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='digest-noreply@quora.com'/>
+		<apps:property name='label' value='Notifications/Quora weekly digests'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956586477</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956586768</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm OR jobbjakt OR @live.com OR e-kontakt OR goaruna.com OR info@max.se OR @dinasikt.se OR academicwork'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956588924</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se OR info@asiktstorget.se OR @academicresource.se OR mediahunt1@gmail.com OR noreply@hairspray.nu OR promose@pixmania.org OR results@freelotto.com OR support@arunalabs.com OR noreply@formspring.me OR emails@soundcloud.com OR president@ashampoo.com OR service@stayfriends.se OR service@stumbleupon.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956590595</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter OR news'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956592802</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@pearltrees.com'/>
+		<apps:property name='label' value='Pearltrees'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956593841</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='doesNotHaveTheWord' value='bud'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956596476</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com OR team@adultfriendfinder.com'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956597677</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956599883</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot; OR tuneup OR ashampoo OR DarkOrbit'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956600594</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956601305</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto}'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956601833</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956602252</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956603199</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='groups.facebook.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956603985</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956604734</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956605129</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='bth'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956605537</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='[stud]'/>
+		<apps:property name='label' value='BTH'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956606203</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>
+		<apps:property name='label' value='Notifications'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956607571</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956608007</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='You have with birthdays this week'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1349956608640</id>
+		<updated>2012-10-11T12:00:58Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='label' value='no replay'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed>﻿<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1306747924276,1306747930557,1306747951052,1306749666874,1306749856309,1306750148759,1316311333676,1317754189874,1317908339478,1320271301598,1320271320261,1320271347566,1320271369117,1320271387765,1320271434004,1320271526550,1320271541949,1320271555234,1320272136440,1320272544024,1320272592160,1320272726202,1320272878143,1320272909560,1320272962838,1320272982447,1320272999053,1320273016659,1320273106384,1320273157762,1320273247273,1320273277217,1320273296085,1320273313206,1320273329230,1320273351747,1320273371760,1320273498714,1320273515561,1320273539051,1320273556012,1320273574208,1320273654907,1320273675050,1320273695767,1320273719746,1320273741235,1320273755729,1320273772790,1320273789707,1320607420986,1322867120522,1323180820732,1323180948052,1324398875538,1326598429098,1328782049597,1330943535466,1337600579214,1342090515336,1342296418292,1349951391156,1349951857975,smartfilter_group_1319473992531,smartfilter_newsletter_1320270645889,smartfilter_notification_1319473992518,smartfilter_promo_1320270645890,1349951877367,1349952858682,1349952859073,1349952859837,1349952860330,1349952860657,1349952860942,1349952861160,1349952861455,1349952861704,1349952862170,1349952862413,1349952862828,1349952863076,1349952863407,1349952863740,1349952864269,1349952864499,1349952864846,1349952865098,1349952865405,1349952865742,1349952865996,1349952866290,1349952866541,1349952866760,1349952867183,1349952867619,1349952867927,1349952868234,1349952868507,1349952868736,1349952868987,1349952869339,1349952869581,1349952869800,1349952870022,1349952870227,1349952870425,1349952870684,1349952870967,1349952871373,1349952871668,1349952871977,1349952872218,1349952872451,1349952872622,1349952872859,1349952873116,1349952873307,1349952873605,1349952873985,1349952874277,1349952874780,1349952875001,1349952875329,1349952875648,1349952875908,1349952876352,1349952876599,1349952876870,1349952877229,1349956578656,1349956579575,1349956579798,1349956580489,1349956581652,1349956582801,1349956583546,1349956584238,1349956584926,1349956585417,1349956586477,1349956586768,1349956588924,1349956590595,1349956592802,1349956593841,1349956596476,1349956597677,1349956599883,1349956600594,1349956601305,1349956601833,1349956602252,1349956603199,1349956603985,1349956604734,1349956605129,1349956605537,1349956606203,1349956607571,1349956608007,1349956608640</id>
+	<updated>2012-10-11T12:00:58Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956579575</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='pearltrees'/>		<apps:property name='subject' value='your team'/>		<apps:property name='forwardTo' value='dimitrievnadiakonova@gmail.com'/>		<apps:property name='label' value='BugTesting/1'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956579798</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='last.fm'/>		<apps:property name='subject' value='mrs44 OR lemora'/>		<apps:property name='label' value='last.fm history'/>		<apps:property name='label' value='BugTesting/2'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956580489</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='last.fm'/>		<apps:property name='doesNotHaveTheWord' value='&quot;Added to friends list of&quot; OR delade OR &quot;konstruktor_k&quot; OR vänförfrågan OR &quot;Friend Request&quot; OR shared'/>		<apps:property name='label' value='last.fm history'/>		<apps:property name='label' value='BugTesting/3'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956585417</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='digest-noreply@quora.com'/>		<apps:property name='label' value='Notifications/Quora weekly digests'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/4'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956578656</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='@codeweavers.com'/>		<apps:property name='subject' value='CrossOver'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='no replay'/>		<apps:property name='label' value='BugTesting/5'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956581652</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='adinkrasam@yahoo.com'/>		<apps:property name='hasTheWord' value='http OR &quot;wrote on the wall&quot; OR group'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/6'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956584238</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='svaraej@filmtipset.se'/>		<apps:property name='hasTheWord' value='&quot;Kanal 5&quot; OR &quot;kanal 9&quot; OR &quot;kanal 3&quot; OR &quot;kanal 11&quot; OR TV5 OR TV9 OR TV3 OR TV11 OR &quot;kanal 9&quot;'/>	<apps:property name='doesNotHaveTheWord' value='&quot;kanal 6&quot; OR &quot;kanal 4&quot; OR &quot;kanal 1&quot; OR &quot;kanal 2&quot; TV6 OR tv1 OR tv2 OR tv4'/>	<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/7'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956584926</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='alternative.to OR noreply student OR digg@e.digg.com OR justin@zoxsy.com OR @microsoft.msn.com OR info@graphicly.com OR alerts@foldier.com OR lovefilm OR jobbjakt OR @live.com OR e-kontakt OR goaruna.com OR info@max.se OR @dinasikt.se OR academicwork OR mail@rabattfeber.se OR info@asiktstorget.se OR @academicresource.se OR mediahunt1@gmail.com OR noreply@hairspray.nu OR promose@pixmania.org OR results@freelotto.com OR support@arunalabs.com OR noreply@formspring.me OR emails@soundcloud.com OR president@ashampoo.com OR service@stayfriends.se OR service@stumbleupon.com'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/8'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956590595</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='newsletter OR news'/>		<apps:property name='doesNotHaveTheWord' value='&quot;ant-zen&quot; OR soundcloud'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/9'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956586477</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='invoicing@wizzair.com'/>		<apps:property name='shouldNeverSpam' value='true'/>		<apps:property name='label' value='BugTesting/10'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956592802</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='no-reply@pearltrees.com'/>		<apps:property name='label' value='Pearltrees'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/11'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956593841</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='noreply@tradera.com'/>		<apps:property name='doesNotHaveTheWord' value='bud'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='no replay'/>		<apps:property name='label' value='BugTesting/12'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956596476</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='from' value='notifications@zyngamail.com OR team@adultfriendfinder.com'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/13'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956599883</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;lärarnas riksförbund&quot; OR tuneup OR ashampoo OR DarkOrbit OR Tweekly.fm OR Postponement'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/14'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956597677</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;CHRISTOFFER brobäck created&quot;'/>		<apps:property name='label' value='Notifications'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/15'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956600594</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot; OR single AND female'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/16'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956601305</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='(vinn OR vinnande OR vinnare OR grattis) -{Wizzair OR tradera OR facebook OR auktion OR asiktstorget OR rabattfeber.se OR studentkår OR lärarnas OR adult friendfinder OR freelotto} OR groups.facebook.com'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/17'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956602252</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='congratulations OR money'/>		<apps:property name='doesNotHaveTheWord' value='facebook OR last.fm OR uservoice OR kinga OR &quot;blip.fm&quot;'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='label' value='BugTesting/18'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956603985</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='mooncitygirl found this web page on StumbleUpon'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/19'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956605129</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='hasTheWord' value='bth'/>		<apps:property name='label' value='BTH'/>		<apps:property name='shouldAlwaysMarkAsImportant' value='true'/>		<apps:property name='label' value='BugTesting/20'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956605537</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='[stud]'/>		<apps:property name='label' value='BTH'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/21'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956606203</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='&quot;CHRISTOFFER brobäck created&quot;'/>		<apps:property name='label' value='Notifications'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/22'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956608640</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='declining the license during installation'/>		<apps:property name='label' value='no replay'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/23'/></entry>
+		<entry>		<category term='filter'></category>		<title>Mail Filter</title>		<id>tag:mail.google.com,2008:filter:1349956608007</id>		<updated>2012-10-11T12:00:58Z</updated>		<content></content>		<apps:property name='subject' value='You have with birthdays this week OR win OR won'/>		<apps:property name='shouldMarkAsRead' value='true'/>		<apps:property name='shouldArchive' value='true'/>		<apps:property name='label' value='BugTesting/24'/></entry>
+</feed><?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1254656936319,1254657139240,1254809256603,1254851639398,1255376959414,1255443939995,1255584793644,1263658612028,1264629593999,1265848561716,1266003044186,1268393401185,1269525437726,1269727607200,1272746306713,1273700531846,1274098489130,1274099189125,1274099804196,1274099935323,1274197469932,1274207352957,1274340311858,1274342059731,1274342122907,1274342190639,1274342405432,1274342762335,1274343229385,1274343761278,1274347280213,1274356934902,1274899715705,1282743580287,1283162506627,1283162622640,1284373252946,1284373388304,1285926854175,1285927014440,1285928567330,1285928631205,1290120659313,1292984927682,1295022365034,1295202031344,1295385692446,1295973309400,1296013892707,1296152666646,1296213388437,1296721788210,1301800010798,1302440705395,1302440810452,1302638572531,1305131994671,1305132001512,1305797599900</id>
+	<updated>2011-05-19T09:35:45Z</updated>
+	<author>
+		<name>Christoffer Brobäck</name>
+		<email>christoffer.broback@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254656936319</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@studentconsulting.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254657139240</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stayfriends.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254809256603</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no_reply@k-rauta.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1254851639398</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@hairspray.nu'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255376959414</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tech-noir.org'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255443939995</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@max.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1255584793644</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@lovefilm.se'/>
+		<apps:property name='hasTheWord' value='nöjesmail'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1263658612028</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='digg@e.digg.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1264629593999</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='promose@pixmania.org'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1265848561716</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='justin@zoxsy.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1266003044186</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='declining the license during installation'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1268393401185</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='&quot;sent a message to the members of&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1269525437726</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='ashampoo'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1269727607200</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='tuneup'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1272746306713</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='mye cleo långstrump'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1273700531846</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@blip.fm'/>
+		<apps:property name='hasTheWord' value='weekly activity'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274098489130</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='to' value='du.se'/>
+		<apps:property name='doesNotHaveTheWord' value='göran moren'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099189125</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='system@csc.kth.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099804196</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='invoicing@wizzair.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274099935323</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='du.se OR dalastudent.se'/>
+		<apps:property name='doesNotHaveTheWord' value='göran moren'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274197469932</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@soundcloud.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274207352957</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='lärarnas riksförbund'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274340311858</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='mail@rabattfeber.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342059731</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='alerts@foldier.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342122907</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@meetyourmessenger.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342190639</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='DarkOrbit'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342405432</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@live.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274342762335</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='team@adultfriendfinder.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274343229385</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='info@asiktstorget.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274343761278</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='results@freelotto.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274347280213</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@dinasikt.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274356934902</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@vitalas.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1274899715705</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='news@bravofly.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1282743580287</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@academicresource.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1283162506627</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@bravofly.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1283162622640</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@ant-zen.com'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1284373252946</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@codeweavers.com'/>
+		<apps:property name='subject' value='CrossOver'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1284373388304</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='goaruna.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285926854175</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@tradera.com'/>
+		<apps:property name='subject' value='-auktion'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285927014440</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='congratulations OR money'/>
+		<apps:property name='doesNotHaveTheWord' value='Jennifer OR mrs44 OR facebook OR last.fm'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285928567330</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply@message.myspace.com'/>
+		<apps:property name='hasTheWord' value='news OR new OR &quot;see what your friends are up to&quot;'/>
+		<apps:property name='doesNotHaveTheWord' value='&quot;has sent you a new message!&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1285928631205</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='vinn OR vinnande OR vinnare OR grattis'/>
+		<apps:property name='doesNotHaveTheWord' value='Wizzair OR tradera OR facebook OR auktion'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1290120659313</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='mediahunt1@gmail.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1292984927682</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='@kth.se'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295022365034</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='win OR won'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295202031344</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@zyngamail.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295385692446</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='single AND female'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1295973309400</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='service@stumbleupon.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296013892707</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='subject' value='en film som du vill se kommer på tv'/>
+		<apps:property name='hasTheWord' value='TV3 OR &quot;Kanal 5&quot;'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296152666646</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='newsletter@email.lumosity.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296213388437</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='support@arunalabs.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1296721788210</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='noreply.jolicloud@getsatisfaction.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1301800010798</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='kanal 9'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302440705395</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@posterous.com'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302440810452</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='hasTheWord' value='Tweekly.fm OR Postponement'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1302638572531</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='lovefilm'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305131994671</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='jennifer'/>
+		<apps:property name='hasAttachment' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305132001512</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='no-reply@mailer.last.fm'/>
+		<apps:property name='subject' value='mrs44'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1305797599900</id>
+		<updated>2011-05-19T09:35:45Z</updated>
+		<content></content>
+		<apps:property name='from' value='svaraej@filmtipset.se'/>
+		<apps:property name='hasTheWord' value='Kanal 5'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+</feed>

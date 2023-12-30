@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1582890"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"My Catgirl Maid Thinks She Runs the Place"
+	"StateFlags"		"4"
+	"installdir"		"My Catgirl Maid Thinks She Runs the Place"
+	"LastUpdated"		"1663712965"
+	"SizeOnDisk"		"425110561"
+	"StagingSize"		"0"
+	"buildid"		"7064132"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"317579296"
+	"BytesDownloaded"		"317579296"
+	"BytesToStage"		"425110561"
+	"BytesStaged"		"425110561"
+	"TargetBuildID"		"7064132"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1582891"
+		{
+			"manifest"		"5739442598265078"
+			"size"		"425110561"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

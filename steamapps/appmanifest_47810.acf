@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"47810"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Dragon Age: Origins - Ultimate Edition"
+	"StateFlags"		"4"
+	"installdir"		"Dragon Age Ultimate Edition"
+	"LastUpdated"		"1664713685"
+	"SizeOnDisk"		"25411344395"
+	"StagingSize"		"0"
+	"buildid"		"3830"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"13472064128"
+	"BytesDownloaded"		"13472064128"
+	"BytesToStage"		"25411344395"
+	"BytesStaged"		"25411344395"
+	"TargetBuildID"		"3830"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"47811"
+		{
+			"manifest"		"8118362979223035478"
+			"size"		"25397006137"
+		}
+		"47812"
+		{
+			"manifest"		"1493377730879186203"
+			"size"		"14338258"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

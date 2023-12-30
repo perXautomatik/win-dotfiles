@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>TOMA.HK | music without borders</os:ShortName>
+<os:Description>TOMA.HK | music without borders</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACTUlEQVQ4jYXTy0vUURQH8AONNssemtrqtxgs+c38vgcGlfF3Di0siiJ6ILRrW9DKbZv+BElEok30AnM32yhHoqU7Hy0Mx5qZc0TwQVGppNNiRhsf0YG7u+fDvd97LlFDzYZhs8eZqy48bsLLrlx15aoLllwxZjlcng3DZjqqvsbnzrpgxJXXTbHhgmkXFOprxgSbpljzGMOL2a6Ofc2L2a4OV867YNsV7yt9mRuuqdZiECSLQZB0TbWa4JYLJmp7OL+HTGWpyQUjLth2wYhlO1sOnm6c6FiBKLHQm24z4VEX7JjgcYEoQeU+vmaKNRe8+yKZkyVNR6bRw0bIFIMm+FiR6HopF55yQcEEK5U4fYlc8MYUG6Z8k4jINXPBFd9N+G0phx4iIhMedeWqxbhf2xMNmGDThF+TCS+7YPpzX3RmFzDhn65cNUWpIvzAhJ83AsXusN2U51zZyJWrJjxZDILkQaCO/HLl9X1AECRNeNKVq/8HhH+YYPXfgGDJBTMLvem2I4B5l+iuK541AovZrg4TfHLhCrlizASbFuP2XoiCb66cL2k6OirESow7LrxlMV6SSXTFBKsumCj3nD9dymUyphgsMp/Ye8a/wD3LdraY4IMJVsoa9VOBKOExhmvDwaOuqdaDg7QLuESPTPDEBTum0VCBKHFolGvhRAMLvem2YhAk51Op4ybR01qgWHXl366cL3aH7Yf+gwke167DW6Y8Z8KT9bStDqyYRkOHmndrNgybK5K5aIpXrmwu2KkdFyUTvChr1D+VpabGnj9hxYA+Y6uJTwAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://toma.hk/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://toma.hk/search.php">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

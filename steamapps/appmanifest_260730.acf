@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"260730"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Program Files (x86)\\Steam\\steam.exe"
+	"name"		"Desperados - Wanted Dead or Alive"
+	"StateFlags"		"4"
+	"installdir"		"Desperados Wanted Dead or Alive"
+	"LastUpdated"		"1665188503"
+	"SizeOnDisk"		"1982044634"
+	"StagingSize"		"0"
+	"buildid"		"2959430"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1701421264"
+	"BytesDownloaded"		"1701421264"
+	"BytesToStage"		"1982044634"
+	"BytesStaged"		"1982044634"
+	"TargetBuildID"		"2959430"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"260731"
+		{
+			"manifest"		"8883348394163131400"
+			"size"		"1982044634"
+		}
+	}
+	"SharedDepots"
+	{
+		"228985"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

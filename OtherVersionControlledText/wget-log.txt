@@ -1,0 +1,70 @@
+Retrying.
+
+--2013-01-25 22:10:17--  (try: 4)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:10:42--  (try: 5)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:11:08--  (try: 6)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:11:35--  (try: 7)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:12:03--  (try: 8)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:12:32--  (try: 9)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:13:02--  (try:10)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:13:33--  (try:11)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:14:04--  (try:12)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:14:35--  (try:13)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:15:06--  (try:14)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:15:38--  (try:15)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:16:09--  (try:16)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:16:41--  (try:17)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:17:12--  (try:18)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:17:43--  (try:19)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Retrying.
+
+--2013-01-25 22:18:14--  (try:20)  http://www.boundlesssupremacy.com/Cappy/getlibs/getlibs-all.deb
+Connecting to www.boundlesssupremacy.com|174.132.151.2|:80... failed: Connection timed out.
+Giving up.
+

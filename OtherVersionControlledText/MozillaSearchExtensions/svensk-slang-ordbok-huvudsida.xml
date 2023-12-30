@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Slang ordbok: Huvudsida</os:ShortName>
+<os:Description>Svensk Slang ordbok: Huvudsida</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVQ4jWNggIKzfZP/n/MKIgqf7Zv8nwEZEKsRHZNsM1aXkKsZ7goYAwaQJYkRo9yAGWwSZDt/BpsExIAZbBIkuwCmD8MAGJ9YMQZkSXIwhgHEuoR2BpDsheneIWRrnu4dAskPZNuODEhxCdxmBgYGAD9JMnsouwVhAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>http://sv-slang.wikidot.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://sv-slang.wikidot.com/dummy">
+  <os:Param name="query" value="{searchTerms}"/>
+  <os:Param name="search" value="search"/>
+  <os:Param name="sourceid" value="Mozilla-search"/>
+</os:Url>
+</SearchPlugin>

@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"1361550"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Death Trash Demo"
+	"StateFlags"		"4"
+	"installdir"		"Death Trash Demo"
+	"LastUpdated"		"1671315742"
+	"SizeOnDisk"		"829890801"
+	"StagingSize"		"0"
+	"buildid"		"10088600"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"4392816"
+	"BytesDownloaded"		"4392816"
+	"BytesToStage"		"233314495"
+	"BytesStaged"		"233314495"
+	"TargetBuildID"		"10088600"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1361551"
+		{
+			"manifest"		"305511538891959455"
+			"size"		"829890801"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>SourceForge.net: Software Search</os:ShortName>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAABMLAAATCwAAAAAAAAAAAAAugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUiVPAiWPEiXPEiYPEhY/IhZvIhaPIhaPIhaPIhZvIhY/IiYPEiXPEiWPEugfUugfUiWPEiXPEiYPEhZfIhavIhbfMhb/Mhb/Mhb/MhbfMhavIhZfIiYPEiXPEugfUugfUiW/EiYPEhZfIha/Mhb/Mgc/MgdPQgdfQgdPQgc/Mhb/Mha/MhZfIiYPEugfUugfUiXfEhY/I/fvRclfZbmfYvgPUgefQgefQgefQgd/QgdPMhb/MhavIhY/IugfUugfUiX/GJrfj////////////w9v5NlPZbnff///////9bm/cgc/MhbfMhZvIugfUugfUiYPF6pPeJsvkvffWIuPn///+IuPlbnff///////9bnfcgdPQhb/MhaPIugfUugfUhYfIhaPIhb/N5rPjw9v7///9bnfdbnff///////+IuPlbmvdclfY/fPQugfUugfUiYPEwcvPE2fz////h7f5bnfcgefRbnff///////////////////+JrvgugfUugfUiX/GJrfj///+Xvvkgd/Q+i/UvgvVbnff///////9bm/cgc/MhbfMhZvIugfUugfUiXfFrl/b////w9f7S4/3///9bnfdbnff////////S4/3E2fzE1/x6ofcugfUugfUiW/EiYPFNhPWJsPmJsvlqovcgdPQ+h/WItfmItPmJsvmJsPmJrfhdivUugfUugfUiWPEiXPEiYPEhZfIhavIhbfMhb/Mhb/Mhb/MhbfMhavIhZfIiYPEiXPEugfUugfUiVPAiWPEiXPEiYPEhY/IhZvIhaPIhaPIhaPIhZvIhY/IiYPEiXPEiWPEugfUugfUiUfAiVPAiWPEiW/EiXfEiX/EiYPEhYfIiYPEiX/EiXfEiW/EiWPEiVPAugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUugfUAAD4KAAA8awAAPmMAAC5hAABsZQAAcmkAAC50AABrZQAAY3IAAHRvAAAvawAAPgoAADxzAABpbgAAY28AAGFw</os:Image>
+<SearchForm>http://sourceforge.net/search/?type_of_search=soft&amp;words=upload</SearchForm>
+<os:Url type="text/html" method="GET" template="http://sourceforge.net/search/">
+  <os:Param name="type_of_search" value="soft"/>
+  <os:Param name="words" value="{searchTerms}"/>
+  <os:Param name="sourceid" value="Mozilla-search"/>
+</os:Url>
+</SearchPlugin>

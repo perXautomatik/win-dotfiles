@@ -1,0 +1,8 @@
+// Here You can type your custom JavaScript...
+function getElementByXpath(path) {
+  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
+
+getElementByXpath('//*[@id="portfolio-add-qty-input"]').value="2";
+getElementByXpath('//*[@id="portfolio-add-input"]').value="moo";
+getElementByXpath('//*[@id="quickadd"]/div[2]/input[4]').submit();

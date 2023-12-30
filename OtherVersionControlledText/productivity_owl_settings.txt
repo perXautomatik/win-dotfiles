@@ -1,0 +1,118 @@
+[
+  [
+    30,
+    1,
+    "15"
+  ],
+  [
+    "open.spotify.com",
+    "trello.com",
+    "onenote.com",
+    "onedrive.live.com",
+    "portalen9.gotland.se",
+    "gotlandskommun-my.sharepoint.com",
+    "messages.google.com",
+    "www.messenger.com",
+    "www.multcloud.com",
+    "discordapp.com",
+    "accounts.google.com",
+    ""
+  ],
+  [
+    "www.google.com/search",
+    "facebook.com",
+    "twitter.com",
+    "reddit.com",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    {
+      "dayArr": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sTime": "16:45",
+      "eTime": "23:30"
+    },
+    {
+      "dayArr": [
+        4
+      ],
+      "sTime": "16:45",
+      "eTime": "23:45"
+    },
+    {
+      "dayArr": [
+        5
+      ],
+      "sTime": "00:00",
+      "eTime": "23:45"
+    },
+    {
+      "dayArr": [
+        6
+      ],
+      "sTime": "00:00",
+      "eTime": "23:30"
+    }
+  ],
+  [
+    {
+      "saveUrl": "https://trello.com/b/xdfWLRMF/project-t%C3%A4nkom-digitalt",
+      "saveTime": "8/6 3:48 PM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=enhetschef+karl+risp&oq=enhetschef+karl+risp&aqs=chrome..69i57j33.10750j1j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/6 4:59 PM"
+    },
+    {
+      "saveUrl": "https://www.reddit.com/r/gifs/comments/cm9j24/best_friends_bucket_and_colton_playing_together/?utm_source=ifttt",
+      "saveTime": "8/6 8:33 PM"
+    }
+    {
+      "saveUrl": "https://accounts.google.com/signin/oauth/oauthchooseaccount?client_id=28300235456-b801aqbc1i8luet9arr7sgll09t6eep9.apps.googleusercontent.com&as=Agxe0lRw8NMENafyRtQflA&destination=https%3A%2F%2Ftrello.com&approval_state=!ChRIbHhZQkE1SjBwQWZ4dnRNQko2TxIfWTEtS1dzcmJIU0lhOERFdWhZOThQYy0xMDdtenhoWQ%E2%88%99AJDr988AAAAAXUvfvJcXn3fRI5QqU8sgM1i_JvCH3aMS&oauthgdpr=1&xsrfsig=ChkAeAh8T6UPVq5U9Hym-6QtFxmF9_wofL_gEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&flowName=GeneralOAuthFlow",
+      "saveTime": "8/7 10:39 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=alm%C3%A4nna+svenska+gramatiska+regler+f%C3%B6r+engelska+ord&oq=alm%C3%A4nna+svenska+gramatiska+regler+f%C3%B6r+engelska+ord&aqs=chrome..69i57j33.38719j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 10:56 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=gramatiska+regler+f%C3%B6r+engelska+ej+sammansatta+ord&oq=gramatiska+regler+f%C3%B6r+engelska+ej+sammansatta+ord&aqs=chrome..69i57j33.36839j1j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 10:56 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=run+sql+on+tabular+data&oq=run+sql+on+tabular+data&aqs=chrome..69i57j33l4.7239j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 11:23 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=google+search+input+syntax&oq=google+search+input+syntax&aqs=chrome..69i57j69i64l2.5119j1j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 11:25 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=sql+(access%7Cexcell)+(Rutin%3A+GoogleSheets%2FSqlServer%3A+hur+man+sl%C3%A5r+samman+med%C3%A4gares+adresser+om+de+bor+p%C3%A5+samma+adress)&oq=sql+(access%7Cexcell)+(Rutin%3A+GoogleSheets%2FSqlServer%3A+hur+man+sl%C3%A5r+samman+med%C3%A4gares+adresser+om+de+bor+p%C3%A5+samma+adress)&aqs=chrome..69i57.101727j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 11:25 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=examples+of+skills+to+add+to+your+linkedin&oq=example+of+skills+to+add+to+your+linked&aqs=chrome.1.69i57j33l3.6335j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 11:52 AM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=crm&oq=CRM&aqs=chrome.0.0l3j69i61j69i60l2.284j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 12:38 PM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=GIT%2Fversionhantering&oq=GIT%2Fversionhantering&aqs=chrome..69i57j0l2j69i61j69i58j69i61.287j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 12:39 PM"
+    },
+    {
+      "saveUrl": "https://www.google.com/search?q=OCR&oq=OCR&aqs=chrome..69i57j69i59j0l2j69i61j69i60.191j0j7&sourceid=chrome&ie=UTF-8",
+      "saveTime": "8/7 12:39 PM"
+    }
+  ]
+]

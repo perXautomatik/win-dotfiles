@@ -1,0 +1,24 @@
+=sort(
+    arrayformula({
+        {'orginal from mtgpricer'!A2:A;'original from mtgGoldfish'!D2:D}
+        ,
+        REGEXREPLACE({'orginal from mtgpricer'!B2:B;'original from mtgGoldfish'!A2:A},"[(]\d[)]"," ")
+        ,
+        REGEXREPLACE(
+            IFERROR
+            (
+                if(match({'orginal from mtgpricer'!C2:C;'original from mtgGoldfish'!C2:C},'edition reference'!B:B,0)>0,"","x")
+     
+                ,
+                {'orginal from mtgpricer'!C2:C;'original from mtgGoldfish'!C2:C}
+            )
+            ,
+            "[(]Foil[)]",""
+        )
+        ,
+        IFERROR(if({'orginal from mtgpricer'!D2:D;'original from mtgGoldfish'!E2:E},"Foil",""),"Foil")
+        }
+    )
+
+,3,false,2,true)
+    

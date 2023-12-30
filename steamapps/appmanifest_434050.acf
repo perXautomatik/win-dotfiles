@@ -1,0 +1,47 @@
+"AppState"
+{
+	"appid"		"434050"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Steam\\steam.exe"
+	"name"		"Duke Nukem 3D: 20th Anniversary World Tour"
+	"StateFlags"		"4"
+	"installdir"		"Duke Nukem 3D Twentieth Anniversary World Tour"
+	"LastUpdated"		"1659826142"
+	"SizeOnDisk"		"1137326794"
+	"StagingSize"		"0"
+	"buildid"		"1435846"
+	"LastOwner"		"76561198070792349"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"434051"
+		{
+			"manifest"		"5242689339511472707"
+			"size"		"1122464740"
+		}
+		"434052"
+		{
+			"manifest"		"1110174308443279254"
+			"size"		"14862048"
+		}
+		"434053"
+		{
+			"manifest"		"6841699226405454456"
+			"size"		"6"
+		}
+	}
+	"SharedDepots"
+	{
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

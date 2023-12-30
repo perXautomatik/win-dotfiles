@@ -1,0 +1,8 @@
+Name	Artist	Composer	Album	Grouping	Genre	Size	Time	Disc Number	Disc Count	Track Number	Track Count	Year	Date Modified	Date Added	Bit Rate	Sample Rate	Volume Adjustment	Kind	Equaliser	Comments	Plays	Last Played	Skips	Last Skipped	My Rating	Location
+
+Trashed Treasure	The Eden House		Smoke & Mirrors		New Wave; Goth Rock	10206402	254	1		5	10	2009	2014-02-17 19:01	2014-02-23 23:10	320	44100		MPEG audio file			5	2014-02-28 12:27				D:\Music\Musicbrain Corrected\The Eden House\(2009) Smoke & Mirrors\Disc 1\05. trashed treasure.mp3
+
+echo "Reach Out	The Eden House		Smoke & Mirrors		New Wave; Goth Rock	12879225	321	1		4	10	2009	2014-02-17 19:01	2014-02-23 23:10	320	44100		MPEG audio file			5	2014-02-28 12:22				D:\Music\Musicbrain Corrected\The Eden House\(2009) Smoke & Mirrors\Disc 1\04. reach out.mp3" | sed 's/\(.*\)\t\(.*\)\t\(.*\)\t\(.*\)\(.*\).*/\1\n\2/'
+
+echo "Reach Out	The Eden House		Smoke & Mirrors		New Wave; Goth Rock	12879225	321	1		4	10	2009	2014-02-17 19:01	2014-02-23 23:10	320	44100		MPEG audio file			5	2014-02-28 12:22 | sed 's/\(.*\)\t\(.*\)\t\(.*\)\t\(.*\)\(.*\).*/\1\n\2/'
+

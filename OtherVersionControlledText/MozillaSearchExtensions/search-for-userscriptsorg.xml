@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Search for Userscripts.org</os:ShortName>
+<os:Description>Search for Userscripts.org</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<SearchForm>http://userscripts.org/scripts/search?q=fronter&amp;x=0&amp;y=0</SearchForm>
+<os:Url type="text/html" method="GET" template="http://userscripts.org/scripts/search">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

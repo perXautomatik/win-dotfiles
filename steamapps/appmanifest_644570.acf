@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"644570"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Program Files (x86)\\Steam\\steam.exe"
+	"name"		"Material Girl"
+	"StateFlags"		"4"
+	"installdir"		"Material Girl"
+	"LastUpdated"		"1667589354"
+	"SizeOnDisk"		"1343197499"
+	"StagingSize"		"0"
+	"buildid"		"2002116"
+	"LastOwner"		"76561198070792349"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1221705760"
+	"BytesDownloaded"		"1221705760"
+	"BytesToStage"		"1343197499"
+	"BytesStaged"		"1343197499"
+	"TargetBuildID"		"2002116"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"644571"
+		{
+			"manifest"		"7824360137911045206"
+			"size"		"1343197499"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

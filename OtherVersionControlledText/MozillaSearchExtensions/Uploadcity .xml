@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>UploadCity Helps You to Search Shared Files On the Web</os:ShortName>
+<os:Description>UploadCity Helps You to Search Shared Files On the Web</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACWElEQVQ4jX2TTUhUURTH56JkBYIRuLIWldiqNlIbF0ZQY0KLQIiW1aJVmzat+lgFgUSQphmWaSVhpTaUDaOOmuOU+Un5iUQm+TFmOh/vzbvvvvtrMdbL1A4cuOfc8/8d+F+uh79DWVhDlRivSojX5RN/fBgzeAn1PcRm4fl9cJbGiDcVE63KZqU8k5U7W1NZsYNo9S6SvTfANjcGqMVhEo1HiFVlEi0TRMsEsdq9xKqzid3Pwmg+jhyvBUetbpOohSDy02U8WiVJdpwldi+NWKXAaC7EGixFTj5Bjj5AjlShvgVwIn2oSBg5dhur7yLJoBfTl4NHRXpJ1GURrxYYDXnYXxpAJXFWplDzIeTkI+ToXaz+KyQ7z5Bo3EfiaRpGvQejIQOPHL6OUSswagVy6BqgQSvUXAg5UYPZdR6z9RTmWy+m34sZ8GK2eUl2nECGS/BYHUWY9QLzWTo6Mb2p29pJohPT6MRXtLXkmij9+7FeCOSbnE3FAHplGNmWjwwcQE2WugC7PRfpE9hte/4PiPiRPoH0CZypmy5AhQuwWwS2fys469/5D2C6PDXXInBmalyAM3oBFRCogEAvvNxY7Uic/qPuXHTABejF1zjBdJx2gR46BrHBf8QWevYhTlcWTrvA6T0IdtQFYP9EDxWiOwX6XQZMnIMfTbAchOVWmKtEDxxavd+Onrm1hp/6C4vPoS8PukUqB/Nh5CR8LoIP2alezzYYKQY5vwEAYLYCendDTyZ0p7mw0BZ4vxOGC8AYW2ePZ00V+wjjpyGc5QL6cmH6KqjlDf39BSudbRsGbdxDAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>http://www.uploadcity.com/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.uploadcity.com/">
+  <os:Param name="x" value="1"/>
+  <os:Param name="q" value="{searchTerms}"/>
+  <os:Param name="x" value="1"/>
+</os:Url>
+</SearchPlugin>
