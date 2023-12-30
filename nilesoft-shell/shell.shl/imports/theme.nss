@@ -1,87 +1,81 @@
 ﻿theme
 {
-	name='modern'
-
-	view='large'
-
-	dark=true
-
+	name = "modern"
+	
 	background
 	{
-		color=#1E2224
-		effect=0
-	}
-
-	image
-	{
-		align=2
-	}
-
-	shadow
-	{
-		enabled=true
-		color=#000000
-		opacity=20
-		size=5
-	}
-
-	separator
-	{
-		color=#606060
-		opacity=100
-	}
-
-	font
-	{
-		size=13
-		name="Open Sans"
+		opacity = 100
+		effect = 2
+		gradient
+		{
+			enabled = true
+			linear = [500, 100, -50, 0]
+			stop = [
+				[0.0, #101020, 100],
+				[0.649, #101020, 100],
+				[0.65, #1e1e2e, 100],
+				[0.799, #1e1e2e, 100],
+				[0.8, #3e3e4e, 100],
+				[1.0, #3e3e4e, 100]
+			]
+		}
 	}
 
 	item
 	{
-		prefix=auto
+		opacity = 100
+
+		prefix = 1
 
 		text
 		{
-			normal = #FFFFFF
-			select = #80BA30
-
-			normal.disabled = #BBBBBB
-			select.disabled = #BBBBBB
+			normal = #cdd6f4
+			select = #cdd6f4
+			normal-disabled = #a6adc8
+			select-disabled = #a6adc8
 		}
 
 		back
 		{
-			normal = #1E2224
-			select = #384D20
-
-			normal.disabled = #1E2224
-			select.disabled = #1E2224
+			select = #45475a
+			select-disabled = #313244
 		}
+	}
 
-		border
-		{
-			normal = #1E2224
-			select = #384D20
+	border
+	{
+		enabled = true
+		size = 1
+		color = #f5c2e7
+		opacity = 100
+		radius = 2
+	}
 
-			normal.disabled = #1E2224
-			select.disabled = #1E2224
-		}
+	shadow
+	{
+		enabled = true
+		size = 5
+		opacity = 5
+		color = #11111b
+	}
 
-		padding
-		{
-			top = 2
-			bottom = 2
-			left = 16
-			right = 16
-		}
+	separator
+	{
+		size = 1
+		color = #313244
+	}
 
-		margin
-		{
-			top = 2
-			bottom = 2
-			left = 6
-			right = 6
-		}
+	symbol
+	{
+		normal = #f5c2e7
+		select = #f5c2e7
+		normal-disabled = #a6adc8
+		select-disabled = #a6adc8
+	}
+
+	image
+	{
+		enabled = true
+		color = [#cdd6f4, #f5c2e7, #1e1e2e]
 	}
 }
