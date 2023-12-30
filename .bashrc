@@ -34,9 +34,9 @@ parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e "s|* \(.*\)|
 #export vars to customise the prompt, bash history, etc
 export esc=$(printf '\033')
 export HISTCONTROL=ignoreboth:erasedups #avoid duplicate commands in bash_history, only latest execution of command is stored 
-export PS1='\[\e[1;32m\]\W'"\$(parse_git_branch)"' Ã¢ÂžÂ¤ \[\e[0m\]'
+export PS1='\[\e[1;32m\]\W'"\$(parse_git_branch)"' â?¤ \[\e[0m\]'
 
-export PS1='\[\e[1;32m\]\W'"\$(parse_git_branch)"' ~ \[Ã¢Âž\]Â¤ \[\e[0m\]'
+export PS1='\[\e[1;32m\]\W'"\$(parse_git_branch)"' ~ \[â?\]¤ \[\e[0m\]'
 PS1='\[\e[35m\][\W]:\[\e[0m\] '
 
 eval "$(zoxide init bash)"
