@@ -14,7 +14,7 @@
       "Icon": "google.png",
       "CustomIcon": false,
       "Url": "https://scholar.google.com/scholar?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Wikipedia",
@@ -22,7 +22,7 @@
       "Icon": "wiki.png",
       "CustomIcon": false,
       "Url": "https://en.wikipedia.org/wiki/{q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "FindIcon",
@@ -30,7 +30,7 @@
       "Icon": "pictures.png",
       "CustomIcon": false,
       "Url": "http://findicons.com/search/{q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Facebook",
@@ -38,7 +38,7 @@
       "Icon": "facebook.png",
       "CustomIcon": false,
       "Url": "https://www.facebook.com/search/?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Twitter",
@@ -46,7 +46,7 @@
       "Icon": "twitter.png",
       "CustomIcon": false,
       "Url": "https://twitter.com/search?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Google Maps",
@@ -54,7 +54,7 @@
       "Icon": "google_maps.png",
       "CustomIcon": false,
       "Url": "https://maps.google.com/maps?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Google Translate",
@@ -62,7 +62,7 @@
       "Icon": "google_translate.png",
       "CustomIcon": false,
       "Url": "https://translate.google.com/#auto|en|{q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "DuckDuckGo",
@@ -70,7 +70,7 @@
       "Icon": "duckduckgo.png",
       "CustomIcon": false,
       "Url": "https://duckduckgo.com/?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "GitHub",
@@ -94,7 +94,7 @@
       "Icon": "gmail.png",
       "CustomIcon": false,
       "Url": "https://mail.google.com/mail/ca/u/0/#apps/{q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Google Drive",
@@ -102,7 +102,7 @@
       "Icon": "google_drive.png",
       "CustomIcon": false,
       "Url": "https://drive.google.com/?hl=en\u0026tab=bo#search/{q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "WolframAlpha",
@@ -118,7 +118,7 @@
       "Icon": "stackoverflow.png",
       "CustomIcon": false,
       "Url": "https://stackoverflow.com/search?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "I\u0027m Feeling Lucky",
@@ -134,7 +134,7 @@
       "Icon": "google.png",
       "CustomIcon": false,
       "Url": "https://www.google.com/search?q={q}\u0026tbm=isch",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "YouTube",
@@ -142,7 +142,7 @@
       "Icon": "youtube.png",
       "CustomIcon": false,
       "Url": "https://www.youtube.com/results?search_query={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Bing",
@@ -150,7 +150,7 @@
       "Icon": "bing.png",
       "CustomIcon": false,
       "Url": "https://www.bing.com/search?q={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Yahoo",
@@ -158,7 +158,7 @@
       "Icon": "yahoo.png",
       "CustomIcon": false,
       "Url": "https://www.search.yahoo.com/search?p={q}",
-      "Enabled": true
+      "Enabled": false
     },
     {
       "Title": "Baidu",
@@ -166,10 +166,10 @@
       "Icon": "baidu.png",
       "CustomIcon": false,
       "Url": "https://www.baidu.com/#ie=UTF-8\u0026wd={q}",
-      "Enabled": true
+      "Enabled": false
     }
   ],
-  "EnableSuggestion": false,
+  "EnableSuggestion": true,
   "Suggestion": "Google",
   "BrowserPath": null,
   "OpenInNewBrowser": true

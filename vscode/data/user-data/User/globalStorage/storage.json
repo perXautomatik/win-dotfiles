@@ -1,22 +1,21 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {
-            "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/Project/WPF-EF6-Sqlite/WPF-EF6-Sqlite.code-workspace": "__default__profile__"
-        },
-        "emptyWindows": {}
+        "workspaces": {},
+        "emptyWindows": {
+            "1692777059250": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "43b2f78b9133472da9df405d4b0940e2df1f4bac66d61a01814155213dabb309",
     "backupWorkspaces": {
-        "workspaces": [
-            {
-                "id": "0ca62fd3e1eb2876592993d511231b8e",
-                "configURIPath": "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/Project/WPF-EF6-Sqlite/WPF-EF6-Sqlite.code-workspace"
-            }
-        ],
+        "workspaces": [],
         "folders": [],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1692777059250"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "theme": "vs-dark",
@@ -39,20 +38,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 400,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "workspaceIdentifier": {
-                "id": "0ca62fd3e1eb2876592993d511231b8e",
-                "configURIPath": "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/Project/WPF-EF6-Sqlite/WPF-EF6-Sqlite.code-workspace"
-            },
-            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscode\\1.80.0\\data\\user-data\\Backups\\0ca62fd3e1eb2876592993d511231b8e",
+            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscode\\1.80.0\\data\\user-data\\Backups\\1692777059250",
             "uiState": {
-                "mode": 0,
+                "mode": 1,
                 "x": 448,
                 "y": 156,
                 "width": 1024,

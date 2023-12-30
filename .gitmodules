@@ -1,12 +1,29 @@
+[submodule ".config"]
+	path = .config
+	url = https://github.com/perXautomatik/win-dotfiles.git
+[submodule ".config/git"]
+	path = .config/git
+	url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
+[submodule ".config/powershell"]
+	path = .config/powershell
+	url = https://github.com/perXautomatik/Powershell-Profile
 [submodule "AHK"]
+	path = autohotkey
 	path = AHK
-	url = https://github.com/perXautomatik/AHK-EverydayScripts
+	url = https://github.com/perXautomatik/Autohotkey-scripts-.ahk.git
+[submodule "AHK-EverydayScripts"]
+	branch = split
+	path = AHK-EverydayScripts
+	url = https://github.com/perXautomatik/AHK-EverydayScripts.git
 [submodule "AdvancedRenamer"]
 	path = AdvancedRenamer
 	url = https://github.com/perXautomatik/AdvancedRenamer-BatchMethods
 [submodule "AppData"]
 	path = AppData
 	url = https://github.com/perXautomatik/AppData
+[submodule "BashHistory"]
+	path = BashHistory
+	url = https://gist.github.com/perXautomatik/f408843f80d8f2a5485aa4d86241dfa4
 [submodule "BeondCompare4"]
 	path = BeondCompare4
 	url = https://github.com/perXautomatik/BeondCompare4
@@ -19,12 +36,22 @@
 [submodule "Ditto"]
 	path = Ditto
 	url = https://github.com/perXautomatik/DittoPortable
+[submodule "Documents"]    
+	path = Documents
+	branch = Documents
+	url = https://github.com/perXautomatik/AppData.git
 [submodule "Everything"]
 	path = Everything
 	url = https://github.com/perXautomatik/EverythingSettings
 [submodule "Git"]
 path = Git
 url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
+[submodule "JetBrains"]
+	path = JetBrains
+	url = https://github.com/perXautomatik/Datagrip-UserFolder.git
+[submodule "Microsoft/Windows/PowerShell"]
+	path = Microsoft/Windows/PowerShell
+	url = https://github.com/perXautomatik/PowerShellCmdHist
 [submodule "OtherVersionControlledText"]
 	path = OtherVersionControlledText
 	url = https://github.com/perXautomatik/OtherVersionControlledText
@@ -43,27 +70,22 @@ url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "UserFolder"]
 	path = UserFolder
 	url = https://github.com/perXautomatik/AppData
+[submodule "UserFolder/OneDrive/Documents"]
+	path = UserFolder/OneDrive/Documents
+	branch = Documents
+	url = https://github.com/perXautomatik/AppData.git
 [submodule "Vortex"]
 	path = Vortex
 	url = https://github.com/perXautomatik/AppData.git
 [submodule "portableAppsPlatform"]
 	path = portableAppsPlatform
 	url = https://github.com/perXautomatik/portableAppsPlatform
+[submodule "pwsh"]
+	path = pwsh
+	url = https://github.com/perXautomatik/Powershell-Profile
 [submodule "steamapps"]
 	path = steamapps
 	url = https://github.com/perXautomatik/steamapps
 [submodule "xEditScripts"]
 	path = xEditScripts
 	url = https://github.com/perXautomatik/xEditScripts
-[submodule "Microsoft/Windows/PowerShell"]
-	path = Microsoft/Windows/PowerShell
-	url = https://github.com/perXautomatik/PowerShellCmdHist
-[submodule "BashHistory"]
-	path = BashHistory
-	url = https://gist.github.com/perXautomatik/f408843f80d8f2a5485aa4d86241dfa4
-[submodule "JetBrains"]
-	path = JetBrains
-	url = https://github.com/perXautomatik/Datagrip-UserFolder
-[submodule "UserFolder/OneDrive/Documents"]
-	path = UserFolder/OneDrive/Documents
-	url = C:\\Users\\chris\\OneDrive\\Documents

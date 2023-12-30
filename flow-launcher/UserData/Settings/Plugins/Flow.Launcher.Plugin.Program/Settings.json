@@ -1,5 +1,5 @@
 {
-  "LastIndexTime": "2023-11-27T08:49:02.0484571+01:00",
+  "LastIndexTime": "2023-11-08T00:00:00+01:00",
   "ProgramSources": [],
   "DisabledProgramSources": [],
   "CustomSuffixes": [
@@ -12,9 +12,9 @@
     "lnk": true
   },
   "BuiltinProtocolsStatus": {
-    "steam": false,
+    "steam": true,
     "epic": true,
-    "http": true
+    "http": false
   },
   "UseCustomSuffixes": true,
   "UseCustomProtocols": false,
@@ -23,5 +23,7 @@
   "HideAppsPath": true,
   "EnableRegistrySource": true,
   "EnablePathSource": true,
-  "EnableUWP": true
+  "EnableUWP": true,
+  "CustomizedExplorer": "explorer",
+  "CustomizedArgs": "%s"
 }
