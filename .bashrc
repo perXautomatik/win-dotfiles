@@ -6,7 +6,6 @@ export STARSHIP_DISTRO="SKY "
 eval "$(starship init bash)"
 
 alias code="codium"
-alias py="python"
 alias cls="clear"
 
 # Alias definitions.
