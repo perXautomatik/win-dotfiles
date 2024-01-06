@@ -1,0 +1,12 @@
+{
+    "root_path":  "C:\\ProgramData\\scoop",
+    "last_update":  "2023-10-14T18:49:55.2177735+02:00",
+    "alias":  {
+                  "presist":  "scoop-presist",
+                  "reinstall":  "scoop-reinstall",
+                  "gui":  "scoop-gui"
+              },
+    "scoop_branch":  "main",
+    "scoop_repo":  "https://github.com/Ash258/Scoop-Core",
+    "lastupdate":  "258|2023-12-07 09:22:33"
+}
