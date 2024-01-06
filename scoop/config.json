@@ -1,13 +1,8 @@
 {
-  "alias": {
-    "gui": "scoop-gui",
-    "presist": "scoop-presist",
-    "reinstall": "scoop-reinstall"
-  },
-  "aria2-enabled": true,
-  "independent": true,
-  "last_update": "2023-12-20T15:03:55.7673795+01:00",
-  "scoop_branch": "master",
-  "scoop_repo": "https://github.com/ScoopInstaller/Scoop",
-  "update-quiet": true
+    "last_update":  "2023-12-20T15:03:55.7673795+01:00",
+    "update-quiet":  true,
+    "independent":  true,
+    "aria2-enabled":  true,
+    "scoop_branch":  "master",
+    "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
 }
