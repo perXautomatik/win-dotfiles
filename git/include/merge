@@ -1,0 +1,5 @@
+[merge]
+	mergeOptions = recursive
+    	autoStash = true
+[mergetool]
+	keepbackup = false

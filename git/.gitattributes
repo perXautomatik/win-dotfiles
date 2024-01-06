@@ -1,0 +1,482 @@
+#
+#
+#  $ git config --global core.attributesfile ~/.gitattributes
+# (these should be in your gitignore)
+# * text=auto
+# See https://tekin.co.uk/2020/10/better-git-diff-output-for-ruby-python-elixir-and-more for more details
+# Stick this in your home directory and point your Global Git config at it by running:
+# Use this line at your own risk
+
+#[attr]cs	text diff=csharp text         
+#[attr]binExif 	binary diff=exif
+#[attr]lfs 	filter=lfs diff=lfs merge=lfs -text    
+#[attr]lf 	filter=lfs binExif merge=lfs -text     
+#[attr]unityYaml -text merge=unityyamlmerge diff
+#[attr]cp 	text diff=cpp      
+#[attr]befs 	binExif filter=lfs merge=lfs -text     
+#[attr]htm	text diff=html
+
+[Archives]
+*.ar -text
+*.bz2 -text
+*.bzip -text
+*.bzip2 -text
+*.gzip -text
+*.lzma -text
+*.lzma2 -text
+*.xz -text
+*.z -text
+
+[Packaging]
+*.7[zZ]    		binary
+*.[bB][zZ]2 		filter=lfs diff=lfs merge=lfs -text
+*.[gG][zZ]    		binary diff=exif
+*.[rR][aA][rR]    	binary
+*.[tT][aA][rR]    	binary
+*.[tT][aA][rR].[gG][zZ] binary
+*.[zZ][iI][pP]   	binary diff=exif      
+
+
+[3dformats]
+*.3[dD][mM] filter=lfs diff=lfs merge=lfs -text
+*.3[dD][sS] filter=lfs diff=lfs merge=lfs -text
+*.[aA][bB][cC] filter=lfs diff=lfs merge=lfs -text
+*.[bB][lL][eE][nN][dD] filter=lfs diff=lfs merge=lfs -text
+*.[cC]4[dD] filter=lfs diff=lfs merge=lfs -text
+*.[cC][oO][lL][lL][aA][dD][aA] filter=lfs diff=lfs merge=lfs -text
+*.[dD][aA][eE] filter=lfs diff=lfs merge=lfs -text
+*.[dD][xX][fF] filter=lfs diff=lfs merge=lfs -text
+*.[fF][bB][xX] filter=lfs diff=lfs merge=lfs -text
+*.[jJ][aA][sS] filter=lfs diff=lfs merge=lfs -text
+*.[lL][wW][oO] filter=lfs diff=lfs merge=lfs -text
+*.[lL][wW][oO]2 filter=lfs diff=lfs merge=lfs -text
+*.[lL][wW][sS] filter=lfs diff=lfs merge=lfs -text
+*.[lL][xX][oO] filter=lfs diff=lfs merge=lfs -text
+*.[mM][aA] filter=lfs diff=lfs merge=lfs -text
+*.[mM][aA][xX] filter=lfs diff=lfs merge=lfs -text
+*.[mM][bB] filter=lfs diff=lfs merge=lfs -text
+*.[oO][bB][jJ] filter=lfs diff=lfs merge=lfs -text
+*.[pP][lL][yY] filter=lfs diff=lfs merge=lfs -text
+*.[sS][kK][pP] filter=lfs diff=lfs merge=lfs -text
+*.[sS][tT][lL] filter=lfs diff=lfs merge=lfs -text
+*.[zZ][tT][lL] filter=lfs diff=lfs merge=lfs -text                                                                                                     
+
+[Unity-LFS]
+*.cubemap filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+[Unity-YAML]
+*.anim -text merge=unityyamlmerge diff
+*.asset -text merge=unityyamlmerge diff
+*.controller -text merge=unityyamlmerge diff
+*.mat -text merge=unityyamlmerge diff
+*.meta -text merge=unityyamlmerge diff
+*.physicMaterial -text merge=unityyamlmerge diff
+*.physicsMaterial2D -text merge=unityyamlmerge diff
+*.prefab -text merge=unityyamlmerge diff
+*.unity -text merge=unityyamlmerge diff
+
+[Video]# formats
+*.[aA][sS][fF] filter=lfs diff=lfs merge=lfs -text
+*.[aA][vV][iI]   binary diff=exif
+*.[fF][lL][vV]   binary diff=exif
+*.[mM][oO][vV]   binary diff=exif
+*.[mM][pP]4   binary diff=exif
+*.[mM][pP][eE][gG] filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP][gG] filter=lfs diff=lfs merge=lfs -text
+*.[oO][gG][vV] filter=lfs diff=lfs merge=lfs -text
+*.[wW][mM][vV] filter=lfs diff=lfs merge=lfs -text      
+*.swf   binary diff=exif
+[Image]# formats
+*.[aA][iI]    		binary diff=exif
+*.[bB][mM][pP]   	binary diff=exif
+*.[dD][dD][sS] 		filter=lfs diff=lfs merge=lfs -text
+*.[eE][xX][rR] 		filter=lfs diff=lfs merge=lfs -text
+*.[gG][iI][fF]   	binary diff=exif
+*.[hH][dD][rR] 		filter=lfs diff=lfs merge=lfs -text
+*.[iI][fF][fF] 		filter=lfs diff=lfs merge=lfs -text
+*.[jJ][pP][eE][gG]  	binary diff=exif
+*.[jJ][pP][gG]  	binary diff=exif
+*.[pP][iI][cC][tT] 	filter=lfs diff=lfs merge=lfs -text
+*.[pP][nN][gG]   	binary diff=exif
+*.[pP][sS][dD]   	binary diff=exif       
+*.[tT][gG][aA] 		filter=lfs diff=lfs merge=lfs -text
+*.[tT][iI][fF]   	binary diff=exif
+*.[tT][iI][fF][fF]   	binary diff=exif
+*.gifv -text
+*.hqx   		binary
+*.icns  		binary
+*.ico   		binary
+*.svg   		text
+*.xcf 			filter=lfs diff=lfs merge=lfs -text
+
+[Unix]
+
+*.awk 	eol=lf
+*.deb 	-text
+*.rpm 	-text
+*.sed 	eol=lf
+*.sh 	eol=lf diff=bash
+*.tcl 	eol=lf
+
+[Build]
+*.[dD][lL][lL] filter=lfs diff=lfs merge=lfs -text
+*.[mM][dD][bB] filter=lfs diff=lfs merge=lfs -text
+*.[pP][dD][bB] filter=lfs diff=lfs merge=lfs -text
+*.[sS][oO] filter=lfs diff=lfs merge=lfs -text
+[Unity-generated]
+*.asset             linguist-generated
+*.mat               linguist-generated
+*.meta              linguist-generated
+*.prefab            linguist-generated
+*.unity             linguist-generated
+
+[.NET]
+*.asp 		text
+*.aspx 		text
+*.cs 		text diff=csharp text
+*.csproj 	text
+*.nuget 	-text
+[Python]
+*.egg 		-text
+*.jinja 	text
+*.jinja2 	text
+*.py 		text diff=python
+*.pyc 		-text
+*.pyd 		-text
+*.whl 		-text
+
+
+[Audio]# formats
+*.[aA][iI][fF] filter=lfs diff=lfs merge=lfs -text
+*.[aA][iI][fF][fF] filter=lfs diff=lfs merge=lfs -text
+*.[bB][aA][nN][kK] filter=lfs diff=lfs merge=lfs -text
+*.[iI][tT] filter=lfs diff=lfs merge=lfs -text
+*.[mM][oO][dD] filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP]3   binary diff=exif
+*.[oO][gG][gG]   binary diff=exif
+*.[sS]3[mM] filter=lfs diff=lfs merge=lfs -text
+*.[wW][aA][vV]   binary diff=exif
+*.[xX][mM] filter=lfs diff=lfs merge=lfs -text
+[Native]
+*.a 		-text
+*.ac 		text
+*.am 		text
+*.c 		text
+*.c++   	text diff=cpp
+*.cab 		-text
+*.cat 		-text
+*.cc    	text diff=cpp
+*.cpp 		text diff=cpp        
+*.cxx 		text
+
+*.dll		binary diff=exif
+*.exe		binary diff=exif
+*.h     	text diff=cpp
+*.h++   	text diff=cpp         
+*.hh    	text diff=cpp
+*.hpp   	text diff=cpp
+*.in 		text
+*.lib 		-text
+*.m4 		text
+*.o 		-text
+*.proj 		text
+*.sln 		text
+*.so 		-text
+*.sys 		-text
+Makefile 	text
+
+
+[Config]
+*.cfg text
+*.cnf text
+*.conf text
+*.csv text
+*.dat text
+*.ini text      
+*.tsv text      
+
+[Data]
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+[Documents]
+*.[pP][dD][fF] filter=lfs diff=lfs merge=lfs -text
+
+*.doc   binary diff=exif
+*.docx  binary diff=docx
+*.dot   binary diff=exif
+*.dotx  binary diff=exif
+*.el    	diff=lisp
+*.go    	diff=golang
+*.lisp  	diff=lisp
+*.m     	diff=objc
+*.markdown 	text  diff=markdown
+*.md 		text diff=markdown
+*.mm    	diff=objc     
+*.odb   binary diff=exif
+*.odf   binary diff=exif
+*.odg   binary diff=exif
+*.odi   binary diff=exif
+*.odp   binary diff=exif
+*.ods   binary diff=exif
+*.odt   binary diff=odt
+*.otc   binary diff=exif
+*.otg   binary diff=exif
+*.oti   binary diff=exif
+*.otp   binary diff=exif
+*.ots   binary diff=exif
+*.ott   binary diff=exif
+*.ppt   binary diff=exif
+*.pptx diff=pptx
+*.xhtml diff=html
+*.xls   binary diff=exif
+*.xlsx 	binary diff=xlsx
+*.xlt   binary diff=exif
+*.xltm  binary diff=exif
+*.xmind diff=xmind     
+
+[markdown]
+*.markdown 	text diff=markdown
+*.md 		text diff=markdown
+*.ps    binary diff=exif
+*.rs    	diff=rust
+*.rst 		text
+*.txt 		text
+
+CHANGELIST 	text
+CODE_OF_CONDUCT text
+CONTRIBUTORS 	text
+COPYING 	text
+COPYRIGHT 	text
+LICENSE 	text
+NOTES 		text
+NOTICE 		text
+README 		text
+TODO 		text
+
+[Text]
+* 		text=auto
+*.ac 		text
+*.am 		text
+*.in 		text
+*.m4 		text
+*.proj 		text
+*.rst 		text
+*.sln 		text
+*.txt 		text       
+*~ 		text
+.#* 		text
+.*.sw[a-z] 	text
+Makefile 	text
+\#* 		text
+
+
+
+[Fonts]     
+*.[oO][tT][fF]   binary diff=exif
+*.[tT][tT][fF]   binary diff=exif
+*.cginc 	 text
+*.eot   	 binary
+*.shader 	 text
+*.ttc   	 binary diff=exif
+*.woff  	 binary
+*.woff2 	 binary      
+[Editor-save-files]
+# Text/Generic      
+*~ text
+.#* text
+.*.sw[a-z] text
+\#* text
+[Clojure]
+*.clj 		text
+*.cljs 		text
+*.edn 		text
+
+[Docker]
+Dockerfile text
+
+
+
+[Java]
+*.class 	-text
+*.jar 		-text
+*.java 		text
+     
+[LaTeX]
+*.sty text
+*.tex text
+
+[NSIST]
+*.nsi 		text
+
+[PHP]
+*.php text
+[Perl]
+
+*.ex    	diff=elixir
+*.exs   	diff=elixir
+*.pl 		text diff=perl
+*.t 		text diff=perl
+
+[Puppet]
+*.pp text
+
+[Ruby]
+*.erb 		text
+*.gem 		-text
+*.gemspec 	text
+*.rb 		text
+Gemfile 	text
+Gemfile.lock 	text
+[SaltStack]#
+*.sls text
+[Vagrant]
+Vagrantfile text
+
+
+[Web]
+*.css 	text  diff=css
+*.htm 	text  diff=html
+*.html 	text  diff=html
+*.js 	text
+
+[WiX]
+*.loc 		text
+*.wixlib 	-text
+*.wixobj 	-text
+*.wixproj 	text
+*.wxi 		text
+*.wxs 		text
+
+[Windows]
+*.bat   eol=crlf
+*.cmd   eol=crlf
+*.msi 	-text
+*.msu 	-text
+*.ps1 	text
+
+[binary]
+*.dll		binExif
+*.exe		binExif
+
+[cpp]
+*.c     	cp
+*.c++   	cp
+*.cc    	cp
+*.cpp 		cp        
+*.cxx 		cp
+*.h     	cp
+*.h++   	cp         
+*.hh    	cp
+*.hpp   	cp 
+
+[csv]
+*.csv text
+
+[elixir]
+*.ex    	diff=elixir
+*.exs   	diff=elixir    
+
+[exif]
+*.dot   binExif
+*.dotx  binExif           
+*.odb   binExif
+*.odf   binExif
+*.odg   binExif
+*.odi   binExif
+*.odp   binExif
+*.ods   binExif
+*.otc   binExif
+*.otg   binExif
+*.oti   binExif
+*.otp   binExif
+*.ots   binExif
+*.ott   binExif
+*.ppt   binExif
+*.ps    binExif
+*.xls   binExif
+*.xlt   binExif
+*.xltm  binExif
+
+[go]
+*.go    diff=golang
+
+[ini]
+*.cfg text
+*.cnf text
+*.conf text    
+*.ini text
+
+[js]
+*.js 	text
+
+[json]
+*.json text
+
+[lisp]
+
+*.el    diff=lisp
+*.lisp  diff=lisp
+
+
+[mindmap]
+*.m     	diff=objc
+*.mm    	diff=objc     
+*.xmind 	diff=xmind  
+
+[notText]
+*.a 		-text
+*.cab 		-text
+*.cat 		-text
+*.lib 		-text
+*.o 		-text
+*.so 		-text
+*.sys 		-text
+
+[odt]
+*.odt   binary diff=odt
+
+[pascal]
+*.pas diff=pascal
+
+[patch/diff]
+*.diff text
+*.orig text
+*.patch text               
+
+[perl]
+*.pl    diff=perl
+
+[php]
+*.php   diff=php
+
+[pptx]
+*.pptx diff=pptx
+*.pptx diff=pptx
+
+[ps1]
+*.ps1 	text    
+
+[python]
+*.py    diff=python
+
+[ruby]
+*.rake  diff=ruby
+*.rb    diff=ruby
+
+[rust]
+*.rs    	diff=rust
+
+[tsv]  
+*.tsv text      
+
+[xlsx]
+*.xlsx 	binary diff=xlsx
+
+[xml]
+*.xml text 
+
+[yaml]
+*.yaml text
+*.yml text

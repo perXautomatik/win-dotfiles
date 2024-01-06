@@ -1,0 +1,14 @@
+[http]
+	schannelUseSSLCAInfo = false      
+	sslBackend = schannel
+[sendemail]
+	smtpencryption = tls
+	smtppass = password
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+[web]
+	browser = OperaGX
+[instaweb]
+	httpd = apache2 -f
+[gitflow "prefix"]
+	versiontag = v
