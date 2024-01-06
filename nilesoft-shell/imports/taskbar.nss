@@ -1,4 +1,4 @@
-﻿menu(type="taskbar" vis=key.shift() pos=0 title=app.name image=\uE249)
+﻿menu(type="taskbar" vis=key.shift() || key.lbutton() pos=0 title=app.name image=\uE249)
 {
 	item(title="config" image=\uE10A cmd='"@app.cfg"')
 	item(title="manager" image=\uE0F3 admin cmd='"@app.exe"')
@@ -7,7 +7,7 @@
 	item(title="docs" image=\uE1C4 cmd='https://nilesoft.org/docs')
 	item(title="donate" image=\uE1A7 cmd='https://nilesoft.org/donate')
 }
-menu(where=@(this.count == 0 && isw11) type='taskbar' image=icon.settings expanded=true)
+menu(where=@(this.count == 0) type='taskbar' image=icon.settings expanded=true)
 {
 	menu(title="Apps" image=\uE254)
 	{
