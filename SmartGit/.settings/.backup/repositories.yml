@@ -9,7 +9,12 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: [~\Documents\PowerShell, ~\.config]
+  roots: ['C:\Users\chris\scoop\persist', 'C:\Users\chris\scoop\persist\AHK', 'C:\Users\chris\scoop\persist\AdvancedRenamer',
+    'C:\Users\chris\scoop\persist\Everything', 'C:\Users\chris\scoop\persist\PowerShell',
+    ~\scoop\persist\Microsoft\Windows\PowerShell, ~\scoop\persist\Microsoft\Windows\PowerShell\Processes\pipeline,
+    ~\Documents\PowerShell, ~\.config\powershell, ~\Documents, ~\AppData, ~\AppData\Roaming\Vortex,
+    ~\.config, ~\Documents\WindowsPowerShell, ~\scoop\persist, ~\scoop\persist\AHK,
+    ~\scoop\persist\Powershell, ~\scoop\persist\pwsh, ~\scoop\persist\Ditto, ~\scoop\persist\portableAppsPlatform]
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -12841,7 +12846,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\chris\scoop\persist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701348127739}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537601366}
     log:
       rootSettings: {baseRoots: "!remote://dotfiles\t!remote://notPushable\t!others://\t\
           !remote://win-dotfiles\tref://refs/heads/branch2\tref://HEAD", extendedRoots: '!stashes://'}
@@ -12850,10 +12855,10 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, merged state, loppy state]
+      commitNotesHistory: [state, etc, merged state, loppy state]
     journal: {}
   rootC:\Users\chris\scoop\persist\Everything:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701348126075}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537601266}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12874,7 +12879,7 @@ gitRootSettingsSet:
       commitNotesHistory: [aou, toRead, from documents branch, tió read, n submodules]
     journal: {}
   rootC:\Users\Användaren\AppData:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701549082400}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704551223755}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12946,7 +12951,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\Användaren\Documents:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701346832207}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704552670888}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -12956,6 +12961,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - etc
       - "Merge commit 'e5ec7a7ee4e88de341b7e78afaa16d89e7937a1d' into Documents\n\n\
         # Conflicts:\n#\t.Trash-1000/directorysizes\n#\t.Xauthority\n#\t.dendron.uuid\n\
         #\t.directory\n#\t.dmrc\n#\t.gitignore\n#\t.gitmodules\n#\t.gtkrc-2.0\n#\t\
@@ -13213,7 +13219,6 @@ gitRootSettingsSet:
         #\tOneQuick/preference.~~cfg\n#\tPowerShell~HEAD\n#\tWindowsPowerShell/Microsoft.PowerShell_profile.ps1\n\
         #\tWindowsPowerShell/Modules/PhatGit/LICENSE\n#\thasBinInstalled.chocolatey.log\n\
         #\tindexfile.txt"
-      - etc
     journal: {}
   rootC:\Users\chris\scoop\persist\Powershell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701348128486}
@@ -13226,7 +13231,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\chris\scoop\persist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701358643895}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537600880}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13236,7 +13241,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\chris\scoop\persist\AdvancedRenamer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701358644220}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537600987}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13266,15 +13271,18 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\Användaren\scoop\persist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701394159668}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704566733779}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!remote://AppData\t!remote://dotfiles\t!local-tags://\t\
+          !remote://notPushable\t!others://\t!remote://Powershell-Profile\t!remote://win-dotfiles\t\
+          ref://HEAD\tref://refs/heads/Presist", extendedRoots: '!stashes://'}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
     commitNotes:
       commitNotesHistory:
+      - sublime-merge
       - "Merge branch 'branch2' into Presist\n\n# Conflicts:\n#\t.gitignore\n#\t.gitmodules\n\
         #\tAHK\n#\tDatagrip\n#\tEverything\n#\tGit\n#\tJetBrains\n#\tScooter Software/Beyond\
         \ Compare 4\n#\tflow-launcher/UserData/Cache/Image.cache\n#\tflow-launcher/UserData/Cache/UWP.cache\n\
@@ -13283,10 +13291,9 @@ gitRootSettingsSet:
         #\tflow-launcher/UserData/Settings/Plugins/Flow.Launcher.Plugin.Program/Settings.json.bak\n\
         #\tflow-launcher/UserData/Settings/Settings.json\n#\tflow-launcher/UserData/Settings/Settings.json.bak\n\
         #\tflow-launcher/UserData/Settings/UserSelectedRecord.json\n#\tflow-launcher/UserData/Settings/UserSelectedRecord.json.bak"
-      commitNotes: sublime-merge
     journal: {}
   rootC:\Users\Användaren\scoop\persist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701395038457}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704566733623}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13316,7 +13323,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\Användaren\.config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701553818876}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704555286413}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13331,7 +13338,7 @@ gitRootSettingsSet:
       - reorg
     journal: {}
   rootC:\Users\Användaren\Documents\PowerShell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1701559890316}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704543068196}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13339,6 +13346,107 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [Merge tag 'pastdo' into ps, aef]
+      commitNotesHistory: [etc, modern, Merge tag 'pastdo' into ps, aef]
+    journal: {}
+  rootC:\Users\Användaren\.config\powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704544978740}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\chris\scoop\persist\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537601118}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state]
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\Microsoft\Windows\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704537623024}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\Microsoft\Windows\PowerShell\Processes\pipeline:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704540195260}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\AppData\Roaming\Vortex:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704552099554}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\Documents\WindowsPowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704555326959}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\Powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704566733888}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\pwsh:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704566774695}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\Ditto:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704691585469}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Användaren\scoop\persist\portableAppsPlatform:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1704691585348}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
     journal: {}
 pushMultiRoot: {}
