@@ -1,0 +1,340 @@
+{
+   "checksum": "632f25a35875fd0ae4e14a34de7ffd92",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13319890346716521",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bokmärkesfältet",
+         "type": "folder"
+      },
+      "custom_root": {
+         "pinboard": {
+            "children": [  ],
+            "date_added": "13319890346716734",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000907",
+            "id": "7",
+            "name": "Pinboard",
+            "type": "folder"
+         },
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13319890350510657",
+                  "date_last_used": "0",
+                  "guid": "399093f4-cf00-407a-8f32-f91b8b0e87f8",
+                  "id": "11",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/46b911f451044a30c1aa38f062e1a4939605f09b.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/20586137116208fbaa36984a3165942edf7daea0.png",
+                     "imageDataType": "2",
+                     "imageID": "FF554A2124CAF4935DB70E62BEA6856825A0DF3D8C0C22BA2F5FB8F097F983FA",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_twitch",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/20586137116208fbaa36984a3165942edf7daea0.png",
+                     "partner_url": "https://www.twitch.tv/",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_twitch",
+                     "replaceability": "0",
+                     "revision": "20190409",
+                     "server_position": "1"
+                  },
+                  "name": "Twitch",
+                  "type": "url",
+                  "url": "https://www.twitch.tv/"
+               }, {
+                  "date_added": "13319890350512230",
+                  "date_last_used": "0",
+                  "guid": "290e0c16-f566-4911-b5b5-a22c508e2248",
+                  "id": "12",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/6d5c3ee32c7df8db3d90891370c946aea502dab4.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/cbb4a15136ced6ed613298e57ce8effc5983f5c7.png",
+                     "imageDataType": "2",
+                     "imageID": "B6028FADED87764E2F6F7A13A393592ED476B35B1F8561576CEE74C34D49CBE8",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_discord",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/cbb4a15136ced6ed613298e57ce8effc5983f5c7.png",
+                     "partner_url": "https://discordapp.com/",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_discord",
+                     "replaceability": "0",
+                     "revision": "20190409",
+                     "server_position": "2"
+                  },
+                  "name": "Discord",
+                  "type": "url",
+                  "url": "https://discordapp.com/"
+               }, {
+                  "date_added": "13319890350513707",
+                  "date_last_used": "0",
+                  "guid": "c4c10941-b8d9-4373-9e07-a72e40cb65cf",
+                  "id": "13",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/f630beaa98d8d529ade9af1153a86190d4f120e5.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/537cc8218f3e61cdc83052c15488e1f55dc8c8c6.png",
+                     "imageDataType": "2",
+                     "imageID": "9313FCD7CFDF9442C33F16A07ED1F3A6B57D02C2AE6FC6CE87C46F5C126F67B7",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_youtube",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/537cc8218f3e61cdc83052c15488e1f55dc8c8c6.png",
+                     "partner_url": "https://www.youtube.com/",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_youtube",
+                     "replaceability": "0",
+                     "revision": "20190409",
+                     "server_position": "4"
+                  },
+                  "name": "YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/"
+               }, {
+                  "date_added": "13319890350515524",
+                  "date_last_used": "0",
+                  "guid": "337a02f8-4f45-4a3b-acb1-a78a0986f956",
+                  "id": "14",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/930dcc83ead8d735225770745adc726e8859a67a.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/b23c27b65dfa0c88f4e3bb20f20907a35d7ff51e.png",
+                     "imageDataType": "2",
+                     "imageID": "2DE3E674A6B432AED7368DF428E01728252CFB76304CB06E2FE1E7F788E3D0B0",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_gxc",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/b23c27b65dfa0c88f4e3bb20f20907a35d7ff51e.png",
+                     "partner_url": "https://gxc.zone/claimit-evanr-gxbrowser-sd",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_gxc",
+                     "replaceability": "0",
+                     "revision": "20211110",
+                     "server_position": "5"
+                  },
+                  "name": "GX.games",
+                  "type": "url",
+                  "url": "https://gx.games/"
+               }, {
+                  "date_added": "13319890350517315",
+                  "date_last_used": "0",
+                  "guid": "710822be-d4cf-49f7-aedb-e43c604ed430",
+                  "id": "15",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/0b90e9c5e86686f81f5e552210268ea701ceb85d.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/8d1c878a34a415b8c71787b2a24277c68de17700.png",
+                     "imageDataType": "2",
+                     "imageID": "AB4EBD04888FD062DDA0C4675F1205F03CD5BBD2D76AB3FACCA314E921C71752",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_booking_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/8d1c878a34a415b8c71787b2a24277c68de17700.png",
+                     "partner_url": "https://www.booking.com/?aid=2230186",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_booking_se",
+                     "replaceability": "0",
+                     "revision": "20220524",
+                     "server_position": "6"
+                  },
+                  "name": "Booking",
+                  "type": "url",
+                  "url": "https://booking.com/"
+               }, {
+                  "date_added": "13319890350520355",
+                  "date_last_used": "0",
+                  "guid": "0fdc8c77-83fe-4ce4-b597-bc97ba680080",
+                  "id": "16",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/ad4ac5dd18b5c44cdc22a37217bfec19a3abebd1.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/d12f347f30e5c9108fa6d4778a6971811171a47f.png",
+                     "imageDataType": "2",
+                     "imageID": "E3E9DE5142F071BDB289C24B9B12FC0AB17F90A89568DBD5DEA258BC4978CD86",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_humblebundle_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/d12f347f30e5c9108fa6d4778a6971811171a47f.png",
+                     "partner_url": "https://www.kqzyfj.com/click-8384705-14473386?sid=operagx-desktop-unmatched",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_humblebundle_se",
+                     "replaceability": "0",
+                     "revision": "20220519",
+                     "server_position": "8"
+                  },
+                  "name": "Humble Bundle",
+                  "type": "url",
+                  "url": "https://www.humblebundle.com/"
+               }, {
+                  "date_added": "13319890350523493",
+                  "date_last_used": "0",
+                  "guid": "3036dca4-56e3-4b89-b42e-23b41fc263fd",
+                  "id": "17",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/83205ee6633c4e7471b600e0bf42ff0aba1df25c.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/20b2e7fb4e5d4eff3ae28e1eb7f9a946441f828d.png",
+                     "imageDataType": "2",
+                     "imageID": "F0EE893D1B304E10764A6AEAF585F66894E02A0E256B8CF74A314B4A58CBE801",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_ebay_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/20b2e7fb4e5d4eff3ae28e1eb7f9a946441f828d.png",
+                     "partner_url": "https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338933784&customid=gxdefault&toolid=10001&mkevt=1",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_ebay_se",
+                     "replaceability": "0",
+                     "revision": "20220519",
+                     "server_position": "9"
+                  },
+                  "name": "eBay",
+                  "type": "url",
+                  "url": "https://www.ebay.com/"
+               }, {
+                  "date_added": "13319890350531223",
+                  "date_last_used": "0",
+                  "guid": "95795295-dead-478d-9932-e060ffb1760d",
+                  "id": "18",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/471416f6d62c3e841771c1b54076514544d498d1.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/310dcb8fcaf127eeda40661d61111ab95d8de051.png",
+                     "imageDataType": "2",
+                     "imageID": "73A788E014024465B7C4EC4AB57A5EC0F8EF77011EA9275929D80A08BC7B216C",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_eneba_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/310dcb8fcaf127eeda40661d61111ab95d8de051.png",
+                     "partner_url": "https://www.eneba.com/?af_id=operagx-desktop",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_eneba_se",
+                     "replaceability": "0",
+                     "revision": "20220519",
+                     "server_position": "10"
+                  },
+                  "name": "Eneba",
+                  "type": "url",
+                  "url": "https://www.eneba.com/"
+               }, {
+                  "date_added": "13319890350534558",
+                  "date_last_used": "0",
+                  "guid": "d9fd5bf6-4a90-4efb-8e21-cd38974c1f5a",
+                  "id": "19",
+                  "meta_info": {
+                     "favicon_url": "https://www.google.com/s2/favicons?domain=www.g2a.com",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/f6d1c73969db637bf3e91d000784736abf93555e.png",
+                     "imageDataType": "2",
+                     "imageID": "8C954B83499812354003E10C7E79E5241154CC7C009AAB09FE5B96E902FC13D6",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_g2a_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/f6d1c73969db637bf3e91d000784736abf93555e.png",
+                     "partner_url": "https://www.g2a.com/n/operagx-desktop-se",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_g2a_se",
+                     "replaceability": "0",
+                     "revision": "20220823",
+                     "server_position": "11"
+                  },
+                  "name": "G2A",
+                  "type": "url",
+                  "url": "https://www.g2a.com/"
+               }, {
+                  "date_added": "13319890350537293",
+                  "date_last_used": "0",
+                  "guid": "8aae9d92-6b02-47d5-97f5-140667bce840",
+                  "id": "20",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/8b8c6b974eba4571acec86d747c00b1c45e50d22.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/8454da78cf8be8c965ec9e84ad371ef5cbc8d04b.png",
+                     "imageDataType": "2",
+                     "imageID": "1C227B4EC029388FAE34F62B632D95C36A5F619726C6F24DDF7CE17E73FE3EB4",
+                     "imageType": "2",
+                     "nav_timestamp": "1.675416757248192e+12",
+                     "partner_id": "gx_raidshadow_se",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/8454da78cf8be8c965ec9e84ad371ef5cbc8d04b.png",
+                     "partner_url": "https://plarium.com/landings/en/desktop/raid/rdo/media/replica_thr_exit05?plid=808111&pxl=operacpi_&clickId={}&placement={operagx-desktop-se-default}&publisherId={}",
+                     "ping_url": "https://speeddials.opera.com/api/v2/ping/gx_raidshadow_se",
+                     "replaceability": "0",
+                     "revision": "20221115",
+                     "server_position": "12"
+                  },
+                  "name": "Raid Shadow Legends",
+                  "type": "url",
+                  "url": "https://plarium.com/"
+               } ],
+               "date_added": "13319890350006627",
+               "date_last_used": "0",
+               "date_modified": "13319890350537293",
+               "guid": "2cf3364e-bf7d-47bc-b465-1a51f42a37d4",
+               "id": "10",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "8e47e0ec-22ee-43dd-92e1-f06528389366"
+               },
+               "name": "DESKTOP-FIQ183H",
+               "type": "folder"
+            } ],
+            "date_added": "13319890346716711",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000904",
+            "id": "6",
+            "name": "Speed Dials",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13319890346716745",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000905",
+            "id": "9",
+            "name": "Papperskorg",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13319890346716699",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000901",
+            "id": "4",
+            "name": "Osorterade bokmärken",
+            "type": "folder"
+         },
+         "unsyncedPinboard": {
+            "children": [  ],
+            "date_added": "13319890346716740",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000908",
+            "id": "8",
+            "name": "Unsynchronized Pinboard",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13319890346716705",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000902",
+            "id": "5",
+            "name": "Andra bokmärken",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13319890346716530",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Importerade bokmärken",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13319890346716533",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Bokmärken i mobilen",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

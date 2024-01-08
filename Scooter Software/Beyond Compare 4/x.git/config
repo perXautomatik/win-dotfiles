@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	ignorecase = true
+[remote "origin"]
+	url = C:\\Users\\Användaren\\AppData\\Roaming\\Scooter Software\\Beyond Compare 4
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "loppyAppdata"]
+	remote = origin
+	merge = refs/heads/loppyAppdata
