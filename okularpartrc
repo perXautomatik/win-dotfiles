@@ -1,8 +1,2 @@
-[General]
-ttsEngine=flite
-
-[PageView]
-MouseMode=TextSelect
-
-[Zoom]
-ZoomMode=0
+[$Version]
+update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations

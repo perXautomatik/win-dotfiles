@@ -1,0 +1,12 @@
+[ConfigDialog]
+HDMI-3 Height 1080=279
+HDMI-3 Width 1920=312
+
+[MainWindow]
+HDMI-3 Height 1080=700
+HDMI-3 Width 1920=1024
+HDMI-3 XPosition=381
+HDMI-3 YPosition=208
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=true

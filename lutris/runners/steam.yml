@@ -1,0 +1,5 @@
+steam: {}
+system:
+  game_path: /mnt/360C45EE0C45AA27/SteamLibrary/steamapps/common
+  prime: true
+  reset_desktop: true
