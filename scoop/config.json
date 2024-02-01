@@ -1,8 +1,12 @@
 {
-    "last_update":  "2023-12-20T15:03:55.7673795+01:00",
-    "update-quiet":  true,
-    "independent":  true,
-    "aria2-enabled":  true,
-    "scoop_branch":  "master",
-    "scoop_repo":  "https://github.com/ScoopInstaller/Scoop"
+    "root_path":  "C:\\ProgramData\\scoop",
+    "last_update":  "2023-10-14T18:49:55.2177735+02:00",
+    "alias":  {
+                  "presist":  "scoop-presist",
+                  "reinstall":  "scoop-reinstall",
+                  "gui":  "scoop-gui"
+              },
+    "scoop_branch":  "main",
+    "scoop_repo":  "https://github.com/Ash258/Scoop-Core",
+    "lastupdate":  "258|2024-02-01 08:23:14"
 }
