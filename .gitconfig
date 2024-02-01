@@ -1,13 +1,9 @@
 [include]
 	path = git/include.config	
-	path = .config/.gitconfig
 [init]
 	templateDir = git/git-template
 [commit]
 	gpgSign = false
-[core]
-	attributesfile = .config/git/.gitattributes
-	editor = Notepad2
 [credential]
 	helper = manager
 [gitflow "prefix"]
@@ -20,15 +16,6 @@
 	format = html
 [i18n]
 	filesEncoding = Windows-1252
-[diff]
-	guitool = bc
-[diff "daff-csv"]
-	command = daff diff --git
-[difftool "bc"]
-	cmd = \"C:/ProgramData/scoop/apps/beyondcompare/current/BComp.exe\" \"$LOCAL\" \"$REMOTE\"
-	path = C:/ProgramData/scoop/apps/beyondcompare/current/BComp.exe
-[fetch]
-	prune = false
 [protocol "file"]
 	allow = always
 [rerere]
@@ -42,22 +29,3 @@
 	allowFilter = true
 [winUpdater]
 	recentlySeenVersion = 2.25.0.windows.1
-[merge]
-	guitool = bc
-[merge "daff-csv"]
-	driver = daff merge --output %A %O %A %B
-	name = daff tabular csv merge
-[mergetool "bc"]
-	cmd = \"C:/ProgramData/scoop/apps/beyondcompare/current/BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
-	path = C:/ProgramData/scoop/apps/beyondcompare/current/BComp.exe
-[pull]
-	rebase = true
-[rebase]
-	autoStash = true
-	autosquash = false
-	updateRefs = false
-[safe]
-	directory = C:/ProgramData/scoop/buckets/perXautomatik
-[user]
-	email = christoffer.broback@gmail.com
-	name = Christoffer Brobäck
