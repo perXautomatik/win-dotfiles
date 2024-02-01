@@ -1,3 +1,15 @@
 [filesystem "Azul Systems, Inc.|17.0.2|-1068996431"]
 	timestampResolution = 2998 microseconds
 	minRacyThreshold = 0 nanoseconds
+[filesystem "Azul Systems, Inc.|17.0.2|1859589678"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Azul Systems, Inc.|17.0.2|572140646"]
+	timestampResolution = 1003 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Azul Systems, Inc.|17.0.2|612222786"]
+	timestampResolution = 1002 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Azul Systems, Inc.|17.0.2|350820911"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
