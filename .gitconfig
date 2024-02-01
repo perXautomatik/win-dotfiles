@@ -1,0 +1,31 @@
+[include]
+	path = git/include.config	
+[init]
+	templateDir = git/git-template
+[commit]
+	gpgSign = false
+[credential]
+	helper = manager
+[gitflow "prefix"]
+	versiontag = v
+[gui]
+	diffopts = --diff-algorithm=histogram
+	pruneduringfetch = true
+	recentrepo = 'testing'
+[help]
+	format = html
+[i18n]
+	filesEncoding = Windows-1252
+[protocol "file"]
+	allow = always
+[rerere]
+	autoupdate = 1
+	enabled = 1
+[sequence]
+	editor = interactive-rebase-tool
+[status]
+	submoduleSummary = true
+[uploadpack]
+	allowFilter = true
+[winUpdater]
+	recentlySeenVersion = 2.25.0.windows.1

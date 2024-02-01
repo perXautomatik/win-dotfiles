@@ -1,0 +1,6 @@
+[submodule "git"]
+	path = git
+	url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
+[submodule "powershell"]
+	path = powershell
+	url = C:\\Users\\Användaren\\.config\\powershell
